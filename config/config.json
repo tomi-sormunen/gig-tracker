@@ -1,0 +1,9 @@
+{
+  "_comment": "Fetcher settings. 'countries' are the Ticketmaster markets swept for rock/metal events; 'europeanCountries' is the wider filter applied to favourite-band results.",
+  "countries": ["AT", "BE", "CH", "CZ", "DE", "DK", "ES", "FI", "FR", "GB", "IE", "IT", "NL", "NO", "PL", "PT", "SE"],
+  "europeanCountries": ["AD", "AL", "AT", "BA", "BE", "BG", "CH", "CY", "CZ", "DE", "DK", "EE", "ES", "FI", "FR", "GB", "GR", "HR", "HU", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MD", "ME", "MK", "MT", "NL", "NO", "PL", "PT", "RO", "RS", "SE", "SI", "SK", "SM", "UA", "XK"],
+  "classifications": ["metal", "rock"],
+  "lookAheadDays": 365,
+  "maxPagesPerQuery": 5,
+  "newBadgeDays": 7
+}

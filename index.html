@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gig Tracker 🤘</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤘</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>⚡ GIG TRACKER</h1>
+      <p class="tagline">Rock &amp; metal across Europe</p>
+    </div>
+    <div class="header-meta">
+      <span id="updated-at" class="updated-at"></span>
+      <span id="sample-banner" class="sample-banner" hidden>SAMPLE DATA — run the fetcher for live gigs</span>
+    </div>
+  </header>
+
+  <div class="ticker" id="ticker" aria-label="Newest additions">
+    <span class="ticker-label">🆕 LATEST</span>
+    <div class="ticker-viewport">
+      <div class="ticker-track" id="ticker-track"></div>
+    </div>
+  </div>
+
+  <nav class="toolbar">
+    <div class="view-toggle" role="tablist">
+      <button id="btn-list" class="toggle-btn active" role="tab">☰ List</button>
+      <button id="btn-calendar" class="toggle-btn" role="tab">▦ Calendar</button>
+    </div>
+    <input type="search" id="search" placeholder="Search bands, cities, venues…" autocomplete="off">
+    <select id="country-filter"><option value="">All countries</option></select>
+    <select id="type-filter">
+      <option value="all">Gigs + festivals</option>
+      <option value="gig">Gigs only</option>
+      <option value="festival">Festivals only</option>
+    </select>
+    <label class="fav-toggle">
+      <input type="checkbox" id="fav-only"> <span>🤘 Favourites only</span>
+    </label>
+  </nav>
+
+  <main>
+    <section id="list-view"></section>
+    <section id="calendar-view" hidden>
+      <div class="cal-nav">
+        <button id="cal-prev" class="cal-btn">‹</button>
+        <h2 id="cal-title"></h2>
+        <button id="cal-next" class="cal-btn">›</button>
+        <button id="cal-today" class="cal-btn cal-today-btn">Today</button>
+      </div>
+      <div id="calendar-grid" class="cal-grid"></div>
+    </section>
+    <p id="empty-state" class="empty-state" hidden>Nothing matches — loosen the filters. 🦗</p>
+  </main>
+
+  <dialog id="gig-modal">
+    <div id="modal-body"></div>
+    <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>Favourites live in <code>config/favourites.json</code> — edit and reload. Data refreshes daily via GitHub Actions, or run <code>npm run fetch</code>.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
