@@ -1,0 +1,14 @@
+{
+  "name": "gig-tracker",
+  "version": "1.0.0",
+  "description": "Personal tracker for rock & metal gigs and festivals across Europe",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch-gigs.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

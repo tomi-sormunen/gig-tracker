@@ -1,0 +1,13 @@
+{
+  "_comment": "Your absolute favourite bands. Add or remove names freely — the UI highlights matching gigs instantly on reload, and the fetcher tracks these bands across ALL of Europe regardless of genre.",
+  "bands": [
+    "Iron Maiden",
+    "Metallica",
+    "Gojira",
+    "Nightwish",
+    "Amorphis",
+    "Insomnium",
+    "Opeth",
+    "Sabaton"
+  ]
+}
