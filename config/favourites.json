@@ -1,13 +1,32 @@
 {
   "_comment": "Your absolute favourite bands. Add or remove names freely — the UI highlights matching gigs instantly on reload, and the fetcher tracks these bands across ALL of Europe regardless of genre.",
   "bands": [
-    "Iron Maiden",
+    "Rage Against the Machine",
     "Metallica",
     "Gojira",
-    "Nightwish",
-    "Amorphis",
+    "Daft Punk",
+    "Kalmah",
     "Insomnium",
-    "Opeth",
-    "Sabaton"
+    "Dark Tranquillity",
+    "Children of Bodom"
+    "Placebo",
+    "The Agony Scene"
+    "Ratatat",
+    "Kvelertak"
+    "Zeal & Ardor",
+    "Birdmask"
+    "Nine Inch Nails",
+    "Anna von Hausswolff"
+    "Chelsea Wolfe",
+    "Anathema"
+    "Begravningsentreprenörerna",
+    "Children of Bodom"
+    "Unearth",
+    "Blood Command"
+    "Darkest Hour",
+    "Killswitch Engage"
+    "Lamb of God",
+    "Meshuggah"
+    "Solstafir"
   ]
 }
