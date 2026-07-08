@@ -6,6 +6,7 @@
     view: 'list',
     q: '',
     country: '',
+    genre: '',
     type: 'all',
     favOnly: false,
     month: null, // Date at the 1st of the displayed calendar month
@@ -39,6 +40,16 @@
     );
   const isNew = (gig) => Date.now() - new Date(gig.firstSeen).getTime() < newBadgeDays * 86400_000;
 
+  // Broad category from the source classifications. Precedence matters:
+  // anything metal is Metal, then Hard Rock claims its events before plain Rock.
+  const categoryOf = (gig) => {
+    const s = norm(`${gig.genre || ''} ${gig.subGenre || ''}`);
+    if (s.includes('metal')) return 'Metal';
+    if (s.includes('hard rock')) return 'Hard Rock';
+    if (s.includes('rock')) return 'Rock';
+    return null;
+  };
+
   // Deterministic gradient per gig for the image fallback
   const hue = (s) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
   const initials = (title) =>
@@ -53,6 +64,7 @@
     return gigs.filter((g) => {
       if (g.date < today) return false;
       if (state.country && g.country !== state.country) return false;
+      if (state.genre && g._cat !== state.genre) return false;
       if (state.type === 'festival' && !g.isFestival) return false;
       if (state.type === 'gig' && g.isFestival) return false;
       if (state.favOnly && !g._fav) return false;
@@ -105,7 +117,10 @@
           <div class="card-where">📍 ${esc([g.venue, g.city].filter(Boolean).join(', '))} ${flag(g.country)} ${esc(countryName(g.country))}</div>
           <div class="card-when">🗓 ${fmtDay(g.date)}${g.time ? ` · ${esc(g.time)}` : ''}</div>
           <div class="card-footer">
-            <span class="genre-chip">${esc(g.subGenre || g.genre || 'Rock/Metal')}</span>
+            <span class="chip-row">
+              ${g._cat ? `<span class="genre-chip cat" data-cat="${esc(g._cat)}">${esc(g._cat)}</span>` : ''}
+              ${g.subGenre && norm(g.subGenre) !== norm(g._cat || '') ? `<span class="genre-chip">${esc(g.subGenre)}</span>` : ''}
+            </span>
             ${g.url ? `<a class="ticket-link" href="${esc(g.url)}" target="_blank" rel="noopener">Tickets ↗</a>` : ''}
           </div>
         </div>
@@ -160,7 +175,8 @@
             `<button class="cal-chip${g._fav ? ' fav' : ''}${g.isFestival ? ' fest' : ''}" data-gig="${esc(g.id)}" title="${esc(g.title)}">${g._fav ? '🤘 ' : ''}${esc(g.title)}</button>`
         )
         .join('');
-      html += `<div class="cal-day${outside ? ' outside' : ''}${iso === todayISO ? ' today' : ''}"><span class="cal-day-num">${day.getDate()}</span>${chips}</div>`;
+      const hasEvents = byDate.has(iso);
+      html += `<div class="cal-day${outside ? ' outside' : ''}${iso === todayISO ? ' today' : ''}${hasEvents ? ' has-events' : ''}" data-date="${iso}"><span class="cal-day-num">${day.getDate()}</span>${chips}</div>`;
     }
     $('#calendar-grid').innerHTML = html;
   }
@@ -169,6 +185,19 @@
     const g = gigs.find((x) => x.id === id);
     if (!g) return;
     $('#modal-body').innerHTML = cardHTML(g);
+    $('#gig-modal').showModal();
+  }
+
+  // Tapping a calendar day shows everything on that date — the main way to
+  // open events on mobile, where chips collapse into small bars.
+  function openDayModal(iso) {
+    const list = filteredGigs().filter((g) => g.date === iso);
+    if (!list.length) return;
+    $('#modal-body').innerHTML = `
+      <div class="day-modal">
+        <h3 class="day-modal-title">${fmtDay(iso)} · ${list.length} event${list.length > 1 ? 's' : ''}</h3>
+        ${list.map(cardHTML).join('')}
+      </div>`;
     $('#gig-modal').showModal();
   }
 
@@ -196,6 +225,7 @@
     $('#btn-calendar').addEventListener('click', () => { state.view = 'calendar'; location.hash = 'calendar'; render(); });
     $('#search').addEventListener('input', (e) => { state.q = e.target.value; render(); });
     $('#country-filter').addEventListener('change', (e) => { state.country = e.target.value; render(); });
+    $('#genre-filter').addEventListener('change', (e) => { state.genre = e.target.value; render(); });
     $('#type-filter').addEventListener('change', (e) => { state.type = e.target.value; render(); });
     $('#fav-only').addEventListener('change', (e) => { state.favOnly = e.target.checked; render(); });
     $('#cal-prev').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1); render(); });
@@ -203,7 +233,9 @@
     $('#cal-today').addEventListener('click', () => { const n = new Date(); state.month = new Date(n.getFullYear(), n.getMonth(), 1); render(); });
     $('#calendar-grid').addEventListener('click', (e) => {
       const chip = e.target.closest('.cal-chip');
-      if (chip) openModal(chip.dataset.gig);
+      if (chip) return openModal(chip.dataset.gig);
+      const day = e.target.closest('.cal-day.has-events');
+      if (day) openDayModal(day.dataset.date);
     });
     $('#modal-close').addEventListener('click', () => $('#gig-modal').close());
     $('#gig-modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
@@ -218,7 +250,7 @@
     const data = await dataRes.json();
     favNames = ((await favRes.json()).bands || []).map(norm).filter(Boolean);
 
-    gigs = (data.gigs || []).map((g) => ({ ...g, _fav: false }));
+    gigs = (data.gigs || []).map((g) => ({ ...g, _fav: false, _cat: categoryOf(g) }));
     gigs.forEach((g) => { g._fav = isFav(g); });
 
     const updated = new Date(data.updatedAt);
