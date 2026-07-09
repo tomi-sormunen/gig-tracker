@@ -66,8 +66,24 @@ scripts/fetch-gigs.mjs ──► data/gigs.json ──► index.html + assets/ (
   `firstSeen` timestamp across runs so genuinely *new* announcements can be
   surfaced in the ticker and with pulsing "NEW" badges (7-day window).
 - The UI is plain HTML/CSS/JS — list view grouped by month, a Monday-first
-  monthly calendar with clickable event chips, search, country/type filters, and
-  a favourites-only toggle. Band/venue images come straight from the
+  monthly calendar with clickable event chips, search, country/genre/type
+  filters, and a favourites-only toggle. Every event gets a broad category tag
+  derived from its classification — **Metal**, **Hard Rock**, or **Rock** —
+  with precedence in that order, so an event only counts as plain "Rock" when
+  it doesn't qualify as Hard Rock or Metal.
+- The layout is mobile-friendly (it works well on GitHub Pages from a phone):
+  on small screens the calendar collapses event chips into colour-coded bars
+  and tapping a day opens that day's gigs.
+- Two notice panels sit at the top of the page: **Latest additions** (events
+  first seen in the last 7 days, grouped Favourites → Metal → Hard Rock →
+  Rock) and **Tickets on sale soon** (public sales starting within the next
+  7 days, from `sales.public.startDateTime`). Both show 5 rows with a
+  "See all" expander.
+- Each event carries a traffic-light availability indicator — 🟢 tickets
+  available, 🟡 low capacity, 🔴 sold out — from Ticketmaster's
+  [Inventory Status API](https://developer.ticketmaster.com/products-and-docs/apis/inventory-status/),
+  which covers most swept markets (not FR/IT/PT); events not yet on sale show
+  their on-sale date instead. Band/venue images come straight from the
   Ticketmaster event data; when an event has no image, a generated placeholder
   is shown instead.
 
