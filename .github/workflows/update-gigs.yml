@@ -5,6 +5,11 @@ on:
     - cron: '0 5 * * *' # daily at 05:00 UTC
   workflow_dispatch: {} # manual "refresh now" button in the Actions tab
 
+# Never let two refreshes run (and race each other's pushes) at once
+concurrency:
+  group: update-gigs
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -31,7 +36,18 @@ jobs:
           git add data/gigs.json
           if git diff --cached --quiet; then
             echo "No changes."
-          else
-            git commit -m "Update gig data ($(date -u +%F))"
-            git push
+            exit 0
           fi
+          git commit -m "Update gig data ($(date -u +%F))"
+          # The fetch takes minutes, so main may have moved since checkout
+          # (e.g. a PR merged mid-run). Rebase our data commit onto the
+          # latest main and retry; -X theirs resolves any gigs.json clash
+          # in favour of this run's fresher data.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (main moved during the run) — rebasing, attempt $attempt"
+            git pull --rebase -X theirs origin main
+          done
+          git push
