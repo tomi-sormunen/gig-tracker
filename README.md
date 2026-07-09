@@ -26,9 +26,10 @@ Requires Node.js 18+. There are no npm dependencies to install.
 1. Add your key as a repository secret: **Settings → Secrets and variables →
    Actions → New repository secret**, name it `TICKETMASTER_API_KEY`.
 2. The included workflow (`.github/workflows/update-gigs.yml`) runs every morning
-   at 05:00 UTC, commits a fresh `data/gigs.json`, and can also be triggered
-   manually from the **Actions** tab ("Run workflow") whenever you want an
-   on-demand refresh.
+   at 05:00 UTC and commits a fresh `data/gigs.json`. To run it on demand:
+   open the **Actions** tab, click **"Update gig data"** in the *left sidebar*
+   (the main pane only lists past runs, so it looks empty until the first run),
+   then press the **"Run workflow"** dropdown button on the right.
 3. Optional: enable **GitHub Pages** (Settings → Pages → deploy from branch, root
    folder) and the UI is hosted for free at
    `https://<user>.github.io/gig-tracker/`, always showing the latest data.
@@ -83,7 +84,19 @@ scripts/fetch-gigs.mjs ──► data/gigs.json ──► index.html + assets/ (
   available, 🟡 low capacity, 🔴 sold out — from Ticketmaster's
   [Inventory Status API](https://developer.ticketmaster.com/products-and-docs/apis/inventory-status/),
   which covers most swept markets (not FR/IT/PT); events not yet on sale show
-  their on-sale date instead. Band/venue images come straight from the
+  their on-sale date instead. ⚠️ This API is a separate restricted product:
+  a plain Discovery key gets `401 Unauthorized` until you request access from
+  devportalinquiry@ticketmaster.com. Without it, the fetcher falls back to
+  marking likely sell-outs (offsale after the sale started) and leaves the
+  rest unlabelled. A "Hide sold out" / "Available only" filter sits in the
+  toolbar.
+- Ticketmaster's `classificationName` search is a fuzzy keyword match, so the
+  raw "rock"/"metal" sweeps return plenty of pop, theatre, and even sport.
+  The fetcher (and the UI, as a second line of defence) therefore keeps only
+  events whose own genre/subgenre matches `allowGenres` in
+  `config/config.json` and drops anything whose genre matches
+  `excludeGenres` (default: `pop`) — favourite bands are exempt from all
+  genre rules. Band/venue images come straight from the
   Ticketmaster event data; when an event has no image, a generated placeholder
   is shown instead.
 

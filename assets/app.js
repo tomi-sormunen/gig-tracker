@@ -7,6 +7,7 @@
     q: '',
     country: '',
     genre: '',
+    avail: '',
     type: 'all',
     favOnly: false,
     month: null, // Date at the 1st of the displayed calendar month
@@ -34,15 +35,18 @@
     parseDate(iso).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' });
   const fmtMonthYear = (d) => d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
 
-  const isFav = (gig) =>
-    favNames.some(
-      (f) => gig.bands.some((b) => norm(b) === f) || ` ${norm(gig.title)} `.includes(` ${f} `)
-    );
+  // Exact band-name matches only — matching against event titles pulls in
+  // tribute acts ("Daft Punkz", "Some Kind Of Metalica") that name-drop the
+  // real band.
+  const isFav = (gig) => gig.bands.some((b) => favNames.includes(norm(b)));
   const isNew = (gig) => Date.now() - new Date(gig.firstSeen).getTime() < newBadgeDays * 86400_000;
 
   // Broad category from the source classifications. Precedence matters:
   // anything metal is Metal, then Hard Rock claims its events before plain Rock.
+  // A "Pop" genre is vetoed outright (e.g. Pop/Pop Rock), leaving the event
+  // out of scope unless it's a favourite.
   const categoryOf = (gig) => {
+    if (norm(gig.genre || '').includes('pop')) return null;
     const s = norm(`${gig.genre || ''} ${gig.subGenre || ''}`);
     if (s.includes('metal')) return 'Metal';
     if (s.includes('hard rock')) return 'Hard Rock';
@@ -65,6 +69,8 @@
       if (g.date < today) return false;
       if (state.country && g.country !== state.country) return false;
       if (state.genre && g._cat !== state.genre) return false;
+      if (state.avail === 'not-soldout' && g.availability === 'soldout') return false;
+      if (state.avail === 'available' && g.availability !== 'available') return false;
       if (state.type === 'festival' && !g.isFestival) return false;
       if (state.type === 'gig' && g.isFestival) return false;
       if (state.favOnly && !g._fav) return false;
@@ -258,14 +264,17 @@
       day.setDate(gridStart.getDate() + i);
       const iso = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, '0')}-${String(day.getDate()).padStart(2, '0')}`;
       const outside = day.getMonth() !== first.getMonth();
-      const chips = (byDate.get(iso) || [])
+      const dayGigs = byDate.get(iso) || [];
+      const chips = dayGigs
+        .slice(0, 4)
         .map(
           (g) =>
             `<button class="cal-chip${g._fav ? ' fav' : ''}${g.isFestival ? ' fest' : ''}" data-gig="${esc(g.id)}" title="${esc(g.title)}">${AVAILABILITY[g.availability] ? `<i class="av-dot ${AVAILABILITY[g.availability][0]}"></i>` : ''}${g._fav ? '🤘 ' : ''}${esc(g.title)}</button>`
         )
         .join('');
-      const hasEvents = byDate.has(iso);
-      html += `<div class="cal-day${outside ? ' outside' : ''}${iso === todayISO ? ' today' : ''}${hasEvents ? ' has-events' : ''}" data-date="${iso}"><span class="cal-day-num">${day.getDate()}</span>${chips}</div>`;
+      // Overflow collapses into "+N more" — clicking the day shows everything
+      const more = dayGigs.length > 4 ? `<span class="cal-more">+${dayGigs.length - 4} more</span>` : '';
+      html += `<div class="cal-day${outside ? ' outside' : ''}${iso === todayISO ? ' today' : ''}${dayGigs.length ? ' has-events' : ''}" data-date="${iso}"><span class="cal-day-num">${day.getDate()}</span>${chips}${more}</div>`;
     }
     $('#calendar-grid').innerHTML = html;
   }
@@ -315,6 +324,7 @@
     $('#search').addEventListener('input', (e) => { state.q = e.target.value; render(); });
     $('#country-filter').addEventListener('change', (e) => { state.country = e.target.value; render(); });
     $('#genre-filter').addEventListener('change', (e) => { state.genre = e.target.value; render(); });
+    $('#avail-filter').addEventListener('change', (e) => { state.avail = e.target.value; render(); });
     $('#type-filter').addEventListener('change', (e) => { state.type = e.target.value; render(); });
     $('#fav-only').addEventListener('change', (e) => { state.favOnly = e.target.checked; render(); });
     $('#cal-prev').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1); render(); });
@@ -352,6 +362,10 @@
 
     gigs = (data.gigs || []).map((g) => ({ ...g, _fav: false, _cat: categoryOf(g) }));
     gigs.forEach((g) => { g._fav = isFav(g); });
+    // The tracker is rock/metal only: drop anything that got no category from
+    // its classifications (fuzzy API matches: pop, theatre, sport, …) unless
+    // it's one of the favourite bands, which are welcome regardless of genre.
+    gigs = gigs.filter((g) => g._fav || g._cat);
 
     const updated = new Date(data.updatedAt);
     $('#updated-at').textContent = `Updated ${updated.toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`;
