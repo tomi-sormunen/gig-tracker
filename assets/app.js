@@ -115,7 +115,10 @@
   function fillPanel(baseId, rows, itemCount) {
     const panel = $(`#${baseId}-panel`);
     panel.hidden = rows.length === 0;
-    if (!rows.length) return;
+    if (!rows.length) {
+      $(`#${baseId}-list`).innerHTML = '';
+      return;
+    }
     let shown = 0;
     const html = rows
       .map((row) => {
@@ -129,15 +132,18 @@
     const toggle = $(`#${baseId}-toggle`);
     toggle.hidden = itemCount <= PANEL_PREVIEW_ROWS;
     toggle.dataset.seeAll = `See all (${itemCount})`;
-    toggle.textContent = toggle.dataset.seeAll;
+    // Keep the user's expand/collapse choice across filter-driven re-renders
+    toggle.textContent = $(`#${baseId}-list`).classList.contains('collapsed')
+      ? toggle.dataset.seeAll
+      : 'Show less';
   }
 
+  // Panels respect whatever is set in the toolbar (search, country, genre, …)
   function renderPanels() {
-    const today = new Date().toISOString().slice(0, 10);
-    const upcoming = gigs.filter((g) => g.date >= today);
+    const visible = filteredGigs();
 
     // Latest additions, grouped: Favourites, then Metal / Hard Rock / Rock
-    const latest = upcoming.filter(isNew).sort((a, b) => a.date.localeCompare(b.date));
+    const latest = visible.filter(isNew).sort((a, b) => a.date.localeCompare(b.date));
     const groups = [
       ['🤘 Favourites', 'fav', (g) => g._fav],
       ['Metal', 'metal', (g) => !g._fav && g._cat === 'Metal'],
@@ -161,7 +167,7 @@
     // Tickets going on public sale within the next 7 days, soonest first
     const now = Date.now();
     const soon = now + 7 * 86400_000;
-    const onSale = upcoming
+    const onSale = visible
       .filter((g) => g.onSaleDate && new Date(g.onSaleDate) > now && new Date(g.onSaleDate) <= soon)
       .sort((a, b) => new Date(a.onSaleDate) - new Date(b.onSaleDate));
     const onSaleRows = onSale.map((g) => ({
@@ -305,6 +311,7 @@
     $('#btn-calendar').classList.toggle('active', state.view === 'calendar');
     $('#list-view').hidden = state.view !== 'list';
     $('#calendar-view').hidden = state.view !== 'calendar';
+    renderPanels();
     if (state.view === 'list') renderList();
     else renderCalendar();
   }
@@ -378,7 +385,6 @@
     populateCountryFilter();
     wireEvents();
     renderTicker();
-    renderPanels();
     render();
   }
 
