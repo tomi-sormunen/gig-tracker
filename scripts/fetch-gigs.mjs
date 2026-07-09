@@ -36,6 +36,21 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) =>
   (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
+const FAVOURITE_SET = new Set(favourites.map(norm));
+const isFavouriteGig = (gig) => gig.bands.some((b) => FAVOURITE_SET.has(norm(b)));
+
+// Ticketmaster's classificationName matching is fuzzy keyword search — a "rock"
+// sweep returns plenty of pop, theatre, and even sport. Keep an event only when
+// its own genre/subgenre actually matches the allow list (favourites are exempt
+// from all genre rules, and excludeGenres vetoes on the genre field).
+function inScope(gig) {
+  if (isFavouriteGig(gig)) return true;
+  const genre = norm(gig.genre);
+  if (config.excludeGenres.some((x) => genre.includes(norm(x)))) return false;
+  const classification = `${genre} ${norm(gig.subGenre)}`;
+  return config.allowGenres.some((x) => classification.includes(norm(x)));
+}
+
 async function tmGet(endpoint, params) {
   const url = new URL(`${TM_HOST}${endpoint}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
@@ -122,6 +137,14 @@ async function fetchAvailability(found) {
         }
       }
     } catch (err) {
+      if (err.message.includes('401')) {
+        console.warn(
+          '  Inventory Status API rejected this key (401) — it is a separate, restricted\n' +
+          '  Ticketmaster product. Request access via devportalinquiry@ticketmaster.com;\n' +
+          '  until then availability uses the offsale fallback only.'
+        );
+        return;
+      }
       console.warn(`  batch ${i / 40 + 1}: skipped (${err.message})`);
     }
   }
@@ -139,11 +162,15 @@ async function fetchGenreSweep(startISO, endISO) {
           startDateTime: startISO,
           endDateTime: endISO,
         });
+        let kept = 0;
         for (const ev of events) {
           const gig = mapTmEvent(ev);
-          if (gig.date) found.set(gig.id, gig);
+          if (gig.date && inScope(gig)) {
+            found.set(gig.id, gig);
+            kept++;
+          }
         }
-        console.log(`  ${country}/${genre}: ${events.length} events`);
+        console.log(`  ${country}/${genre}: ${events.length} events, ${kept} in scope`);
       } catch (err) {
         console.warn(`  ${country}/${genre}: skipped (${err.message})`);
       }
