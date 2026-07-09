@@ -92,7 +92,95 @@
     $('#ticker-track').innerHTML = html + html;
   }
 
+  /* ---------- notice panels (latest additions / on sale soon) ---------- */
+  const PANEL_PREVIEW_ROWS = 5;
+
+  const shortName = (g) => (g.isFestival ? g.title : g.bands.slice(0, 2).join(' & '));
+  const shortDay = (iso) =>
+    parseDate(iso).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' });
+
+  function panelItemHTML(g, detail) {
+    return `<li class="p-item${g._fav ? ' fav' : ''}" data-gig="${esc(g.id)}">
+      <button class="p-item-btn">${g._fav ? '🤘 ' : ''}<strong>${esc(shortName(g))}</strong>
+      <span class="p-detail"> — ${esc([g.venue, g.city].filter(Boolean).join(', '))} ${flag(g.country)} · ${detail}</span></button></li>`;
+  }
+
+  // Fills a panel <ul>, hiding rows past the preview limit behind "See all".
+  function fillPanel(baseId, rows, itemCount) {
+    const panel = $(`#${baseId}-panel`);
+    panel.hidden = rows.length === 0;
+    if (!rows.length) return;
+    let shown = 0;
+    const html = rows
+      .map((row) => {
+        if (row.head !== undefined) return { extra: shown >= PANEL_PREVIEW_ROWS, html: row.head };
+        shown++;
+        return { extra: shown > PANEL_PREVIEW_ROWS, html: row.item };
+      })
+      .map((r) => (r.extra ? r.html.replace(/^<li class="/, '<li class="extra ') : r.html))
+      .join('');
+    $(`#${baseId}-list`).innerHTML = html;
+    const toggle = $(`#${baseId}-toggle`);
+    toggle.hidden = itemCount <= PANEL_PREVIEW_ROWS;
+    toggle.dataset.seeAll = `See all (${itemCount})`;
+    toggle.textContent = toggle.dataset.seeAll;
+  }
+
+  function renderPanels() {
+    const today = new Date().toISOString().slice(0, 10);
+    const upcoming = gigs.filter((g) => g.date >= today);
+
+    // Latest additions, grouped: Favourites, then Metal / Hard Rock / Rock
+    const latest = upcoming.filter(isNew).sort((a, b) => a.date.localeCompare(b.date));
+    const groups = [
+      ['🤘 Favourites', 'fav', (g) => g._fav],
+      ['Metal', 'metal', (g) => !g._fav && g._cat === 'Metal'],
+      ['Hard Rock', 'hardrock', (g) => !g._fav && g._cat === 'Hard Rock'],
+      ['Rock', 'rock', (g) => !g._fav && g._cat === 'Rock'],
+      ['Other', 'other', (g) => !g._fav && !g._cat],
+    ];
+    const latestRows = [];
+    let latestCount = 0;
+    for (const [label, cls, match] of groups) {
+      const items = latest.filter(match);
+      if (!items.length) continue;
+      latestRows.push({ head: `<li class="p-head p-head-${cls}">${label}</li>` });
+      for (const g of items) {
+        latestRows.push({ item: panelItemHTML(g, shortDay(g.date)) });
+        latestCount++;
+      }
+    }
+    fillPanel('latest', latestRows, latestCount);
+
+    // Tickets going on public sale within the next 7 days, soonest first
+    const now = Date.now();
+    const soon = now + 7 * 86400_000;
+    const onSale = upcoming
+      .filter((g) => g.onSaleDate && new Date(g.onSaleDate) > now && new Date(g.onSaleDate) <= soon)
+      .sort((a, b) => new Date(a.onSaleDate) - new Date(b.onSaleDate));
+    const onSaleRows = onSale.map((g) => ({
+      item: panelItemHTML(
+        g,
+        `${esc(shortDay(g.date))} — <em>on sale ${new Date(g.onSaleDate).toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}</em>`
+      ),
+    }));
+    fillPanel('onsale', onSaleRows, onSale.length);
+  }
+
   /* ---------- cards ---------- */
+  const AVAILABILITY = {
+    available: ['av-green', 'Tickets available'],
+    limited: ['av-yellow', 'Low capacity'],
+    soldout: ['av-red', 'Sold out'],
+  };
+
+  function availabilityHTML(g) {
+    if (g.onSaleDate && new Date(g.onSaleDate) > Date.now()) {
+      return `<div class="card-avail av-onsale">🎟️ On sale ${new Date(g.onSaleDate).toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}</div>`;
+    }
+    const av = AVAILABILITY[g.availability];
+    return av ? `<div class="card-avail ${av[0]}"><i class="av-dot"></i>${av[1]}</div>` : '';
+  }
   function cardHTML(g) {
     const badges = [
       isNew(g) ? '<span class="badge badge-new">New</span>' : '',
@@ -116,6 +204,7 @@
           ${bands.length ? `<div class="card-bands">${esc(bands.join(' · '))}</div>` : ''}
           <div class="card-where">📍 ${esc([g.venue, g.city].filter(Boolean).join(', '))} ${flag(g.country)} ${esc(countryName(g.country))}</div>
           <div class="card-when">🗓 ${fmtDay(g.date)}${g.time ? ` · ${esc(g.time)}` : ''}</div>
+          ${availabilityHTML(g)}
           <div class="card-footer">
             <span class="chip-row">
               ${g._cat ? `<span class="genre-chip cat" data-cat="${esc(g._cat)}">${esc(g._cat)}</span>` : ''}
@@ -172,7 +261,7 @@
       const chips = (byDate.get(iso) || [])
         .map(
           (g) =>
-            `<button class="cal-chip${g._fav ? ' fav' : ''}${g.isFestival ? ' fest' : ''}" data-gig="${esc(g.id)}" title="${esc(g.title)}">${g._fav ? '🤘 ' : ''}${esc(g.title)}</button>`
+            `<button class="cal-chip${g._fav ? ' fav' : ''}${g.isFestival ? ' fest' : ''}" data-gig="${esc(g.id)}" title="${esc(g.title)}">${AVAILABILITY[g.availability] ? `<i class="av-dot ${AVAILABILITY[g.availability][0]}"></i>` : ''}${g._fav ? '🤘 ' : ''}${esc(g.title)}</button>`
         )
         .join('');
       const hasEvents = byDate.has(iso);
@@ -237,6 +326,17 @@
       const day = e.target.closest('.cal-day.has-events');
       if (day) openDayModal(day.dataset.date);
     });
+    for (const base of ['latest', 'onsale']) {
+      $(`#${base}-list`).addEventListener('click', (e) => {
+        const item = e.target.closest('.p-item');
+        if (item) openModal(item.dataset.gig);
+      });
+      $(`#${base}-toggle`).addEventListener('click', (e) => {
+        const list = $(`#${base}-list`);
+        const collapsed = list.classList.toggle('collapsed');
+        e.target.textContent = collapsed ? e.target.dataset.seeAll : 'Show less';
+      });
+    }
     $('#modal-close').addEventListener('click', () => $('#gig-modal').close());
     $('#gig-modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
   }
@@ -264,6 +364,7 @@
     populateCountryFilter();
     wireEvents();
     renderTicker();
+    renderPanels();
     render();
   }
 

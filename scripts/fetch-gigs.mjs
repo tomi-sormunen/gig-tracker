@@ -30,14 +30,14 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-const TM_BASE = 'https://app.ticketmaster.com/discovery/v2';
+const TM_HOST = 'https://app.ticketmaster.com';
 const EUROPE = new Set(config.europeanCountries);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) =>
   (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
 async function tmGet(endpoint, params) {
-  const url = new URL(`${TM_BASE}${endpoint}`);
+  const url = new URL(`${TM_HOST}${endpoint}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   url.searchParams.set('apikey', API_KEY);
 
@@ -58,7 +58,7 @@ async function tmGet(endpoint, params) {
 async function searchEvents(params) {
   const events = [];
   for (let page = 0; page < config.maxPagesPerQuery; page++) {
-    const data = await tmGet('/events.json', { ...params, size: 200, page, sort: 'date,asc' });
+    const data = await tmGet('/discovery/v2/events.json', { ...params, size: 200, page, sort: 'date,asc' });
     events.push(...(data._embedded?.events ?? []));
     if (page >= Math.min((data.page?.totalPages ?? 1), config.maxPagesPerQuery) - 1) break;
   }
@@ -90,7 +90,42 @@ function mapTmEvent(ev) {
     url: ev.url ?? null,
     image: pickImage(ev.images),
     isFestival: /\bfest(ival)?\b|open air/i.test(ev.name),
+    onSaleDate: ev.sales?.public?.startDateTime ?? null,
+    status: ev.dates?.status?.code ?? null,
+    availability: null, // filled in by fetchAvailability
   };
+}
+
+// Traffic-light data from the Inventory Status API. Supported for events in
+// AT BE CH CZ DE DK ES FI GB IE NL NO PL SE (plus US/CA/AU/NZ/MX) — events in
+// unsupported markets simply come back without a status and stay null.
+const INVENTORY_STATUS = {
+  TICKETS_AVAILABLE: 'available',
+  FEW_TICKETS_LEFT: 'limited',
+  TICKETS_NOT_AVAILABLE: 'soldout',
+};
+
+async function fetchAvailability(found) {
+  const tmIds = [...found.values()].filter((g) => g.id.startsWith('tm-')).map((g) => g.id.slice(3));
+  console.log(`Inventory status for ${tmIds.length} events:`);
+  let known = 0;
+  for (let i = 0; i < tmIds.length; i += 40) {
+    const batch = tmIds.slice(i, i + 40);
+    try {
+      const data = await tmGet('/inventory-status/v1/availability', { events: batch.join(',') });
+      for (const entry of Array.isArray(data) ? data : []) {
+        const gig = found.get(`tm-${entry.eventId}`);
+        const availability = INVENTORY_STATUS[entry.status];
+        if (gig && availability) {
+          gig.availability = availability;
+          known++;
+        }
+      }
+    } catch (err) {
+      console.warn(`  batch ${i / 40 + 1}: skipped (${err.message})`);
+    }
+  }
+  console.log(`  ${known} events with a known inventory status`);
 }
 
 async function fetchGenreSweep(startISO, endISO) {
@@ -121,7 +156,7 @@ async function fetchGenreSweep(startISO, endISO) {
 async function fetchFavourites(found, startISO, endISO) {
   for (const name of favourites) {
     try {
-      const search = await tmGet('/attractions.json', { keyword: name, size: 5 });
+      const search = await tmGet('/discovery/v2/attractions.json', { keyword: name, size: 5 });
       const match = (search._embedded?.attractions ?? []).find((a) => norm(a.name) === norm(name));
       if (!match) {
         console.log(`  ${name}: no exact attraction match, relying on genre sweep`);
@@ -196,6 +231,9 @@ async function fetchBandsintown(found) {
           url: (ev.offers ?? []).find((o) => o.type === 'Tickets')?.url ?? ev.url ?? null,
           image: artist?.thumb_url ?? null,
           isFestival: /\bfest(ival)?\b|open air/i.test(ev.title ?? ''),
+          onSaleDate: null,
+          status: null,
+          availability: null,
         });
         added++;
       }
@@ -218,6 +256,16 @@ async function main() {
   console.log('Favourite bands (Europe-wide, any genre):');
   await fetchFavourites(found, startISO, endISO);
   await fetchBandsintown(found);
+  await fetchAvailability(found);
+
+  for (const [id, g] of found) {
+    if (g.status === 'cancelled') found.delete(id);
+    // Fallback when the Inventory Status API has no answer: an event marked
+    // offsale whose public sale already started is almost certainly sold out.
+    else if (!g.availability && g.status === 'offsale' && (!g.onSaleDate || g.onSaleDate <= startISO)) {
+      g.availability = 'soldout';
+    }
+  }
 
   // Preserve firstSeen timestamps from the previous run so the "new" ticker works.
   let previousFirstSeen = new Map();
@@ -231,7 +279,7 @@ async function main() {
   const today = now.toISOString().slice(0, 10);
   const gigs = [...found.values()]
     .filter((g) => g.date >= today)
-    .map((g) => ({ ...g, firstSeen: previousFirstSeen.get(g.id) ?? now.toISOString() }))
+    .map(({ status, ...g }) => ({ ...g, firstSeen: previousFirstSeen.get(g.id) ?? now.toISOString() }))
     .sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
 
   mkdirSync(path.dirname(OUT_FILE), { recursive: true });

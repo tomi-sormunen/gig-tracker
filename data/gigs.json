@@ -5,7 +5,9 @@
     {
       "id": "sample-01",
       "title": "Wacken Open Air 2026",
-      "bands": ["Wacken Open Air"],
+      "bands": [
+        "Wacken Open Air"
+      ],
       "date": "2026-07-30",
       "time": null,
       "venue": "Festival Grounds",
@@ -16,12 +18,16 @@
       "url": "https://www.wacken.com/en/tickets/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-10T08:00:00Z"
+      "firstSeen": "2026-06-10T08:00:00Z",
+      "onSaleDate": "2025-08-03T18:00:00Z",
+      "availability": "soldout"
     },
     {
       "id": "sample-02",
       "title": "Brutal Assault 2026",
-      "bands": ["Brutal Assault"],
+      "bands": [
+        "Brutal Assault"
+      ],
       "date": "2026-08-05",
       "time": null,
       "venue": "Josefov Fortress",
@@ -32,12 +38,16 @@
       "url": "https://brutalassault.cz/en",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-10T08:00:00Z"
+      "firstSeen": "2026-06-10T08:00:00Z",
+      "onSaleDate": "2025-11-10T09:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-03",
       "title": "Bloodstock Open Air 2026",
-      "bands": ["Bloodstock Open Air"],
+      "bands": [
+        "Bloodstock Open Air"
+      ],
       "date": "2026-08-06",
       "time": null,
       "venue": "Catton Park",
@@ -48,12 +58,16 @@
       "url": "https://www.bloodstock.uk.com/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-10T08:00:00Z"
+      "firstSeen": "2026-06-10T08:00:00Z",
+      "onSaleDate": "2025-10-01T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-04",
       "title": "Alcatraz Festival 2026",
-      "bands": ["Alcatraz Festival"],
+      "bands": [
+        "Alcatraz Festival"
+      ],
       "date": "2026-08-07",
       "time": null,
       "venue": "Lange Munte",
@@ -64,12 +78,16 @@
       "url": "https://www.alcatraz.be/en/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-14T08:00:00Z"
+      "firstSeen": "2026-06-14T08:00:00Z",
+      "onSaleDate": "2025-12-05T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-05",
       "title": "Summer Breeze Open Air 2026",
-      "bands": ["Summer Breeze Open Air"],
+      "bands": [
+        "Summer Breeze Open Air"
+      ],
       "date": "2026-08-12",
       "time": null,
       "venue": "Festival Grounds",
@@ -80,12 +98,16 @@
       "url": "https://www.summer-breeze.de/en/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-14T08:00:00Z"
+      "firstSeen": "2026-06-14T08:00:00Z",
+      "onSaleDate": "2025-09-15T08:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-06",
       "title": "Into The Grave 2026",
-      "bands": ["Into The Grave"],
+      "bands": [
+        "Into The Grave"
+      ],
       "date": "2026-08-14",
       "time": null,
       "venue": "Oldehoofsterkerkhof",
@@ -96,12 +118,16 @@
       "url": "https://intothegrave.nl/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-20T08:00:00Z"
+      "firstSeen": "2026-06-20T08:00:00Z",
+      "onSaleDate": "2026-01-20T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-07",
       "title": "ArcTanGent 2026",
-      "bands": ["ArcTanGent"],
+      "bands": [
+        "ArcTanGent"
+      ],
       "date": "2026-08-19",
       "time": null,
       "venue": "Fernhill Farm",
@@ -112,12 +138,17 @@
       "url": "https://arctangent.co.uk/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-06-20T08:00:00Z"
+      "firstSeen": "2026-06-20T08:00:00Z",
+      "onSaleDate": "2025-11-28T10:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-08",
       "title": "Judas Priest - Invincible Shield Tour",
-      "bands": ["Judas Priest", "Saxon"],
+      "bands": [
+        "Judas Priest",
+        "Saxon"
+      ],
       "date": "2026-08-28",
       "time": "18:30",
       "venue": "Utilita Arena",
@@ -128,12 +159,17 @@
       "url": "https://www.ticketmaster.co.uk/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-06-25T08:00:00Z"
+      "firstSeen": "2026-06-25T08:00:00Z",
+      "onSaleDate": "2026-02-06T09:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-09",
       "title": "Katatonia",
-      "bands": ["Katatonia", "Sólstafir"],
+      "bands": [
+        "Katatonia",
+        "Sólstafir"
+      ],
       "date": "2026-09-05",
       "time": "19:30",
       "venue": "013 Poppodium",
@@ -144,12 +180,17 @@
       "url": "https://www.ticketmaster.nl/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-06-25T08:00:00Z"
+      "firstSeen": "2026-06-25T08:00:00Z",
+      "onSaleDate": "2026-03-13T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-10",
       "title": "Gojira - From Mars to Sirius Anniversary Show",
-      "bands": ["Gojira", "Knocked Loose"],
+      "bands": [
+        "Gojira",
+        "Knocked Loose"
+      ],
       "date": "2026-09-14",
       "time": "20:00",
       "venue": "AFAS Live",
@@ -160,12 +201,17 @@
       "url": "https://www.ticketmaster.nl/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-07T09:00:00Z"
+      "firstSeen": "2026-07-07T09:00:00Z",
+      "onSaleDate": "2026-07-03T08:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-11",
       "title": "Arch Enemy - Blood Dynasty Tour",
-      "bands": ["Arch Enemy", "Jinjer"],
+      "bands": [
+        "Arch Enemy",
+        "Jinjer"
+      ],
       "date": "2026-09-18",
       "time": "19:00",
       "venue": "Zenith",
@@ -176,12 +222,17 @@
       "url": "https://www.eventim.de/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-06-28T08:00:00Z"
+      "firstSeen": "2026-06-28T08:00:00Z",
+      "onSaleDate": "2026-02-27T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-12",
       "title": "Meshuggah",
-      "bands": ["Meshuggah", "Zeal & Ardor"],
+      "bands": [
+        "Meshuggah",
+        "Zeal & Ardor"
+      ],
       "date": "2026-09-25",
       "time": "19:30",
       "venue": "Palladium",
@@ -192,12 +243,17 @@
       "url": "https://www.eventim.de/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-06-28T08:00:00Z"
+      "firstSeen": "2026-06-28T08:00:00Z",
+      "onSaleDate": "2026-03-20T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-13",
       "title": "Trivium & Bullet For My Valentine - The Poisoned Ascendancy",
-      "bands": ["Trivium", "Bullet For My Valentine"],
+      "bands": [
+        "Trivium",
+        "Bullet For My Valentine"
+      ],
       "date": "2026-09-30",
       "time": "18:30",
       "venue": "Forest National",
@@ -208,12 +264,16 @@
       "url": "https://www.ticketmaster.be/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-01T08:00:00Z"
+      "firstSeen": "2026-07-01T08:00:00Z",
+      "onSaleDate": "2026-04-10T08:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-14",
       "title": "Nightwish - Yesterwynde Over Europe",
-      "bands": ["Nightwish"],
+      "bands": [
+        "Nightwish"
+      ],
       "date": "2026-10-02",
       "time": "19:00",
       "venue": "Helsinki Halli",
@@ -224,12 +284,17 @@
       "url": "https://www.lippu.fi/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-07T09:00:00Z"
+      "firstSeen": "2026-07-07T09:00:00Z",
+      "onSaleDate": "2026-05-08T07:00:00Z",
+      "availability": "soldout"
     },
     {
       "id": "sample-15",
       "title": "Behemoth & Satyricon - Unholy Alliance",
-      "bands": ["Behemoth", "Satyricon"],
+      "bands": [
+        "Behemoth",
+        "Satyricon"
+      ],
       "date": "2026-10-09",
       "time": "19:00",
       "venue": "COS Torwar",
@@ -240,12 +305,16 @@
       "url": "https://www.ebilet.pl/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-01T08:00:00Z"
+      "firstSeen": "2026-07-01T08:00:00Z",
+      "onSaleDate": "2026-04-17T08:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-16",
       "title": "Opeth - An Evening of Sorcery",
-      "bands": ["Opeth"],
+      "bands": [
+        "Opeth"
+      ],
       "date": "2026-10-17",
       "time": "20:00",
       "venue": "Cirkus",
@@ -256,12 +325,16 @@
       "url": "https://www.ticketmaster.se/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-01T08:00:00Z"
+      "firstSeen": "2026-07-01T08:00:00Z",
+      "onSaleDate": "2026-04-24T08:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-17",
       "title": "Paradise Lost - 35 Years of Gothic",
-      "bands": ["Paradise Lost"],
+      "bands": [
+        "Paradise Lost"
+      ],
       "date": "2026-10-23",
       "time": "19:00",
       "venue": "Barrowland Ballroom",
@@ -272,12 +345,17 @@
       "url": "https://www.ticketmaster.co.uk/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-02T08:00:00Z"
+      "firstSeen": "2026-07-02T08:00:00Z",
+      "onSaleDate": "2026-05-15T09:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-18",
       "title": "Powerwolf - Wolfsnächte 2026",
-      "bands": ["Powerwolf", "Hammerfall"],
+      "bands": [
+        "Powerwolf",
+        "Hammerfall"
+      ],
       "date": "2026-10-30",
       "time": "19:00",
       "venue": "Wiener Stadthalle",
@@ -288,12 +366,16 @@
       "url": "https://www.oeticket.com/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-02T08:00:00Z"
+      "firstSeen": "2026-07-02T08:00:00Z",
+      "onSaleDate": "2026-03-06T09:00:00Z",
+      "availability": "soldout"
     },
     {
       "id": "sample-19",
       "title": "Damnation Festival 2026",
-      "bands": ["Damnation Festival"],
+      "bands": [
+        "Damnation Festival"
+      ],
       "date": "2026-11-07",
       "time": null,
       "venue": "BEC Arena",
@@ -304,12 +386,16 @@
       "url": "https://damnationfestival.co.uk/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-07-05T08:00:00Z"
+      "firstSeen": "2026-07-05T08:00:00Z",
+      "onSaleDate": "2026-02-13T10:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-20",
       "title": "Sleep Token - Even In Arcadia",
-      "bands": ["Sleep Token"],
+      "bands": [
+        "Sleep Token"
+      ],
       "date": "2026-11-09",
       "time": "19:30",
       "venue": "The O2",
@@ -320,12 +406,17 @@
       "url": "https://www.ticketmaster.co.uk/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-08T07:30:00Z"
+      "firstSeen": "2026-07-08T07:30:00Z",
+      "onSaleDate": "2026-07-10T09:00:00Z",
+      "availability": null
     },
     {
       "id": "sample-21",
       "title": "Amorphis & Insomnium - Tales From The North",
-      "bands": ["Amorphis", "Insomnium"],
+      "bands": [
+        "Amorphis",
+        "Insomnium"
+      ],
       "date": "2026-11-20",
       "time": "19:00",
       "venue": "Helsingin Jäähalli",
@@ -336,12 +427,17 @@
       "url": "https://www.lippu.fi/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-06T10:00:00Z"
+      "firstSeen": "2026-07-06T10:00:00Z",
+      "onSaleDate": "2026-06-26T07:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-22",
       "title": "Amon Amarth - The Great Heathen Tour",
-      "bands": ["Amon Amarth", "Machine Head"],
+      "bands": [
+        "Amon Amarth",
+        "Machine Head"
+      ],
       "date": "2026-11-27",
       "time": "18:30",
       "venue": "Royal Arena",
@@ -352,12 +448,16 @@
       "url": "https://www.ticketmaster.dk/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-05T08:00:00Z"
+      "firstSeen": "2026-07-05T08:00:00Z",
+      "onSaleDate": "2026-05-29T08:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-23",
       "title": "Ghost - Skeletour World Tour",
-      "bands": ["Ghost"],
+      "bands": [
+        "Ghost"
+      ],
       "date": "2026-12-04",
       "time": "20:00",
       "venue": "Accor Arena",
@@ -368,12 +468,16 @@
       "url": "https://www.ticketmaster.fr/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-05T08:00:00Z"
+      "firstSeen": "2026-07-05T08:00:00Z",
+      "onSaleDate": "2026-06-05T08:00:00Z",
+      "availability": "limited"
     },
     {
       "id": "sample-24",
       "title": "Electric Callboy - Tekkno Train Tour",
-      "bands": ["Electric Callboy"],
+      "bands": [
+        "Electric Callboy"
+      ],
       "date": "2026-12-11",
       "time": "19:00",
       "venue": "Rockhal",
@@ -384,12 +488,17 @@
       "url": "https://www.rockhal.lu/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-06T10:00:00Z"
+      "firstSeen": "2026-07-06T10:00:00Z",
+      "onSaleDate": "2026-04-03T08:00:00Z",
+      "availability": "soldout"
     },
     {
       "id": "sample-25",
       "title": "Sabaton - The War To End All Wars",
-      "bands": ["Sabaton", "Babymetal"],
+      "bands": [
+        "Sabaton",
+        "Babymetal"
+      ],
       "date": "2027-01-23",
       "time": "19:30",
       "venue": "Avicii Arena",
@@ -400,12 +509,18 @@
       "url": "https://www.ticketmaster.se/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-08T07:30:00Z"
+      "firstSeen": "2026-07-08T07:30:00Z",
+      "onSaleDate": "2026-06-12T08:00:00Z",
+      "availability": "available"
     },
     {
       "id": "sample-26",
       "title": "Metallica - M72 World Tour",
-      "bands": ["Metallica", "Gojira", "Mammoth WVH"],
+      "bands": [
+        "Metallica",
+        "Gojira",
+        "Mammoth WVH"
+      ],
       "date": "2027-05-14",
       "time": "18:00",
       "venue": "Olympiastadion",
@@ -416,12 +531,17 @@
       "url": "https://www.ticketmaster.de/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-08T07:30:00Z"
+      "firstSeen": "2026-07-08T07:30:00Z",
+      "onSaleDate": "2026-07-13T08:00:00Z",
+      "availability": null
     },
     {
       "id": "sample-27",
       "title": "Iron Maiden - Run For Your Lives Tour",
-      "bands": ["Iron Maiden", "The Raven Age"],
+      "bands": [
+        "Iron Maiden",
+        "The Raven Age"
+      ],
       "date": "2027-05-29",
       "time": "17:30",
       "venue": "Ullevi",
@@ -432,12 +552,16 @@
       "url": "https://www.ticketmaster.se/",
       "image": null,
       "isFestival": false,
-      "firstSeen": "2026-07-07T09:00:00Z"
+      "firstSeen": "2026-07-07T09:00:00Z",
+      "onSaleDate": "2026-07-11T07:00:00Z",
+      "availability": null
     },
     {
       "id": "sample-28",
       "title": "Copenhell 2027",
-      "bands": ["Copenhell"],
+      "bands": [
+        "Copenhell"
+      ],
       "date": "2027-06-16",
       "time": null,
       "venue": "Refshaleøen",
@@ -448,12 +572,16 @@
       "url": "https://www.copenhell.dk/en/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-07-08T07:30:00Z"
+      "firstSeen": "2026-07-08T07:30:00Z",
+      "onSaleDate": "2026-07-15T08:00:00Z",
+      "availability": null
     },
     {
       "id": "sample-29",
       "title": "Hellfest 2027",
-      "bands": ["Hellfest"],
+      "bands": [
+        "Hellfest"
+      ],
       "date": "2027-06-17",
       "time": null,
       "venue": "Val de Moine",
@@ -464,12 +592,16 @@
       "url": "https://www.hellfest.fr/en/",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-07-06T10:00:00Z"
+      "firstSeen": "2026-07-06T10:00:00Z",
+      "onSaleDate": "2026-06-19T08:00:00Z",
+      "availability": "soldout"
     },
     {
       "id": "sample-30",
       "title": "Tuska Festival 2027",
-      "bands": ["Tuska Festival"],
+      "bands": [
+        "Tuska Festival"
+      ],
       "date": "2027-06-25",
       "time": null,
       "venue": "Suvilahti",
@@ -480,7 +612,9 @@
       "url": "https://www.tuska.fi/en",
       "image": null,
       "isFestival": true,
-      "firstSeen": "2026-07-07T09:00:00Z"
+      "firstSeen": "2026-07-07T09:00:00Z",
+      "onSaleDate": "2026-07-14T07:00:00Z",
+      "availability": null
     }
   ]
 }
