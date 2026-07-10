@@ -150,6 +150,7 @@ body {
 .p-item.fav .p-item-btn strong { color: var(--fav); }
 .p-detail { color: var(--muted); }
 .p-detail em { color: var(--fav); font-style: normal; font-weight: 700; }
+.p-empty { color: var(--muted); font-size: 0.82rem; padding: 0.15rem 0; }
 .see-all {
   background: none;
   border: none;
@@ -430,6 +431,20 @@ dialog#gig-modal::backdrop { background: rgba(0, 0, 0, 0.65); }
   height: 2rem;
   cursor: pointer;
 }
+
+.show-more {
+  display: block;
+  margin: 1.6rem auto 0;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.65rem 1.6rem;
+  cursor: pointer;
+}
+.show-more:hover { border-color: var(--accent); }
 
 /* ---------- misc ---------- */
 .empty-state { text-align: center; color: var(--muted); padding: 3rem 0; }
