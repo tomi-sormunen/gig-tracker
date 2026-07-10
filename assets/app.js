@@ -2,6 +2,11 @@
 (() => {
   'use strict';
 
+  // Rendering thousands of cards at once freezes phones, so the list view
+  // paginates and the panels cap their rows.
+  const LIST_PAGE = 120;
+  const PANEL_MAX_ROWS = 100;
+
   const state = {
     view: 'list',
     q: '',
@@ -11,6 +16,7 @@
     type: 'all',
     favOnly: false,
     month: null, // Date at the 1st of the displayed calendar month
+    listLimit: LIST_PAGE,
   };
 
   let gigs = [];
@@ -112,30 +118,41 @@
   }
 
   // Fills a panel <ul>, hiding rows past the preview limit behind "See all".
-  function fillPanel(baseId, rows, itemCount) {
-    const panel = $(`#${baseId}-panel`);
-    panel.hidden = rows.length === 0;
+  // At most PANEL_MAX_ROWS items go into the DOM (phones choke on thousands);
+  // an empty result shows a message instead of hiding the panel.
+  function fillPanel(baseId, rows, itemCount, emptyMessage) {
+    const list = $(`#${baseId}-list`);
+    const toggle = $(`#${baseId}-toggle`);
+    $(`#${baseId}-panel`).hidden = false;
     if (!rows.length) {
-      $(`#${baseId}-list`).innerHTML = '';
+      list.innerHTML = `<li class="p-empty">${emptyMessage}</li>`;
+      toggle.hidden = true;
       return;
     }
     let shown = 0;
-    const html = rows
-      .map((row) => {
-        if (row.head !== undefined) return { extra: shown >= PANEL_PREVIEW_ROWS, html: row.head };
-        shown++;
-        return { extra: shown > PANEL_PREVIEW_ROWS, html: row.item };
-      })
+    const parts = [];
+    for (const row of rows) {
+      if (row.head !== undefined) {
+        if (shown < PANEL_MAX_ROWS) parts.push({ extra: shown >= PANEL_PREVIEW_ROWS, html: row.head });
+        continue;
+      }
+      shown++;
+      if (shown > PANEL_MAX_ROWS) break;
+      parts.push({ extra: shown > PANEL_PREVIEW_ROWS, html: row.item });
+    }
+    if (itemCount > PANEL_MAX_ROWS) {
+      parts.push({
+        extra: true,
+        html: `<li class="p-empty">…and ${itemCount - PANEL_MAX_ROWS} more — use the filters above to narrow the list</li>`,
+      });
+    }
+    list.innerHTML = parts
       .map((r) => (r.extra ? r.html.replace(/^<li class="/, '<li class="extra ') : r.html))
       .join('');
-    $(`#${baseId}-list`).innerHTML = html;
-    const toggle = $(`#${baseId}-toggle`);
     toggle.hidden = itemCount <= PANEL_PREVIEW_ROWS;
-    toggle.dataset.seeAll = `See all (${itemCount})`;
+    toggle.dataset.seeAll = `See all (${itemCount > PANEL_MAX_ROWS ? `first ${PANEL_MAX_ROWS} of ${itemCount}` : itemCount})`;
     // Keep the user's expand/collapse choice across filter-driven re-renders
-    toggle.textContent = $(`#${baseId}-list`).classList.contains('collapsed')
-      ? toggle.dataset.seeAll
-      : 'Show less';
+    toggle.textContent = list.classList.contains('collapsed') ? toggle.dataset.seeAll : 'Show less';
   }
 
   // Panels respect whatever is set in the toolbar (search, country, genre, …)
@@ -162,7 +179,7 @@
         latestCount++;
       }
     }
-    fillPanel('latest', latestRows, latestCount);
+    fillPanel('latest', latestRows, latestCount, 'No new additions in the last 7 days for this selection.');
 
     // Tickets going on public sale within the next 7 days, soonest first
     const now = Date.now();
@@ -176,7 +193,12 @@
         `${esc(shortDay(g.date))} — <em>on sale ${new Date(g.onSaleDate).toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}</em>`
       ),
     }));
-    fillPanel('onsale', onSaleRows, onSale.length);
+    fillPanel(
+      'onsale',
+      onSaleRows,
+      onSale.length,
+      'No public ticket sales starting in the next 7 days for this selection — most sales open on Friday mornings, so check back then.'
+    );
   }
 
   /* ---------- cards ---------- */
@@ -231,19 +253,32 @@
   function renderList() {
     const list = filteredGigs();
     $('#empty-state').hidden = list.length > 0;
-    const byMonth = new Map();
+    // Only state.listLimit cards go into the DOM; the rest sit behind a
+    // "Show more" button. Month headers still show the month's full count.
+    const shown = list.slice(0, state.listLimit);
+    const monthTotals = new Map();
     for (const g of list) {
+      const key = g.date.slice(0, 7);
+      monthTotals.set(key, (monthTotals.get(key) || 0) + 1);
+    }
+    const byMonth = new Map();
+    for (const g of shown) {
       const key = g.date.slice(0, 7);
       if (!byMonth.has(key)) byMonth.set(key, []);
       byMonth.get(key).push(g);
     }
-    $('#list-view').innerHTML = [...byMonth.entries()]
-      .map(
-        ([key, items]) => `
-          <h2 class="month-header">${fmtMonthYear(parseDate(`${key}-01`))} <small>(${items.length})</small></h2>
+    const remaining = list.length - shown.length;
+    $('#list-view').innerHTML =
+      [...byMonth.entries()]
+        .map(
+          ([key, items]) => `
+          <h2 class="month-header">${fmtMonthYear(parseDate(`${key}-01`))} <small>(${monthTotals.get(key)})</small></h2>
           <div class="card-grid">${items.map(cardHTML).join('')}</div>`
-      )
-      .join('');
+        )
+        .join('') +
+      (remaining > 0
+        ? `<button class="show-more" id="show-more">Show more (${remaining} remaining)</button>`
+        : '');
   }
 
   /* ---------- calendar ---------- */
@@ -326,14 +361,27 @@
   }
 
   function wireEvents() {
+    // Any filter change starts the list from the first page again
+    const applyFilter = (mutate) => { mutate(); state.listLimit = LIST_PAGE; render(); };
     $('#btn-list').addEventListener('click', () => { state.view = 'list'; location.hash = ''; render(); });
     $('#btn-calendar').addEventListener('click', () => { state.view = 'calendar'; location.hash = 'calendar'; render(); });
-    $('#search').addEventListener('input', (e) => { state.q = e.target.value; render(); });
-    $('#country-filter').addEventListener('change', (e) => { state.country = e.target.value; render(); });
-    $('#genre-filter').addEventListener('change', (e) => { state.genre = e.target.value; render(); });
-    $('#avail-filter').addEventListener('change', (e) => { state.avail = e.target.value; render(); });
-    $('#type-filter').addEventListener('change', (e) => { state.type = e.target.value; render(); });
-    $('#fav-only').addEventListener('change', (e) => { state.favOnly = e.target.checked; render(); });
+    // Debounced so fast typing doesn't re-render per keystroke (janky on phones)
+    let searchTimer;
+    $('#search').addEventListener('input', (e) => {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => applyFilter(() => { state.q = e.target.value; }), 200);
+    });
+    $('#country-filter').addEventListener('change', (e) => applyFilter(() => { state.country = e.target.value; }));
+    $('#genre-filter').addEventListener('change', (e) => applyFilter(() => { state.genre = e.target.value; }));
+    $('#avail-filter').addEventListener('change', (e) => applyFilter(() => { state.avail = e.target.value; }));
+    $('#type-filter').addEventListener('change', (e) => applyFilter(() => { state.type = e.target.value; }));
+    $('#fav-only').addEventListener('change', (e) => applyFilter(() => { state.favOnly = e.target.checked; }));
+    $('#list-view').addEventListener('click', (e) => {
+      if (e.target.closest('#show-more')) {
+        state.listLimit += 2 * LIST_PAGE;
+        render();
+      }
+    });
     $('#cal-prev').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() - 1, 1); render(); });
     $('#cal-next').addEventListener('click', () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth() + 1, 1); render(); });
     $('#cal-today').addEventListener('click', () => { const n = new Date(); state.month = new Date(n.getFullYear(), n.getMonth(), 1); render(); });
