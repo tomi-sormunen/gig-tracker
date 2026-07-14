@@ -1,231 +1,7 @@
 {
-  "updatedAt": "2026-07-13T08:01:16.418Z",
+  "updatedAt": "2026-07-14T07:02:08.765Z",
   "source": "live",
   "gigs": [
-    {
-      "id": "tm-1AdOZbzGknbbeo0",
-      "title": "Breaking Benjamin",
-      "bands": [
-        "Breaking Benjamin"
-      ],
-      "date": "2026-07-13",
-      "time": "19:00",
-      "venue": "The Telegraph Building",
-      "city": "Belfast",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.ie/breaking-benjamin-belfast-13-07-2026/event/3800638A98602464",
-      "image": "https://s1.ticketm.net/dam/a/670/7250979a-3915-42ed-80e8-60d190eec670_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-12-15T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-LvZ18QLwenLAlKZZ0A4vR",
-      "title": "Concert for Mental Health: Harry Mack",
-      "bands": [
-        "Harry Mack"
-      ],
-      "date": "2026-07-13",
-      "time": "19:00",
-      "venue": "Jazz Cafe",
-      "city": "London",
-      "country": "GB",
-      "genre": "Hip-Hop/Rap",
-      "subGenre": "Rap-Rock",
-      "url": "https://www.universe.com/events/concert-for-mental-health-harry-mack-tickets-D67SNW?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/295/45e842e8-9c00-4065-867f-0c619e5e3295_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-07T12:16:41Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-LvZ18Qj_yGr3TNZZ0YmId",
-      "title": "DARKSIDE (early show)",
-      "bands": [
-        "DARKSIDE"
-      ],
-      "date": "2026-07-13",
-      "time": "18:00",
-      "venue": "EartH",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.universe.com/events/darkside-early-show-tickets-Q6LFHB?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/d9d/dee02ed7-4ed0-4d24-a916-c69c1bceed9d_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-04-02T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-LvZ18Qj_BXSVhYYvOI6iX",
-      "title": "DARKSIDE (late show)",
-      "bands": [
-        "DARKSIDE"
-      ],
-      "date": "2026-07-13",
-      "time": "21:15",
-      "venue": "EartH",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.universe.com/events/darkside-late-show-tickets-YKNWX0?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/d9d/dee02ed7-4ed0-4d24-a916-c69c1bceed9d_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-04-02T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-G5dzZ_GNnKE5G",
-      "title": "Fishies Graduation Party",
-      "bands": [
-        "Fishies Graduation"
-      ],
-      "date": "2026-07-13",
-      "time": "23:30",
-      "venue": "O2 Academy Leeds",
-      "city": "Leeds",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/fishies-graduation-party-leeds-13-07-2026/event/3E0064C8EA4E72CC",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_EVENT_DETAIL_PAGE_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-12T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZbpZ16vApovqd",
-      "title": "House Of Protection",
-      "bands": [
-        "House of Protection"
-      ],
-      "date": "2026-07-13",
-      "time": "19:30",
-      "venue": "Melkweg",
-      "city": "Amsterdam",
-      "country": "NL",
-      "genre": "Rock",
-      "subGenre": "Hard Rock",
-      "url": "https://www.ticketmaster.nl/event/house-of-protection-tickets/1156441743?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/a6c/d0ccd6f3-cc6e-4079-af6e-6cae8587aa6c_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-04-17T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-G5dzZ_1pzndHX",
-      "title": "Lifehouse - Best of Acoustic",
-      "bands": [
-        "Lifehouse"
-      ],
-      "date": "2026-07-13",
-      "time": "19:00",
-      "venue": "O2 Shepherds Bush Empire",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/lifehouse-best-of-acoustic-london-13-07-2026/event/3E0064A5B8A83F3E",
-      "image": "https://s1.ticketm.net/dam/a/e16/0cf87b14-c04b-41b4-a4c6-e353c300ee16_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-08T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z59rmIYnyZdAa",
-      "title": "Marilyn Manson",
-      "bands": [
-        "Marilyn Manson",
-        "Fiera del Levante"
-      ],
-      "date": "2026-07-13",
-      "time": "20:00",
-      "venue": "Fiera del Levante",
-      "city": "Bari",
-      "country": "IT",
-      "genre": "Metal",
-      "subGenre": "Heavy Metal",
-      "url": "https://www.ticketmaster.it/biglietti/marilyn-manson-bari-13-07-2026/event/hnq722n5xbhx",
-      "image": "https://s1.ticketm.net/dam/a/7d8/238d345f-dde7-4abf-a505-361d6876f7d8_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-11-13T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-G5vHZ_61x9NSw",
-      "title": "Militarie Gun",
-      "bands": [
-        "Militarie Gun",
-        "MORN"
-      ],
-      "date": "2026-07-13",
-      "time": "19:30",
-      "venue": "Manchester Gorilla",
-      "city": "Manchester",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Punk",
-      "url": "https://www.ticketmaster.co.uk/militarie-gun-manchester-13-07-2026/event/1F006472A25E3CF2",
-      "image": "https://s1.ticketm.net/dam/a/f0c/28615108-78b4-450f-8ed8-a2cc88658f0c_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-25T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZQpZ1kx68sbe",
-      "title": "STARS. FANGOR. SYLWESTROWICZ.",
-      "bands": [
-        "STARS. FANGOR. SYLWESTROWICZ."
-      ],
-      "date": "2026-07-13",
-      "time": null,
-      "venue": "CBF Nowy Świat",
-      "city": "Warsaw",
-      "country": "PL",
-      "genre": "Alternative",
-      "subGenre": "Adult Alternative Pop/Rock",
-      "url": "https://www.ticketmaster.pl/event/stars-fangor-sylwestrowicz-tickets/887431602?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e15/b39d5ccb-1fa0-432f-b9d9-3e8655412e15_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-29T14:59:53Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-17u8vxG6udEZ6V6",
-      "title": "System Of A Down",
-      "bands": [
-        "System Of A Down",
-        "Queens of the Stone Age",
-        "Acid Bath"
-      ],
-      "date": "2026-07-13",
-      "time": "17:00",
-      "venue": "Tottenham Hotspur Stadium",
-      "city": "London",
-      "country": "GB",
-      "genre": "Metal",
-      "subGenre": "Nu-Metal",
-      "url": "https://www.ticketmaster.co.uk/system-of-a-down-london-13-07-2026/event/350062D0E7007D07",
-      "image": "https://s1.ticketm.net/dam/a/223/7ad6212c-ddab-4864-91e1-8c2ca2b12223_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-09-19T11:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
     {
       "id": "tm-LvZ18QhUZflvpj8ZV1ulD",
       "title": "A THOUSAND HORSES  Plus guests",
@@ -444,7 +220,7 @@
       "image": "https://s1.ticketm.net/dam/a/19c/6284f1ea-ea97-48f5-b054-88b6931c719c_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": true,
       "onSaleDate": "2026-02-19T17:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -728,7 +504,7 @@
       "image": "https://s1.ticketm.net/dam/a/215/a0cb5a7b-3cd8-4649-96ca-6740a7c83215_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-02-05T10:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -1175,7 +951,7 @@
       "image": "https://s1.ticketm.net/dam/a/4a7/a06afd16-9b02-44d8-82b3-36bf607184a7_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": true,
       "onSaleDate": "2026-02-20T11:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -1634,7 +1410,7 @@
         "Jamiroquai"
       ],
       "date": "2026-07-16",
-      "time": "22:30",
+      "time": "22:00",
       "venue": "Plaza de España",
       "city": "Sevilla",
       "country": "ES",
@@ -4402,7 +4178,7 @@
       "image": "https://s1.ticketm.net/dam/a/802/9bac84c6-1505-44ab-8f49-24046f387802_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-02-13T10:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -6478,27 +6254,6 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "tm-G5vHZbVqHXN4F",
-      "title": "HERITAGE LIVE: Richard Ashcroft",
-      "bands": [
-        "Richard Ashcroft",
-        "Heritage Live"
-      ],
-      "date": "2026-07-24",
-      "time": "15:00",
-      "venue": "Englefield House",
-      "city": "Reading",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/heritage-live-richard-ashcroft-reading-24-07-2026/event/1F0063477CFA3548",
-      "image": "https://s1.ticketm.net/dam/a/10e/07e4835c-c136-4a26-9927-c105c979010e_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-07T16:30:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
       "id": "tm-1AbZkuPGkdqgDNR",
       "title": "James",
       "bands": [
@@ -7591,7 +7346,7 @@
       "image": "https://s1.ticketm.net/dam/a/489/d747d935-0bba-40a7-8694-05d3bcfb8489_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2025-12-01T07:00:00Z",
-      "availability": "soldout",
+      "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -8529,7 +8284,7 @@
     },
     {
       "id": "tm-ZG9rmIYnyZevvF",
-      "title": "Skunk Anansie + Special Guest | 35° PORDENONE BLUES & C. FESTIVAL 2026",
+      "title": "Skunk Anansie + Grove | 35° PORDENONE BLUES & C. FESTIVAL 2026",
       "bands": [
         "Skunk Anansie",
         "Pordenone Blues Festival"
@@ -16899,6 +16654,29 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-Z698xZb_Z1k1_8yOS",
+      "title": "Fagernes Yacht Klubb",
+      "bands": [
+        "Øya på Rockefeller/John Dee/Sentrum Scene",
+        "Fagernes Yacht Klubb",
+        "Sentrum Scene",
+        "Auditorium"
+      ],
+      "date": "2026-08-15",
+      "time": "22:00",
+      "venue": "Sentrum Scene",
+      "city": "Oslo",
+      "country": "NO",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.no/event/fagernes-yacht-klubb-tickets/299439833?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/401/5aba1951-acb1-4dda-b5b0-5ce2ee45a401_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-04-22T12:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-LvZ18QbUTPeuSbYZ04R8o",
       "title": "Ghost UK and VOLBEATen",
       "bands": [
@@ -17254,6 +17032,26 @@
       "onSaleDate": "2025-12-22T09:59:06Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-LvZ18Q0WzKgqi55aB6T6_",
+      "title": "Never A Phase",
+      "bands": [
+        "Never A Phase"
+      ],
+      "date": "2026-08-15",
+      "time": "18:00",
+      "venue": "New Cross Inn",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.universe.com/events/never-a-phase-tickets-F817N0?ref=ticketmaster",
+      "image": "https://images.universe.com/855dc6d7-716b-4fd0-b66d-6a7262fea00b/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-09T10:30:38Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-LvZ18QfPtnWNtEYZynsru",
@@ -18705,6 +18503,26 @@
       "onSaleDate": "2025-09-18T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-G5vHZ_COQgJFm",
+      "title": "Bebe Rexha",
+      "bands": [
+        "Bebe Rexha"
+      ],
+      "date": "2026-08-20",
+      "time": "19:00",
+      "venue": "KOKO",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/bebe-rexha-london-20-08-2026/event/1F0064E81AD6622E",
+      "image": "https://s1.ticketm.net/dam/a/6c5/e6c81ce5-4394-4d88-8661-69a65987c6c5_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-1AbZkodGkdpZmF6",
@@ -20938,7 +20756,13 @@
       "id": "tm-Z698xZC4Z1kA4-paY",
       "title": "Olympen Live 2026",
       "bands": [
-        "Olympen Live"
+        "Olympen Live",
+        "Mumle",
+        "En lille pose stoej",
+        "Benjamin Hav & Familien",
+        "Annika",
+        "Zar Paulo",
+        "Queen Machine"
       ],
       "date": "2026-08-22",
       "time": "11:00",
@@ -21787,6 +21611,28 @@
       "onSaleDate": "2026-02-25T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-LvZ18Q0TZvMtXNvk6uXTS",
+      "title": "Plastersun",
+      "bands": [
+        "Plastersun",
+        "Off Task",
+        "Bora Het!"
+      ],
+      "date": "2026-08-24",
+      "time": "18:00",
+      "venue": "New Cross Inn",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Post-Punk",
+      "url": "https://www.universe.com/events/plastersun-tickets-2THMN4?ref=ticketmaster",
+      "image": "https://images.universe.com/cb64a030-e06a-4af9-bf7a-8caf532af254/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-09T16:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-1AvOZ_7GksB2Nti",
@@ -25037,6 +24883,27 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-1kuYvNqFGACRxgx",
+      "title": "All Points East - Twenty One Pilots",
+      "bands": [
+        "All Points East",
+        "Twenty One Pilots"
+      ],
+      "date": "2026-08-30",
+      "time": "13:30",
+      "venue": "Victoria Park London",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/all-points-east-twenty-one-pilots-london-30-08-2026/event/370063748EBE2D62",
+      "image": "https://s1.ticketm.net/dam/a/73f/7e0553af-4370-4298-aba6-6483bc2d973f_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-11-25T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZbpZ16v4EFxpF",
       "title": "Billy Corgan",
       "bands": [
@@ -25095,6 +24962,34 @@
       "onSaleDate": "2026-05-20T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-LvZ18Q82IrM0vkZZlxo0B",
+      "title": "ELECTRIC SUMMER Howard Jones, Heaven 17, Blancmange LIVE IN TAUNTON",
+      "bands": [
+        "Howard Jones",
+        "Heaven 17",
+        "Blancmange",
+        "Mesh",
+        "Electric Summer",
+        "Black Nail Cabaret",
+        "Agency-V",
+        "Neon Fields",
+        "Paul Dakeyne"
+      ],
+      "date": "2026-08-30",
+      "time": "12:30",
+      "venue": "Vivary Park",
+      "city": "Taunton",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/electric-summer-howard-jones-heaven-17-blancmange-live-in-taunton-tickets-QKYZSH?ref=ticketmaster",
+      "image": "https://s1.ticketm.net/dam/a/394/9cb95ff8-e10f-4211-88e5-8e1ae0973394_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-11-21T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZQpZ1k7-F8Fg",
@@ -25181,6 +25076,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-G5dzZ_a5o30PW",
+      "title": "Jungle Gathering",
+      "bands": [
+        "Jungle Gathering"
+      ],
+      "date": "2026-08-30",
+      "time": "15:00",
+      "venue": "O2 Institute Birmingham",
+      "city": "Birmingham",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/jungle-gathering-birmingham-30-08-2026/event/3E006492D14A497D",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-04-24T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-1AvOZ_7Gkczkxbm",
       "title": "Kings Of Thrash",
       "bands": [
@@ -25243,6 +25158,37 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-G5vHZbUUz1psr",
+      "title": "Rock N Roll Circus - Richard Ashcroft",
+      "bands": [
+        "Rock N Roll Circus",
+        "Richard Ashcroft",
+        "The Fratellis",
+        "Embrace",
+        "Cast",
+        "Everly Pregnant Brothers",
+        "Sundress",
+        "Villanelle",
+        "IST IST",
+        "SOFY",
+        "M60",
+        "TIDETIED"
+      ],
+      "date": "2026-08-30",
+      "time": "13:00",
+      "venue": "Don Valley Bowl",
+      "city": "Sheffield",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/rock-n-roll-circus-richard-ashcroft-sheffield-30-08-2026/event/1F00636DB8296C5E",
+      "image": "https://s1.ticketm.net/dam/a/13b/0b384128-905f-4845-994a-7a879941313b_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-12-05T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZb_Z16vq6ZgJp",
       "title": "Ron Sexsmith",
       "bands": [
@@ -25263,6 +25209,27 @@
       "onSaleDate": "2025-12-05T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-1AdbZbUGkM3MF5F",
+      "title": "Scissor Sisters",
+      "bands": [
+        "Scissor Sisters",
+        "Summer Nights On The Southside"
+      ],
+      "date": "2026-08-30",
+      "time": "16:00",
+      "venue": "Queen's Park Recreation Ground",
+      "city": "Glasgow",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.co.uk/scissor-sisters-glasgow-30-08-2026/event/3600636DD2DC82C8",
+      "image": "https://s1.ticketm.net/dam/a/f83/a19c5670-44ca-4a4d-b90b-970f95be2f83_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-11-21T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-1AvOZbzGkS0DnMW",
@@ -28589,6 +28556,27 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-LvZ18QPd0gNbPdlrxgpWr",
+      "title": "DREAM STATE",
+      "bands": [
+        "Dream State",
+        "KNIFE BRIDE"
+      ],
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "KK's Steel Mill",
+      "city": "Wolverhampton",
+      "country": "GB",
+      "genre": "Alternative",
+      "subGenre": "Indie Rock",
+      "url": "https://www.universe.com/events/dream-state-tickets-PVHCJ8?ref=ticketmaster",
+      "image": "https://images.universe.com/aa7973e4-558f-4664-af50-1ec77f05e5c7/-/resize/1200x/-/crop/750x750/233,0/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-10T12:25:58Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZG2Z1kpbq6JF",
       "title": "ErHeDa +Eagles Road",
       "bands": [
@@ -29180,6 +29168,28 @@
       "onSaleDate": "2026-06-12T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-LvZ18Q0XR7qo4_5iOpeVT",
+      "title": "Dream State",
+      "bands": [
+        "Dream State",
+        "KNIFE BRIDE",
+        "Newshapes"
+      ],
+      "date": "2026-09-12",
+      "time": "19:00",
+      "venue": "Volks Club",
+      "city": "Brighton",
+      "country": "GB",
+      "genre": "Alternative",
+      "subGenre": "Indie Rock",
+      "url": "https://www.universe.com/events/dream-state-tickets-QZ4V9M?ref=ticketmaster",
+      "image": "https://images.universe.com/7de358dc-45b2-41db-a183-0b64be584578/-/resize/1200x/-/crop/685x685/251,279/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-09T14:24:17Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZC2Z1kvVvbPM",
@@ -33752,6 +33762,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-ZG9rmIYnyZdd7e",
+      "title": "‘Springs & Synths – Viaggio nel Sound Britannico '80-'90’ con Lisa Agnelli e Freemode",
+      "bands": [
+        "Lisa Agnelli"
+      ],
+      "date": "2026-09-23",
+      "time": "21:00",
+      "venue": "Teatro Romano di Verona",
+      "city": "Verona",
+      "country": "IT",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.it/biglietti/lisa-agnelli-pop-rock-concert-verona-23-09-2026/event/iees96x7jlu9",
+      "image": "https://s1.ticketm.net/dam/a/e02/96c60182-87de-4fb5-ac87-90293bab6e02_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-09T17:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-10T08:15:00.474Z"
+    },
+    {
       "id": "tm-Z698xZ2qZ16vr3-30S",
       "title": "alexsucks - EU/UK Tour 2026",
       "bands": [
@@ -33933,26 +33963,6 @@
       "onSaleDate": "2026-03-11T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-ZG9rmIYnyZdd7e",
-      "title": "Lisa Agnelli Pop Rock Concert",
-      "bands": [
-        "Lisa Agnelli"
-      ],
-      "date": "2026-09-23",
-      "time": "21:00",
-      "venue": "Teatro Romano di Verona",
-      "city": "Verona",
-      "country": "IT",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.it/biglietti/lisa-agnelli-pop-rock-concert-verona-23-09-2026/event/iees96x7jlu9",
-      "image": "https://s1.ticketm.net/dam/a/e02/96c60182-87de-4fb5-ac87-90293bab6e02_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-07-09T17:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-10T08:15:00.474Z"
     },
     {
       "id": "tm-Z698xZQpZ1kx_PaZv",
@@ -41197,6 +41207,27 @@
       "onSaleDate": "2026-03-17T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZQpZ16v_S4paa",
+      "title": "bleood | Kill Your Idols Europe Tour",
+      "bands": [
+        "bleood",
+        "Fource Entertainment"
+      ],
+      "date": "2026-10-09",
+      "time": "20:00",
+      "venue": "Hybrydy",
+      "city": "Warsaw",
+      "country": "PL",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.pl/event/bleood-%7C-kill-your-idols-europe-tour-tickets/1673556249?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/12c/9fd3f127-dc90-4c36-a36a-f89f325e912c_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T07:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZC2Z1kFJ_9up",
@@ -61996,7 +62027,7 @@
       "genre": "Rock",
       "subGenre": "Progressive Rock",
       "url": "https://www.universe.com/events/mothers-cake-live-in-passau-tickets-HQTFVN?ref=ticketmaster",
-      "image": "https://images.universe.com/02f5e370-dd2d-43df-9101-94d2bbe13795/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "image": "https://images.universe.com/ce00fcdf-65cc-4d29-ba40-785a11af0448/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
       "isFestival": false,
       "onSaleDate": "2026-06-23T10:52:36Z",
       "availability": null,
@@ -66972,6 +67003,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CLi_Gfd",
+      "title": "Eloise",
+      "bands": [
+        "Eloise"
+      ],
+      "date": "2026-11-25",
+      "time": "19:00",
+      "venue": "Green Room at The Academy",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/eloise-dublin-25-11-2026/event/180064E7EC64C503",
+      "image": "https://s1.ticketm.net/dam/a/63b/fa6421a9-c6e6-4e91-b94c-fe180b3d563b_1463291_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-17GOv0G6GKtAYYG",
       "title": "Evergrey",
       "bands": [
@@ -67932,6 +67983,26 @@
       "onSaleDate": "2026-06-05T12:36:58Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-17kZv0G6C_zKfTN",
+      "title": "Florence Road",
+      "bands": [
+        "Florence Road"
+      ],
+      "date": "2026-11-27",
+      "time": "19:00",
+      "venue": "Cork City Hall",
+      "city": "Cork",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/florence-road-cork-27-11-2026/event/180064E6784D4FE3",
+      "image": "https://s1.ticketm.net/dam/a/df0/f5e712cb-3a2e-4cab-a3e5-ad8281e69df0_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZ2qZ1kPY4PJZ",
@@ -69359,6 +69430,26 @@
       "onSaleDate": "2026-05-29T07:30:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-17kZv0G6CENcGGV",
+      "title": "The Stunning",
+      "bands": [
+        "The Stunning"
+      ],
+      "date": "2026-11-28",
+      "time": "19:30",
+      "venue": "Gleneagle Arena",
+      "city": "Co. Kerry",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/the-stunning-co-kerry-28-11-2026/event/180064E9E3B4C334",
+      "image": "https://s1.ticketm.net/dam/a/281/39d25ab3-370f-41d0-897c-c2064b300281_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-LvZ18QNBkqHOPxwrq4rqV",
@@ -75628,6 +75719,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CENvivh",
+      "title": "Florence Road",
+      "bands": [
+        "Florence Road"
+      ],
+      "date": "2026-12-12",
+      "time": "19:00",
+      "venue": "Live at The Spiegeltent Pavilion",
+      "city": "Limerick",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/florence-road-limerick-12-12-2026/event/180064E9E306C05B",
+      "image": "https://s1.ticketm.net/dam/a/df0/f5e712cb-3a2e-4cab-a3e5-ad8281e69df0_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-G5dzZ_u5eZ6Vw",
       "title": "Half Me",
       "bands": [
@@ -76472,6 +76583,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CnhkdRV",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-15",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-15-12-2026/event/180064EA9B183BF4",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZu3Z1kOkaV14",
       "title": "Indochine",
       "bands": [
@@ -76655,6 +76786,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CnhkKRT",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-16",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-16-12-2026/event/180064EA9B193BFF",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZC2Z1k-a4_3_",
       "title": "Dayseeker - Creature In The Black Night Tour",
       "bands": [
@@ -76675,6 +76826,26 @@
       "onSaleDate": "2026-03-12T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-17kZv0G6C2Ln6yK",
+      "title": "Florence Road",
+      "bands": [
+        "Florence Road"
+      ],
+      "date": "2026-12-16",
+      "time": "19:00",
+      "venue": "3Olympia Theatre",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/florence-road-dublin-16-12-2026/event/180064E3DFA87E53",
+      "image": "https://s1.ticketm.net/dam/a/df0/f5e712cb-3a2e-4cab-a3e5-ad8281e69df0_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-G5vHZ_1BIC48b",
@@ -77115,6 +77286,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6Cnh6dYh",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-18",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-18-12-2026/event/180064EA9B1C3C1B",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZbpZ16voS8ZAP",
       "title": "Dayseeker",
       "bands": [
@@ -77422,6 +77613,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6Cnh6NYc",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-19",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-19-12-2026/event/180064EA9B1E3C2D",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-G5vHZ_u2mrMpG",
       "title": "Florence Black",
       "bands": [
@@ -77655,6 +77866,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CnhFdYS",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-20",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-20-12-2026/event/180064EA9B203C33",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZbpZ1k8x-v4A",
       "title": "New Model Army",
       "bands": [
@@ -77819,6 +78050,46 @@
       "onSaleDate": "2026-06-19T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-17kZv0G6CnhFNs5",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-22",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-22-12-2026/event/180064EA9B223C4B",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
+      "id": "tm-17kZv0G6CnhadsC",
+      "title": "Damien Dempsey",
+      "bands": [
+        "Damien Dempsey"
+      ],
+      "date": "2026-12-23",
+      "time": "20:00",
+      "venue": "Vicar Street",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/damien-dempsey-dublin-23-12-2026/event/180064EA9B243C4E",
+      "image": "https://s1.ticketm.net/dam/a/f76/14432dd9-2d91-45d9-81aa-e7a074fbaf76_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-G5dzZ_AkgINWK",
@@ -78411,25 +78682,24 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "tm-G5dzZ_GmrlUH0",
-      "title": "Black Veil Brides-Vindicatour",
+      "id": "tm-17u8v0G6CJLLFtp",
+      "title": "Black Veil Brides",
       "bands": [
-        "Black Veil Brides",
-        "Vindicator"
+        "Black Veil Brides"
       ],
       "date": "2027-01-12",
       "time": "19:00",
-      "venue": "O2 Academy Bristol",
+      "venue": "Bristol The Prospect Building",
       "city": "Bristol",
       "country": "GB",
       "genre": "Metal",
       "subGenre": "Nu-Metal",
-      "url": "https://www.ticketmaster.co.uk/black-veil-bridesvindicatour-bristol-12-01-2027/event/3E0064CB9EAF6F24",
+      "url": "https://www.ticketmaster.co.uk/black-veil-brides-bristol-12-01-2027/event/350064E99F7C8A56",
       "image": "https://s1.ticketm.net/dam/a/f7d/82a26e44-b08e-45d4-8b4a-99afa558ff7d_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
-      "onSaleDate": "2026-06-19T09:00:00Z",
+      "onSaleDate": "2026-07-13T09:00:00Z",
       "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-G5vHZ_5Y9LWYE",
@@ -79265,6 +79535,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CxV-rHS",
+      "title": "Unpeople",
+      "bands": [
+        "Unpeople"
+      ],
+      "date": "2027-01-18",
+      "time": "19:00",
+      "venue": "The Grand Social",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.ie/unpeople-dublin-18-01-2027/event/180064E8B485EF33",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_3_2.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZbpZ16voeqaA6",
       "title": "aespa LIVE TOUR – SYNK : COMPLæXITY – in AMSTERDAM",
       "bands": [
@@ -79619,7 +79909,7 @@
       "bands": [
         "The Black Dahlia Murder",
         "Auditorium",
-        "Rockefeller Scene"
+        "John Dee"
       ],
       "date": "2027-01-22",
       "time": "19:00",
@@ -82812,6 +83102,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-Z698xZbpZ1k-J_O_Y",
+      "title": "KNOX",
+      "bands": [
+        "Knox"
+      ],
+      "date": "2027-02-15",
+      "time": "19:30",
+      "venue": "Melkweg",
+      "city": "Amsterdam",
+      "country": "NL",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.nl/event/knox-tickets/866660670?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/3c4/07a36ad6-77b6-4d8f-bf8a-8bc8b84bc3c4_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZG2Z1k8Kjzbp",
       "title": "Role Model Presents: Chuck On Tour",
       "bands": [
@@ -82952,6 +83262,26 @@
       "onSaleDate": "2026-05-12T11:34:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZC2Z1kpKkbGz",
+      "title": "KNOX - Midwest Best Tour",
+      "bands": [
+        "Knox"
+      ],
+      "date": "2027-02-16",
+      "time": "20:00",
+      "venue": null,
+      "city": "Cologne",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/knox-midwest-best-tour-tickets/593198338?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/ffe/537185e2-ffe5-4aa3-8cf3-84e815c88ffe_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZ5rZ1k7fbUjk",
@@ -83229,6 +83559,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-Z698xZC2Z16v7vAIaE",
+      "title": "KNOX - Midwest Best Tour",
+      "bands": [
+        "Knox"
+      ],
+      "date": "2027-02-18",
+      "time": "20:00",
+      "venue": "Columbia Theater",
+      "city": "Berlin",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/knox-midwest-best-tour-tickets/1101168267?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/ffe/537185e2-ffe5-4aa3-8cf3-84e815c88ffe_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-LvZ18Qr0ATmCFXYZM7Tjk",
       "title": "Shredfest 2027 - Obscura + Pestilence + Cryptic Shift + Thus + Dvrk",
       "bands": [
@@ -83431,6 +83781,26 @@
       "onSaleDate": "2026-06-12T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZC2Z1Ay0z7K",
+      "title": "KNOX - Midwest Best Tour",
+      "bands": [
+        "Knox"
+      ],
+      "date": "2027-02-19",
+      "time": "20:00",
+      "venue": null,
+      "city": "Munich",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/knox-midwest-best-tour-tickets/39938113?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/ffe/537185e2-ffe5-4aa3-8cf3-84e815c88ffe_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZC4Z16eZMbekF",
@@ -85509,6 +85879,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-LvZ18QP3rYkj_dzUHqxSL",
+      "title": "SERENITY",
+      "bands": [
+        "Serenity"
+      ],
+      "date": "2027-03-12",
+      "time": "18:00",
+      "venue": "Rebellion Manchester",
+      "city": "Manchester",
+      "country": "GB",
+      "genre": "Metal",
+      "subGenre": "Heavy Metal",
+      "url": "https://www.universe.com/events/serenity-tickets-TSP4NF?ref=ticketmaster",
+      "image": "https://images.universe.com/a0f4657c-beab-4b6d-9432-728bdb0f07ef/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
+    },
+    {
       "id": "tm-Z698xZG2Z1k-Uqb36",
       "title": "Turnover",
       "bands": [
@@ -86518,26 +86908,6 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "tm-Z698xZG2Z1kboZzC4",
-      "title": "Layla Zoe (Can)",
-      "bands": [
-        "Layla Zoe"
-      ],
-      "date": "2027-03-23",
-      "time": "20:00",
-      "venue": "Spirit of 66",
-      "city": "Verviers",
-      "country": "BE",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.be/event/layla-zoe-can--tickets/611038395",
-      "image": "https://s1.ticketm.net/dam/a/b37/8eb9cf0e-151a-4582-bf3b-740eb8f47b37_1289681_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-11-18T13:42:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
       "id": "tm-Z698xZC2Z1kvy_d0k",
       "title": "Loreena McKennitt: The Mask and Mirror - 30th Anniversary Tour",
       "bands": [
@@ -86924,6 +87294,26 @@
       "onSaleDate": "2026-06-03T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-LvZ18QP3OEkBDu-vLqxEJ",
+      "title": "SERENITY",
+      "bands": [
+        "Serenity"
+      ],
+      "date": "2027-03-27",
+      "time": "18:00",
+      "venue": "The Classic Grand",
+      "city": "Glasgow",
+      "country": "GB",
+      "genre": "Metal",
+      "subGenre": "Heavy Metal",
+      "url": "https://www.universe.com/events/serenity-tickets-0XSVQ7?ref=ticketmaster",
+      "image": "https://images.universe.com/a0f4657c-beab-4b6d-9432-728bdb0f07ef/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-14T07:02:08.765Z"
     },
     {
       "id": "tm-Z698xZq2Z16vv0_yv-",
