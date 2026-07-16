@@ -1,456 +1,7 @@
 {
-  "updatedAt": "2026-07-15T07:05:06.425Z",
+  "updatedAt": "2026-07-16T07:13:52.231Z",
   "source": "live",
   "gigs": [
-    {
-      "id": "tm-1AwZkowGkdtPYwF",
-      "title": "Anthony Gomes \"Praise the Loud\" 2026 World Tour",
-      "bands": [
-        "Anthony Gomes \"Praise the Loud\" 2026 World Tour"
-      ],
-      "date": "2026-07-15",
-      "time": "19:00",
-      "venue": "Oran Mor",
-      "city": "Glasgow",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketweb.uk/event/anthony-gomes-praise-the-loud-oran-mor-tickets/14795523?REFERRAL_ID=tmfeed",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-18T15:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-17GOv0G61MSU8wa",
-      "title": "Biscuit Club + Lebosi + Emma Davidson + Poppy Joy",
-      "bands": [
-        "Biscuit Club + Lebosi + Emma Davidson + Poppy Joy"
-      ],
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": "The Troubadour",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketweb.uk/event/biscuit-club-lebosi-troubadour-tickets/14920403?REFERRAL_ID=tmfeed",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-13T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-1AUZkCoGkdawI88",
-      "title": "Charlie Puth - Whatever's Clever! World Tour",
-      "bands": [
-        "Charlie Puth",
-        "Bradley Simpson"
-      ],
-      "date": "2026-07-15",
-      "time": "19:00",
-      "venue": "Eventim Apollo",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/charlie-puth-whatevers-clever-world-tour-london-15-07-2026/event/36006391C9CA8410",
-      "image": "https://s1.ticketm.net/dam/a/059/5ed53e08-2afc-4ff1-9d08-36c3caa55059_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-01-16T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-LvZ18Qoi123C05OZlcuOu",
-      "title": "D.R.I / Dirty Rotten Imbeciles",
-      "bands": [
-        "D.R.I."
-      ],
-      "date": "2026-07-15",
-      "time": "18:30",
-      "venue": "SLAY",
-      "city": "Glasgow",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Punk",
-      "url": "https://www.universe.com/events/d-r-i-dirty-rotten-imbeciles-tickets-C4V51P?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/bb6/8a839460-7dd6-4413-95d9-d9fa08c22bb6_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-11-17T11:42:54Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZC2Z16evN707d",
-      "title": "Don West - EU & UK TOUR 2026\t",
-      "bands": [
-        "Don West",
-        "Kesmar"
-      ],
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": null,
-      "city": "Munich",
-      "country": "DE",
-      "genre": "Alternative",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.de/event/don-west-eu--uk-tour-2026-tickets/2063124103?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/bdf/9877631e-9e0e-4d88-b59b-40655a234bdf_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-02-18T11:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-G5vHZ_AIYxh9p",
-      "title": "Eden Sessions: CMAT",
-      "bands": [
-        "Eden Sessions",
-        "CMAT",
-        "Katy J Pearson"
-      ],
-      "date": "2026-07-15",
-      "time": "18:00",
-      "venue": "Eden Project",
-      "city": "St Austell",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/eden-sessions-cmat-st-austell-15-07-2026/event/1F00645A3089B5D6",
-      "image": "https://s1.ticketm.net/dam/a/ccb/1608aa4d-05af-465b-9cb6-4e7ffec2cccb_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZu0Z1kfbOyZv",
-      "title": "ERIC JOHNSON - Texaphonic Europe Tour 2026",
-      "bands": [
-        "Eric Johnson"
-      ],
-      "date": "2026-07-15",
-      "time": "19:00",
-      "venue": "Rock Café",
-      "city": "Praha 1",
-      "country": "CZ",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.cz/event/eric-johnson-texaphonic-europe-tour-2026-tickets/518839001?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/403/f3293d88-8d43-440d-8dcb-4f74dcbe2403_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-02-04T16:00:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZu3Z1kOsZpr7",
-      "title": "Gurtenfestival 2026 | 1-day pass | Wednesday",
-      "bands": [
-        "Gurtenfestival",
-        "Sean Paul",
-        "Teddy Swims",
-        "Balu Brigada",
-        "BUNT.",
-        "Lunik",
-        "Mari Froes",
-        "Danitsa",
-        "AUDREY NUNA",
-        "Say She She",
-        "Nativ",
-        "Shedea Dona"
-      ],
-      "date": "2026-07-15",
-      "time": "14:00",
-      "venue": "Gurtenfestival",
-      "city": "Wabern bei Bern",
-      "country": "CH",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.ch/event/gurtenfestival-2026-%7C-1-day-pass-%7C-wednesday-tickets/831016784?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/170/35100d04-ac71-43e3-8317-fae5af052170_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-28T13:29:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZu3Z16evSPJCe",
-      "title": "Gurtenfestival 2026 | 2-day pass | Wednesday/Thursday",
-      "bands": [
-        "Gurtenfestival",
-        "Sean Paul",
-        "Teddy Swims",
-        "Balu Brigada",
-        "BUNT.",
-        "Lunik",
-        "Mari Froes",
-        "Lily Allen",
-        "Lorde",
-        "Loyle Carner",
-        "Mel D",
-        "Splendid",
-        "Danitsa",
-        "AUDREY NUNA",
-        "Say She She",
-        "Nativ",
-        "Shedea Dona",
-        "Young Miko",
-        "Sophie Hunger",
-        "Faber",
-        "Dino Brandão",
-        "Nusantara Beat",
-        "Deki Alem",
-        "Moictani",
-        "Personne"
-      ],
-      "date": "2026-07-15",
-      "time": null,
-      "venue": "Gurtenfestival",
-      "city": "Wabern bei Bern",
-      "country": "CH",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.ch/event/gurtenfestival-2026-%7C-2-day-pass-%7C-wednesday-thursday-tickets/2073966382?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/170/35100d04-ac71-43e3-8317-fae5af052170_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-11-24T12:22:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZu3Z1koMe9At",
-      "title": "Gurtenfestival 2026 | 4-day pass | Wednesday - Saturday",
-      "bands": [
-        "Gurtenfestival",
-        "Kraftklub",
-        "Lily Allen",
-        "Lorde",
-        "Nina Chuba",
-        "Sean Paul",
-        "Teddy Swims",
-        "Annie & The Caldwells",
-        "Balu Brigada",
-        "BUNT.",
-        "Ikkimel",
-        "Loyle Carner",
-        "Lunik",
-        "Mari Froes",
-        "Mel D",
-        "Phenomden",
-        "Son Rompe Pera",
-        "Souly",
-        "Splendid",
-        "Steff La Cheffe",
-        "Von Wegen Lisbeth",
-        "Akryl",
-        "AUDREY NUNA",
-        "DJ Pee .Wee",
-        "Lo & Leduc",
-        "Sophie Hunger",
-        "Faber",
-        "Dino Brandão",
-        "Pronto",
-        "Say She She",
-        "Nusantara Beat",
-        "Midnight Generation",
-        "Deki Alem",
-        "Kybba",
-        "15 15",
-        "Ezra Collective",
-        "Nativ",
-        "To Athena",
-        "Fischermätteli Hood Gäng",
-        "Moictani",
-        "Personne",
-        "Melina Nora",
-        "Sami Galbi",
-        "zeyne",
-        "Kasablanca",
-        "Marie Jay",
-        "Shedea Dona",
-        "Levin Liam"
-      ],
-      "date": "2026-07-15",
-      "time": null,
-      "venue": "Gurtenfestival",
-      "city": "Wabern bei Bern",
-      "country": "CH",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.ch/event/gurtenfestival-2026-%7C-4-day-pass-%7C-wednesday-saturday-tickets/477097169?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/170/35100d04-ac71-43e3-8317-fae5af052170_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-28T13:24:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-1AbZk3pGkeEQCrm",
-      "title": "Lifehouse: Best of Acoustic",
-      "bands": [
-        "Lifehouse"
-      ],
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": "Whelans",
-      "city": "Dublin",
-      "country": "IE",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.ie/lifehouse-best-of-acoustic-dublin-15-07-2026/event/18006496A768E7AE",
-      "image": "https://s1.ticketm.net/dam/a/17b/9445d95a-f397-4c43-8fd8-c23da9f8917b_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-01T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-LvZ18QQvGdAHtx8ZlYxfS",
-      "title": "Osees",
-      "bands": [
-        "Osees"
-      ],
-      "date": "2026-07-15",
-      "time": "19:30",
-      "venue": "Leeds Irish Centre",
-      "city": "Leeds",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.universe.com/events/osees-tickets-7HT4BP?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/817/f604dc3c-e5a6-4dbc-9223-74ba475dc817_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-02-26T13:35:08Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-16vOZbzJZG7TQ0O",
-      "title": "Patti Smith Quartet",
-      "bands": [
-        "Patti Smith"
-      ],
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": "Festival Big Top",
-      "city": "Galway",
-      "country": "IE",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.ie/patti-smith-quartet-galway-15-07-2026/event/1800638980FDA920",
-      "image": "https://s1.ticketm.net/dam/a/8cc/a1787a5c-f16e-45ef-b63f-f77cd560b8cc_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-12-12T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZbpZ1kFAGyJa",
-      "title": "Pitbull - I'm Back!",
-      "bands": [
-        "Pitbull",
-        "Lil Jon"
-      ],
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": "Gelredome",
-      "city": "Arnhem",
-      "country": "NL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.nl/event/pitbull-im-back-tickets/205339989?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/564/f2895e6a-8172-4f2a-b257-a12439339564_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-24T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZbpZ16vF9_FPF",
-      "title": "Pitbull - I'm Back! | VIP Packages",
-      "bands": [
-        "Pitbull"
-      ],
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": "Gelredome",
-      "city": "Arnhem",
-      "country": "NL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.nl/event/pitbull-im-back-%7C-vip-packages-tickets/1217648948?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/564/f2895e6a-8172-4f2a-b257-a12439339564_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-24T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-Z698xZQpZ16v3vOU-0",
-      "title": "STARS. FANGOR. SYLWESTROWICZ.",
-      "bands": [
-        "STARS. FANGOR. SYLWESTROWICZ."
-      ],
-      "date": "2026-07-15",
-      "time": null,
-      "venue": "CBF Nowy Świat",
-      "city": "Warsaw",
-      "country": "PL",
-      "genre": "Alternative",
-      "subGenre": "Adult Alternative Pop/Rock",
-      "url": "https://www.ticketmaster.pl/event/stars-fangor-sylwestrowicz-tickets/1481836864?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e15/b39d5ccb-1fa0-432f-b9d9-3e8655412e15_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-29T14:59:53Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-ZG9rmIYnyZevv7",
-      "title": "Subsonica - Terre Rare 96 - 26 | Flowers Festival",
-      "bands": [
-        "Subsonica"
-      ],
-      "date": "2026-07-15",
-      "time": "22:00",
-      "venue": "Flowers Festival",
-      "city": "Collegno (Torino)",
-      "country": "IT",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.it/biglietti/subsonica-collegno-torino-15-07-2026/event/8eg2z7sm7l4i",
-      "image": "https://s1.ticketm.net/dam/a/4a7/a06afd16-9b02-44d8-82b3-36bf607184a7_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": true,
-      "onSaleDate": "2026-02-20T11:00:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "tm-1AdfZbwGkTiPesV",
-      "title": "System Of A Down",
-      "bands": [
-        "System Of A Down",
-        "Queens of the Stone Age",
-        "Acid Bath"
-      ],
-      "date": "2026-07-15",
-      "time": "17:00",
-      "venue": "Tottenham Hotspur Stadium",
-      "city": "London",
-      "country": "GB",
-      "genre": "Metal",
-      "subGenre": "Nu-Metal",
-      "url": "https://www.ticketmaster.co.uk/system-of-a-down-london-15-07-2026/event/3500632FEC942C74",
-      "image": "https://s1.ticketm.net/dam/a/223/7ad6212c-ddab-4864-91e1-8c2ca2b12223_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-09-19T11:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
     {
       "id": "tm-17kZv0G6G1t1-JB",
       "title": "Alexandra Savior",
@@ -530,7 +81,7 @@
       "image": "https://s1.ticketm.net/dam/a/c87/7e282b6f-5ae2-4311-bdf0-71845c3d3c87_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": true,
       "onSaleDate": "2025-11-13T09:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -1072,26 +623,6 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "tm-17GOv0G6G3tS8l6",
-      "title": "Roadshow + Trophy Husband + Stonny the Donny",
-      "bands": [
-        "Roadshow + Trophy Husband + Stonny the Donny"
-      ],
-      "date": "2026-07-16",
-      "time": "20:00",
-      "venue": "The Troubadour",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketweb.uk/event/roadshow-trophy-husband-troubadour-tickets/14973383?REFERRAL_ID=tmfeed",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-04T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
       "id": "tm-G5vHZbYDw1ec0",
       "title": "Sounds Of The 60s Live - Hosted by Tony Blackburn MBE",
       "bands": [
@@ -1191,7 +722,7 @@
       "image": "https://s1.ticketm.net/dam/a/f5c/2d5f7e15-1b9c-40fc-9f5e-baf381673f5c_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-02-05T13:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -2144,7 +1675,7 @@
       "image": "https://s1.ticketm.net/dam/a/f5c/2d5f7e15-1b9c-40fc-9f5e-baf381673f5c_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-02-13T13:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -2297,7 +1828,7 @@
         "Winiary Bookings"
       ],
       "date": "2026-07-18",
-      "time": "19:00",
+      "time": "19:30",
       "venue": "Progresja",
       "city": "Warsaw",
       "country": "PL",
@@ -2307,7 +1838,7 @@
       "image": "https://s1.ticketm.net/dam/a/9af/c05c362d-3f22-4e1a-bdcd-8eb6fdf0c9af_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-16T10:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -2704,7 +2235,7 @@
         "My Chemical Romance"
       ],
       "date": "2026-07-18",
-      "time": "20:45",
+      "time": "20:30",
       "venue": "Iberdrola Music",
       "city": "Madrid",
       "country": "ES",
@@ -2724,7 +2255,7 @@
         "My Chemical Romance"
       ],
       "date": "2026-07-18",
-      "time": "20:45",
+      "time": "20:30",
       "venue": "Iberdrola Music",
       "city": "Madrid",
       "country": "ES",
@@ -4649,7 +4180,7 @@
         "Winiary Bookings"
       ],
       "date": "2026-07-22",
-      "time": "20:00",
+      "time": "20:30",
       "venue": "Niebo",
       "city": "Warsaw",
       "country": "PL",
@@ -9779,6 +9310,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-LvZ18QPq3ap8ni2nh-Zse",
+      "title": "YOUR DEMISE",
+      "bands": [
+        "Your Demise"
+      ],
+      "date": "2026-07-31",
+      "time": "19:00",
+      "venue": "New River Studios",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/your-demise-tickets-1DMYRN?ref=ticketmaster",
+      "image": "https://images.universe.com/8d6b09ca-3bdd-44ed-a283-e460deb97afa/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T09:25:56Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-1AdfZbVGklQxh4R",
       "title": "80s Live",
       "bands": [
@@ -10795,6 +10346,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17u8v0G6CrUB0BQ",
+      "title": "The Official Mahrajan After Party",
+      "bands": [
+        "The Official Mahrajan After Party"
+      ],
+      "date": "2026-08-01",
+      "time": "23:00",
+      "venue": "26 Leake Street",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/the-official-mahrajan-after-party-london-01-08-2026/event/350064E7B6EA4E9A",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-1AMZko3GkdpL1lx",
       "title": "The Proclaimers",
       "bands": [
@@ -11183,6 +10754,29 @@
       "onSaleDate": "2026-02-20T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-LvZ18QP_7esG8pdWOpdpm",
+      "title": "Lowlife + Not Without Punishment + Concrete Jungle + Final Notice",
+      "bands": [
+        "Lowlife",
+        "Not Without Punishment",
+        "Concrete Jungle",
+        "Final Notice"
+      ],
+      "date": "2026-08-02",
+      "time": "19:00",
+      "venue": "The Prince Albert",
+      "city": "Brighton",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/lowlife-not-without-punishment-concrete-jungle-final-notice-tickets-6810RS?ref=ticketmaster",
+      "image": "https://images.universe.com/50f034dc-9300-4f8e-b99a-43cc32dfa3d6/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-14T14:13:31Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-17kZv0G6CBIarEK",
@@ -12808,7 +12402,8 @@
       "title": "Wednesday 13",
       "bands": [
         "Wednesday 13",
-        "Divergent Promotions"
+        "Divergent Promotions",
+        "Broken Calling"
       ],
       "date": "2026-08-06",
       "time": "19:30",
@@ -16702,9 +16297,9 @@
     },
     {
       "id": "tm-17GOv0G6C9-o8YN",
-      "title": "The Chalamets + Churchgate Street + the Clubheads + One Offs",
+      "title": "The Chalamets + the Clubheads + One Offs",
       "bands": [
-        "The Chalamets + Churchgate Street + the Clubheads + One Offs"
+        "The Chalamets + the Clubheads + One Offs"
       ],
       "date": "2026-08-15",
       "time": "20:00",
@@ -16713,7 +16308,7 @@
       "country": "GB",
       "genre": "Rock",
       "subGenre": "Pop",
-      "url": "https://www.ticketweb.uk/event/the-chalamets-churchgate-street-troubadour-tickets/14239284?REFERRAL_ID=tmfeed",
+      "url": "https://www.ticketweb.uk/event/the-chalamets-the-clubheads-troubadour-tickets/14239284?REFERRAL_ID=tmfeed",
       "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-07-05T15:05:00Z",
@@ -21459,6 +21054,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17GOv0G6G3tS8l6",
+      "title": "Roadshow + Trophy Husband + Stonny the Donny",
+      "bands": [
+        "Roadshow + Trophy Husband + Stonny the Donny"
+      ],
+      "date": "2026-08-25",
+      "time": "20:00",
+      "venue": "The Troubadour",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketweb.uk/event/roadshow-trophy-husband-troubadour-tickets/14973383?REFERRAL_ID=tmfeed",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-06-04T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
       "id": "tm-Z698xZQpZ16vONGPa8",
       "title": "Soulfly",
       "bands": [
@@ -21802,26 +21417,6 @@
       "image": "https://s1.ticketm.net/dam/a/8cf/06d46607-05a4-4cd9-921d-fe0df7e238cf_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-03-20T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-10T08:15:00.474Z"
-    },
-    {
-      "id": "tm-G5vHZbl9MXfO1",
-      "title": "Queen of the Night - A Tribute to Whitney Houston",
-      "bands": [
-        "Whitney Queen of the Night"
-      ],
-      "date": "2026-08-26",
-      "time": "19:30",
-      "venue": "Muni Theatre",
-      "city": "Colne",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/queen-of-the-night-a-tribute-colne-26-08-2026/event/1F0062B5F7F9480A",
-      "image": "https://s1.ticketm.net/dam/a/062/9a899e15-6db7-4d91-b59d-8381f40e4062_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-05-30T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-10T08:15:00.474Z"
     },
@@ -24551,7 +24146,8 @@
       "id": "tm-17kZv0G6GJdXheV",
       "title": "Hovvdy",
       "bands": [
-        "Hovvdy"
+        "Hovvdy",
+        "Esme Emerson"
       ],
       "date": "2026-08-30",
       "time": "19:30",
@@ -24955,6 +24551,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-1AgZkG0GkdVWfDM",
+      "title": "Ariana Grande - The Eternal Sunshine Tour",
+      "bands": [
+        "Ariana Grande"
+      ],
+      "date": "2026-08-31",
+      "time": "18:00",
+      "venue": "The O2",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/ariana-grande-the-eternal-sunshine-tour-london-31-08-2026/event/35006324F4F54EF7",
+      "image": "https://s1.ticketm.net/dam/a/41b/f6f2c58a-5d54-4162-b3cb-4f9b7430f41b_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-09-18T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-17kZv0G65PTWJvA",
       "title": "Clarion",
       "bands": [
@@ -25016,6 +24632,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-1AzZk3FGkdosejk",
+      "title": "Jack White",
+      "bands": [
+        "Jack White"
+      ],
+      "date": "2026-08-31",
+      "time": "19:00",
+      "venue": "The Telegraph Building",
+      "city": "Belfast",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/jack-white-belfast-31-08-2026/event/38006488D1C42706",
+      "image": "https://s1.ticketm.net/dam/a/1cc/dbbdb302-9c0e-42cc-baaa-8cae6651c1cc_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-04-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-ZG9rmIYnyZek66",
       "title": "JAMES McMURTRY & BAND",
       "bands": [
@@ -25057,6 +24693,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-1AdbZ_kGkUWQkGb",
+      "title": "Sigur Ros - Performing with the Scottish Chamber Orchestra & Chorus",
+      "bands": [
+        "Sigur Ros"
+      ],
+      "date": "2026-08-31",
+      "time": "18:30",
+      "venue": "Edinburgh Playhouse",
+      "city": "Edinburgh",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/sigur-ros-performing-with-the-scottish-edinburgh-31-08-2026/event/3600646DBD686318",
+      "image": "https://s1.ticketm.net/dam/a/dd8/b0ce84cc-35a6-4657-bcf1-074c09d91dd8_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-03-20T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-Z698xZC2Z1kOok88d",
       "title": "SUPERBLOOM 2026 Concert - LORDE + LYKKE LI + AUDREY HOBERT",
       "bands": [
@@ -25078,6 +24734,27 @@
       "onSaleDate": "2026-03-05T17:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-1AdbZbzGkRliQxE",
+      "title": "The Dead South - Venue Premium Tickets",
+      "bands": [
+        "The Dead South",
+        "York Barbican Premium Seating"
+      ],
+      "date": "2026-08-31",
+      "time": "19:00",
+      "venue": "York Barbican",
+      "city": "York",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/the-dead-south-venue-premium-tickets-york-31-08-2026/event/3600638BEBB1A8A7",
+      "image": "https://s1.ticketm.net/dam/a/1c8/96658981-afe8-4187-972f-5ae19b7171c8_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-12-12T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-LvZ18QqqwFbRyiOvqt4Xx",
@@ -26488,8 +26165,7 @@
       "id": "tm-1AdFZbMGkUP2e13",
       "title": "Geoff TateâS Operation: Mindcrime",
       "bands": [
-        "Operation Mindcrime",
-        "Eric Martin"
+        "Operation Mindcrime"
       ],
       "date": "2026-09-05",
       "time": "19:00",
@@ -27015,6 +26691,26 @@
       "onSaleDate": "2026-03-18T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-17kZv0G6CBbVHqE",
+      "title": "Thumper",
+      "bands": [
+        "Thumper"
+      ],
+      "date": "2026-09-06",
+      "time": "19:00",
+      "venue": "Cyprus Avenue",
+      "city": "Cork",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/thumper-cork-06-09-2026/event/180064EE98D3C767",
+      "image": "https://s1.ticketm.net/dam/a/b7d/41c19f3e-7202-4b5d-b96a-61143c0afb7d_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-Z698xZbpZ1kG7qpbd",
@@ -30309,6 +30005,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CUGZ5q2",
+      "title": "Frog",
+      "bands": [
+        "Frog"
+      ],
+      "date": "2026-09-16",
+      "time": "20:00",
+      "venue": "The Grand Social",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.ie/frog-dublin-16-09-2026/event/180064ED8C00B74F",
+      "image": "https://s1.ticketm.net/dam/a/d97/db00f0c6-8f65-43b9-93df-46b28cea2d97_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-1AwZkofGkdJFseL",
       "title": "Gaerea",
       "bands": [
@@ -30612,7 +30328,7 @@
       "genre": "Rock",
       "subGenre": "Pop",
       "url": "https://www.ticketmaster.pl/event/as-december-falls-tickets/1390250609?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/bb8/2ffe1ff2-abca-485f-a172-8f99cfff8bb8_RETINA_PORTRAIT_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/48b/0b59bbc4-23e3-4054-a570-96875b14148b_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-06-01T09:00:00Z",
       "availability": null,
@@ -31124,7 +30840,7 @@
       "genre": "Rock",
       "subGenre": "Pop",
       "url": "https://www.ticketmaster.pl/event/as-december-falls-tickets/1863983627?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/bb8/2ffe1ff2-abca-485f-a172-8f99cfff8bb8_RETINA_PORTRAIT_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/48b/0b59bbc4-23e3-4054-a570-96875b14148b_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-06-01T09:00:00Z",
       "availability": null,
@@ -38954,6 +38670,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-Z698xZ5rZ1kotOE0O",
+      "title": "Alexandra Capitanescu - Here to obey me Tour",
+      "bands": [
+        "Alexandra Căpitănescu"
+      ],
+      "date": "2026-10-05",
+      "time": "20:00",
+      "venue": "Szene",
+      "city": "Vienna",
+      "country": "AT",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.at/event/alexandra-capitanescu-here-to-obey-me-tour-tickets/469827920?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/6bc/a3ff632e-3067-4260-bd84-43f6d0b116bc_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-G5dzZ_1wg9Kbb",
       "title": "Beartooth",
       "bands": [
@@ -39592,6 +39328,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CBC-5dg",
+      "title": "the olllam",
+      "bands": [
+        "the olllam"
+      ],
+      "date": "2026-10-06",
+      "time": "19:00",
+      "venue": "Cyprus Avenue",
+      "city": "Cork",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/the-olllam-cork-06-10-2026/event/180064EE8E84B0F5",
+      "image": "https://s1.ticketm.net/dam/a/91d/d9eee54f-cf4c-48d6-a6be-06e1b15eb91d_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-Z698xZC2Z16va0-Kxo",
       "title": "Turin Brakes - Acoustic Tour 2026",
       "bands": [
@@ -39670,6 +39426,26 @@
       "onSaleDate": "2026-03-18T15:32:02Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZq2Z1AN0ejE",
+      "title": "Bass Drum Of Death - (((EUROPÉ 2026)))",
+      "bands": [
+        "Bass Drum of Death"
+      ],
+      "date": "2026-10-07",
+      "time": null,
+      "venue": "Debaser Nova",
+      "city": "Stockholm",
+      "country": "SE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.se/event/bass-drum-of-death-europe-2026--tickets/23902727?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/dff/c85f1e18-3f4e-4a82-acc7-a56982797dff_1864161_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-1AvOZbgGkDGdpqA",
@@ -49759,6 +49535,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-17kZv0G6CB2al1Z",
+      "title": "Margaret Glaspy",
+      "bands": [
+        "Margaret Glaspy"
+      ],
+      "date": "2026-10-26",
+      "time": "19:00",
+      "venue": "Cyprus Avenue",
+      "city": "Cork",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.ie/margaret-glaspy-cork-26-10-2026/event/180064EE8F26B280",
+      "image": "https://s1.ticketm.net/dam/a/511/c4757a0c-21d5-4782-bc35-4517ba7b2511_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-Z698xZQpZ16voE0K_6",
       "title": "Pink Floyd History - Animal Farm World Tour 2026",
       "bands": [
@@ -49841,9 +49637,10 @@
     },
     {
       "id": "tm-Z698xZu0Z16v4Zjtb-",
-      "title": "Temples",
+      "title": "Temples, support: JEWLS",
       "bands": [
-        "Temples"
+        "Temples",
+        "JEWLS"
       ],
       "date": "2026-10-26",
       "time": "20:00",
@@ -49852,7 +49649,7 @@
       "country": "CZ",
       "genre": "Rock",
       "subGenre": "Pop",
-      "url": "https://www.ticketmaster.cz/event/temples-tickets/1540729621?language=en-us",
+      "url": "https://www.ticketmaster.cz/event/temples-support-jewls-tickets/1540729621?language=en-us",
       "image": "https://s1.ticketm.net/dam/a/a14/d4f1127b-63ad-4980-a6a8-f9358b7eaa14_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-17T08:00:00Z",
@@ -50233,9 +50030,10 @@
     },
     {
       "id": "tm-Z698xZQpZ16vu_74qS",
-      "title": "Temples",
+      "title": "Temples, support: JEWLS",
       "bands": [
         "Temples",
+        "JEWLS",
         "Fource Entertainment"
       ],
       "date": "2026-10-27",
@@ -50245,7 +50043,7 @@
       "country": "PL",
       "genre": "Rock",
       "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/temples-tickets/1359115773?language=en-us",
+      "url": "https://www.ticketmaster.pl/event/temples-support-jewls-tickets/1359115773?language=en-us",
       "image": "https://s1.ticketm.net/dam/a/a14/d4f1127b-63ad-4980-a6a8-f9358b7eaa14_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-17T08:00:00Z",
@@ -55601,6 +55399,26 @@
       "onSaleDate": "2026-01-30T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZC4Z16v1944aA",
+      "title": "MD-DUO - Det spiller bar",
+      "bands": [
+        "Thy Event"
+      ],
+      "date": "2026-11-06",
+      "time": "20:00",
+      "venue": null,
+      "city": "Thisted",
+      "country": "DK",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.dk/event/md-duo-det-spiller-bar-tickets/1297555245?language=en-us",
+      "image": "https://s1.ticketm.net/dam/e/be3/f6607241-5785-4245-aea3-1a9d78f4dbe3_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-02-27T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-17kZv0G652b5LSX",
@@ -69156,6 +68974,26 @@
       "onSaleDate": "2026-04-08T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-17kZv0G6CBp0G5y",
+      "title": "Ash",
+      "bands": [
+        "Ash"
+      ],
+      "date": "2026-11-29",
+      "time": "19:00",
+      "venue": "Cyprus Avenue",
+      "city": "Cork",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.ie/ash-cork-29-11-2026/event/180064EE9690C2F9",
+      "image": "https://s1.ticketm.net/dam/a/5f4/d18e0f32-726c-4ee1-b9e9-ae3d8039d5f4_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-G5dzZ_5pF3oJP",
@@ -82778,7 +82616,7 @@
       "genre": "Rock",
       "subGenre": "Pop",
       "url": "https://www.ticketmaster.nl/event/knox-tickets/866660670?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/3c4/07a36ad6-77b6-4d8f-bf8a-8bc8b84bc3c4_RETINA_PORTRAIT_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/a/ffe/537185e2-ffe5-4aa3-8cf3-84e815c88ffe_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-07-16T08:00:00Z",
       "availability": null,
@@ -84463,6 +84301,28 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-Z698xZQpZ16vuUp4f7",
+      "title": "Sztywny Pal Azji, Róże Europy, Pudelsi",
+      "bands": [
+        "Sztywny Pal Azji",
+        "Roze Europy",
+        "Galicja Productions"
+      ],
+      "date": "2027-02-27",
+      "time": "19:00",
+      "venue": "Klub Kwadrat",
+      "city": "Krakow",
+      "country": "PL",
+      "genre": "Rock",
+      "subGenre": "Rock",
+      "url": "https://www.ticketmaster.pl/event/sztywny-pal-azji-roze-europy-pudelsi-tickets/1376595504?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/767/ff0e4870-e37b-4d4a-8424-f11408f85767_636181_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T08:54:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-Z698xZu0Z1k09-9q7",
       "title": "Tata Bojs",
       "bands": [
@@ -85521,6 +85381,26 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "tm-LvZ18QPQ63vx1EtRGo7Cz",
+      "title": "Serenity",
+      "bands": [
+        "Serenity"
+      ],
+      "date": "2027-03-11",
+      "time": "19:00",
+      "venue": "Underworld",
+      "city": "London",
+      "country": "GB",
+      "genre": "Metal",
+      "subGenre": "Heavy Metal",
+      "url": "https://www.universe.com/events/serenity-tickets-5LZ3XJ?ref=ticketmaster",
+      "image": "https://images.universe.com/3aa8d3f6-ebd9-40cb-8f0e-a6fa6ade028a/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
+    },
+    {
       "id": "tm-1AbZkGKGkdRrzGX",
       "title": "Tash Sultana",
       "bands": [
@@ -86186,6 +86066,26 @@
       "onSaleDate": "2026-07-03T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZC4Z16v8VZxC6",
+      "title": "Ruby Haunt (US)",
+      "bands": [
+        "Ruby Haunt"
+      ],
+      "date": "2027-03-18",
+      "time": "20:00",
+      "venue": "VEGA - Musikkens Hus, Ideal Bar",
+      "city": "København V",
+      "country": "DK",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.dk/event/ruby-haunt-us--tickets/1434022387?language=en-us",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_EVENT_DETAIL_PAGE_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T13:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-Z698xZC2Z1kuxAw8N",
@@ -87102,6 +87002,26 @@
       "onSaleDate": "2026-07-03T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "tm-Z698xZC2Z1kO4_313",
+      "title": "KALEO - Way Down We Go Tour | Gallery Seat",
+      "bands": [
+        "KALEO"
+      ],
+      "date": "2027-03-29",
+      "time": "20:00",
+      "venue": "Uber Eats Music Hall",
+      "city": "Berlin",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/kaleo-way-down-we-go-tour-%7C-gallery-seat-tickets/815652292?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/30a/5487e2b4-e616-4d76-a8cf-32a5bda3e30a_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-15T08:33:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-16T07:13:52.231Z"
     },
     {
       "id": "tm-Z698xZ2qZ16evg76uK",
