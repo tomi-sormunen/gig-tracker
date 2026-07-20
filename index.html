@@ -58,6 +58,10 @@
     <label class="fav-toggle">
       <input type="checkbox" id="fav-only"> <span>🤘 Favourites only</span>
     </label>
+    <label class="fav-toggle saved-toggle">
+      <input type="checkbox" id="saved-only"> <span>★ Saved</span>
+    </label>
+    <button id="export-ics" class="tool-btn" title="Download an .ics calendar of your saved gigs (or the current selection)">📅 .ics</button>
   </nav>
 
   <section class="notice-panels">
@@ -93,7 +97,9 @@
   </dialog>
 
   <footer class="site-footer">
-    <p>Favourites live in <code>config/favourites.json</code> — edit and reload. Data refreshes daily via GitHub Actions, or run <code>npm run fetch</code>.</p>
+    <p>Favourites live in <code>config/favourites.json</code> — edit and reload. Data refreshes daily via GitHub Actions, or run <code>npm run fetch</code>.
+    Subscribe to your favourites' gigs in any calendar app: <a href="data/favourites.ics" id="ics-link">data/favourites.ics</a>.</p>
+    <p><button id="reset-hidden" class="link-btn" hidden></button></p>
   </footer>
 
   <script src="assets/app.js"></script>

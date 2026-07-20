@@ -221,6 +221,30 @@ body {
   background: var(--panel);
 }
 .fav-toggle:has(input:checked) { border-color: var(--fav); color: var(--fav); }
+.tool-btn {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tool-btn:hover { border-color: var(--accent); }
+.link-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 0;
+}
+.link-btn:hover { color: var(--text); }
+.site-footer a { color: var(--muted); }
 
 /* ---------- list view ---------- */
 main { padding: 1.4rem 1.6rem 3rem; max-width: 1400px; margin: 0 auto; }
@@ -265,7 +289,21 @@ main { padding: 1.4rem 1.6rem 3rem; max-width: 1400px; margin: 0 auto; }
   color: rgba(255, 255, 255, 0.85);
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
-.badge-row { position: absolute; top: 0.55rem; left: 0.55rem; right: 0.55rem; display: flex; gap: 0.4rem; }
+.badge-row { position: absolute; top: 0.55rem; left: 0.55rem; right: 4.6rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.card-actions { position: absolute; top: 0.45rem; right: 0.45rem; display: flex; gap: 0.3rem; }
+.icon-btn {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(10, 10, 12, 0.75);
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.icon-btn:hover { color: var(--text); border-color: var(--muted); }
+.icon-btn.save-btn.active { color: var(--fav); border-color: var(--fav); }
 .badge {
   font-size: 0.66rem;
   font-weight: 800;
