@@ -1,0 +1,14 @@
+{
+  "name": "Gig Tracker",
+  "short_name": "GigTracker",
+  "description": "Rock & metal gigs and festivals across Europe",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c0c0f",
+  "theme_color": "#0c0c0f",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

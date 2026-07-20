@@ -695,6 +695,11 @@
     render();
   }
 
+  // Installable app + offline fallback (GitHub Pages only; skipped locally)
+  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
+
   init().catch((err) => {
     $('#list-view').innerHTML = `<p class="empty-state">Failed to load gig data: ${esc(err.message)}.<br>
       Serve this folder over HTTP (e.g. <code>npm run serve</code>) — browsers block JSON loading from file:// URLs.</p>`;
