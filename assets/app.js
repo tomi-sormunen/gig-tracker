@@ -15,6 +15,7 @@
     avail: '',
     type: 'all',
     favOnly: false,
+    sort: '', // '' = gig date | 'added' = firstSeen desc | 'onsale' = sale date
     month: null, // Date at the 1st of the displayed calendar month
     listLimit: LIST_PAGE,
   };
@@ -238,6 +239,8 @@
           ${bands.length ? `<div class="card-bands">${esc(bands.join(' · '))}</div>` : ''}
           <div class="card-where">📍 ${esc([g.venue, g.city].filter(Boolean).join(', '))} ${flag(g.country)} ${esc(countryName(g.country))}</div>
           <div class="card-when">🗓 ${fmtDay(g.date)}${g.time ? ` · ${esc(g.time)}` : ''}</div>
+          ${state.sort === 'added' && g.firstSeen ? `<div class="card-when">➕ Added ${fmtDay(g.firstSeen.slice(0, 10))}</div>` : ''}
+          ${state.sort === 'onsale' && g.onSaleDate && new Date(g.onSaleDate) <= Date.now() ? `<div class="card-when">🎟️ On sale since ${fmtDay(g.onSaleDate.slice(0, 10))}</div>` : ''}
           ${availabilityHTML(g)}
           <div class="card-footer">
             <span class="chip-row">
@@ -250,12 +253,54 @@
       </article>`;
   }
 
+  // List-view ordering. 'added' surfaces the newest announcements first;
+  // 'onsale' puts upcoming ticket sales first (soonest at the top), then
+  // already-open sales newest first, then events with no sale date.
+  function sortGigs(list) {
+    if (state.sort === 'added') {
+      return [...list].sort(
+        (a, b) => new Date(b.firstSeen) - new Date(a.firstSeen) || a.date.localeCompare(b.date)
+      );
+    }
+    if (state.sort === 'onsale') {
+      const now = Date.now();
+      return [...list].sort((a, b) => {
+        const ka = a.onSaleDate ? new Date(a.onSaleDate).getTime() : null;
+        const kb = b.onSaleDate ? new Date(b.onSaleDate).getTime() : null;
+        if (ka === null || kb === null) {
+          return ka === kb ? a.date.localeCompare(b.date) : ka === null ? 1 : -1;
+        }
+        const upA = ka > now;
+        const upB = kb > now;
+        if (upA !== upB) return upA ? -1 : 1;
+        return upA ? ka - kb : kb - ka;
+      });
+    }
+    return list; // data is already sorted by gig date
+  }
+
+  const SORT_HEADINGS = { added: 'Most recently added first', onsale: 'Upcoming ticket sales first' };
+
   function renderList() {
-    const list = filteredGigs();
+    const list = sortGigs(filteredGigs());
     $('#empty-state').hidden = list.length > 0;
     // Only state.listLimit cards go into the DOM; the rest sit behind a
     // "Show more" button. Month headers still show the month's full count.
     const shown = list.slice(0, state.listLimit);
+    const remaining = list.length - shown.length;
+    const showMoreBtn =
+      remaining > 0 ? `<button class="show-more" id="show-more">Show more (${remaining} remaining)</button>` : '';
+
+    // Alternative sorts render as one flat section; month grouping only
+    // makes sense in gig-date order.
+    if (state.sort) {
+      $('#list-view').innerHTML = shown.length
+        ? `<h2 class="month-header">${SORT_HEADINGS[state.sort]} <small>(${list.length})</small></h2>
+           <div class="card-grid">${shown.map(cardHTML).join('')}</div>` + showMoreBtn
+        : '';
+      return;
+    }
+
     const monthTotals = new Map();
     for (const g of list) {
       const key = g.date.slice(0, 7);
@@ -267,7 +312,6 @@
       if (!byMonth.has(key)) byMonth.set(key, []);
       byMonth.get(key).push(g);
     }
-    const remaining = list.length - shown.length;
     $('#list-view').innerHTML =
       [...byMonth.entries()]
         .map(
@@ -275,10 +319,7 @@
           <h2 class="month-header">${fmtMonthYear(parseDate(`${key}-01`))} <small>(${monthTotals.get(key)})</small></h2>
           <div class="card-grid">${items.map(cardHTML).join('')}</div>`
         )
-        .join('') +
-      (remaining > 0
-        ? `<button class="show-more" id="show-more">Show more (${remaining} remaining)</button>`
-        : '');
+        .join('') + showMoreBtn;
   }
 
   /* ---------- calendar ---------- */
@@ -346,6 +387,7 @@
     $('#btn-calendar').classList.toggle('active', state.view === 'calendar');
     $('#list-view').hidden = state.view !== 'list';
     $('#calendar-view').hidden = state.view !== 'calendar';
+    $('#sort-filter').hidden = state.view !== 'list'; // calendar is inherently date-ordered
     renderPanels();
     if (state.view === 'list') renderList();
     else renderCalendar();
@@ -371,6 +413,7 @@
       clearTimeout(searchTimer);
       searchTimer = setTimeout(() => applyFilter(() => { state.q = e.target.value; }), 200);
     });
+    $('#sort-filter').addEventListener('change', (e) => applyFilter(() => { state.sort = e.target.value; }));
     $('#country-filter').addEventListener('change', (e) => applyFilter(() => { state.country = e.target.value; }));
     $('#genre-filter').addEventListener('change', (e) => applyFilter(() => { state.genre = e.target.value; }));
     $('#avail-filter').addEventListener('change', (e) => applyFilter(() => { state.avail = e.target.value; }));
