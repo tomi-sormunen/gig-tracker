@@ -213,6 +213,59 @@
       onSale.length,
       'No public ticket sales starting in the next 7 days for this selection — most sales open on Friday mornings, so check back then.'
     );
+    renderTrips(visible);
+  }
+
+  /* ---------- trip planner ---------- */
+  const haversineKm = (a, b) => {
+    const rad = Math.PI / 180;
+    const h =
+      Math.sin(((b.lat - a.lat) * rad) / 2) ** 2 +
+      Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(((b.lon - a.lon) * rad) / 2) ** 2;
+    return 2 * 6371 * Math.asin(Math.sqrt(h));
+  };
+
+  // Chains favourite/saved gigs that are ≤2 days and ≤300 km apart into
+  // weekend-trip suggestions ("Gojira Fri in Hamburg + Meshuggah Sat in
+  // Copenhagen"). Needs venue coordinates, so only gigs with lat/lon count.
+  function renderTrips(visible) {
+    const empty =
+      'No favourite or saved gigs close together in time and place right now — ★-save gigs to feed the planner.';
+    const cands = visible
+      .filter((g) => (g._fav || savedIds.has(g.id)) && g.lat != null && g.lon != null)
+      .sort((a, b) => a.date.localeCompare(b.date));
+    const clusters = [];
+    for (const g of cands) {
+      const cluster = clusters.find((c) => {
+        const last = c[c.length - 1];
+        const days = (parseDate(g.date) - parseDate(last.date)) / 86400_000;
+        return days <= 2 && haversineKm(last, g) <= 300;
+      });
+      if (cluster) cluster.push(g);
+      else clusters.push([g]);
+    }
+    const trips = clusters.filter(
+      (c) =>
+        c.length >= 2 &&
+        // two day-tickets of the same festival aren't a trip
+        (new Set(c.map((g) => norm(g.title))).size >= 2 || new Set(c.map((g) => norm(g.city))).size >= 2)
+    );
+    const rows = trips.map((c) => {
+      const short = (iso) => parseDate(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+      const range = c[0].date === c[c.length - 1].date ? fmtDay(c[0].date) : `${short(c[0].date)} – ${fmtDay(c[c.length - 1].date)}`;
+      let km = 0;
+      for (let i = 1; i < c.length; i++) km += haversineKm(c[i - 1], c[i]);
+      const parts = c
+        .map(
+          (g) =>
+            `<button class="p-gig" data-gig="${esc(g.id)}">${g._fav ? '🤘' : '★'} ${esc(shortName(g))}</button><span class="p-detail"> (${esc(g.city)} ${flag(g.country)})</span>`
+        )
+        .join('<span class="p-detail"> + </span>');
+      return {
+        item: `<li class="p-item p-trip"><span class="p-detail">${range} · </span>${parts}${km >= 1 ? `<span class="p-detail"> · ~${Math.round(km)} km apart</span>` : ''}</li>`,
+      };
+    });
+    fillPanel('trips', rows, rows.length, empty);
   }
 
   /* ---------- cards ---------- */
@@ -534,10 +587,12 @@
       const day = e.target.closest('.cal-day.has-events');
       if (day) openDayModal(day.dataset.date);
     });
-    for (const base of ['latest', 'onsale']) {
+    for (const base of ['latest', 'onsale', 'trips']) {
       $(`#${base}-list`).addEventListener('click', (e) => {
+        const gigBtn = e.target.closest('.p-gig');
+        if (gigBtn) return openModal(gigBtn.dataset.gig);
         const item = e.target.closest('.p-item');
-        if (item) openModal(item.dataset.gig);
+        if (item?.dataset.gig) openModal(item.dataset.gig);
       });
       $(`#${base}-toggle`).addEventListener('click', (e) => {
         const list = $(`#${base}-list`);

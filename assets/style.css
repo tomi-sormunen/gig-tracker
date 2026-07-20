@@ -151,6 +151,19 @@ body {
 .p-detail { color: var(--muted); }
 .p-detail em { color: var(--fav); font-style: normal; font-weight: 700; }
 .p-empty { color: var(--muted); font-size: 0.82rem; padding: 0.15rem 0; }
+.panel-trips { border-left-color: #7aa2ff; }
+.panel-trips .panel-title { color: #7aa2ff; }
+.p-trip { font-size: 0.85rem; line-height: 1.5; }
+.p-gig {
+  background: none;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+}
+.p-gig:hover { color: var(--accent); text-decoration: underline; }
 .see-all {
   background: none;
   border: none;
