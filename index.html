@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0c0c0f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
   <title>Gig Tracker 🤘</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤘</text></svg>">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -31,6 +34,7 @@
     <div class="view-toggle" role="tablist">
       <button id="btn-list" class="toggle-btn active" role="tab">☰ List</button>
       <button id="btn-calendar" class="toggle-btn" role="tab">▦ Calendar</button>
+      <button id="btn-map" class="toggle-btn" role="tab">📍 Map</button>
     </div>
     <input type="search" id="search" placeholder="Search bands, cities, venues…" autocomplete="off">
     <select id="sort-filter" title="Sort the list">
@@ -58,6 +62,10 @@
     <label class="fav-toggle">
       <input type="checkbox" id="fav-only"> <span>🤘 Favourites only</span>
     </label>
+    <label class="fav-toggle saved-toggle">
+      <input type="checkbox" id="saved-only"> <span>★ Saved</span>
+    </label>
+    <button id="export-ics" class="tool-btn" title="Download an .ics calendar of your saved gigs (or the current selection)">📅 .ics</button>
   </nav>
 
   <section class="notice-panels">
@@ -70,6 +78,11 @@
       <h2 class="panel-title">🎟️ Tickets on sale soon <span class="panel-sub">next 7 days — be quick!</span></h2>
       <ul class="panel-list collapsed" id="onsale-list"></ul>
       <button class="see-all" id="onsale-toggle" hidden>See all</button>
+    </section>
+    <section class="panel panel-trips" id="trips-panel" hidden>
+      <h2 class="panel-title">🧳 Trip ideas <span class="panel-sub">favourite &amp; saved gigs close in time and place</span></h2>
+      <ul class="panel-list collapsed" id="trips-list"></ul>
+      <button class="see-all" id="trips-toggle" hidden>See all</button>
     </section>
   </section>
 
@@ -84,6 +97,9 @@
       </div>
       <div id="calendar-grid" class="cal-grid"></div>
     </section>
+    <section id="map-view" hidden>
+      <div id="map"></div>
+    </section>
     <p id="empty-state" class="empty-state" hidden>Nothing matches — loosen the filters. 🦗</p>
   </main>
 
@@ -93,9 +109,12 @@
   </dialog>
 
   <footer class="site-footer">
-    <p>Favourites live in <code>config/favourites.json</code> — edit and reload. Data refreshes daily via GitHub Actions, or run <code>npm run fetch</code>.</p>
+    <p>Favourites live in <code>config/favourites.json</code> — edit and reload. Data refreshes daily via GitHub Actions, or run <code>npm run fetch</code>.
+    Subscribe to your favourites' gigs in any calendar app: <a href="data/favourites.ics" id="ics-link">data/favourites.ics</a>.</p>
+    <p><button id="reset-hidden" class="link-btn" hidden></button></p>
   </footer>
 
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

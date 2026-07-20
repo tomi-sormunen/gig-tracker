@@ -91,7 +91,13 @@ function mapTmEvent(ev) {
   const venue = ev._embedded?.venues?.[0] ?? {};
   const bands = (ev._embedded?.attractions ?? []).map((a) => a.name).filter(Boolean);
   const cls = ev.classifications?.find((c) => c.primary) ?? ev.classifications?.[0] ?? {};
+  const price = (ev.priceRanges ?? []).find((p) => p.type === 'standard') ?? ev.priceRanges?.[0];
   return {
+    priceMin: price?.min ?? null,
+    priceMax: price?.max ?? null,
+    currency: price?.currency ?? null,
+    lat: venue.location?.latitude ? Number(venue.location.latitude) : null,
+    lon: venue.location?.longitude ? Number(venue.location.longitude) : null,
     id: `tm-${ev.id}`,
     title: ev.name,
     bands: bands.length ? bands : [ev.name],
@@ -179,8 +185,10 @@ async function fetchGenreSweep(startISO, endISO) {
   return found;
 }
 
-// Favourite bands are tracked Europe-wide with no genre restriction.
+// Favourite bands are tracked Europe-wide with no genre restriction. Their
+// attraction images also backfill events that ship without one of their own.
 async function fetchFavourites(found, startISO, endISO) {
+  const favImages = new Map();
   for (const name of favourites) {
     try {
       const search = await tmGet('/discovery/v2/attractions.json', { keyword: name, size: 5 });
@@ -189,6 +197,8 @@ async function fetchFavourites(found, startISO, endISO) {
         console.log(`  ${name}: no exact attraction match, relying on genre sweep`);
         continue;
       }
+      const img = pickImage(match.images);
+      if (img) favImages.set(norm(name), img);
       const events = await searchEvents({
         attractionId: match.id,
         startDateTime: startISO,
@@ -207,6 +217,16 @@ async function fetchFavourites(found, startISO, endISO) {
       console.warn(`  ${name}: skipped (${err.message})`);
     }
   }
+  let backfilled = 0;
+  for (const gig of found.values()) {
+    if (gig.image) continue;
+    const img = gig.bands.map((b) => favImages.get(norm(b))).find(Boolean);
+    if (img) {
+      gig.image = img;
+      backfilled++;
+    }
+  }
+  if (backfilled) console.log(`  backfilled ${backfilled} event images from favourite bands`);
 }
 
 // Bandsintown venue.country is a full country name, not an ISO code.
@@ -261,6 +281,11 @@ async function fetchBandsintown(found) {
           onSaleDate: null,
           status: null,
           availability: null,
+          priceMin: null,
+          priceMax: null,
+          currency: null,
+          lat: ev.venue?.latitude ? Number(ev.venue.latitude) : null,
+          lon: ev.venue?.longitude ? Number(ev.venue.longitude) : null,
         });
         added++;
       }
@@ -270,6 +295,33 @@ async function fetchBandsintown(found) {
       console.warn(`  ${name}: skipped (${err.message})`);
     }
   }
+}
+
+// Minimal iCalendar output. Hosted on GitHub Pages, data/favourites.ics is a
+// subscribable calendar of every gig by a favourite band, refreshed daily.
+const icsEscape = (s) => String(s ?? '').replace(/\\/g, '\\\\').replace(/[,;]/g, '\\$&').replace(/\n/g, '\\n');
+
+function buildICS(gigs, calName) {
+  const lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//gig-tracker//EN',
+    `X-WR-CALNAME:${icsEscape(calName)}`,
+  ];
+  for (const g of gigs) {
+    const date = g.date.replace(/-/g, '');
+    lines.push(
+      'BEGIN:VEVENT',
+      `UID:${g.id}@gig-tracker`,
+      `DTSTART;VALUE=DATE:${date}`,
+      `SUMMARY:${icsEscape(g.title)}`,
+      `LOCATION:${icsEscape([g.venue, g.city, g.country].filter(Boolean).join(', '))}`,
+      `DESCRIPTION:${icsEscape([g.bands.join(' · '), g.url].filter(Boolean).join('\n'))}`,
+      'END:VEVENT'
+    );
+  }
+  lines.push('END:VCALENDAR');
+  return lines.join('\r\n') + '\r\n';
 }
 
 async function main() {
@@ -311,6 +363,9 @@ async function main() {
 
   mkdirSync(path.dirname(OUT_FILE), { recursive: true });
   writeFileSync(OUT_FILE, JSON.stringify({ updatedAt: now.toISOString(), source: 'live', gigs }, null, 2) + '\n');
+  const favGigs = gigs.filter(isFavouriteGig);
+  writeFileSync(path.join(ROOT, 'data', 'favourites.ics'), buildICS(favGigs, 'Gig Tracker — Favourites'));
+  console.log(`Wrote data/favourites.ics with ${favGigs.length} favourite-band gigs`);
   const newCount = gigs.filter((g) => g.firstSeen === now.toISOString()).length;
   console.log(`\nWrote ${gigs.length} upcoming gigs (${newCount} new since last run) to ${path.relative(ROOT, OUT_FILE)}`);
 }

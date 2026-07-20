@@ -15,6 +15,7 @@
     avail: '',
     type: 'all',
     favOnly: false,
+    savedOnly: false,
     sort: '', // '' = gig date | 'added' = firstSeen desc | 'onsale' = sale date
     month: null, // Date at the 1st of the displayed calendar month
     listLimit: LIST_PAGE,
@@ -23,6 +24,16 @@
   let gigs = [];
   let favNames = [];
   let newBadgeDays = 7;
+
+  // Saved ("★") and hidden events live in localStorage, per browser.
+  const store = {
+    read: (key) => {
+      try { return new Set(JSON.parse(localStorage.getItem(key)) || []); } catch { return new Set(); }
+    },
+    write: (key, set) => localStorage.setItem(key, JSON.stringify([...set])),
+  };
+  const savedIds = store.read('gt-saved');
+  const hiddenIds = store.read('gt-hidden');
 
   const $ = (sel) => document.querySelector(sel);
   const norm = (s) =>
@@ -74,6 +85,8 @@
     const q = norm(state.q);
     return gigs.filter((g) => {
       if (g.date < today) return false;
+      if (hiddenIds.has(g.id)) return false;
+      if (state.savedOnly && !savedIds.has(g.id)) return false;
       if (state.country && g.country !== state.country) return false;
       if (state.genre && g._cat !== state.genre) return false;
       if (state.avail === 'not-soldout' && g.availability === 'soldout') return false;
@@ -200,6 +213,63 @@
       onSale.length,
       'No public ticket sales starting in the next 7 days for this selection — most sales open on Friday mornings, so check back then.'
     );
+    renderTrips(visible);
+  }
+
+  /* ---------- trip planner ---------- */
+  const haversineKm = (a, b) => {
+    const rad = Math.PI / 180;
+    const h =
+      Math.sin(((b.lat - a.lat) * rad) / 2) ** 2 +
+      Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(((b.lon - a.lon) * rad) / 2) ** 2;
+    return 2 * 6371 * Math.asin(Math.sqrt(h));
+  };
+
+  // Chains favourite/saved gigs that are ≤2 days and ≤300 km apart into
+  // weekend-trip suggestions ("Gojira Fri in Hamburg + Meshuggah Sat in
+  // Copenhagen"). Needs venue coordinates, so only gigs with lat/lon count.
+  function renderTrips(visible) {
+    const empty =
+      'No favourite or saved gigs close together in time and place right now — ★-save gigs to feed the planner.';
+    const cands = visible
+      .filter((g) => (g._fav || savedIds.has(g.id)) && g.lat != null && g.lon != null)
+      .sort((a, b) => a.date.localeCompare(b.date));
+    const clusters = [];
+    for (const g of cands) {
+      const cluster = clusters.find((c) => {
+        const last = c[c.length - 1];
+        const days = (parseDate(g.date) - parseDate(last.date)) / 86400_000;
+        return days <= 2 && haversineKm(last, g) <= 300;
+      });
+      if (cluster) cluster.push(g);
+      else clusters.push([g]);
+    }
+    // A trip needs two genuinely different stops: duplicate listings of the
+    // same show (VIP packages, day tickets) share a band+city key and only
+    // count once.
+    const stopKey = (g) => `${norm(g.bands[0] || g.title)}|${norm(g.city)}`;
+    const trips = clusters
+      .map((c) => {
+        const seen = new Set();
+        return c.filter((g) => !seen.has(stopKey(g)) && seen.add(stopKey(g)));
+      })
+      .filter((c) => c.length >= 2);
+    const rows = trips.map((c) => {
+      const short = (iso) => parseDate(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+      const range = c[0].date === c[c.length - 1].date ? fmtDay(c[0].date) : `${short(c[0].date)} – ${fmtDay(c[c.length - 1].date)}`;
+      let km = 0;
+      for (let i = 1; i < c.length; i++) km += haversineKm(c[i - 1], c[i]);
+      const parts = c
+        .map(
+          (g) =>
+            `<button class="p-gig" data-gig="${esc(g.id)}">${g._fav ? '🤘' : '★'} ${esc(shortName(g))}</button><span class="p-detail"> (${esc(g.city)} ${flag(g.country)})</span>`
+        )
+        .join('<span class="p-detail"> + </span>');
+      return {
+        item: `<li class="p-item p-trip"><span class="p-detail">${range} · </span>${parts}${km >= 1 ? `<span class="p-detail"> · ~${Math.round(km)} km apart</span>` : ''}</li>`,
+      };
+    });
+    fillPanel('trips', rows, rows.length, empty);
   }
 
   /* ---------- cards ---------- */
@@ -208,6 +278,16 @@
     limited: ['av-yellow', 'Low capacity'],
     soldout: ['av-red', 'Sold out'],
   };
+
+  const CURRENCY_SYMBOLS = { EUR: '€', GBP: '£', SEK: 'kr', NOK: 'kr', DKK: 'kr', PLN: 'zł', CZK: 'Kč', CHF: 'CHF', HUF: 'Ft' };
+
+  function priceHTML(g) {
+    if (g.priceMin == null) return '';
+    const sym = CURRENCY_SYMBOLS[g.currency] || g.currency || '';
+    const range =
+      g.priceMax && g.priceMax !== g.priceMin ? `${g.priceMin}–${g.priceMax}` : `from ${g.priceMin}`;
+    return `<div class="card-when">💶 ${esc(range)} ${esc(sym)}</div>`;
+  }
 
   function availabilityHTML(g) {
     if (g.onSaleDate && new Date(g.onSaleDate) > Date.now()) {
@@ -228,6 +308,10 @@
         <div class="media-fallback" style="background:linear-gradient(135deg,hsl(${hue(g.title)},45%,22%),hsl(${(hue(g.title) + 60) % 360},55%,12%))">${esc(initials(g.title))}</div>
         ${g.image ? `<img src="${esc(g.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
         <div class="badge-row">${badges}</div>
+        <div class="card-actions">
+          <button class="icon-btn save-btn${savedIds.has(g.id) ? ' active' : ''}" data-save="${esc(g.id)}" title="Save to my list">${savedIds.has(g.id) ? '★' : '☆'}</button>
+          <button class="icon-btn" data-hide="${esc(g.id)}" title="Hide this event">✕</button>
+        </div>
         <div class="card-date"><span class="d-day">${d.getDate()}</span><span class="d-mon">${d.toLocaleDateString('en-GB', { month: 'short' })} ${d.getFullYear()}</span></div>
       </div>`;
     const bands = g.bands.filter((b) => !norm(g.title).includes(norm(b)));
@@ -241,6 +325,7 @@
           <div class="card-when">🗓 ${fmtDay(g.date)}${g.time ? ` · ${esc(g.time)}` : ''}</div>
           ${state.sort === 'added' && g.firstSeen ? `<div class="card-when">➕ Added ${fmtDay(g.firstSeen.slice(0, 10))}</div>` : ''}
           ${state.sort === 'onsale' && g.onSaleDate && new Date(g.onSaleDate) <= Date.now() ? `<div class="card-when">🎟️ On sale since ${fmtDay(g.onSaleDate.slice(0, 10))}</div>` : ''}
+          ${priceHTML(g)}
           ${availabilityHTML(g)}
           <div class="card-footer">
             <span class="chip-row">
@@ -381,16 +466,112 @@
     $('#gig-modal').showModal();
   }
 
+  function updateHiddenNote() {
+    const btn = $('#reset-hidden');
+    btn.hidden = hiddenIds.size === 0;
+    btn.textContent = `Unhide ${hiddenIds.size} hidden event${hiddenIds.size > 1 ? 's' : ''}`;
+  }
+
+  /* ---------- .ics export (saved gigs, or the current selection) ---------- */
+  const icsEscape = (s) =>
+    String(s ?? '').replace(/\\/g, '\\\\').replace(/[,;]/g, '\\$&').replace(/\n/g, '\\n');
+
+  function exportICS() {
+    const source = savedIds.size ? gigs.filter((g) => savedIds.has(g.id)) : filteredGigs();
+    if (!source.length) return alert('Nothing to export — save some gigs with ★ first.');
+    if (source.length > 500) {
+      return alert(`That would export ${source.length} events. Narrow the filters or use ★ to save the gigs you care about, then export again.`);
+    }
+    const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//gig-tracker//EN', 'X-WR-CALNAME:Gig Tracker'];
+    for (const g of source) {
+      lines.push(
+        'BEGIN:VEVENT',
+        `UID:${g.id}@gig-tracker`,
+        `DTSTART;VALUE=DATE:${g.date.replace(/-/g, '')}`,
+        `SUMMARY:${icsEscape(g.title)}`,
+        `LOCATION:${icsEscape([g.venue, g.city, g.country].filter(Boolean).join(', '))}`,
+        `DESCRIPTION:${icsEscape([g.bands.join(' · '), g.url].filter(Boolean).join('\n'))}`,
+        'END:VEVENT'
+      );
+    }
+    lines.push('END:VCALENDAR');
+    const blob = new Blob([lines.join('\r\n')], { type: 'text/calendar' });
+    const a = Object.assign(document.createElement('a'), {
+      href: URL.createObjectURL(blob),
+      download: 'gig-tracker.ics',
+    });
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+
+  /* ---------- map view ---------- */
+  let map = null;
+  let markersLayer = null;
+
+  function mapPopupHTML(cityGigs) {
+    const sorted = [...cityGigs].sort((a, b) => a.date.localeCompare(b.date));
+    const items = sorted
+      .slice(0, 8)
+      .map(
+        (g) => `<div class="map-pop-item">${g._fav ? '🤘 ' : ''}<a href="${esc(g.url) || '#'}" target="_blank" rel="noopener">${esc(shortName(g))}</a> <span>${parseDate(g.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}</span></div>`
+      )
+      .join('');
+    const more = sorted.length > 8 ? `<div class="map-pop-more">…and ${sorted.length - 8} more</div>` : '';
+    return `<div class="map-pop"><div class="map-pop-city">${esc(sorted[0].city)} ${flag(sorted[0].country)} · ${sorted.length} gig${sorted.length > 1 ? 's' : ''}</div>${items}${more}</div>`;
+  }
+
+  // One circle per city, sized by gig count; gold when a favourite or saved
+  // gig is in town. Only events with venue coordinates can be plotted.
+  function renderMap() {
+    if (typeof L === 'undefined') return;
+    if (!map) {
+      map = L.map('map').setView([51, 12], 4);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
+      markersLayer = L.layerGroup().addTo(map);
+    }
+    setTimeout(() => map.invalidateSize(), 0); // the section was display:none a moment ago
+    markersLayer.clearLayers();
+    const byCity = new Map();
+    for (const g of filteredGigs()) {
+      if (g.lat == null || g.lon == null) continue;
+      const key = `${norm(g.city)}|${g.country}`;
+      if (!byCity.has(key)) byCity.set(key, []);
+      byCity.get(key).push(g);
+    }
+    for (const cityGigs of byCity.values()) {
+      const first = cityGigs[0];
+      const special = cityGigs.some((g) => g._fav || savedIds.has(g.id));
+      L.circleMarker([first.lat, first.lon], {
+        radius: Math.min(6 + Math.sqrt(cityGigs.length) * 2.2, 22),
+        color: special ? '#ffc247' : '#ff4438',
+        weight: special ? 2 : 1,
+        fillColor: special ? '#ffc247' : '#a32c24',
+        fillOpacity: 0.55,
+      })
+        .bindPopup(mapPopupHTML(cityGigs), { maxWidth: 320 })
+        .addTo(markersLayer);
+    }
+  }
+
   /* ---------- render root ---------- */
   function render() {
     $('#btn-list').classList.toggle('active', state.view === 'list');
     $('#btn-calendar').classList.toggle('active', state.view === 'calendar');
+    $('#btn-map').classList.toggle('active', state.view === 'map');
     $('#list-view').hidden = state.view !== 'list';
     $('#calendar-view').hidden = state.view !== 'calendar';
-    $('#sort-filter').hidden = state.view !== 'list'; // calendar is inherently date-ordered
+    $('#map-view').hidden = state.view !== 'map';
+    $('#sort-filter').hidden = state.view !== 'list'; // only the list can re-sort
     renderPanels();
     if (state.view === 'list') renderList();
-    else renderCalendar();
+    else if (state.view === 'calendar') renderCalendar();
+    else {
+      $('#empty-state').hidden = true;
+      renderMap();
+    }
   }
 
   function populateCountryFilter() {
@@ -407,6 +588,7 @@
     const applyFilter = (mutate) => { mutate(); state.listLimit = LIST_PAGE; render(); };
     $('#btn-list').addEventListener('click', () => { state.view = 'list'; location.hash = ''; render(); });
     $('#btn-calendar').addEventListener('click', () => { state.view = 'calendar'; location.hash = 'calendar'; render(); });
+    $('#btn-map').addEventListener('click', () => { state.view = 'map'; location.hash = 'map'; render(); });
     // Debounced so fast typing doesn't re-render per keystroke (janky on phones)
     let searchTimer;
     $('#search').addEventListener('input', (e) => {
@@ -419,6 +601,40 @@
     $('#avail-filter').addEventListener('change', (e) => applyFilter(() => { state.avail = e.target.value; }));
     $('#type-filter').addEventListener('change', (e) => applyFilter(() => { state.type = e.target.value; }));
     $('#fav-only').addEventListener('change', (e) => applyFilter(() => { state.favOnly = e.target.checked; }));
+    $('#saved-only').addEventListener('change', (e) => applyFilter(() => { state.savedOnly = e.target.checked; }));
+
+    // Save/hide buttons appear on every card (list, modal, day modal) —
+    // one body-level listener covers them all.
+    document.body.addEventListener('click', (e) => {
+      const saveBtn = e.target.closest('[data-save]');
+      if (saveBtn) {
+        const id = saveBtn.dataset.save;
+        savedIds.has(id) ? savedIds.delete(id) : savedIds.add(id);
+        store.write('gt-saved', savedIds);
+        document.querySelectorAll(`[data-save="${CSS.escape(id)}"]`).forEach((b) => {
+          b.classList.toggle('active', savedIds.has(id));
+          b.textContent = savedIds.has(id) ? '★' : '☆';
+        });
+        if (state.savedOnly) render();
+        return;
+      }
+      const hideBtn = e.target.closest('[data-hide]');
+      if (hideBtn) {
+        hiddenIds.add(hideBtn.dataset.hide);
+        store.write('gt-hidden', hiddenIds);
+        updateHiddenNote();
+        const dlg = $('#gig-modal');
+        if (dlg.open) dlg.close();
+        render();
+      }
+    });
+    $('#reset-hidden').addEventListener('click', () => {
+      hiddenIds.clear();
+      store.write('gt-hidden', hiddenIds);
+      updateHiddenNote();
+      render();
+    });
+    $('#export-ics').addEventListener('click', exportICS);
     $('#list-view').addEventListener('click', (e) => {
       if (e.target.closest('#show-more')) {
         state.listLimit += 2 * LIST_PAGE;
@@ -434,10 +650,12 @@
       const day = e.target.closest('.cal-day.has-events');
       if (day) openDayModal(day.dataset.date);
     });
-    for (const base of ['latest', 'onsale']) {
+    for (const base of ['latest', 'onsale', 'trips']) {
       $(`#${base}-list`).addEventListener('click', (e) => {
+        const gigBtn = e.target.closest('.p-gig');
+        if (gigBtn) return openModal(gigBtn.dataset.gig);
         const item = e.target.closest('.p-item');
-        if (item) openModal(item.dataset.gig);
+        if (item?.dataset.gig) openModal(item.dataset.gig);
       });
       $(`#${base}-toggle`).addEventListener('click', (e) => {
         const list = $(`#${base}-list`);
@@ -472,11 +690,18 @@
     const now = new Date();
     state.month = new Date(now.getFullYear(), now.getMonth(), 1);
     if (location.hash === '#calendar') state.view = 'calendar';
+    if (location.hash === '#map') state.view = 'map';
 
     populateCountryFilter();
     wireEvents();
+    updateHiddenNote();
     renderTicker();
     render();
+  }
+
+  // Installable app + offline fallback (GitHub Pages only; skipped locally)
+  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 
   init().catch((err) => {

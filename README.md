@@ -100,6 +100,24 @@ scripts/fetch-gigs.mjs ──► data/gigs.json ──► index.html + assets/ (
   Ticketmaster event data; when an event has no image, a generated placeholder
   is shown instead.
 
+## More features
+
+- **Views** — list (sortable by gig date / recently added / ticket on-sale),
+  Monday-first calendar, and a **map** (`#map`) with per-city markers sized by
+  gig count (gold = a favourite or saved gig is there).
+- **Saved & hidden gigs** — ★ saves an event to a localStorage shortlist
+  (filterable via the "★ Saved" toggle), ✕ hides it; a footer button unhides
+  everything.
+- **Calendar export** — the "📅 .ics" button downloads your saved gigs (or the
+  current selection) as a calendar file, and the daily workflow publishes
+  `data/favourites.ics`, a **subscribable** calendar of every favourite-band
+  gig (add its GitHub Pages URL to Google/Apple Calendar and it self-updates).
+- **Trip ideas panel** — chains favourite/saved gigs that are ≤2 days and
+  ≤300 km apart into weekend-trip suggestions with total distance.
+- **Prices** — Ticketmaster price ranges shown on cards when available.
+- **PWA** — installable ("Add to Home Screen") with an offline fallback to the
+  last fetched dataset.
+
 ## Design decisions (and why)
 
 **Refresh model — scheduled, but free.** Instead of choosing between "pay for a
