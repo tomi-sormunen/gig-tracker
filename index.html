@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#0c0c0f">
   <title>Gig Tracker 🤘</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤘</text></svg>">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -31,6 +32,7 @@
     <div class="view-toggle" role="tablist">
       <button id="btn-list" class="toggle-btn active" role="tab">☰ List</button>
       <button id="btn-calendar" class="toggle-btn" role="tab">▦ Calendar</button>
+      <button id="btn-map" class="toggle-btn" role="tab">📍 Map</button>
     </div>
     <input type="search" id="search" placeholder="Search bands, cities, venues…" autocomplete="off">
     <select id="sort-filter" title="Sort the list">
@@ -93,6 +95,9 @@
       </div>
       <div id="calendar-grid" class="cal-grid"></div>
     </section>
+    <section id="map-view" hidden>
+      <div id="map"></div>
+    </section>
     <p id="empty-state" class="empty-state" hidden>Nothing matches — loosen the filters. 🦗</p>
   </main>
 
@@ -107,6 +112,7 @@
     <p><button id="reset-hidden" class="link-btn" hidden></button></p>
   </footer>
 
+  <script src="assets/vendor/leaflet/leaflet.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

@@ -500,16 +500,74 @@
     URL.revokeObjectURL(a.href);
   }
 
+  /* ---------- map view ---------- */
+  let map = null;
+  let markersLayer = null;
+
+  function mapPopupHTML(cityGigs) {
+    const sorted = [...cityGigs].sort((a, b) => a.date.localeCompare(b.date));
+    const items = sorted
+      .slice(0, 8)
+      .map(
+        (g) => `<div class="map-pop-item">${g._fav ? '🤘 ' : ''}<a href="${esc(g.url) || '#'}" target="_blank" rel="noopener">${esc(shortName(g))}</a> <span>${parseDate(g.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}</span></div>`
+      )
+      .join('');
+    const more = sorted.length > 8 ? `<div class="map-pop-more">…and ${sorted.length - 8} more</div>` : '';
+    return `<div class="map-pop"><div class="map-pop-city">${esc(sorted[0].city)} ${flag(sorted[0].country)} · ${sorted.length} gig${sorted.length > 1 ? 's' : ''}</div>${items}${more}</div>`;
+  }
+
+  // One circle per city, sized by gig count; gold when a favourite or saved
+  // gig is in town. Only events with venue coordinates can be plotted.
+  function renderMap() {
+    if (typeof L === 'undefined') return;
+    if (!map) {
+      map = L.map('map').setView([51, 12], 4);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map);
+      markersLayer = L.layerGroup().addTo(map);
+    }
+    setTimeout(() => map.invalidateSize(), 0); // the section was display:none a moment ago
+    markersLayer.clearLayers();
+    const byCity = new Map();
+    for (const g of filteredGigs()) {
+      if (g.lat == null || g.lon == null) continue;
+      const key = `${norm(g.city)}|${g.country}`;
+      if (!byCity.has(key)) byCity.set(key, []);
+      byCity.get(key).push(g);
+    }
+    for (const cityGigs of byCity.values()) {
+      const first = cityGigs[0];
+      const special = cityGigs.some((g) => g._fav || savedIds.has(g.id));
+      L.circleMarker([first.lat, first.lon], {
+        radius: Math.min(6 + Math.sqrt(cityGigs.length) * 2.2, 22),
+        color: special ? '#ffc247' : '#ff4438',
+        weight: special ? 2 : 1,
+        fillColor: special ? '#ffc247' : '#a32c24',
+        fillOpacity: 0.55,
+      })
+        .bindPopup(mapPopupHTML(cityGigs), { maxWidth: 320 })
+        .addTo(markersLayer);
+    }
+  }
+
   /* ---------- render root ---------- */
   function render() {
     $('#btn-list').classList.toggle('active', state.view === 'list');
     $('#btn-calendar').classList.toggle('active', state.view === 'calendar');
+    $('#btn-map').classList.toggle('active', state.view === 'map');
     $('#list-view').hidden = state.view !== 'list';
     $('#calendar-view').hidden = state.view !== 'calendar';
-    $('#sort-filter').hidden = state.view !== 'list'; // calendar is inherently date-ordered
+    $('#map-view').hidden = state.view !== 'map';
+    $('#sort-filter').hidden = state.view !== 'list'; // only the list can re-sort
     renderPanels();
     if (state.view === 'list') renderList();
-    else renderCalendar();
+    else if (state.view === 'calendar') renderCalendar();
+    else {
+      $('#empty-state').hidden = true;
+      renderMap();
+    }
   }
 
   function populateCountryFilter() {
@@ -526,6 +584,7 @@
     const applyFilter = (mutate) => { mutate(); state.listLimit = LIST_PAGE; render(); };
     $('#btn-list').addEventListener('click', () => { state.view = 'list'; location.hash = ''; render(); });
     $('#btn-calendar').addEventListener('click', () => { state.view = 'calendar'; location.hash = 'calendar'; render(); });
+    $('#btn-map').addEventListener('click', () => { state.view = 'map'; location.hash = 'map'; render(); });
     // Debounced so fast typing doesn't re-render per keystroke (janky on phones)
     let searchTimer;
     $('#search').addEventListener('input', (e) => {
@@ -627,6 +686,7 @@
     const now = new Date();
     state.month = new Date(now.getFullYear(), now.getMonth(), 1);
     if (location.hash === '#calendar') state.view = 'calendar';
+    if (location.hash === '#map') state.view = 'map';
 
     populateCountryFilter();
     wireEvents();
