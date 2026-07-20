@@ -244,12 +244,16 @@
       if (cluster) cluster.push(g);
       else clusters.push([g]);
     }
-    const trips = clusters.filter(
-      (c) =>
-        c.length >= 2 &&
-        // two day-tickets of the same festival aren't a trip
-        (new Set(c.map((g) => norm(g.title))).size >= 2 || new Set(c.map((g) => norm(g.city))).size >= 2)
-    );
+    // A trip needs two genuinely different stops: duplicate listings of the
+    // same show (VIP packages, day tickets) share a band+city key and only
+    // count once.
+    const stopKey = (g) => `${norm(g.bands[0] || g.title)}|${norm(g.city)}`;
+    const trips = clusters
+      .map((c) => {
+        const seen = new Set();
+        return c.filter((g) => !seen.has(stopKey(g)) && seen.add(stopKey(g)));
+      })
+      .filter((c) => c.length >= 2);
     const rows = trips.map((c) => {
       const short = (iso) => parseDate(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
       const range = c[0].date === c[c.length - 1].date ? fmtDay(c[0].date) : `${short(c[0].date)} – ${fmtDay(c[c.length - 1].date)}`;
