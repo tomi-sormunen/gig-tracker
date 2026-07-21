@@ -244,14 +244,20 @@
       if (cluster) cluster.push(g);
       else clusters.push([g]);
     }
-    // A trip needs two genuinely different stops: duplicate listings of the
-    // same show (VIP packages, day tickets) share a band+city key and only
-    // count once.
-    const stopKey = (g) => `${norm(g.bands[0] || g.title)}|${norm(g.city)}`;
+    // A trip needs stops by DIFFERENT bands — following one band's (or one
+    // co-headline tour's) route through two cities isn't a combo. Any shared
+    // band between two stops means they're the same act, so each kept stop
+    // must have a fully disjoint lineup from the ones before it. This also
+    // collapses duplicate listings of the same show (VIP packages, day
+    // tickets) into a single stop.
+    const bandsOf = (g) => (g.bands.length ? g.bands : [g.title]).map(norm);
     const trips = clusters
       .map((c) => {
-        const seen = new Set();
-        return c.filter((g) => !seen.has(stopKey(g)) && seen.add(stopKey(g)));
+        const kept = [];
+        for (const g of c) {
+          if (!kept.some((k) => bandsOf(k).some((b) => bandsOf(g).includes(b)))) kept.push(g);
+        }
+        return kept;
       })
       .filter((c) => c.length >= 2);
     const rows = trips.map((c) => {
@@ -564,7 +570,7 @@
     $('#list-view').hidden = state.view !== 'list';
     $('#calendar-view').hidden = state.view !== 'calendar';
     $('#map-view').hidden = state.view !== 'map';
-    $('#sort-filter').hidden = state.view !== 'list'; // only the list can re-sort
+    $('#sort-ctl').hidden = state.view !== 'list'; // only the list can re-sort
     renderPanels();
     if (state.view === 'list') renderList();
     else if (state.view === 'calendar') renderCalendar();
@@ -579,7 +585,7 @@
       .map((cc) => [cc, countryName(cc)])
       .sort((a, b) => a[1].localeCompare(b[1]));
     $('#country-filter').innerHTML =
-      '<option value="">All countries</option>' +
+      '<option value="">All</option>' +
       seen.map(([cc, name]) => `<option value="${cc}">${flag(cc)} ${esc(name)}</option>`).join('');
   }
 

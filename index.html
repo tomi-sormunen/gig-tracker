@@ -30,44 +30,6 @@
     </div>
   </div>
 
-  <nav class="toolbar">
-    <div class="view-toggle" role="tablist">
-      <button id="btn-list" class="toggle-btn active" role="tab">☰ List</button>
-      <button id="btn-calendar" class="toggle-btn" role="tab">▦ Calendar</button>
-      <button id="btn-map" class="toggle-btn" role="tab">📍 Map</button>
-    </div>
-    <input type="search" id="search" placeholder="Search bands, cities, venues…" autocomplete="off">
-    <select id="sort-filter" title="Sort the list">
-      <option value="">Sort: Gig date</option>
-      <option value="added">Sort: Recently added</option>
-      <option value="onsale">Sort: Ticket on-sale</option>
-    </select>
-    <select id="country-filter"><option value="">All countries</option></select>
-    <select id="genre-filter">
-      <option value="">All genres</option>
-      <option value="Metal">Metal</option>
-      <option value="Hard Rock">Hard Rock</option>
-      <option value="Rock">Rock</option>
-    </select>
-    <select id="type-filter">
-      <option value="all">Gigs + festivals</option>
-      <option value="gig">Gigs only</option>
-      <option value="festival">Festivals only</option>
-    </select>
-    <select id="avail-filter">
-      <option value="">All availability</option>
-      <option value="not-soldout">Hide sold out</option>
-      <option value="available">Available only</option>
-    </select>
-    <label class="fav-toggle">
-      <input type="checkbox" id="fav-only"> <span>🤘 Favourites only</span>
-    </label>
-    <label class="fav-toggle saved-toggle">
-      <input type="checkbox" id="saved-only"> <span>★ Saved</span>
-    </label>
-    <button id="export-ics" class="tool-btn" title="Download an .ics calendar of your saved gigs (or the current selection)">📅 .ics</button>
-  </nav>
-
   <section class="notice-panels">
     <section class="panel panel-latest" id="latest-panel" hidden>
       <h2 class="panel-title">🆕 Latest additions <span class="panel-sub">last 7 days</span></h2>
@@ -85,6 +47,70 @@
       <button class="see-all" id="trips-toggle" hidden>See all</button>
     </section>
   </section>
+
+  <nav class="control-panel">
+    <section class="control-group">
+      <h2 class="control-title">🎚️ Filters</h2>
+      <div class="control-row">
+        <label class="ctl"><span class="ctl-label">🌍 Country</span>
+          <select id="country-filter"><option value="">All</option></select>
+        </label>
+        <label class="ctl"><span class="ctl-label">🎸 Genre</span>
+          <select id="genre-filter">
+            <option value="">All</option>
+            <option value="Metal">Metal</option>
+            <option value="Hard Rock">Hard Rock</option>
+            <option value="Rock">Rock</option>
+          </select>
+        </label>
+        <label class="ctl"><span class="ctl-label">🎪 Type</span>
+          <select id="type-filter">
+            <option value="all">All</option>
+            <option value="gig">Gigs only</option>
+            <option value="festival">Festivals only</option>
+          </select>
+        </label>
+        <label class="ctl"><span class="ctl-label">🎟️ Availability</span>
+          <select id="avail-filter">
+            <option value="">All</option>
+            <option value="not-soldout">Hide sold out</option>
+            <option value="available">Available only</option>
+          </select>
+        </label>
+        <div class="ctl"><span class="ctl-label">🤘 Favourites</span>
+          <label class="fav-toggle"><input type="checkbox" id="fav-only"> <span>Only</span></label>
+        </div>
+        <div class="ctl"><span class="ctl-label">★ Saved</span>
+          <label class="fav-toggle saved-toggle"><input type="checkbox" id="saved-only"> <span>Only</span></label>
+        </div>
+      </div>
+    </section>
+    <section class="control-group">
+      <h2 class="control-title">🧰 Functionalities</h2>
+      <div class="control-row">
+        <div class="ctl"><span class="ctl-label">👁️ View</span>
+          <div class="view-toggle" role="tablist">
+            <button id="btn-list" class="toggle-btn active" role="tab">☰ List</button>
+            <button id="btn-calendar" class="toggle-btn" role="tab">▦ Calendar</button>
+            <button id="btn-map" class="toggle-btn" role="tab">📍 Map</button>
+          </div>
+        </div>
+        <label class="ctl ctl-search"><span class="ctl-label">🔍 Search</span>
+          <input type="search" id="search" placeholder="Bands, cities, venues…" autocomplete="off">
+        </label>
+        <div class="ctl" id="sort-ctl"><span class="ctl-label">↕️ Sort</span>
+          <select id="sort-filter">
+            <option value="">Gig date</option>
+            <option value="added">Recently added</option>
+            <option value="onsale">Ticket on-sale</option>
+          </select>
+        </div>
+        <div class="ctl"><span class="ctl-label">📅 Calendar</span>
+          <button id="export-ics" class="tool-btn" title="Download an .ics calendar of your saved gigs (or the current selection)">Export .ics</button>
+        </div>
+      </div>
+    </section>
+  </nav>
 
   <main>
     <section id="list-view"></section>
