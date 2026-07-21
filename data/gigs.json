@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T20:50:18.858Z",
+  "updatedAt": "2026-07-21T21:15:48.575Z",
   "source": "live",
   "gigs": [
     {
@@ -75,31 +75,6 @@
       "image": "https://images.universe.com/f3810b04-5d3e-4bbc-8193-385b7f2761c6/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
       "isFestival": false,
       "onSaleDate": "2026-03-05T14:13:41Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.5099107,
-      "lon": -0.11828309,
-      "id": "tm-LvZ18QbENxbPJnYZyqzNF",
-      "title": "The Van Morrison Alumni Band",
-      "bands": [
-        "Van Morrison Alumni Band"
-      ],
-      "date": "2026-07-21",
-      "time": "19:30",
-      "venue": "Emerald Theatre",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.universe.com/events/the-van-morrison-alumni-band-tickets-1JFZ4K?ref=ticketmaster",
-      "image": "https://images.universe.com/c3269561-b7dd-457c-9ebc-aa1e451c162c/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
-      "isFestival": false,
-      "onSaleDate": "2026-02-09T13:39:21Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
@@ -39880,6 +39855,41 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 50.92479,
+      "lon": 6.97832,
+      "id": "tm-LvZ18QGLIcl-4-ZZnZYvH",
+      "title": "Euroblast Festival 2026",
+      "bands": [
+        "Euroblast Festival",
+        "Haken",
+        "Vildhjarta",
+        "The Dear Hunter",
+        "Swallow the Sun",
+        "Agent Fresco",
+        "Iotunn",
+        "Einar Solberg",
+        "Fractal Sun",
+        "Alkera",
+        "Anciients"
+      ],
+      "date": "2026-09-25",
+      "time": "15:00",
+      "venue": null,
+      "city": "Cologne",
+      "country": "DE",
+      "genre": "Undefined",
+      "subGenre": null,
+      "url": "https://www.universe.com/events/euroblast-festival-2026-tickets-NBJF2G?ref=ticketmaster",
+      "image": "https://s1.ticketm.net/dam/a/4ee/b9644db9-3e85-4af7-864c-2c15f2ca14ee_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": true,
+      "onSaleDate": "2026-06-12T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-21T21:15:48.575Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 53.34795,
       "lon": -6.26199,
       "id": "tm-1AvOZ_FGkMNylgp",
@@ -54204,6 +54214,31 @@
       "onSaleDate": "2026-03-20T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 37.976406,
+      "lon": 23.71076,
+      "id": "tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E",
+      "title": "SWALLOW THE SUN",
+      "bands": [
+        "Swallow the Sun"
+      ],
+      "date": "2026-10-17",
+      "time": "19:31",
+      "venue": "Architektoniki Club Live Stage",
+      "city": "Athens",
+      "country": "GR",
+      "genre": "Metal",
+      "subGenre": "Heavy Metal",
+      "url": "https://www.ticketmaster.gr/swallow-the-sun_sp_2141472.html",
+      "image": "https://s1.ticketm.net/dam/a/737/d0a621e9-d41e-46c0-bd8d-9589c46ac737_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-07-16T14:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-21T21:15:48.575Z"
     },
     {
       "priceMin": null,
@@ -99732,6 +99767,31 @@
       "onSaleDate": "2026-06-19T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 50.8989811,
+      "lon": -1.4004633,
+      "id": "tm-LvZ18QOw3pbJD6OvOdigt",
+      "title": "Tool Shed – A Tribute to Tool",
+      "bands": [
+        "Tool Shed"
+      ],
+      "date": "2027-02-05",
+      "time": "19:00",
+      "venue": "Southampton 1865",
+      "city": "Southampton",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/tool-shed-a-tribute-to-tool-tickets-KLZN9Y?ref=ticketmaster",
+      "image": "https://images.universe.com/9d39ba6e-23be-4e57-a975-a5e6b7322d29/-/resize/1200x/-/crop/1200x1200/0,70/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-05-19T16:39:53Z",
+      "availability": null,
+      "firstSeen": "2026-07-21T21:15:48.575Z"
     },
     {
       "priceMin": null,

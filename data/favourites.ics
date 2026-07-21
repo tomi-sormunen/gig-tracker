@@ -150,6 +150,13 @@ LOCATION:Saint Luke's\, Glasgow\, GB
 DESCRIPTION:Anna Von Hausswolff\nhttps://www.ticketweb.uk/event/anna-von-hausswolff-saint-lukes-tickets/14831063?REFERRAL_ID=tmfeed
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-LvZ18QGLIcl-4-ZZnZYvH@gig-tracker
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Euroblast Festival 2026
+LOCATION:Cologne\, DE
+DESCRIPTION:Euroblast Festival · Haken · Vildhjarta · The Dear Hunter · Swallow the Sun · Agent Fresco · Iotunn · Einar Solberg · Fractal Sun · Alkera · Anciients\nhttps://www.universe.com/events/euroblast-festival-2026-tickets-NBJF2G?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZ2qZ16vv9QArd@gig-tracker
 DTSTART;VALUE=DATE:20261001
 SUMMARY:Placebo - 30th Anniversary Tour 
@@ -206,6 +213,13 @@ LOCATION:Cargo Gallery\, Praha 5\, CZ
 DESCRIPTION:Raised Fist\nhttps://www.ticketmaster.cz/event/raised-fist-tickets/1578637664?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-1kuOvNjyGA5nkIA@gig-tracker
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Amon Amarth
+LOCATION:O2 Apollo Manchester\, Manchester\, GB
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.co.uk/amon-amarth-manchester-09-10-2026/event/360063739BA86A05
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-17kZv0G6CxZWQtV@gig-tracker
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Cinder Well
@@ -213,11 +227,39 @@ LOCATION:BELLOBAR\, Dublin\, IE
 DESCRIPTION:Cinder Well\nhttps://www.ticketmaster.ie/cinder-well-dublin-09-10-2026/event/180064E880F5AA74
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-1AUZkugGkesAbk2@gig-tracker
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Amon Amarth
+LOCATION:Eventim Apollo\, London\, GB
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.co.uk/amon-amarth-london-10-10-2026/event/36006375B115818F
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZbM3JXp6U@gig-tracker
+DTSTART;VALUE=DATE:20261011
+SUMMARY:Amon Amarth
+LOCATION:University of Wolverhampton at The Civic Hall\, Wolverhampton\, GB
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.co.uk/amon-amarth-wolverhampton-11-10-2026/event/1F006374A6F961F6
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kb-0aAf@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Leipzig\, DE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/621909154?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
+DTSTART;VALUE=DATE:20261017
+SUMMARY:SWALLOW THE SUN
+LOCATION:Architektoniki Club Live Stage\, Athens\, GR
+DESCRIPTION:Swallow the Sun\nhttps://www.ticketmaster.gr/swallow-the-sun_sp_2141472.html
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z16vOA_YuJ@gig-tracker
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Amon Amarth
+LOCATION:Lotto Arena Antwerpen\, Merksem (Antwerpen)\, BE
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.be/event/amon-amarth-tickets/1805670366
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZ8KZ1kotF30-@gig-tracker
@@ -234,11 +276,32 @@ LOCATION:Veikkaus Arena\, Helsinki\, FI
 DESCRIPTION:Placebo · Veikkaus Arena Premium tuotteet\nhttps://www.ticketmaster.fi/event/placebo-30th-anniversary-tour-%7C-premium-aitiolippu-tickets/702696441?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZC2Z16v_a4_Ja@gig-tracker
+DTSTART;VALUE=DATE:20261021
+SUMMARY:KoRn - EURO TOUR 2026 | Premium Packages
+LOCATION:Cologne\, DE
+DESCRIPTION:Korn\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-premium-packages-tickets/1649559989?language=en-us
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZb_Z1k00GyoP@gig-tracker
 DTSTART;VALUE=DATE:20261022
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Oslo Spektrum\, Oslo\, NO
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.no/event/placebo-30th-anniversary-tour-tickets/924339465?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_kE_p4L2@gig-tracker
+DTSTART;VALUE=DATE:20261026
+SUMMARY:Korn
+LOCATION:Leeds First Direct Bank Arena\, Leeds\, GB
+DESCRIPTION:Korn · Architects (UK) · Youth Code\nhttps://www.ticketmaster.co.uk/korn-leeds-26-10-2026/event/1F006469D95957CF
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_knvxs12@gig-tracker
+DTSTART;VALUE=DATE:20261026
+SUMMARY:Korn - Venue Premium Tickets
+LOCATION:Leeds First Direct Bank Arena\, Leeds\, GB
+DESCRIPTION:Korn · First Direct Arena - Premium Packages\nhttps://www.ticketmaster.co.uk/korn-venue-premium-tickets-leeds-26-10-2026/event/1F00646A818B128F
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kO7bzuf@gig-tracker
@@ -269,11 +332,46 @@ LOCATION:Ziggo Dome Club\, Amsterdam\, NL
 DESCRIPTION:Placebo · Vinyl Room Access · Ziggo Dome Premium\nhttps://www.ticketmaster.nl/event/placebo-%7C-venue-premium-packages-tickets/1247271157?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-1AeGZ_kGkl-Vx6X@gig-tracker
+DTSTART;VALUE=DATE:20261028
+SUMMARY:Korn
+LOCATION:Utilita Arena Birmingham\, Birmingham\, GB
+DESCRIPTION:Korn · Architects (UK) · Youth Code\nhttps://www.ticketmaster.co.uk/korn-birmingham-28-10-2026/event/2300646AE1D221FE
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kuvP9ub@gig-tracker
 DTSTART;VALUE=DATE:20261029
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Frankfurt am Main\, DE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/341957358?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_klvvdx-@gig-tracker
+DTSTART;VALUE=DATE:20261030
+SUMMARY:Korn
+LOCATION:Utilita Arena Newcastle\, Newcastle Upon Tyne\, GB
+DESCRIPTION:Korn · Architects (UK) · Youth Code\nhttps://www.ticketmaster.co.uk/korn-newcastle-upon-tyne-30-10-2026/event/1F00646AC10438A1
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_kntOxSM@gig-tracker
+DTSTART;VALUE=DATE:20261030
+SUMMARY:Korn - Venue Premium Tickets
+LOCATION:Utilita Arena Newcastle\, Newcastle Upon Tyne\, GB
+DESCRIPTION:Korn · Utilita Arena - Premium Packages\nhttps://www.ticketmaster.co.uk/korn-venue-premium-tickets-newcastle-upon-tyne-30-10-2026/event/1F00646AA9822CF7
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_5Uhf4Bb@gig-tracker
+DTSTART;VALUE=DATE:20261031
+SUMMARY:Korn
+LOCATION:AO Arena\, Manchester\, GB
+DESCRIPTION:Korn · Architects (UK) · Youth Code\nhttps://www.ticketmaster.co.uk/korn-manchester-31-10-2026/event/1F0064BD9B515E98
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_klujSzr@gig-tracker
+DTSTART;VALUE=DATE:20261031
+SUMMARY:Korn - Venue Premium Tickets
+LOCATION:AO Arena\, Manchester\, GB
+DESCRIPTION:Korn · AO Arena - Premium Packages\nhttps://www.ticketmaster.co.uk/korn-venue-premium-tickets-manchester-31-10-2026/event/1F00646ACD733E1E
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZG2Z16vr8bkkA@gig-tracker
@@ -283,11 +381,39 @@ LOCATION:AFAS Dome\, Merksem (Antwerpen)\, BE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.be/event/placebo-30th-anniversary-tour-tickets/1790606185
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-1AvOZ_kGklOVs-L@gig-tracker
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Korn + Architects + Youth Code
+LOCATION:3Arena\, Dublin\, IE
+DESCRIPTION:Korn\nhttps://www.ticketmaster.ie/korn-architects-youth-code-dublin-02-11-2026/event/1800646AE0D3185F
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kPKG_bA@gig-tracker
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Cologne\, DE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/953319605?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-1ku8v0QoGAGtEwZ@gig-tracker
+DTSTART;VALUE=DATE:20261104
+SUMMARY:Korn
+LOCATION:The O2\, London\, GB
+DESCRIPTION:Korn · Architects (UK) · Youth Code\nhttps://www.ticketmaster.co.uk/korn-london-04-11-2026/event/350064691CA67C80
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z1kAt7YJb@gig-tracker
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Amon Amarth
+LOCATION:O2 universum\, Praha 9\, CZ
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.cz/event/amon-amarth-tickets/169130998?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z1AUuz4k@gig-tracker
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Amon Amarth | Fast Track
+LOCATION:O2 universum\, Praha 9\, CZ
+DESCRIPTION:Fast Track - O2 universum · Amon Amarth\nhttps://www.ticketmaster.cz/event/amon-amarth-%7C-fast-track-tickets/36378546?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZG9rmIYnyZed6A@gig-tracker
@@ -297,11 +423,32 @@ LOCATION:Unipol Forum\, Assago\, IT
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.it/biglietti/placebo-assago-06-11-2026/event/8ne6ogrbggt9
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZbpZ16vFeGsPF@gig-tracker
+DTSTART;VALUE=DATE:20261108
+SUMMARY:KoRn
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:Korn · Architects · Pixel Grip\nhttps://www.ticketmaster.nl/event/korn-tickets/1202331948?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZbpZ16vab4kJb@gig-tracker
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Korn | Venue Premium Packages
+LOCATION:Ziggo Dome Club\, Amsterdam\, NL
+DESCRIPTION:Korn · Ziggo Dome Premium\nhttps://www.ticketmaster.nl/event/korn-%7C-venue-premium-packages-tickets/1258546998?language=en-us
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-LvZ18QOkLbaO_1ZZMQIcx@gig-tracker
 DTSTART;VALUE=DATE:20261109
 SUMMARY:ANNA VON HAUSSWOLFF
 LOCATION:The Fleece\, Bristol\, GB
 DESCRIPTION:ANNA VON HAUSSWOLFF\nhttps://www.universe.com/events/anna-von-hausswolff-tickets-MPSQY3?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z1koa8NGN@gig-tracker
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Korn: EURO TOUR 2026
+LOCATION:AFAS Dome\, Merksem (Antwerpen)\, BE
+DESCRIPTION:Korn · Architects · Pixel Grip\nhttps://www.ticketmaster.be/event/korn-euro-tour-2026-tickets/449423323
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z16vfJ8FuI@gig-tracker
@@ -318,6 +465,27 @@ LOCATION:Wiener Stadthalle - Halle D\, Vienna\, AT
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.at/event/placebo-30th-anniversary-tour-tickets/611607092?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
+DTSTART;VALUE=DATE:20261111
+SUMMARY:KoRn - EURO TOUR 2026 | Logen-Seat
+LOCATION:Barclays Arena\, Hamburg\, DE
+DESCRIPTION:Korn · Ticketmaster Suite Hamburg\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-logen-seat-tickets/677226875?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZC2Z16vPKOSvN@gig-tracker
+DTSTART;VALUE=DATE:20261114
+SUMMARY:KoRn - EURO TOUR 2026 | Logen-Seat
+LOCATION:Uber Arena\, Berlin\, DE
+DESCRIPTION:Korn · Ticketmaster Suite Berlin\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-logen-seat-tickets/1953833063?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZC2Z1kf9pbPS@gig-tracker
+DTSTART;VALUE=DATE:20261114
+SUMMARY:KoRn - EURO TOUR 2026 | Premium Packages
+LOCATION:Uber Arena\, Berlin\, DE
+DESCRIPTION:Korn\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-premium-packages-tickets/517598973?language=en-us
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZu0Z16vCdfAue@gig-tracker
 DTSTART;VALUE=DATE:20261115
 SUMMARY:Placebo – 30th Anniversary Tour
@@ -330,6 +498,20 @@ DTSTART;VALUE=DATE:20261116
 SUMMARY:Anna Von Hausswolff
 LOCATION:O2 Shepherds Bush Empire\, London\, GB
 DESCRIPTION:Anna Von Hausswolff\nhttps://www.ticketmaster.co.uk/anna-von-hausswolff-london-16-11-2026/event/3E006481D2B75F9F
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z16vow_8_9@gig-tracker
+DTSTART;VALUE=DATE:20261116
+SUMMARY:KoRn
+LOCATION:O2 Arena\, Praha 9\, CZ
+DESCRIPTION:Korn · Architects · Pixel Grip\nhttps://www.ticketmaster.cz/event/korn-tickets/1472650657?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z16v3_jz-e@gig-tracker
+DTSTART;VALUE=DATE:20261116
+SUMMARY:KoRn | Fast Track
+LOCATION:O2 Arena\, Praha 9\, CZ
+DESCRIPTION:Fast Track - O2 arena · Korn\nhttps://www.ticketmaster.cz/event/korn-%7C-fast-track-tickets/1499738842?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kxKAx0z@gig-tracker
@@ -353,11 +535,25 @@ LOCATION:Uber Arena\, Berlin\, DE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-%7C-premium-packages-tickets/233228993?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZQpZ1k3p4dZ9@gig-tracker
+DTSTART;VALUE=DATE:20261117
+SUMMARY:KoRn
+LOCATION:TAURON Arena Kraków\, Krakow\, PL
+DESCRIPTION:Korn\nhttps://www.ticketmaster.pl/event/korn-tickets/496543017?language=en-us
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Atlas Arena\, Łódź \, PL
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.pl/event/placebo-30th-anniversary-tour-tickets/1577963206?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-ZG9rmIYnyZedvv@gig-tracker
+DTSTART;VALUE=DATE:20261121
+SUMMARY:Korn
+LOCATION:Unipol Forum\, Assago\, IT
+DESCRIPTION:Korn\nhttps://www.ticketmaster.it/biglietti/korn-assago-21-11-2026/event/qfd2zy7m15y4
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z16vaAPSPv@gig-tracker
