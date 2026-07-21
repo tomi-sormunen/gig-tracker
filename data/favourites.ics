@@ -654,6 +654,20 @@ LOCATION:3Arena\, Dublin\, IE
 DESCRIPTION:Five Finger Death Punch · Lamb of God · Bleed From Within\nhttps://www.ticketmaster.ie/five-finger-death-punch-lamb-of-dublin-19-01-2027/event/1800648EAE80FCFF
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-17kZv0G6GEKfbn2@gig-tracker
+DTSTART;VALUE=DATE:20270121
+SUMMARY:Electric Callboy - Tanzneid World Tour
+LOCATION:3Arena\, Dublin\, IE
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.ie/electric-callboy-tanzneid-world-tour-dublin-21-01-2027/event/180064C9D3518A8F
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17kZv0G6GRFwHdk@gig-tracker
+DTSTART;VALUE=DATE:20270121
+SUMMARY:Electric Callboy VIP Upgrades (Event Ticket Not Included)
+LOCATION:3Arena\, Dublin\, IE
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.ie/electric-callboy-vip-upgrades-event-ticket-dublin-21-01-2027/event/180064CBC8CBC0C6
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-1ANZk3bGkeV6s0S@gig-tracker
 DTSTART;VALUE=DATE:20270122
 SUMMARY:Five Finger Death Punch
@@ -668,11 +682,53 @@ LOCATION:Leipzig\, DE
 DESCRIPTION:Amorphis · Insomnium · Unto Others\nhttps://www.ticketmaster.de/event/amorphis-borderlands-tour-2027-tickets/356208147?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-17uYv0G6GnQAvcd@gig-tracker
+DTSTART;VALUE=DATE:20270123
+SUMMARY:Electric Callboy
+LOCATION:Co-op Live\, Manchester\, GB
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-manchester-23-01-2027/event/370064CA9A141B43
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17uYv0G6GSrP7ni@gig-tracker
+DTSTART;VALUE=DATE:20270123
+SUMMARY:Electric Callboy - VIP Guided Tour Experience
+LOCATION:Co-op Live\, Manchester\, GB
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-vip-guided-tour-experience-manchester-23-01-2027/event/370064CCDE944AAC
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17uYv0G6GSiygf8@gig-tracker
+DTSTART;VALUE=DATE:20270123
+SUMMARY:Electric Callboy - VIP Merch Package
+LOCATION:Co-op Live\, Manchester\, GB
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-vip-merch-package-manchester-23-01-2027/event/370064CCECE75510
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-1AgZk3bGkdREU6-@gig-tracker
 DTSTART;VALUE=DATE:20270123
 SUMMARY:Five Finger Death Punch
 LOCATION:The O2\, London\, GB
 DESCRIPTION:Five Finger Death Punch · Lamb of God · Bleed From Within\nhttps://www.ticketmaster.co.uk/five-finger-death-punch-london-23-01-2027/event/35006498EF9F61E1
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17u8v0G6GXircer@gig-tracker
+DTSTART;VALUE=DATE:20270124
+SUMMARY:Electric Callboy
+LOCATION:Motorpoint Arena Nottingham\, Nottingham\, GB
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-nottingham-24-01-2027/event/350064CFAC7AD09E
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17uOv0G6GSlpPmU@gig-tracker
+DTSTART;VALUE=DATE:20270126
+SUMMARY:Electric Callboy
+LOCATION:Bournemouth International Centre\, Bournemouth\, GB
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-bournemouth-26-01-2027/event/360064CCEB5A5BB6
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17uOv0G6GnrHov7@gig-tracker
+DTSTART;VALUE=DATE:20270127
+SUMMARY:Electric Callboy
+LOCATION:Utilita Arena Cardiff\, Cardiff\, GB
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-cardiff-27-01-2027/event/360064CA9EF11044
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5dzZ_1hjafvE@gig-tracker
@@ -696,10 +752,73 @@ LOCATION:Amsterdam\, NL
 DESCRIPTION:Five Finger Death Punch · Lamb of God · Bleed From Within\nhttps://www.ticketmaster.nl/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/1788904960?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZbpZ1kAJabZa@gig-tracker
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Electric Callboy - TANZNEID WORLD TOUR 2027
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.nl/event/electric-callboy-tanzneid-world-tour-2027-tickets/166258009?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZbpZ16vfYvNo-@gig-tracker
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Electric Callboy - TANZNEID WORLD TOUR 2027 | VIP Upgrades
+LOCATION:Ziggo Dome\, Amsterdam\, NL
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.nl/event/electric-callboy-tanzneid-world-tour-2027-%7C-vip-upgrades-tickets/1530063461?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZbpZ16vGy7Kax@gig-tracker
+DTSTART;VALUE=DATE:20270214
+SUMMARY:Electric Callboy | Venue Premium Packages
+LOCATION:Ziggo Dome Club\, Amsterdam\, NL
+DESCRIPTION:Electric Callboy · Vinyl Room Access · Ziggo Dome Premium\nhttps://www.ticketmaster.nl/event/electric-callboy-%7C-venue-premium-packages-tickets/1339113262?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z1kxpvPvv@gig-tracker
+DTSTART;VALUE=DATE:20270216
+SUMMARY:Electric Callboy
+LOCATION:Vorst Nationaal/Forest National\, Forest (Brussels)\, BE
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.be/event/electric-callboy-tickets/896065041
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z1kroqZPO@gig-tracker
+DTSTART;VALUE=DATE:20270216
+SUMMARY:Electric Callboy | VIP Upgrades
+LOCATION:Vorst Nationaal/Forest National\, Forest (Brussels)\, BE
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.be/event/electric-callboy-%7C-vip-upgrades-tickets/791740960
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZb_Z16eZEG-Gk@gig-tracker
 DTSTART;VALUE=DATE:20270219
 SUMMARY:Five Finger Death Punch: 20th Anniversary World Tour
 LOCATION:Unity Arena\, Fornebu\, NO
 DESCRIPTION:Five Finger Death Punch · Lamb of God · Bleed From Within · Unity Arena\nhttps://www.ticketmaster.no/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/2027321306?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
+DTSTART;VALUE=DATE:20270224
+SUMMARY:ELECTRIC CALLBOY: TANZNEID WORLD TOUR
+LOCATION:O2 Arena\, Praha 9\, CZ
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.cz/event/electric-callboy-tanzneid-world-tour-tickets/1405646582?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z16vJvj-kA@gig-tracker
+DTSTART;VALUE=DATE:20270224
+SUMMARY:ELECTRIC CALLBOY: TANZNEID WORLD TOUR | Fast Track
+LOCATION:O2 Arena\, Praha 9\, CZ
+DESCRIPTION:Fast Track - O2 arena · Electric Callboy\nhttps://www.ticketmaster.cz/event/electric-callboy-tanzneid-world-tour-%7C-fast-track-tickets/1981721185?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z1kfk_JAK@gig-tracker
+DTSTART;VALUE=DATE:20270224
+SUMMARY:ELECTRIC CALLBOY: TANZNEID WORLD TOUR | Guided Tour Experience
+LOCATION:O2 Arena\, Praha 9\, CZ
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.cz/event/electric-callboy-tanzneid-world-tour-%7C-guided-tour-experience-tickets/506666153?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z16vb7F8k3@gig-tracker
+DTSTART;VALUE=DATE:20270224
+SUMMARY:ELECTRIC CALLBOY: TANZNEID WORLD TOUR | VIP Merch Package
+LOCATION:O2 Arena\, Praha 9\, CZ
+DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.cz/event/electric-callboy-tanzneid-world-tour-%7C-vip-merch-package-tickets/1604210192?language=en-us
 END:VEVENT
 END:VCALENDAR
