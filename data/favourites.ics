@@ -3,6 +3,13 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
+UID:tm-Z698xZ8KZ1k8kPzGs@gig-tracker
+DTSTART;VALUE=DATE:20260725
+SUMMARY:Qstock  2-Day ticket
+LOCATION:Kuusisaari\, Oulu\, FI
+DESCRIPTION:Qstock Festivaali · Jenni Vartiainen · Averagekidluke · Ege Zulu · Jaakko Kulta · emma & matilda · Auri · Stam1na · Isac Elliot · Mirella · helmi marleena · Minttu · Kaija Koo · Lordi · Samuli Putro · Ursus Factory · Vesta · HOKKA · Ismo Alanko · JVG · Rita Ora · Behm · Marshmello · Ahti · Melo · Nenerchy · Costi · Charon · Portion Boys · Radiopuhelimet · Alina Burnet · Ellinoora · HAVUKRUUNU · Lauri Haav · OLGA · Olavi Uusivirta · Viikate · ibe · Louna0nline · 1991 · Ares - FI · Ava Joe · Etta · Gettomasa · Linda Lampenius · Pete Parkkonen · Nyrkkitappelu · The Scratch · Yaeger · nonne\nhttps://www.ticketmaster.fi/event/qstock-2-day-ticket-tickets/406978331?language=en-us
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-17kZvxG62B8HsM0@gig-tracker
 DTSTART;VALUE=DATE:20260731
 SUMMARY:All Together Now - Weekend Camping
@@ -15,13 +22,6 @@ DTSTART;VALUE=DATE:20260731
 SUMMARY:All Together Now - Weekend Family Camping
 LOCATION:Curraghmore House\, Portlaw\, IE
 DESCRIPTION:All Together Now · Pulp · Kneecap · Disclosure · Underworld · The Mary Wallopers · Christy Moore · Maribou State · Self Esteem · Ezra Collective · Floating Points · Mall Grab · Mogwai · Damien Dempsey · Kae Tempest · Annie Mac · Chet Faker · Kerri Chandler · The Avalanches · Gilla Band · BIIRD · Barrington Levy · Greentea Peng · Soda Blonde · For Those I Love · Sprints · Dry Cleaning · Gurriers · Anna Von Hausswolff · David Kitt · Joy Orbison · Job Jobse · The Dare · Jyoty · Sam Alfred · Say She She · Kean Kavanagh · Friendly Fires · Brogeal · Getdown Services · Moonchild Sanelly · SexyTadhg · Róis · Rose Betts · David Keenan · King Kong Company · Muireann Bradley · W.I.T.C.H. · Cardinals · Alabaster Deplume · Sophia Stel · Maruja · Sassy 009 · Seamus Fogarty · The New Eves · Black Nylon · The Orchestra (For Now) · Hank · The Itch · Little Grandad · George Houston · Sell Everything · Cable Boy · BABYRAT · Trinity Orchestra\nhttps://www.ticketmaster.ie/all-together-now-weekend-family-camping-portlaw-31-07-2026/event/180062FE90F51E05
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZC2Z16vaSjpJA@gig-tracker
-DTSTART;VALUE=DATE:20260801
-SUMMARY:Wacken Open Air 2026 - 29.07. - 01.08.2026
-LOCATION:Wacken Festivalgelände\, Wacken\, DE
-DESCRIPTION:Wacken Open Air · Sabaton · Def Leppard · Powerwolf · Judas Priest · In Flames · Haematom · Saxon · Lamb of God · Sepultura · Danko Jones · Airbourne · Europe · Kittie · Alestorm · P.O.D. · Paradise Lost · 5th Avenue · Alcest · Alien Ant Farm · ALLT · Animals As Leaders · Bleed From Within · Blood Red Throne · Dritte Wahl · Einherjer · Emperor · Faun · Focus. · Future Palace · H-Blockx · Hatebreed · Hardline · Heavysaurus · Kadavar · Kim Dracula · Lagwagon · LOVEBITES (JPN) · Life of Agony · LUNA KILLS · MANNTRA · Metaklapa · Misery Index · Nothing More · Of Mice and Men · Orbit Culture · Rose Tattoo · Savatage · SKYND · Subway To Sally · TEN56 · The Haunted · Therapy? · THROWN · Thundermother · Thy Art Is Murder · Turbonegro · Vended · Visions of Atlantis · Yngwie Malmsteen\nhttps://www.ticketmaster.de/event/wacken-open-air-2026-2907-01082026-tickets/1273716985?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z16vvkvKGx@gig-tracker
@@ -45,11 +45,25 @@ LOCATION:Dynamo Werk 21\, Zürich\, CH
 DESCRIPTION:Unearth\nhttps://www.ticketmaster.ch/event/unearth-tickets/404979144?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z59rmIYnyZAk1@gig-tracker
+DTSTART;VALUE=DATE:20260811
+SUMMARY:Gogol Bordello
+LOCATION:Castello San Giusto\, Trieste\, IT
+DESCRIPTION:Gogol Bordello\nhttps://www.ticketmaster.it/biglietti/gogol-bordello-trieste-11-08-2026/event/7pg4o0bhcvoc
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZb_Z16vkvvzjP@gig-tracker
 DTSTART;VALUE=DATE:20260812
 SUMMARY:Midgardsblot - Wednesday Pass
 LOCATION:Midgard Vikingsenter\, Horten\, NO
 DESCRIPTION:Midgardsblot · Solstafir · Songleikr · Nemuer · MAWIZA\nhttps://www.ticketmaster.no/event/midgardsblot-wednesday-pass-tickets/1181078725?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZQpZ1k1o3djV@gig-tracker
+DTSTART;VALUE=DATE:20260815
+SUMMARY:Gogol Bordello
+LOCATION:Centrum Koncertowe A2\, Wroclaw\, PL
+DESCRIPTION:Gogol Bordello\nhttps://www.ticketmaster.pl/event/gogol-bordello-tickets/291483734?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZq2Z16v-foOfz@gig-tracker
@@ -66,6 +80,34 @@ LOCATION:Slottsskogen\, Göteborg\, SE
 DESCRIPTION:Way Out West · The Cure · Gorillaz · Ravyn Lenae · Nick Cave & the Bad Seeds · The xx · Moby · Lorde · Sombr · Zara Larsson · Dijon · Blood Orange · Geese · Clipse · Four Tet · Oklou · Anoushka Shankar · Anna Von Hausswolff\nhttps://www.ticketmaster.se/event/way-out-west-august-13-15-2026-accessible-tickets-only-tickets/1164493802?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZQpZ16v4d8Jje@gig-tracker
+DTSTART;VALUE=DATE:20260816
+SUMMARY:Gogol Bordello
+LOCATION:Klub Studio\, Krakow\, PL
+DESCRIPTION:Gogol Bordello · Leniwiec\nhttps://www.ticketmaster.pl/event/gogol-bordello-tickets/1543426702?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZQpZ1ApGOA_@gig-tracker
+DTSTART;VALUE=DATE:20260817
+SUMMARY:Gogol Bordello
+LOCATION:Klub B90\, Stocznia Gdańska\, Gdansk\, PL
+DESCRIPTION:Gogol Bordello · Leniwiec\nhttps://www.ticketmaster.pl/event/gogol-bordello-tickets/16320159?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZQpZ16v-tOpuO@gig-tracker
+DTSTART;VALUE=DATE:20260818
+SUMMARY:Gogol Bordello
+LOCATION:Klub Tama\, Poznan\, PL
+DESCRIPTION:Gogol Bordello · Leniwiec\nhttps://www.ticketmaster.pl/event/gogol-bordello-tickets/1869816360?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-LvZ18QQncMXHvzYZiCXk4@gig-tracker
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Gogol Bordello
+LOCATION:Epic Studios\, Norwich \, GB
+DESCRIPTION:Gogol Bordello\nhttps://www.universe.com/events/gogol-bordello-tickets-C9N107?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZq2Z1kb3PJoM@gig-tracker
 DTSTART;VALUE=DATE:20260822
 SUMMARY:GÖTEBORG BRINNER
@@ -78,6 +120,20 @@ DTSTART;VALUE=DATE:20260822
 SUMMARY:GÖTEBORG BRINNER - PREMIUM UPGRADE
 LOCATION:Frihamnen\, Göteborg\, SE
 DESCRIPTION:Göteborg Brinner · In Flames · Avatar · Dark Tranquillity · Raised Fist · THROWN · Napalm Death · Gaerea\nhttps://www.ticketmaster.se/event/goteborg-brinner-premium-upgrade-tickets/1187209265?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_uLg5hS_@gig-tracker
+DTSTART;VALUE=DATE:20260823
+SUMMARY:GOGOL BORDELLO
+LOCATION:Roadmender\, Northampton\, GB
+DESCRIPTION:Gogol Bordello\nhttps://www.ticketmaster.co.uk/gogol-bordello-northampton-23-08-2026/event/1F0064D7F52DBCD9
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-LvZ18Q_Hz0H8AbZZ0e02-@gig-tracker
+DTSTART;VALUE=DATE:20260824
+SUMMARY:Gogol Bordello
+LOCATION:Southampton 1865\, Southampton\, GB
+DESCRIPTION:Gogol Bordello · Divergent Promotions · Divergent Promotions - Southampton\nhttps://www.universe.com/events/gogol-bordello-tickets-R2XBWJ?ref=ticketmaster
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QqqwFbRyiOvqt4Xx@gig-tracker
@@ -120,6 +176,41 @@ DTSTART;VALUE=DATE:20261003
 SUMMARY:Placebo - 30th Anniversary Tour | VIP Packages
 LOCATION:Sant Jordi Club\, Barcelona\, ES
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.es/event/placebo-30th-anniversary-tour%7C-vip-packages-tickets/586553852?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-LvZ18QPd6ZdC3VgEbZJRp@gig-tracker
+DTSTART;VALUE=DATE:20261005
+SUMMARY:Cinder Well
+LOCATION:Oran Mor\, Glasgow\, GB
+DESCRIPTION:Cinder Well\nhttps://www.universe.com/events/cinder-well-tickets-596JK0?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-LvZ18Q0gsYBqocOu1BumD@gig-tracker
+DTSTART;VALUE=DATE:20261006
+SUMMARY:eastside present CINDER WELL
+LOCATION:Brudenell Social Club\, Leeds\, GB
+DESCRIPTION:Cinder Well\nhttps://www.universe.com/events/eastside-present-cinder-well-tickets-P24TY0?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-LvZ18Q0gS6X5zaU7xEaor@gig-tracker
+DTSTART;VALUE=DATE:20261007
+SUMMARY:eastside present CINDER WELL
+LOCATION:New Century Locker\, Manchester\, GB
+DESCRIPTION:Cinder Well\nhttps://www.universe.com/events/eastside-present-cinder-well-tickets-NB65SM?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZu0Z16v4zbM_0@gig-tracker
+DTSTART;VALUE=DATE:20261008
+SUMMARY:RAISED FIST
+LOCATION:Cargo Gallery\, Praha 5\, CZ
+DESCRIPTION:Raised Fist\nhttps://www.ticketmaster.cz/event/raised-fist-tickets/1578637664?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-17kZv0G6CxZWQtV@gig-tracker
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Cinder Well
+LOCATION:BELLOBAR\, Dublin\, IE
+DESCRIPTION:Cinder Well\nhttps://www.ticketmaster.ie/cinder-well-dublin-09-10-2026/event/180064E880F5AA74
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kb-0aAf@gig-tracker
