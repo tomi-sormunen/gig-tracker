@@ -17,7 +17,7 @@ const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT_FILE = path.join(ROOT, 'data', 'gigs.json');
 
 const config = JSON.parse(readFileSync(path.join(ROOT, 'config', 'config.json'), 'utf8'));
-const favourites = JSON.parse(readFileSync(path.join(ROOT, 'config', 'favourites.json'), 'utf8')).bands;
+const rawFavourites = JSON.parse(readFileSync(path.join(ROOT, 'config', 'favourites.json'), 'utf8')).bands;
 
 const API_KEY = process.env.TICKETMASTER_API_KEY;
 if (!API_KEY) {
@@ -36,6 +36,9 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) =>
   (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 
+// Dedupe the favourites list (case/diacritic-insensitive) so repeated
+// entries don't cost duplicate API calls.
+const favourites = [...new Map(rawFavourites.map((n) => [norm(n), n])).values()];
 const FAVOURITE_SET = new Set(favourites.map(norm));
 const isFavouriteGig = (gig) => gig.bands.some((b) => FAVOURITE_SET.has(norm(b)));
 
@@ -229,6 +232,36 @@ async function fetchFavourites(found, startISO, endISO) {
   if (backfilled) console.log(`  backfilled ${backfilled} event images from favourite bands`);
 }
 
+// Some Ticketmaster markets attach artists to listings inconsistently — a
+// Helsinki stop of a tour may not link Lamb of God as an attraction even
+// though the name is right there in the listing title — which makes those
+// events invisible to the attraction-based favourite lookup. This keyword
+// sweep catches them: an event is kept only when the favourite's name
+// genuinely appears in its title/lineup text (the API's keyword matching is
+// fuzzier than that), and title-only mentions must still pass the genre
+// rules so tribute acts that name-drop the real band don't slip in.
+async function fetchFavouriteKeywords(found, startISO, endISO) {
+  console.log('Favourite keyword sweep:');
+  for (const name of favourites) {
+    try {
+      const events = await searchEvents({ keyword: name, startDateTime: startISO, endDateTime: endISO });
+      let added = 0;
+      for (const ev of events) {
+        const gig = mapTmEvent(ev);
+        if (!gig.date || !EUROPE.has(gig.country) || found.has(gig.id)) continue;
+        const text = ` ${norm(`${gig.title} ${gig.bands.join(' ')}`)} `;
+        if (!text.includes(` ${norm(name)} `)) continue;
+        if (!isFavouriteGig(gig) && !inScope(gig)) continue;
+        found.set(gig.id, gig);
+        added++;
+      }
+      if (added) console.log(`  ${name}: ${added} extra events via keyword`);
+    } catch (err) {
+      console.warn(`  ${name}: keyword sweep skipped (${err.message})`);
+    }
+  }
+}
+
 // Bandsintown venue.country is a full country name, not an ISO code.
 const BIT_COUNTRIES = {
   austria: 'AT', belgium: 'BE', bulgaria: 'BG', croatia: 'HR', cyprus: 'CY', czechia: 'CZ',
@@ -334,6 +367,7 @@ async function main() {
   const found = await fetchGenreSweep(startISO, endISO);
   console.log('Favourite bands (Europe-wide, any genre):');
   await fetchFavourites(found, startISO, endISO);
+  await fetchFavouriteKeywords(found, startISO, endISO);
   await fetchBandsintown(found);
   await fetchAvailability(found);
 
