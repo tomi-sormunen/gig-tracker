@@ -297,6 +297,13 @@ LOCATION:Unipol Forum\, Assago\, IT
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.it/biglietti/placebo-assago-06-11-2026/event/8ne6ogrbggt9
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-LvZ18QOkLbaO_1ZZMQIcx@gig-tracker
+DTSTART;VALUE=DATE:20261109
+SUMMARY:ANNA VON HAUSSWOLFF
+LOCATION:The Fleece\, Bristol\, GB
+DESCRIPTION:ANNA VON HAUSSWOLFF\nhttps://www.universe.com/events/anna-von-hausswolff-tickets-MPSQY3?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZC2Z16vfJ8FuI@gig-tracker
 DTSTART;VALUE=DATE:20261109
 SUMMARY:Placebo - 30th Anniversary Tour
