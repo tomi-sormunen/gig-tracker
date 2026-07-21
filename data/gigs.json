@@ -1,59 +1,7 @@
 {
-  "updatedAt": "2026-07-20T19:44:00.613Z",
+  "updatedAt": "2026-07-21T07:26:37.653Z",
   "source": "live",
   "gigs": [
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.475524,
-      "lon": -0.03838,
-      "id": "tm-LvZ18Q01vhgUf2oXIrViB",
-      "title": "ASTRA PENTAXIA & THE SONIC TELEPATHS",
-      "bands": [
-        "Astra Pentaxia & The Sonic Telepaths",
-        "VOLNERO."
-      ],
-      "date": "2026-07-20",
-      "time": "18:00",
-      "venue": "New Cross Inn",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Post-Punk",
-      "url": "https://www.universe.com/events/astra-pentaxia-the-sonic-telepaths-tickets-J82Y13?ref=ticketmaster",
-      "image": "https://images.universe.com/b5755a98-3abe-4087-9f67-5b466c47c6a4/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
-      "isFestival": false,
-      "onSaleDate": "2026-06-30T16:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.47501827,
-      "lon": -1.88087599,
-      "id": "tm-LvZ18QrX4mkNm_Ovq9HkO",
-      "title": "The Wildhearts",
-      "bands": [
-        "The Wildhearts",
-        "The Damsens"
-      ],
-      "date": "2026-07-20",
-      "time": "19:00",
-      "venue": "XOYO Birmingham",
-      "city": "Birmingham",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.universe.com/events/the-wildhearts-tickets-BF2CTV?ref=ticketmaster",
-      "image": "https://images.universe.com/a5688be7-65b5-4848-9d2f-a943c538d7b6/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
-      "isFestival": false,
-      "onSaleDate": "2026-05-01T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
     {
       "priceMin": null,
       "priceMax": null,
@@ -29072,6 +29020,31 @@
       "onSaleDate": "2025-11-28T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.9548326,
+      "lon": -1.0938596,
+      "id": "tm-LvZ18QqcUgqhuCOv1_urQ",
+      "title": "CUD",
+      "bands": [
+        "Cud"
+      ],
+      "date": "2026-09-04",
+      "time": "19:30",
+      "venue": "The Crescent",
+      "city": "York",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/cud-tickets-Q7NH96?ref=ticketmaster",
+      "image": "https://images.universe.com/759c4ded-ac67-4f82-8c40-67341cf933fc/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-04-17T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-07-21T07:26:37.653Z"
     },
     {
       "priceMin": null,
@@ -69302,7 +69275,7 @@
       "url": "https://www.ticketmaster.nl/event/sons-of-legion-tickets/125507849?language=en-us",
       "image": "https://s1.ticketm.net/dam/a/b43/69d34388-d46c-4aac-9ddf-de8dceea1b43_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
-      "onSaleDate": "2026-07-10T08:00:00Z",
+      "onSaleDate": "2026-07-21T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
