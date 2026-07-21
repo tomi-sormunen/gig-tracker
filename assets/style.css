@@ -177,23 +177,42 @@ body {
 }
 .see-all:hover { color: var(--text); }
 
-/* ---------- toolbar ---------- */
-.toolbar {
+/* ---------- control panel (Filters / Functionalities) ---------- */
+.control-panel {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0.8rem 1.6rem 0;
   display: flex;
-  align-items: center;
-  gap: 0.7rem;
-  flex-wrap: wrap;
-  padding: 0.9rem 1.6rem;
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  background: rgba(12, 12, 15, 0.92);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--border);
+  flex-direction: column;
+  gap: 0.8rem;
 }
+.control-group {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.7rem 0.95rem 0.85rem;
+}
+.control-title {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.55rem;
+}
+.control-row { display: flex; flex-wrap: wrap; gap: 0.7rem 1rem; align-items: stretch; }
+.ctl { display: flex; flex-direction: column; gap: 0.3rem; justify-content: flex-end; }
+.ctl-label {
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.ctl-search { flex: 1 1 220px; }
 .view-toggle { display: flex; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
 .toggle-btn {
-  background: var(--panel);
+  background: var(--panel-2);
   color: var(--muted);
   border: none;
   padding: 0.5rem 1rem;
@@ -203,9 +222,8 @@ body {
 }
 .toggle-btn.active { background: var(--accent); color: #fff; }
 #search {
-  flex: 1 1 220px;
-  min-width: 160px;
-  background: var(--panel);
+  width: 100%;
+  background: var(--panel-2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   color: var(--text);
@@ -213,13 +231,14 @@ body {
   font-size: 0.9rem;
 }
 #search:focus { outline: 1px solid var(--accent); }
-.toolbar select {
-  background: var(--panel);
+.ctl select {
+  background: var(--panel-2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   color: var(--text);
   padding: 0.5rem 0.6rem;
   font-size: 0.85rem;
+  min-height: 2.3rem;
 }
 .fav-toggle {
   display: flex;
@@ -231,11 +250,12 @@ body {
   padding: 0.5rem 0.8rem;
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: var(--panel);
+  background: var(--panel-2);
+  min-height: 2.3rem;
 }
 .fav-toggle:has(input:checked) { border-color: var(--fav); color: var(--fav); }
 .tool-btn {
-  background: var(--panel);
+  background: var(--panel-2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   color: var(--text);
@@ -523,17 +543,20 @@ dialog#gig-modal::backdrop { background: rgba(0, 0, 0, 0.65); }
 
 /* ---------- mobile ---------- */
 @media (max-width: 720px) {
-  .site-header, .toolbar, main, .ticker, .site-footer { padding-left: 0.9rem; padding-right: 0.9rem; }
+  .site-header, .control-panel, main, .ticker, .site-footer { padding-left: 0.9rem; padding-right: 0.9rem; }
   .site-header { padding-top: 1rem; padding-bottom: 0.7rem; }
   .header-meta { flex-direction: row; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
 
-  /* Toolbar becomes three rows: search / toggles / the three selects */
-  .toolbar { gap: 0.5rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
-  #search { order: -1; flex-basis: 100%; font-size: 1rem; } /* 16px stops iOS zoom-on-focus */
-  .view-toggle { flex: 1 1 40%; }
+  /* Controls flow two per row; search and view toggle get full rows */
+  .control-row { gap: 0.6rem; }
+  .ctl { flex: 1 1 44%; min-width: 0; }
+  .ctl select { width: 100%; font-size: 0.85rem; padding: 0.5rem 0.4rem; }
+  .ctl-search { flex: 1 1 100%; }
+  #search { font-size: 1rem; } /* 16px stops iOS zoom-on-focus */
+  .view-toggle { width: 100%; }
   .toggle-btn { flex: 1; text-align: center; }
-  .fav-toggle { flex: 1 1 42%; justify-content: center; white-space: nowrap; font-size: 0.8rem; }
-  .toolbar select { order: 1; flex: 1 1 40%; min-width: 0; font-size: 0.8rem; padding: 0.5rem 0.35rem; }
+  .fav-toggle { justify-content: center; white-space: nowrap; font-size: 0.8rem; }
+  .tool-btn { width: 100%; }
 
   main { padding-bottom: 2rem; }
   .card-grid { gap: 0.8rem; }
