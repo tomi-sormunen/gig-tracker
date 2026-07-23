@@ -1,0 +1,4 @@
+{
+  "_comment": "Optional extra sources: any public iCalendar (.ics) feed of gigs — venue calendars, festival calendars, etc. Useful for vendors without an API (e.g. Tiketti-sold shows via a venue's own calendar). Each feed needs a url; label/venue/city/country/genre/lat/lon/website are optional metadata applied to its events. Feed events bypass the genre rules — adding the feed is the opt-in. Example entry: { \"label\": \"Tavastia\", \"url\": \"https://example.com/events.ics\", \"venue\": \"Tavastia\", \"city\": \"Helsinki\", \"country\": \"FI\", \"genre\": \"Rock\", \"lat\": 60.166, \"lon\": 24.932 }",
+  "feeds": []
+}

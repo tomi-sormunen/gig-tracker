@@ -10,7 +10,7 @@
 //   TICKETMASTER_API_KEY=xxx BANDSINTOWN_APP_ID=yyy node scripts/fetch-gigs.mjs
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
 
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -20,15 +20,6 @@ const config = JSON.parse(readFileSync(path.join(ROOT, 'config', 'config.json'),
 const rawFavourites = JSON.parse(readFileSync(path.join(ROOT, 'config', 'favourites.json'), 'utf8')).bands;
 
 const API_KEY = process.env.TICKETMASTER_API_KEY;
-if (!API_KEY) {
-  console.error(
-    'TICKETMASTER_API_KEY is not set.\n\n' +
-    'Get a free key at https://developer.ticketmaster.com/ (instant on signup), then run:\n' +
-    '  TICKETMASTER_API_KEY=<your-key> npm run fetch\n\n' +
-    'For the GitHub Actions daily refresh, add the key as a repository secret named TICKETMASTER_API_KEY.'
-  );
-  process.exit(1);
-}
 
 const TM_HOST = 'https://app.ticketmaster.com';
 const EUROPE = new Set(config.europeanCountries);
@@ -262,6 +253,215 @@ async function fetchFavouriteKeywords(found, startISO, endISO) {
   }
 }
 
+/* ---------- Skiddle (UK live music, free public API) ---------- */
+
+function skiddleGenresInScope(genreNames) {
+  const text = genreNames.map(norm).join(' ');
+  if (!text) return false;
+  if (config.excludeGenres.some((x) => text.includes(norm(x)))) return false;
+  return config.allowGenres.some((x) => text.includes(norm(x)));
+}
+
+function mapSkiddleEvent(ev, eventcode) {
+  if (!ev?.date || !ev?.id) return null;
+  const venue = ev.venue ?? {};
+  const artists = (ev.artists ?? []).map((a) => a.name).filter(Boolean);
+  const genres = (ev.genres ?? []).map((g) => g.name).filter(Boolean);
+  const price = parseFloat(String(ev.entryprice ?? '').replace(/[^\d.]/g, ''));
+  return {
+    id: `sk-${ev.id}`,
+    title: ev.eventname,
+    bands: artists.length ? artists : [ev.eventname],
+    date: ev.date,
+    time: ev.openingtimes?.doorsopen || null,
+    venue: venue.name ?? null,
+    city: venue.town ?? null,
+    country: 'GB',
+    genre: genres[0] ?? null,
+    subGenre: genres[1] ?? null,
+    url: ev.link ?? null,
+    image: ev.largeimageurl ?? ev.imageurl ?? null,
+    isFestival: eventcode === 'FEST' || /\bfest(ival)?\b|open air/i.test(ev.eventname ?? ''),
+    onSaleDate: null,
+    status: null,
+    availability: null,
+    priceMin: Number.isFinite(price) && price > 0 ? price : null,
+    priceMax: null,
+    currency: 'GBP',
+    lat: venue.latitude ? Number(venue.latitude) : null,
+    lon: venue.longitude ? Number(venue.longitude) : null,
+    _genres: genres, // used for scoping, stripped before writing
+  };
+}
+
+// Skiddle covers the UK's club/venue circuit that Ticketmaster misses.
+// Free key from https://www.skiddle.com/api/join.php (SKIDDLE_API_KEY).
+async function fetchSkiddle(found) {
+  const key = process.env.SKIDDLE_API_KEY;
+  if (!key) return;
+  console.log('Skiddle (UK live music):');
+  const today = new Date();
+  const minDate = today.toISOString().slice(0, 10);
+  const maxDate = new Date(today.getTime() + config.lookAheadDays * 86400_000).toISOString().slice(0, 10);
+  for (const eventcode of ['LIVE', 'FEST']) {
+    let offset = 0;
+    let total = Infinity;
+    let kept = 0;
+    try {
+      while (offset < Math.min(total, 5000)) {
+        const url = new URL('https://www.skiddle.com/api/v1/events/search/');
+        for (const [k, v] of Object.entries({
+          api_key: key, country: 'GB', eventcode, minDate, maxDate,
+          limit: 100, offset, order: 'date', description: 1,
+        })) url.searchParams.set(k, v);
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        total = Number(data.totalcount ?? 0);
+        const events = data.results ?? [];
+        if (!events.length) break;
+        for (const ev of events) {
+          const gig = mapSkiddleEvent(ev, eventcode);
+          if (!gig || found.has(gig.id)) continue;
+          if (isFavouriteGig(gig) || skiddleGenresInScope(gig._genres)) {
+            found.set(gig.id, gig);
+            kept++;
+          }
+        }
+        offset += 100;
+        await sleep(350);
+      }
+      console.log(`  ${eventcode}: ${kept} in scope of ${total} events`);
+    } catch (err) {
+      console.warn(`  ${eventcode}: stopped at offset ${offset} (${err.message})`);
+    }
+  }
+}
+
+/* ---------- custom iCal feeds (venues/festivals without an API) ---------- */
+
+const hash = (s) => {
+  let h = 5381;
+  for (const c of s) h = ((h * 33) ^ c.charCodeAt(0)) >>> 0;
+  return h.toString(36);
+};
+
+// Minimal iCalendar parser: unfolds wrapped lines and pulls the fields we
+// need out of each VEVENT. Deliberately forgiving — feeds in the wild vary.
+function parseICS(text) {
+  const lines = text.replace(/\r\n[ \t]/g, '').split(/\r?\n/);
+  const events = [];
+  let cur = null;
+  for (const line of lines) {
+    if (line === 'BEGIN:VEVENT') cur = {};
+    else if (line === 'END:VEVENT') {
+      if (cur) events.push(cur);
+      cur = null;
+    } else if (cur) {
+      const idx = line.indexOf(':');
+      if (idx < 0) continue;
+      const prop = line.slice(0, idx).split(';')[0].toUpperCase();
+      const value = line.slice(idx + 1).trim();
+      if (prop === 'DTSTART') {
+        const m = value.match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?/);
+        if (m) {
+          cur.date = `${m[1]}-${m[2]}-${m[3]}`;
+          cur.time = m[4] ? `${m[4]}:${m[5]}` : null;
+        }
+      } else if (prop === 'SUMMARY') cur.summary = value.replace(/\\([,;])/g, '$1').replace(/\\n/gi, ' ');
+      else if (prop === 'LOCATION') cur.location = value.replace(/\\([,;])/g, '$1');
+      else if (prop === 'URL') cur.url = value;
+      else if (prop === 'UID') cur.uid = value;
+    }
+  }
+  return events;
+}
+
+// config/feeds.json lets any public .ics calendar act as a source — the
+// pragmatic answer for vendors like Tiketti that offer no API: point this at
+// venue/festival calendars instead. Feed events bypass the genre rules
+// (adding the feed IS the opt-in) and use the feed's declared city/country.
+async function fetchFeeds(found) {
+  let feeds = [];
+  try {
+    feeds = JSON.parse(readFileSync(path.join(ROOT, 'config', 'feeds.json'), 'utf8')).feeds ?? [];
+  } catch {
+    return;
+  }
+  if (!feeds.length) return;
+  console.log('Custom iCal feeds:');
+  const today = new Date().toISOString().slice(0, 10);
+  for (const feed of feeds) {
+    try {
+      const res = await fetch(feed.url, { headers: { 'user-agent': 'gig-tracker personal aggregator' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      let added = 0;
+      for (const ev of parseICS(await res.text())) {
+        if (!ev.date || !ev.summary || ev.date < today) continue;
+        const id = `feed-${hash(`${feed.url}|${ev.uid ?? `${ev.summary}${ev.date}`}`)}`;
+        if (found.has(id)) continue;
+        found.set(id, {
+          id,
+          title: ev.summary,
+          bands: [ev.summary.split(/\s+[-–|:]\s+/)[0].trim() || ev.summary],
+          date: ev.date,
+          time: ev.time ?? null,
+          venue: ev.location || feed.venue || null,
+          city: feed.city ?? null,
+          country: feed.country ?? null,
+          genre: feed.genre ?? 'Rock',
+          subGenre: null,
+          url: ev.url ?? feed.website ?? null,
+          image: null,
+          isFestival: /\bfest(ival)?\b|open air/i.test(ev.summary),
+          onSaleDate: null, status: null, availability: null,
+          priceMin: null, priceMax: null, currency: null,
+          lat: feed.lat ?? null,
+          lon: feed.lon ?? null,
+        });
+        added++;
+      }
+      console.log(`  ${feed.label ?? feed.url}: ${added} events`);
+    } catch (err) {
+      console.warn(`  ${feed.label ?? feed.url}: skipped (${err.message})`);
+    }
+  }
+}
+
+/* ---------- cross-source dedupe ---------- */
+
+// The same gig can be listed by several vendors. Two events from DIFFERENT
+// sources on the same date in the same city that share a band count as one;
+// the richer source wins (Ticketmaster > Skiddle > feeds > Bandsintown).
+// Same-source listings are never merged (Ticketmaster's own VIP/day-ticket
+// variants are handled elsewhere).
+function dedupeAcrossSources(found) {
+  const priority = { tm: 0, sk: 1, feed: 2, bit: 3 };
+  const source = (g) => g.id.split('-')[0];
+  const bandsOf = (g) => (g.bands.length ? g.bands : [g.title]).map(norm);
+  const ordered = [...found.values()].sort(
+    (a, b) => (priority[source(a)] ?? 9) - (priority[source(b)] ?? 9)
+  );
+  const buckets = new Map();
+  const kept = new Map();
+  let removed = 0;
+  for (const g of ordered) {
+    const bucketKey = `${g.date}|${norm(g.city)}`;
+    const bucket = buckets.get(bucketKey) ?? [];
+    const gBands = bandsOf(g);
+    const dup = bucket.some((h) => source(h) !== source(g) && bandsOf(h).some((b) => gBands.includes(b)));
+    if (dup) {
+      removed++;
+      continue;
+    }
+    bucket.push(g);
+    buckets.set(bucketKey, bucket);
+    kept.set(g.id, g);
+  }
+  if (removed) console.log(`Dedupe: dropped ${removed} cross-source duplicate listings`);
+  return kept;
+}
+
 // Bandsintown venue.country is a full country name, not an ISO code.
 const BIT_COUNTRIES = {
   austria: 'AT', belgium: 'BE', bulgaria: 'BG', croatia: 'HR', cyprus: 'CY', czechia: 'CZ',
@@ -358,6 +558,15 @@ function buildICS(gigs, calName) {
 }
 
 async function main() {
+  if (!API_KEY) {
+    console.error(
+      'TICKETMASTER_API_KEY is not set.\n\n' +
+      'Get a free key at https://developer.ticketmaster.com/ (instant on signup), then run:\n' +
+      '  TICKETMASTER_API_KEY=<your-key> npm run fetch\n\n' +
+      'For the GitHub Actions daily refresh, add the key as a repository secret named TICKETMASTER_API_KEY.'
+    );
+    process.exit(1);
+  }
   const now = new Date();
   const startISO = now.toISOString().replace(/\.\d{3}Z$/, 'Z');
   const endISO = new Date(now.getTime() + config.lookAheadDays * 86400_000)
@@ -368,7 +577,12 @@ async function main() {
   console.log('Favourite bands (Europe-wide, any genre):');
   await fetchFavourites(found, startISO, endISO);
   await fetchFavouriteKeywords(found, startISO, endISO);
+  await fetchSkiddle(found);
+  await fetchFeeds(found);
   await fetchBandsintown(found);
+  const deduped = dedupeAcrossSources(found);
+  found.clear();
+  for (const [id, g] of deduped) found.set(id, g);
   await fetchAvailability(found);
 
   for (const [id, g] of found) {
@@ -392,7 +606,7 @@ async function main() {
   const today = now.toISOString().slice(0, 10);
   const gigs = [...found.values()]
     .filter((g) => g.date >= today)
-    .map(({ status, ...g }) => ({ ...g, firstSeen: previousFirstSeen.get(g.id) ?? now.toISOString() }))
+    .map(({ status, _genres, ...g }) => ({ ...g, firstSeen: previousFirstSeen.get(g.id) ?? now.toISOString() }))
     .sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
 
   mkdirSync(path.dirname(OUT_FILE), { recursive: true });
@@ -404,7 +618,12 @@ async function main() {
   console.log(`\nWrote ${gigs.length} upcoming gigs (${newCount} new since last run) to ${path.relative(ROOT, OUT_FILE)}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Exported for tests; main runs only when executed directly.
+export { parseICS, mapSkiddleEvent, dedupeAcrossSources, skiddleGenresInScope };
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

@@ -27,6 +27,7 @@ jobs:
         run: node scripts/fetch-gigs.mjs
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          SKIDDLE_API_KEY: ${{ secrets.SKIDDLE_API_KEY }}
           BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
 
       - name: Commit updated data
