@@ -117,6 +117,16 @@ scripts/fetch-gigs.mjs ──► data/gigs.json ──► index.html + assets/ (
 - **Prices** — Ticketmaster price ranges shown on cards when available.
 - **PWA** — installable ("Add to Home Screen") with an offline fallback to the
   last fetched dataset.
+- **Settings panel** (collapsible, stored in the browser) — set a home
+  location and radius to only see gigs within reach, tune the trip-planner
+  distance, and toggle individual favourite bands on/off without editing
+  `favourites.json`.
+- **Weekly email digest** — `.github/workflows/weekly-digest.yml` sends a
+  Monday-morning email with the week's opening ticket sales, favourite-band
+  shows in the next 30 days, and everything added in the last 7 days. Enable
+  it with three repository secrets: `MAIL_USERNAME` and `MAIL_PASSWORD` (for
+  Gmail use an [App Password](https://myaccount.google.com/apppasswords)) and
+  `MAIL_TO`; optional `MAIL_SERVER` overrides the default smtp.gmail.com.
 
 ## Design decisions (and why)
 
@@ -137,10 +147,17 @@ as an archive of when each gig was announced.
 | Source | Verdict |
 | --- | --- |
 | **Ticketmaster Discovery API** | ✅ Primary. Free instant key, 5000 calls/day, covers most European markets, genre classifications, ticket URLs, and event images in one API. |
-| **Bandsintown API** | ⚠️ Optional secondary (`BANDSINTOWN_APP_ID` secret). Great per-artist coverage incl. non-Ticketmaster venues, but access now requires written approval from Bandsintown. Supported out of the box if you obtain an app id. |
+| **Skiddle API** | ✅ Secondary (`SKIDDLE_API_KEY` secret, free from [skiddle.com/api/join.php](https://www.skiddle.com/api/join.php)). Covers the UK club/venue circuit that Ticketmaster misses; LIVE + FEST events filtered by the same genre rules. |
+| **Custom iCal feeds** | ✅ `config/feeds.json` — point it at any public venue/festival `.ics` calendar. The pragmatic answer for vendors without an API (e.g. Tiketti-sold shows via a venue's own calendar). |
+| **Bandsintown API** | ⚠️ Supported out of the box (`BANDSINTOWN_APP_ID` secret), but access is granted to artists/managers only — hobby projects are refused. |
+| Tiketti / Lippu.fi / Eventim | ❌ No public APIs or feeds; covered indirectly via the iCal feed module where venues publish calendars. |
 | Songkick API | ❌ No longer issues new API keys. |
 | Setlist.fm / MusicBrainz | ❌ Past shows / metadata only, no upcoming-event focus. |
-| Scraping metal-archives, concerts-metal.com, local promoters | ❌ Deliberately avoided: brittle, against most ToS, and Ticketmaster already covers the big European markets. Easy to add later as extra fetcher modules if a gap appears. |
+| Scraping metal-archives, concerts-metal.com, local promoters | ❌ Deliberately avoided: brittle and against most ToS. |
+
+Events appearing in multiple sources (same date, same city, shared band) are
+deduplicated with source priority Ticketmaster → Skiddle → feeds →
+Bandsintown.
 
 Note: Ticketmaster's coverage is thinner in a few countries where it doesn't
 operate (e.g. parts of Eastern/Southern Europe) — that's the main gap Bandsintown

@@ -110,6 +110,39 @@
         </div>
       </div>
     </section>
+    <details class="control-group settings-group">
+      <summary class="control-title">⚙️ Settings</summary>
+      <div class="control-row">
+        <label class="ctl"><span class="ctl-label">🏠 Home location</span>
+          <select id="set-home"><option value="">Not set</option></select>
+        </label>
+        <label class="ctl"><span class="ctl-label">📏 Radius from home</span>
+          <select id="set-radius">
+            <option value="0">Off — show everywhere</option>
+            <option value="100">Within 100 km</option>
+            <option value="300">Within 300 km</option>
+            <option value="500">Within 500 km</option>
+            <option value="1000">Within 1000 km</option>
+          </select>
+        </label>
+        <label class="ctl"><span class="ctl-label">🧳 Trip distance</span>
+          <select id="set-trip">
+            <option value="100">≤ 100 km apart</option>
+            <option value="200">≤ 200 km apart</option>
+            <option value="300">≤ 300 km apart</option>
+            <option value="500">≤ 500 km apart</option>
+            <option value="800">≤ 800 km apart</option>
+          </select>
+        </label>
+        <div class="ctl"><span class="ctl-label">↩️ Defaults</span>
+          <button id="set-reset" class="tool-btn">Reset settings</button>
+        </div>
+      </div>
+      <div class="fav-manager">
+        <span class="ctl-label">🤘 Favourite bands — click to toggle on/off (off = no highlight, no trips, hidden if not rock/metal)</span>
+        <div id="fav-chips" class="fav-chips"></div>
+      </div>
+    </details>
   </nav>
 
   <main>

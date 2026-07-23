@@ -1,0 +1,46 @@
+name: Weekly digest email
+
+on:
+  schedule:
+    - cron: '0 5 * * 1' # Mondays at 05:00 UTC (after the daily data refresh)
+  workflow_dispatch: {} # send on demand from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build digest
+        run: node scripts/build-digest.mjs
+
+      - name: Read subject
+        id: subject
+        run: echo "subject=$(cat digest-subject.txt)" >> "$GITHUB_OUTPUT"
+
+      # Requires three repository secrets:
+      #   MAIL_USERNAME — SMTP login (for Gmail: your address)
+      #   MAIL_PASSWORD — SMTP password (for Gmail: an App Password,
+      #                   https://myaccount.google.com/apppasswords)
+      #   MAIL_TO       — recipient address
+      # Optional: MAIL_SERVER (default smtp.gmail.com)
+      - name: Send email
+        if: ${{ secrets.MAIL_USERNAME != '' && secrets.MAIL_PASSWORD != '' && secrets.MAIL_TO != '' }}
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: ${{ secrets.MAIL_SERVER || 'smtp.gmail.com' }}
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: Gig Tracker <${{ secrets.MAIL_USERNAME }}>
+          to: ${{ secrets.MAIL_TO }}
+          subject: ${{ steps.subject.outputs.subject }}
+          html_body: file://digest.html

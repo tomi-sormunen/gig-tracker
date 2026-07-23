@@ -21,8 +21,10 @@
     listLimit: LIST_PAGE,
   };
 
-  let gigs = [];
+  let allGigs = []; // every event from the data file (post-categorisation)
+  let gigs = []; // the in-scope working set (favourites + rock/metal)
   let favNames = [];
+  let favRawNames = [];
   let newBadgeDays = 7;
 
   // Saved ("★") and hidden events live in localStorage, per browser.
@@ -34,6 +36,15 @@
   };
   const savedIds = store.read('gt-saved');
   const hiddenIds = store.read('gt-hidden');
+
+  // User settings (Settings panel): home location + radius, trip distance,
+  // and per-favourite enable/disable. All local to this browser.
+  const DEFAULT_SETTINGS = { home: null, radius: 0, tripKm: 300, disabledFavs: [] };
+  let settings = { ...DEFAULT_SETTINGS };
+  try {
+    settings = { ...DEFAULT_SETTINGS, ...JSON.parse(localStorage.getItem('gt-settings') || '{}') };
+  } catch { /* corrupted storage — fall back to defaults */ }
+  const saveSettings = () => localStorage.setItem('gt-settings', JSON.stringify(settings));
 
   const $ = (sel) => document.querySelector(sel);
   const norm = (s) =>
@@ -55,8 +66,16 @@
 
   // Exact band-name matches only — matching against event titles pulls in
   // tribute acts ("Daft Punkz", "Some Kind Of Metalica") that name-drop the
-  // real band.
-  const isFav = (gig) => gig.bands.some((b) => favNames.includes(norm(b)));
+  // real band. Favourites disabled in Settings don't count.
+  const activeFavNames = () => favNames.filter((n) => !settings.disabledFavs.includes(n));
+
+  // Recompute favourite flags and the in-scope set — run at load and
+  // whenever a favourite is toggled in Settings.
+  function recomputeFavs() {
+    const active = activeFavNames();
+    for (const g of allGigs) g._fav = g.bands.some((b) => active.includes(norm(b)));
+    gigs = allGigs.filter((g) => g._fav || g._cat);
+  }
   const isNew = (gig) => Date.now() - new Date(gig.firstSeen).getTime() < newBadgeDays * 86400_000;
 
   // Broad category from the source classifications. Precedence matters:
@@ -89,6 +108,11 @@
       if (state.savedOnly && !savedIds.has(g.id)) return false;
       if (state.country && g.country !== state.country) return false;
       if (state.genre && g._cat !== state.genre) return false;
+      // Home + radius from Settings: a location filter can only judge events
+      // that carry coordinates, so coordless ones are excluded while active.
+      if (settings.radius > 0 && settings.home) {
+        if (g.lat == null || g.lon == null || haversineKm(settings.home, g) > settings.radius) return false;
+      }
       if (state.avail === 'not-soldout' && g.availability === 'soldout') return false;
       if (state.avail === 'available' && g.availability !== 'available') return false;
       if (state.type === 'festival' && !g.isFestival) return false;
@@ -239,7 +263,7 @@
       const cluster = clusters.find((c) => {
         const last = c[c.length - 1];
         const days = (parseDate(g.date) - parseDate(last.date)) / 86400_000;
-        return days <= 2 && haversineKm(last, g) <= 300;
+        return days <= 2 && haversineKm(last, g) <= settings.tripKm;
       });
       if (cluster) cluster.push(g);
       else clusters.push([g]);
@@ -589,7 +613,83 @@
       seen.map(([cc, name]) => `<option value="${cc}">${flag(cc)} ${esc(name)}</option>`).join('');
   }
 
+  /* ---------- settings panel ---------- */
+  let cityOptions = [];
+
+  function populateSettings() {
+    // Home locations: every city in the data that has coordinates
+    const byCity = new Map();
+    for (const g of allGigs) {
+      if (g.lat == null || g.lon == null || !g.city) continue;
+      const key = `${norm(g.city)}|${g.country}`;
+      if (!byCity.has(key)) byCity.set(key, { label: `${g.city} ${flag(g.country)}`, lat: g.lat, lon: g.lon });
+    }
+    cityOptions = [...byCity.values()].sort((a, b) => a.label.localeCompare(b.label));
+    const homeSel = $('#set-home');
+    homeSel.innerHTML =
+      '<option value="">Not set</option>' +
+      cityOptions.map((c, i) => `<option value="${i}">${esc(c.label)}</option>`).join('');
+    if (settings.home) {
+      const idx = cityOptions.findIndex((c) => c.label === settings.home.label);
+      if (idx >= 0) homeSel.value = String(idx);
+    }
+    $('#set-radius').value = String(settings.radius);
+    $('#set-trip').value = String(settings.tripKm);
+
+    // Favourite band toggles (deduped, original casing kept)
+    const seen = new Map();
+    for (const name of favRawNames) if (!seen.has(norm(name))) seen.set(norm(name), name);
+    $('#fav-chips').innerHTML = [...seen.entries()]
+      .sort((a, b) => a[1].localeCompare(b[1]))
+      .map(
+        ([key, label]) =>
+          `<button class="fav-chip${settings.disabledFavs.includes(key) ? '' : ' active'}" data-fav="${esc(key)}">${esc(label)}</button>`
+      )
+      .join('');
+  }
+
+  function settingsChanged() {
+    saveSettings();
+    renderTicker();
+    render();
+  }
+
+  function wireSettings() {
+    $('#set-home').addEventListener('change', (e) => {
+      settings.home = e.target.value === '' ? null : cityOptions[Number(e.target.value)];
+      settingsChanged();
+    });
+    $('#set-radius').addEventListener('change', (e) => {
+      settings.radius = Number(e.target.value);
+      settingsChanged();
+    });
+    $('#set-trip').addEventListener('change', (e) => {
+      settings.tripKm = Number(e.target.value);
+      settingsChanged();
+    });
+    $('#fav-chips').addEventListener('click', (e) => {
+      const chip = e.target.closest('.fav-chip');
+      if (!chip) return;
+      const key = chip.dataset.fav;
+      const idx = settings.disabledFavs.indexOf(key);
+      if (idx >= 0) settings.disabledFavs.splice(idx, 1);
+      else settings.disabledFavs.push(key);
+      chip.classList.toggle('active', idx >= 0);
+      recomputeFavs();
+      settingsChanged();
+    });
+    $('#set-reset').addEventListener('click', () => {
+      settings = { ...DEFAULT_SETTINGS, disabledFavs: [] };
+      saveSettings();
+      populateSettings();
+      recomputeFavs();
+      renderTicker();
+      render();
+    });
+  }
+
   function wireEvents() {
+    wireSettings();
     // Any filter change starts the list from the first page again
     const applyFilter = (mutate) => { mutate(); state.listLimit = LIST_PAGE; render(); };
     $('#btn-list').addEventListener('click', () => { state.view = 'list'; location.hash = ''; render(); });
@@ -680,14 +780,15 @@
       fetch(`config/favourites.json${bust}`),
     ]);
     const data = await dataRes.json();
-    favNames = ((await favRes.json()).bands || []).map(norm).filter(Boolean);
+    favRawNames = (await favRes.json()).bands || [];
+    favNames = favRawNames.map(norm).filter(Boolean);
 
-    gigs = (data.gigs || []).map((g) => ({ ...g, _fav: false, _cat: categoryOf(g) }));
-    gigs.forEach((g) => { g._fav = isFav(g); });
-    // The tracker is rock/metal only: drop anything that got no category from
-    // its classifications (fuzzy API matches: pop, theatre, sport, …) unless
-    // it's one of the favourite bands, which are welcome regardless of genre.
-    gigs = gigs.filter((g) => g._fav || g._cat);
+    // The tracker is rock/metal only: recomputeFavs drops anything that got
+    // no category from its classifications (fuzzy API matches: pop, theatre,
+    // sport, …) unless it's one of the enabled favourite bands, which are
+    // welcome regardless of genre.
+    allGigs = (data.gigs || []).map((g) => ({ ...g, _fav: false, _cat: categoryOf(g) }));
+    recomputeFavs();
 
     const updated = new Date(data.updatedAt);
     $('#updated-at').textContent = `Updated ${updated.toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`;
@@ -699,6 +800,7 @@
     if (location.hash === '#map') state.view = 'map';
 
     populateCountryFilter();
+    populateSettings();
     wireEvents();
     updateHiddenNote();
     renderTicker();

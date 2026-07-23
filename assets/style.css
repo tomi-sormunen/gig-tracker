@@ -201,6 +201,22 @@ body {
   margin-bottom: 0.55rem;
 }
 .control-row { display: flex; flex-wrap: wrap; gap: 0.7rem 1rem; align-items: stretch; }
+.settings-group summary { cursor: pointer; user-select: none; margin-bottom: 0; }
+.settings-group summary::marker { color: var(--accent); }
+.settings-group[open] summary { margin-bottom: 0.55rem; }
+.fav-manager { margin-top: 0.8rem; display: flex; flex-direction: column; gap: 0.4rem; }
+.fav-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.fav-chip {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+  text-decoration: line-through;
+}
+.fav-chip.active { color: var(--fav); border-color: var(--fav); text-decoration: none; }
 .ctl { display: flex; flex-direction: column; gap: 0.3rem; justify-content: flex-end; }
 .ctl-label {
   font-size: 0.64rem;
