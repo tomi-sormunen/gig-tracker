@@ -117,6 +117,16 @@ scripts/fetch-gigs.mjs ──► data/gigs.json ──► index.html + assets/ (
 - **Prices** — Ticketmaster price ranges shown on cards when available.
 - **PWA** — installable ("Add to Home Screen") with an offline fallback to the
   last fetched dataset.
+- **Settings panel** (collapsible, stored in the browser) — set a home
+  location and radius to only see gigs within reach, tune the trip-planner
+  distance, and toggle individual favourite bands on/off without editing
+  `favourites.json`.
+- **Weekly email digest** — `.github/workflows/weekly-digest.yml` sends a
+  Monday-morning email with the week's opening ticket sales, favourite-band
+  shows in the next 30 days, and everything added in the last 7 days. Enable
+  it with three repository secrets: `MAIL_USERNAME` and `MAIL_PASSWORD` (for
+  Gmail use an [App Password](https://myaccount.google.com/apppasswords)) and
+  `MAIL_TO`; optional `MAIL_SERVER` overrides the default smtp.gmail.com.
 
 ## Design decisions (and why)
 
