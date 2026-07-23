@@ -148,6 +148,7 @@ as an archive of when each gig was announced.
 | --- | --- |
 | **Ticketmaster Discovery API** | ✅ Primary. Free instant key, 5000 calls/day, covers most European markets, genre classifications, ticket URLs, and event images in one API. |
 | **Skiddle API** | ✅ Secondary (`SKIDDLE_API_KEY` secret, free from [skiddle.com/api/join.php](https://www.skiddle.com/api/join.php)). Covers the UK club/venue circuit that Ticketmaster misses; LIVE + FEST events filtered by the same genre rules. |
+| **JamBase API** | ✅ Secondary (`JAMBASE_API_KEY` secret, free tier at [data.jambase.com](https://data.jambase.com/)). Broad concert/festival aggregator; the configured European markets are swept by date range and filtered by the same genre rules. |
 | **Custom iCal feeds** | ✅ `config/feeds.json` — point it at any public venue/festival `.ics` calendar. The pragmatic answer for vendors without an API (e.g. Tiketti-sold shows via a venue's own calendar). |
 | **Bandsintown API** | ⚠️ Supported out of the box (`BANDSINTOWN_APP_ID` secret), but access is granted to artists/managers only — hobby projects are refused. |
 | Tiketti / Lippu.fi / Eventim | ❌ No public APIs or feeds; covered indirectly via the iCal feed module where venues publish calendars. |
@@ -156,7 +157,7 @@ as an archive of when each gig was announced.
 | Scraping metal-archives, concerts-metal.com, local promoters | ❌ Deliberately avoided: brittle and against most ToS. |
 
 Events appearing in multiple sources (same date, same city, shared band) are
-deduplicated with source priority Ticketmaster → Skiddle → feeds →
+deduplicated with source priority Ticketmaster → Skiddle → JamBase → feeds →
 Bandsintown.
 
 Note: Ticketmaster's coverage is thinner in a few countries where it doesn't

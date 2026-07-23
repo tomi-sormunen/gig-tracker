@@ -255,7 +255,9 @@ async function fetchFavouriteKeywords(found, startISO, endISO) {
 
 /* ---------- Skiddle (UK live music, free public API) ---------- */
 
-function skiddleGenresInScope(genreNames) {
+// Shared genre gate for keyword/aggregator sources: keep only events whose
+// genre text matches the allow list and no exclude term.
+function genresInScope(genreNames) {
   const text = genreNames.map(norm).join(' ');
   if (!text) return false;
   if (config.excludeGenres.some((x) => text.includes(norm(x)))) return false;
@@ -323,7 +325,7 @@ async function fetchSkiddle(found) {
         for (const ev of events) {
           const gig = mapSkiddleEvent(ev, eventcode);
           if (!gig || found.has(gig.id)) continue;
-          if (isFavouriteGig(gig) || skiddleGenresInScope(gig._genres)) {
+          if (isFavouriteGig(gig) || genresInScope(gig._genres)) {
             found.set(gig.id, gig);
             kept++;
           }
@@ -334,6 +336,113 @@ async function fetchSkiddle(found) {
       console.log(`  ${eventcode}: ${kept} in scope of ${total} events`);
     } catch (err) {
       console.warn(`  ${eventcode}: stopped at offset ${offset} (${err.message})`);
+    }
+  }
+}
+
+/* ---------- JamBase (concert/festival aggregator, free tier) ---------- */
+
+// JamBase returns Schema.org (JSON-LD) event objects, so fields are read
+// defensively: addressCountry can be an ISO2 string or a { identifier, name }
+// object; performer/offers/image may be single values or arrays.
+const asArray = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
+
+function resolveCountryCode(addressCountry) {
+  if (!addressCountry) return null;
+  const id = typeof addressCountry === 'string' ? addressCountry : addressCountry.identifier || addressCountry.name || '';
+  if (/^[A-Z]{2}$/.test(id)) return id;
+  const name = typeof addressCountry === 'string' ? addressCountry : addressCountry.name;
+  return BIT_COUNTRIES[norm(name)] ?? null;
+}
+
+function mapJamBaseEvent(ev) {
+  const start = ev?.startDate;
+  const rawId = ev?.identifier ?? ev?.['@id'] ?? ev?.url;
+  if (!start || !rawId) return null;
+  const place = ev.location ?? {};
+  const addr = place.address ?? {};
+  const performers = asArray(ev.performer).map((p) => p?.name).filter(Boolean);
+  const offer = asArray(ev.offers)[0] ?? null;
+  const image = typeof ev.image === 'string' ? ev.image : asArray(ev.image)[0]?.url ?? asArray(ev.image)[0] ?? null;
+  // Genre may live on the event and/or its performers, as strings or objects.
+  const genreStrings = [
+    ...asArray(ev.genre),
+    ...asArray(ev['x-genres']),
+    ...asArray(ev.performer).flatMap((p) => asArray(p?.genre).concat(asArray(p?.['x-genres']))),
+  ]
+    .map((g) => (typeof g === 'string' ? g : g?.name))
+    .filter(Boolean);
+  const geo = place.geo ?? {};
+  const price = offer?.price != null ? Number(offer.price) : null;
+  return {
+    id: `jb-${String(rawId).replace(/[^a-zA-Z0-9]+/g, '')}`,
+    title: ev.name,
+    bands: performers.length ? performers : [ev.name],
+    date: start.slice(0, 10),
+    time: /T\d{2}:\d{2}/.test(start) ? start.slice(11, 16) : null,
+    venue: place.name ?? null,
+    city: addr.addressLocality ?? null,
+    country: resolveCountryCode(addr.addressCountry),
+    genre: genreStrings[0] ?? null,
+    subGenre: genreStrings[1] ?? null,
+    url: offer?.url ?? ev.url ?? null,
+    image,
+    isFestival: ev['x-isFestival'] === true || /\bfest(ival)?\b|open air/i.test(ev.name ?? ''),
+    onSaleDate: null,
+    status: null,
+    availability: null,
+    priceMin: Number.isFinite(price) && price > 0 ? price : null,
+    priceMax: null,
+    currency: offer?.priceCurrency ?? null,
+    lat: geo.latitude != null ? Number(geo.latitude) : null,
+    lon: geo.longitude != null ? Number(geo.longitude) : null,
+    _genres: genreStrings,
+  };
+}
+
+// Sweeps the configured European markets by date range. Free key from
+// https://data.jambase.com/ (JAMBASE_API_KEY). A User-Agent header is
+// mandatory; the x-jb-api-requests-remaining header lets us stop before
+// exhausting the quota.
+async function fetchJamBase(found) {
+  const key = process.env.JAMBASE_API_KEY;
+  if (!key) return;
+  console.log('JamBase (aggregator):');
+  const today = new Date();
+  const eventDateFrom = today.toISOString().slice(0, 10);
+  const eventDateTo = new Date(today.getTime() + config.lookAheadDays * 86400_000).toISOString().slice(0, 10);
+  for (const country of config.countries) {
+    let page = 1;
+    let kept = 0;
+    try {
+      while (page <= config.maxPagesPerQuery) {
+        const url = new URL('https://www.jambase.com/jb-api/v1/events');
+        for (const [k, v] of Object.entries({
+          apikey: key, geoCountryIso2: country, eventDateFrom, eventDateTo, perPage: 50, page,
+        })) url.searchParams.set(k, v);
+        const res = await fetch(url, { headers: { 'user-agent': 'gig-tracker personal aggregator' } });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        for (const ev of data.events ?? []) {
+          const gig = mapJamBaseEvent(ev);
+          if (!gig || !gig.date || !EUROPE.has(gig.country) || found.has(gig.id)) continue;
+          if (isFavouriteGig(gig) || genresInScope(gig._genres)) {
+            found.set(gig.id, gig);
+            kept++;
+          }
+        }
+        const remaining = Number(res.headers.get('x-jb-api-requests-remaining'));
+        if (Number.isFinite(remaining) && remaining <= 1) {
+          console.log('  quota nearly exhausted — stopping JamBase early');
+          return;
+        }
+        if (page >= (data.pagination?.totalPages ?? 1)) break;
+        page++;
+        await sleep(900); // free tier ~1 req/s
+      }
+      if (kept) console.log(`  ${country}: ${kept} in scope`);
+    } catch (err) {
+      console.warn(`  ${country}: stopped at page ${page} (${err.message})`);
     }
   }
 }
@@ -436,7 +545,7 @@ async function fetchFeeds(found) {
 // Same-source listings are never merged (Ticketmaster's own VIP/day-ticket
 // variants are handled elsewhere).
 function dedupeAcrossSources(found) {
-  const priority = { tm: 0, sk: 1, feed: 2, bit: 3 };
+  const priority = { tm: 0, sk: 1, jb: 2, feed: 3, bit: 4 };
   const source = (g) => g.id.split('-')[0];
   const bandsOf = (g) => (g.bands.length ? g.bands : [g.title]).map(norm);
   const ordered = [...found.values()].sort(
@@ -578,6 +687,7 @@ async function main() {
   await fetchFavourites(found, startISO, endISO);
   await fetchFavouriteKeywords(found, startISO, endISO);
   await fetchSkiddle(found);
+  await fetchJamBase(found);
   await fetchFeeds(found);
   await fetchBandsintown(found);
   const deduped = dedupeAcrossSources(found);
@@ -619,7 +729,7 @@ async function main() {
 }
 
 // Exported for tests; main runs only when executed directly.
-export { parseICS, mapSkiddleEvent, dedupeAcrossSources, skiddleGenresInScope };
+export { parseICS, mapSkiddleEvent, mapJamBaseEvent, dedupeAcrossSources, genresInScope };
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((err) => {
