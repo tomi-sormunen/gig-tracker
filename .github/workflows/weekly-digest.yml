@@ -11,6 +11,13 @@ permissions:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    # The `secrets` context can't be used in an `if:`, so surface the mail
+    # secrets as env vars (which `if:` can read) to gate the send step.
+    env:
+      MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+      MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+      MAIL_TO: ${{ secrets.MAIL_TO }}
+      MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
     steps:
       - uses: actions/checkout@v4
 
@@ -32,15 +39,15 @@ jobs:
       #   MAIL_TO       — recipient address
       # Optional: MAIL_SERVER (default smtp.gmail.com)
       - name: Send email
-        if: ${{ secrets.MAIL_USERNAME != '' && secrets.MAIL_PASSWORD != '' && secrets.MAIL_TO != '' }}
+        if: ${{ env.MAIL_USERNAME != '' && env.MAIL_PASSWORD != '' && env.MAIL_TO != '' }}
         uses: dawidd6/action-send-mail@v4
         with:
-          server_address: ${{ secrets.MAIL_SERVER || 'smtp.gmail.com' }}
+          server_address: ${{ env.MAIL_SERVER || 'smtp.gmail.com' }}
           server_port: 465
           secure: true
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          from: Gig Tracker <${{ secrets.MAIL_USERNAME }}>
-          to: ${{ secrets.MAIL_TO }}
+          username: ${{ env.MAIL_USERNAME }}
+          password: ${{ env.MAIL_PASSWORD }}
+          from: Gig Tracker <${{ env.MAIL_USERNAME }}>
+          to: ${{ env.MAIL_TO }}
           subject: ${{ steps.subject.outputs.subject }}
           html_body: file://digest.html
