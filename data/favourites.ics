@@ -45,6 +45,13 @@ LOCATION:Dynamo Werk 21\, Zürich\, CH
 DESCRIPTION:Unearth\nhttps://www.ticketmaster.ch/event/unearth-tickets/404979144?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:sk-41305196@gig-tracker
+DTSTART;VALUE=DATE:20260806
+SUMMARY:Bloodstock Open Air
+LOCATION:Catton Park\, Walton Upon Trent\, GB
+DESCRIPTION:Judas Priest · Lamb of God · Sepultura · Slaughter To Prevail · Of Mice & Men · Saxon · Northlane · Municipal Waste · Orbit Culture · Carpenter Brut · Bleed From Within · Death Angel · Cryptopsy · Nevermore · Leprous · Biohazard · Castle Rat · SKYND · Life of Agony · The Scratch · Wednesday 13 · Imperial Age · Heavysaurus · DREAM STATE · Party Cannon · Graphic Nature · Untamed Silence · Vampyra · Concrete Age · WREX · Stampin Ground · Hammer (Metal) · Negative Frame · Black Spiders · Aethoria · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · URNE · Chug · The Hell · Seething Akira · Sellsword\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z59rmIYnyZAk1@gig-tracker
 DTSTART;VALUE=DATE:20260811
 SUMMARY:Gogol Bordello
@@ -101,6 +108,20 @@ LOCATION:Klub Tama\, Poznan\, PL
 DESCRIPTION:Gogol Bordello · Leniwiec\nhttps://www.ticketmaster.pl/event/gogol-bordello-tickets/1869816360?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:sk-41408986@gig-tracker
+DTSTART;VALUE=DATE:20260819
+SUMMARY:ArcTanGent
+LOCATION:Fernhill Farm\, Bristol\, GB
+DESCRIPTION:Alcest · Igorrr · Perturbator · Mass of the Fermenting Dregs · Napalm Death · Chelsea Wolfe · Maruja · Nothing · High on Fire · TTNG · Master Boot Record · Matador · Sikth · Oathbreaker · Arcane Roots · You Win Again Gravity · Conjurer · Sans Froid · A.A.Williams · BELIEVE IN NOTHING · Skloss · God Alone. · Sleemo · HAAL · Chalk Hands · Giant Walker · Barrens · The Grey · Battlesnake · Night Swimming · Swamp Coffin · Overhead\, The Albatross · Meatdripper · Jamie Lenman · Witchsorrow · Amplifier · Humanfly · Alpha Male Tea Party · Nordic Giants · Jo Quail · Town Portal · Lost in Kiev · Scaler · Erotic Secrets of Pompeii · Witch Fever · Svalbard · Itoldyouiwouldeatyou · No Violet · Kathryn Joseph · Moksha\nhttps://www.skiddle.com/festivals/arctangent/
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-41783439@gig-tracker
+DTSTART;VALUE=DATE:20260821
+SUMMARY:Beautiful Days Festival
+LOCATION:Escot Park\, Ottery Saint Mary\, GB
+DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · The Royston Club · NOVA TWINS · Gogol Bordello · Gurriers · Big Special · Billy Bragg · The Beta Band · Chameleons · Super Furry Animals · The Divine Comedy · Levellers · Richard Thompson · Shades Of Rhythm · The Wonder Stuff · Skerryvore · Turin Brakes · Skinny Lister · Lisa O'Neill · Damien Dempsey · Katherine Priddy · Steeleye Span · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-LvZ18QQncMXHvzYZiCXk4@gig-tracker
 DTSTART;VALUE=DATE:20260821
 SUMMARY:Gogol Bordello
@@ -133,7 +154,14 @@ UID:tm-LvZ18Q_Hz0H8AbZZ0e02-@gig-tracker
 DTSTART;VALUE=DATE:20260824
 SUMMARY:Gogol Bordello
 LOCATION:Southampton 1865\, Southampton\, GB
-DESCRIPTION:Gogol Bordello · Divergent Promotions · Divergent Promotions - Southampton\nhttps://www.universe.com/events/gogol-bordello-tickets-R2XBWJ?ref=ticketmaster
+DESCRIPTION:Gogol Bordello · Split dogs\nhttps://www.universe.com/events/gogol-bordello-tickets-R2XBWJ?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-41652634@gig-tracker
+DTSTART;VALUE=DATE:20260826
+SUMMARY:Rock en Seine
+LOCATION:Domaine De Saint Cloud\, Paris\, GB
+DESCRIPTION:Sombr · Lorde · Tyler\, the Creator · Deftones · Djo · The Cure · Turnstile · Ravyn Lenae · Wolf Alice · Lykke Li · The Black Keys · Wet Leg · Franz Ferdinand · Tash Sultana · Kingfishr · Florence Road · Interpol · CMAT · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wilco · Biffy Clyro · Mogwai · Lambrini Girls · Kurt Vile · Black Country\, New Road · Anna von Hausswolff · Mannequin Pussy · Ecca Vandal · LANDMVRKS · Wednesday · Dry Cleaning · Sparks · Peaches · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QqqwFbRyiOvqt4Xx@gig-tracker
@@ -148,6 +176,27 @@ DTSTART;VALUE=DATE:20260902
 SUMMARY:Anna Von Hausswolff
 LOCATION:Saint Luke's\, Glasgow\, GB
 DESCRIPTION:Anna Von Hausswolff\nhttps://www.ticketweb.uk/event/anna-von-hausswolff-saint-lukes-tickets/14831063?REFERRAL_ID=tmfeed
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-42308134@gig-tracker
+DTSTART;VALUE=DATE:20260903
+SUMMARY:End of the Road Festival
+LOCATION:Larmer Tree Gardens\, Salisbury\, GB
+DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · CMAT · Pulp · Anna von Hausswolff · Ty Segall · Lucinda Williams · Kelly Lee Owens · White Denim · Adult DVD · Super Furry Animals · Fat Dog · Ghostwoman · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Ela Minus · Just Mustard · Madra Salach · Gans · Mark William Lewis · William Tyler · BCUC · Junior Brother · marisa anderson · Caroline · Maddie Ashman · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · Oldboy · Kitchen Lover · RÓIS · BRÌGHDE CHAIMBEUL · Deary · David Thomas Broughton · TTSSFU · Kiran Leonard · Kurt Vile & The Violators · Lichen · Modern Woman · Milkweed · Factory Floor · Susannah Stark · M(h)aol · Colossal Squid · Gnod\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-42603193@gig-tracker
+DTSTART;VALUE=DATE:20260904
+SUMMARY:Brighton Psych Fest
+LOCATION:Brighton And Hove   Multiple Venues\, Brighton\, GB
+DESCRIPTION:Stereolab · Anna von Hausswolff · ALLAH-LAS · Night Tapes · Bleech 9:3 · White Denim · The Mystery Lights · The KVB · Mandy\, Indiana · Holy Wave · Gwenno · HIGHDRIVE · thistle. · Lemonsuckr · Silverwingkiller · Floral Image · Martial Arts · Ellis-D · Mary In The Junkyard · Knives\nhttps://www.skiddle.com/festivals/brighton-psych-fest/
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-42415439@gig-tracker
+DTSTART;VALUE=DATE:20260905
+SUMMARY:Chemical Dance vs Daft Punk - The Ultimate Tribute Experience
+LOCATION:Uppermill Civic Hall\, Oldham \, GB
+DESCRIPTION:Daft Punk · The Chemical Brothers\nhttps://www.skiddle.com/whats-on/Oldham/Uppermill-Civic-Hall/Chemical-Dance-vs-Daft-Punk---The-Ultimate-Tribute-Experience/42415439/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QGLIcl-4-ZZnZYvH@gig-tracker
@@ -423,6 +472,13 @@ LOCATION:Unipol Forum\, Assago\, IT
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.it/biglietti/placebo-assago-06-11-2026/event/8ne6ogrbggt9
 END:VEVENT
 BEGIN:VEVENT
+UID:sk-42433548@gig-tracker
+DTSTART;VALUE=DATE:20261108
+SUMMARY:Anna Von Hausswolff
+LOCATION:EngineRooms\, Southampton\, GB
+DESCRIPTION:Anna von Hausswolff\nhttps://www.skiddle.com/whats-on/Southampton/EngineRooms/Anna-Von-Hausswolff/42433548/
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZbpZ16vFeGsPF@gig-tracker
 DTSTART;VALUE=DATE:20261108
 SUMMARY:KoRn
@@ -470,6 +526,13 @@ DTSTART;VALUE=DATE:20261111
 SUMMARY:KoRn - EURO TOUR 2026 | Logen-Seat
 LOCATION:Barclays Arena\, Hamburg\, DE
 DESCRIPTION:Korn · Ticketmaster Suite Hamburg\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-logen-seat-tickets/677226875?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:sk-42438962@gig-tracker
+DTSTART;VALUE=DATE:20261113
+SUMMARY:Anna von Hausswolff
+LOCATION:The Dome At Grand Central Hall\, Liverpool\, GB
+DESCRIPTION:Anna von Hausswolff\nhttps://www.skiddle.com/whats-on/Liverpool/The-Dome-At-Grand-Central-Hall/Anna-von-Hausswolff/42438962/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z16vPKOSvN@gig-tracker
