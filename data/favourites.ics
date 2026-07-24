@@ -3,6 +3,13 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
+UID:jb-jambase15211613@gig-tracker
+DTSTART;VALUE=DATE:20260724
+SUMMARY:Electric Callboy at Schloßwiese Moosburg
+LOCATION:Schloßwiese Moosburg\, Moosburg\, AT
+DESCRIPTION:Electric Callboy · Bury Tomorrow · Wargasm\nhttps://www.eventim.de/en/event/electric-callboy-tanzneid-world-tour-schlosswiese-moosburg-20854415
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZ8KZ1k8kPzGs@gig-tracker
 DTSTART;VALUE=DATE:20260725
 SUMMARY:Qstock  2-Day ticket
