@@ -410,7 +410,11 @@ async function fetchJamBase(found) {
   console.log('JamBase (aggregator):');
   const today = new Date();
   const eventDateFrom = today.toISOString().slice(0, 10);
-  const eventDateTo = new Date(today.getTime() + config.lookAheadDays * 86400_000).toISOString().slice(0, 10);
+  // The developer plan caps how far ahead eventDateTo may reach. Start at the
+  // global look-ahead and shrink to whatever limit the API reports on its
+  // first "date-window-exceeded" error, so we self-tune without guessing.
+  let windowDays = config.lookAheadDays;
+  const dateTo = () => new Date(today.getTime() + windowDays * 86400_000).toISOString().slice(0, 10);
   for (const country of config.countries) {
     let page = 1;
     let kept = 0;
@@ -421,7 +425,7 @@ async function fetchJamBase(found) {
         // authenticated with the key as a Bearer token (no apikey query param).
         const url = new URL('https://api.data.jambase.com/v3/events');
         for (const [k, v] of Object.entries({
-          geoCountryIso2: country, eventDateFrom, eventDateTo, perPage, page,
+          geoCountryIso2: country, eventDateFrom, eventDateTo: dateTo(), perPage, page,
         })) url.searchParams.set(k, v);
         const res = await fetch(url, {
           headers: {
@@ -431,9 +435,15 @@ async function fetchJamBase(found) {
           },
         });
         if (!res.ok) {
-          // Surface the API's own error message (names a bad param, etc.)
           const body = await res.text().catch(() => '');
-          throw new Error(`HTTP ${res.status} ${body.slice(0, 160).replace(/\s+/g, ' ')}`);
+          // Shrink the window to the plan's limit and retry the same page.
+          const limit = body.includes('date-window-exceeded') && body.match(/(\d+)\s*days?/);
+          if (limit && Number(limit[1]) < windowDays) {
+            windowDays = Math.max(1, Number(limit[1]) - 1);
+            console.log(`  date window capped to ${windowDays} days by the plan — retrying`);
+            continue;
+          }
+          throw new Error(`HTTP ${res.status} ${body.slice(0, 200).replace(/\s+/g, ' ')}`);
         }
         const data = await res.json();
         const events = data.events ?? data.data ?? data.results ?? [];
@@ -600,12 +610,24 @@ function mapSongkickEvent(ev) {
 // SONGKICK_ICS_URL secret rather than the repo. Europe-only, since the feed
 // includes your artists' worldwide dates.
 async function fetchSongkick(found) {
-  const url = process.env.SONGKICK_ICS_URL;
-  if (!url) return;
+  const configuredUrl = process.env.SONGKICK_ICS_URL;
+  if (!configuredUrl) return;
   console.log('Songkick (tracked artists):');
   const today = new Date().toISOString().slice(0, 10);
   try {
-    const res = await fetch(url, { headers: { 'user-agent': 'gig-tracker personal aggregator' } });
+    // Songkick caches the per-user .ics server-side, so a plain fetch can lag
+    // behind recent tracking changes. A unique cache-bust param plus no-cache
+    // headers ask for a fresh copy.
+    const url = new URL(configuredUrl);
+    url.searchParams.set('_cb', Date.now().toString());
+    const res = await fetch(url, {
+      headers: {
+        'user-agent': 'gig-tracker personal aggregator',
+        accept: 'text/calendar, text/plain, */*',
+        'cache-control': 'no-cache',
+        pragma: 'no-cache',
+      },
+    });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const body = await res.text();
     // Diagnose the common failure: a non-public calendar returns a 200 HTML
