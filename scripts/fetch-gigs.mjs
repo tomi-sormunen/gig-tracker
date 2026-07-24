@@ -420,7 +420,14 @@ async function fetchJamBase(found) {
         for (const [k, v] of Object.entries({
           apikey: key, geoCountryIso2: country, eventDateFrom, eventDateTo, perPage: 50, page,
         })) url.searchParams.set(k, v);
-        const res = await fetch(url, { headers: { 'user-agent': 'gig-tracker personal aggregator' } });
+        // The data.jambase.com portal issues keys used as a Bearer token;
+        // we also keep the apikey query param for the legacy auth style.
+        const res = await fetch(url, {
+          headers: {
+            'user-agent': 'gig-tracker personal aggregator',
+            authorization: `Bearer ${key}`,
+          },
+        });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
         for (const ev of data.events ?? []) {
@@ -595,10 +602,15 @@ async function fetchSongkick(found) {
     const events = parseICS(await res.text());
     let added = 0;
     let nonEuro = 0;
+    // Every band on your Songkick calendar is auto-added to favourites
+    // (highlighting + Settings toggles), region-agnostic — a favourite is a
+    // favourite whether the calendar entry is in Europe or not.
+    const derivedFavourites = new Set();
     for (const ev of events) {
       if (!ev.date || ev.date < today) continue;
       const gig = mapSongkickEvent(ev);
       if (!gig) continue;
+      gig.bands.forEach((b) => derivedFavourites.add(b));
       if (!EUROPE.has(gig.country)) {
         nonEuro++;
         continue;
@@ -607,9 +619,13 @@ async function fetchSongkick(found) {
       found.set(gig.id, gig);
       added++;
     }
-    console.log(`  ${events.length} calendar entries → ${added} European gigs kept (${nonEuro} non-European skipped)`);
+    writeFileSync(
+      path.join(ROOT, 'data', 'songkick-favourites.json'),
+      JSON.stringify({ updatedAt: new Date().toISOString(), bands: [...derivedFavourites].sort() }, null, 2) + '\n'
+    );
+    console.log(`  ${events.length} calendar entries → ${added} European gigs kept (${nonEuro} non-European skipped), ${derivedFavourites.size} bands added to favourites`);
     if (events.length === 0) {
-      console.warn('  (no events parsed — check the calendar is public and the URL is the .ics feed)');
+      console.warn('  (no events parsed — is the calendar public? filter=attendance only lists concerts you have marked "going"/"interested")');
     }
   } catch (err) {
     console.warn(`  skipped (${err.message})`);

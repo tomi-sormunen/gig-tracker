@@ -25,6 +25,7 @@
   let gigs = []; // the in-scope working set (favourites + rock/metal)
   let favNames = [];
   let favRawNames = [];
+  let songkickFavNames = new Set(); // normalised names sourced from Songkick
   let newBadgeDays = 7;
 
   // Saved ("★") and hidden events live in localStorage, per browser.
@@ -285,8 +286,15 @@
       })
       .filter((c) => c.length >= 2);
     const rows = trips.map((c) => {
-      const short = (iso) => parseDate(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
-      const range = c[0].date === c[c.length - 1].date ? fmtDay(c[0].date) : `${short(c[0].date)} – ${fmtDay(c[c.length - 1].date)}`;
+      // Weekday on both ends so it's obvious at a glance whether a trip lands
+      // on a weekend; drop the year from the first date when it matches the last.
+      const startISO = c[0].date;
+      const endISO = c[c.length - 1].date;
+      const startShort = parseDate(startISO).toLocaleDateString('en-GB', {
+        weekday: 'short', day: 'numeric', month: 'short',
+        ...(startISO.slice(0, 4) !== endISO.slice(0, 4) ? { year: 'numeric' } : {}),
+      });
+      const range = startISO === endISO ? fmtDay(startISO) : `${startShort} – ${fmtDay(endISO)}`;
       let km = 0;
       for (let i = 1; i < c.length; i++) km += haversineKm(c[i - 1], c[i]);
       const parts = c
@@ -643,7 +651,7 @@
       .sort((a, b) => a[1].localeCompare(b[1]))
       .map(
         ([key, label]) =>
-          `<button class="fav-chip${settings.disabledFavs.includes(key) ? '' : ' active'}" data-fav="${esc(key)}">${esc(label)}</button>`
+          `<button class="fav-chip${settings.disabledFavs.includes(key) ? '' : ' active'}${songkickFavNames.has(key) ? ' from-songkick' : ''}" data-fav="${esc(key)}" title="${songkickFavNames.has(key) ? 'From your Songkick calendar' : 'From config/favourites.json'}">${songkickFavNames.has(key) ? '♪ ' : ''}${esc(label)}</button>`
       )
       .join('');
   }
@@ -775,12 +783,24 @@
 
   async function init() {
     const bust = `?t=${Date.now()}`;
-    const [dataRes, favRes] = await Promise.all([
+    const [dataRes, favRes, skFavRes] = await Promise.all([
       fetch(`data/gigs.json${bust}`),
       fetch(`config/favourites.json${bust}`),
+      // Bands auto-derived from the Songkick calendar; optional (may 404 on
+      // an old deploy), so failures fall back to an empty list.
+      fetch(`data/songkick-favourites.json${bust}`).catch(() => null),
     ]);
     const data = await dataRes.json();
-    favRawNames = (await favRes.json()).bands || [];
+    const manualFavs = (await favRes.json()).bands || [];
+    const songkickFavs = (await skFavRes?.json().catch(() => null))?.bands || [];
+    songkickFavNames = new Set(songkickFavs.map(norm).filter(Boolean));
+
+    // Manual favourites first, then Songkick-derived ones not already listed.
+    favRawNames = [...manualFavs];
+    const seenNorm = new Set(manualFavs.map(norm));
+    for (const b of songkickFavs) {
+      if (!seenNorm.has(norm(b))) { favRawNames.push(b); seenNorm.add(norm(b)); }
+    }
     favNames = favRawNames.map(norm).filter(Boolean);
 
     // The tracker is rock/metal only: recomputeFavs drops anything that got
