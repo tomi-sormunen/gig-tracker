@@ -150,6 +150,7 @@ as an archive of when each gig was announced.
 | **Skiddle API** | ✅ Secondary (`SKIDDLE_API_KEY` secret, free from [skiddle.com/api/join.php](https://www.skiddle.com/api/join.php)). Covers the UK club/venue circuit that Ticketmaster misses; LIVE + FEST events filtered by the same genre rules. |
 | **JamBase API** | ✅ Secondary (`JAMBASE_API_KEY` secret, free tier at [data.jambase.com](https://data.jambase.com/)). Broad concert/festival aggregator; the configured European markets are swept by date range and filtered by the same genre rules. |
 | **Custom iCal feeds** | ✅ `config/feeds.json` — point it at any public venue/festival `.ics` calendar. The pragmatic answer for vendors without an API (e.g. Tiketti-sold shows via a venue's own calendar). |
+| **Songkick** | ✅ Personal tracked-artists calendar (`SONGKICK_ICS_URL` secret). Songkick's API is closed, but your account exports a per-user `.ics` of every gig by the artists/venues you track — a strong catch-all for shows the ticket-vendor APIs miss. Europe-only; the URL is a secret since it reveals your tracked shows. |
 | **Bandsintown API** | ⚠️ Supported out of the box (`BANDSINTOWN_APP_ID` secret), but access is granted to artists/managers only — hobby projects are refused. |
 | Tiketti / Lippu.fi / Eventim | ❌ No public APIs or feeds; covered indirectly via the iCal feed module where venues publish calendars. |
 | Songkick API | ❌ No longer issues new API keys. |
@@ -158,7 +159,7 @@ as an archive of when each gig was announced.
 
 Events appearing in multiple sources (same date, same city, shared band) are
 deduplicated with source priority Ticketmaster → Skiddle → JamBase → feeds →
-Bandsintown.
+Songkick → Bandsintown.
 
 Note: Ticketmaster's coverage is thinner in a few countries where it doesn't
 operate (e.g. parts of Eastern/Southern Europe) — that's the main gap Bandsintown

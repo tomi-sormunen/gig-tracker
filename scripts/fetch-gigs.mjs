@@ -537,15 +537,95 @@ async function fetchFeeds(found) {
   }
 }
 
+/* ---------- Songkick (personal tracked-artists .ics calendar) ---------- */
+
+// Songkick exports a per-user iCal of every gig by the artists/venues you
+// track — great for catching shows the ticket-vendor APIs miss. Each VEVENT
+// spans a different city/country, so unlike a venue feed we parse the
+// location out of every event. Format is "Artist(s) at Venue (City)" in the
+// SUMMARY and "Venue, City, Country" in the LOCATION.
+function mapSongkickEvent(ev) {
+  if (!ev.date || !ev.summary) return null;
+  const artistPart = ev.summary.split(/\s+at\s+/i)[0].trim() || ev.summary;
+  const bands = artistPart.split(/\s*,\s*/).filter(Boolean);
+  const loc = (ev.location || '').split(',').map((s) => s.trim()).filter(Boolean);
+  let venue = loc[0] ?? null;
+  let country = loc.length ? resolveCountryCode(loc[loc.length - 1]) : null;
+  let city = loc.length >= 2 ? loc[loc.length - 2] : null;
+  if (!city) {
+    const m = ev.summary.match(/\(([^)]+)\)\s*$/); // "... (Helsinki)"
+    if (m) city = m[1].split(',')[0].trim();
+  }
+  return {
+    id: `sgk-${hash(ev.uid ?? `${ev.summary}${ev.date}`)}`,
+    title: artistPart,
+    bands: bands.length ? bands : [artistPart],
+    date: ev.date,
+    time: ev.time ?? null,
+    venue,
+    city,
+    country,
+    genre: 'Rock', // Songkick's iCal carries no genre; default keeps it in scope
+    subGenre: null,
+    url: ev.url ?? null,
+    image: null,
+    isFestival: /\bfest(ival)?\b|open air/i.test(ev.summary),
+    onSaleDate: null,
+    status: null,
+    availability: null,
+    priceMin: null,
+    priceMax: null,
+    currency: null,
+    lat: null,
+    lon: null,
+  };
+}
+
+// URL is personal (reveals your tracked shows), so it lives in the
+// SONGKICK_ICS_URL secret rather than the repo. Europe-only, since the feed
+// includes your artists' worldwide dates.
+async function fetchSongkick(found) {
+  const url = process.env.SONGKICK_ICS_URL;
+  if (!url) return;
+  console.log('Songkick (tracked artists):');
+  const today = new Date().toISOString().slice(0, 10);
+  try {
+    const res = await fetch(url, { headers: { 'user-agent': 'gig-tracker personal aggregator' } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const events = parseICS(await res.text());
+    let added = 0;
+    let nonEuro = 0;
+    for (const ev of events) {
+      if (!ev.date || ev.date < today) continue;
+      const gig = mapSongkickEvent(ev);
+      if (!gig) continue;
+      if (!EUROPE.has(gig.country)) {
+        nonEuro++;
+        continue;
+      }
+      if (found.has(gig.id)) continue;
+      found.set(gig.id, gig);
+      added++;
+    }
+    console.log(`  ${events.length} calendar entries → ${added} European gigs kept (${nonEuro} non-European skipped)`);
+    if (events.length === 0) {
+      console.warn('  (no events parsed — check the calendar is public and the URL is the .ics feed)');
+    }
+  } catch (err) {
+    console.warn(`  skipped (${err.message})`);
+  }
+}
+
 /* ---------- cross-source dedupe ---------- */
 
 // The same gig can be listed by several vendors. Two events from DIFFERENT
 // sources on the same date in the same city that share a band count as one;
-// the richer source wins (Ticketmaster > Skiddle > feeds > Bandsintown).
+// the richer source wins (Ticketmaster > Skiddle > JamBase > feeds >
+// Songkick > Bandsintown).
 // Same-source listings are never merged (Ticketmaster's own VIP/day-ticket
 // variants are handled elsewhere).
 function dedupeAcrossSources(found) {
-  const priority = { tm: 0, sk: 1, jb: 2, feed: 3, bit: 4 };
+  const priority = { tm: 0, sk: 1, jb: 2, feed: 3, sgk: 4, bit: 5 };
   const source = (g) => g.id.split('-')[0];
   const bandsOf = (g) => (g.bands.length ? g.bands : [g.title]).map(norm);
   const ordered = [...found.values()].sort(
@@ -689,6 +769,7 @@ async function main() {
   await fetchSkiddle(found);
   await fetchJamBase(found);
   await fetchFeeds(found);
+  await fetchSongkick(found);
   await fetchBandsintown(found);
   const deduped = dedupeAcrossSources(found);
   found.clear();
@@ -729,7 +810,7 @@ async function main() {
 }
 
 // Exported for tests; main runs only when executed directly.
-export { parseICS, mapSkiddleEvent, mapJamBaseEvent, dedupeAcrossSources, genresInScope };
+export { parseICS, mapSkiddleEvent, mapJamBaseEvent, mapSongkickEvent, dedupeAcrossSources, genresInScope };
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((err) => {

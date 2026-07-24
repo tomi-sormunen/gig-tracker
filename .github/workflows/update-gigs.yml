@@ -29,6 +29,7 @@ jobs:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           SKIDDLE_API_KEY: ${{ secrets.SKIDDLE_API_KEY }}
           JAMBASE_API_KEY: ${{ secrets.JAMBASE_API_KEY }}
+          SONGKICK_ICS_URL: ${{ secrets.SONGKICK_ICS_URL }}
           BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
 
       - name: Commit updated data
