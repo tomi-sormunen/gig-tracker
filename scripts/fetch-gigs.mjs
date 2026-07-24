@@ -415,22 +415,29 @@ async function fetchJamBase(found) {
     let page = 1;
     let kept = 0;
     try {
+      const perPage = 50;
       while (page <= config.maxPagesPerQuery) {
-        const url = new URL('https://www.jambase.com/jb-api/v1/events');
+        // The data.jambase.com portal: base host api.data.jambase.com/v3,
+        // authenticated with the key as a Bearer token (no apikey query param).
+        const url = new URL('https://api.data.jambase.com/v3/events');
         for (const [k, v] of Object.entries({
-          apikey: key, geoCountryIso2: country, eventDateFrom, eventDateTo, perPage: 50, page,
+          geoCountryIso2: country, eventDateFrom, eventDateTo, perPage, page,
         })) url.searchParams.set(k, v);
-        // The data.jambase.com portal issues keys used as a Bearer token;
-        // we also keep the apikey query param for the legacy auth style.
         const res = await fetch(url, {
           headers: {
             'user-agent': 'gig-tracker personal aggregator',
             authorization: `Bearer ${key}`,
+            accept: 'application/json',
           },
         });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        if (!res.ok) {
+          // Surface the API's own error message (names a bad param, etc.)
+          const body = await res.text().catch(() => '');
+          throw new Error(`HTTP ${res.status} ${body.slice(0, 160).replace(/\s+/g, ' ')}`);
+        }
         const data = await res.json();
-        for (const ev of data.events ?? []) {
+        const events = data.events ?? data.data ?? data.results ?? [];
+        for (const ev of events) {
           const gig = mapJamBaseEvent(ev);
           if (!gig || !gig.date || !EUROPE.has(gig.country) || found.has(gig.id)) continue;
           if (isFavouriteGig(gig) || genresInScope(gig._genres)) {
@@ -443,7 +450,8 @@ async function fetchJamBase(found) {
           console.log('  quota nearly exhausted — stopping JamBase early');
           return;
         }
-        if (page >= (data.pagination?.totalPages ?? 1)) break;
+        const totalPages = data.pagination?.totalPages ?? data.pagination?.total_pages;
+        if (events.length < perPage || (totalPages && page >= totalPages)) break;
         page++;
         await sleep(900); // free tier ~1 req/s
       }
