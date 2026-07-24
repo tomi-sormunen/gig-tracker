@@ -599,7 +599,13 @@ async function fetchSongkick(found) {
   try {
     const res = await fetch(url, { headers: { 'user-agent': 'gig-tracker personal aggregator' } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const events = parseICS(await res.text());
+    const body = await res.text();
+    // Diagnose the common failure: a non-public calendar returns a 200 HTML
+    // page (not an .ics), so parseICS finds nothing. Surface what we got.
+    const contentType = res.headers.get('content-type') || '';
+    const looksHTML = /^\s*<(?:!doctype|html)/i.test(body) || contentType.includes('text/html');
+    console.log(`  fetched ${body.length} bytes, content-type "${contentType}"${looksHTML ? ' — looks like HTML, not an .ics feed (is the calendar public?)' : ''}`);
+    const events = parseICS(body);
     let added = 0;
     let nonEuro = 0;
     // Every band on your Songkick calendar is auto-added to favourites
