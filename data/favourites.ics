@@ -297,6 +297,13 @@ LOCATION:Leipzig\, DE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/621909154?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:sgk-19vs3qx@gig-tracker
+DTSTART;VALUE=DATE:20261012
+SUMMARY:Raised Fist
+LOCATION:Werk\, Munich\, DE
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
 DTSTART;VALUE=DATE:20261017
 SUMMARY:SWALLOW THE SUN
@@ -337,6 +344,13 @@ DTSTART;VALUE=DATE:20261022
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Oslo Spektrum\, Oslo\, NO
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.no/event/placebo-30th-anniversary-tour-tickets/924339465?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:sgk-a4sn1u@gig-tracker
+DTSTART;VALUE=DATE:20261026
+SUMMARY:Amon Amarth
+LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
+DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5vHZ_kE_p4L2@gig-tracker
@@ -521,6 +535,13 @@ LOCATION:Wiener Stadthalle - Halle D\, Vienna\, AT
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.at/event/placebo-30th-anniversary-tour-tickets/611607092?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:sgk-14kdmho@gig-tracker
+DTSTART;VALUE=DATE:20261111
+SUMMARY:Blood Command
+LOCATION:Parkteatret Scene\, Oslo\, NO
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:KoRn - EURO TOUR 2026 | Logen-Seat
@@ -603,6 +624,13 @@ DTSTART;VALUE=DATE:20261117
 SUMMARY:KoRn
 LOCATION:TAURON Arena Kraków\, Krakow\, PL
 DESCRIPTION:Korn\nhttps://www.ticketmaster.pl/event/korn-tickets/496543017?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:sgk-13ypx8@gig-tracker
+DTSTART;VALUE=DATE:20261118
+SUMMARY:Anna von Hausswolff
+LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -855,6 +883,13 @@ DTSTART;VALUE=DATE:20270219
 SUMMARY:Five Finger Death Punch: 20th Anniversary World Tour
 LOCATION:Unity Arena\, Fornebu\, NO
 DESCRIPTION:Five Finger Death Punch · Lamb of God · Bleed From Within · Unity Arena\nhttps://www.ticketmaster.no/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/2027321306?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:sgk-vf3r96@gig-tracker
+DTSTART;VALUE=DATE:20270222
+SUMMARY:Lamb of God
+LOCATION:Veikkaus Arena\, Helsinki\, FI
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
