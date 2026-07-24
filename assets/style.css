@@ -217,6 +217,7 @@ body {
   text-decoration: line-through;
 }
 .fav-chip.active { color: var(--fav); border-color: var(--fav); text-decoration: none; }
+.fav-chip.from-songkick.active { color: var(--new); border-color: var(--new); }
 .ctl { display: flex; flex-direction: column; gap: 0.3rem; justify-content: flex-end; }
 .ctl-label {
   font-size: 0.64rem;
