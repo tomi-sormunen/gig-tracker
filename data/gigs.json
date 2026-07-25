@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T06:26:31.382Z",
+  "updatedAt": "2026-07-25T07:08:17.848Z",
   "source": "live",
   "gigs": [
     {
@@ -128212,6 +128212,31 @@
       "onSaleDate": "2026-05-29T07:30:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "sk-42366096",
+      "title": "The Slates - Leeds",
+      "bands": [
+        "The Slates"
+      ],
+      "date": "2026-11-28",
+      "time": "19:00",
+      "venue": "Leeds Beckett Students' Union",
+      "city": "Leeds",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Indie",
+      "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-Beckett-Students%27-Union/The-Slates---Leeds/42366096/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/2/b/3/2252804_0a1400c8_the-slates-leeds.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 53.803496,
+      "lon": -1.548697,
+      "firstSeen": "2026-07-25T07:08:17.848Z"
     },
     {
       "priceMin": null,
