@@ -401,9 +401,9 @@ function mapJamBaseEvent(ev) {
 }
 
 // Sweeps the configured European markets by date range. Free key from
-// https://data.jambase.com/ (JAMBASE_API_KEY). A User-Agent header is
-// mandatory; the x-jb-api-requests-remaining header lets us stop before
-// exhausting the quota.
+// https://data.jambase.com/ (JAMBASE_API_KEY). If the API reports a
+// remaining-calls header we stop before exhausting the quota; the per-country
+// page cap bounds the sweep either way.
 async function fetchJamBase(found) {
   const key = process.env.JAMBASE_API_KEY;
   if (!key) return;
@@ -455,9 +455,15 @@ async function fetchJamBase(found) {
             kept++;
           }
         }
-        const remaining = Number(res.headers.get('x-jb-api-requests-remaining'));
-        if (Number.isFinite(remaining) && remaining <= 1) {
-          console.log('  quota nearly exhausted — stopping JamBase early');
+        // Stop before exhausting the quota — but only when the API actually
+        // reports remaining calls. A missing header must NOT read as 0
+        // (Number(null) === 0), which previously halted after one call.
+        const remainingRaw =
+          res.headers.get('x-jb-api-requests-remaining') ??
+          res.headers.get('x-ratelimit-remaining') ??
+          res.headers.get('ratelimit-remaining');
+        if (remainingRaw != null && Number(remainingRaw) <= 1) {
+          console.log(`  quota nearly exhausted (${remainingRaw} left) — stopping JamBase early`);
           return;
         }
         const totalPages = data.pagination?.totalPages ?? data.pagination?.total_pages;
