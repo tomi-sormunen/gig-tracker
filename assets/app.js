@@ -140,7 +140,14 @@
       )
       .join('');
     // Two copies so the CSS -50% translate loops seamlessly
-    $('#ticker-track').innerHTML = html + html;
+    const track = $('#ticker-track');
+    track.innerHTML = html + html;
+    // Restart the scroll animation now that content exists — otherwise it ran
+    // against the initially-empty track and the first items sit off-screen
+    // until a repaint (which is why it only appeared to start on hover).
+    track.style.animation = 'none';
+    void track.offsetWidth; // force reflow
+    track.style.animation = '';
   }
 
   /* ---------- notice panels (latest additions / on sale soon) ---------- */
@@ -358,7 +365,12 @@
         ${media}
         <div class="card-body">
           <h3 class="card-title">${esc(g.title)}</h3>
-          ${bands.length ? `<div class="card-bands">${esc(bands.join(' · '))}</div>` : ''}
+          ${
+            bands.length
+              ? `<div class="card-bands">${esc(bands.join(' · '))}</div>` +
+                (bands.length > 6 ? `<button class="card-bands-toggle" data-bands-toggle>Show all (${bands.length})</button>` : '')
+              : ''
+          }
           <div class="card-where">📍 ${esc([g.venue, g.city].filter(Boolean).join(', '))} ${flag(g.country)} ${esc(countryName(g.country))}</div>
           <div class="card-when">🗓 ${fmtDay(g.date)}${g.time ? ` · ${esc(g.time)}` : ''}</div>
           ${state.sort === 'added' && g.firstSeen ? `<div class="card-when">➕ Added ${fmtDay(g.firstSeen.slice(0, 10))}</div>` : ''}
@@ -720,6 +732,15 @@
     // Save/hide buttons appear on every card (list, modal, day modal) —
     // one body-level listener covers them all.
     document.body.addEventListener('click', (e) => {
+      const bandsToggle = e.target.closest('[data-bands-toggle]');
+      if (bandsToggle) {
+        const bandsEl = bandsToggle.previousElementSibling;
+        const expanded = bandsEl.classList.toggle('expanded');
+        bandsToggle.textContent = expanded
+          ? 'Show less'
+          : `Show all (${bandsEl.textContent.split(' · ').length})`;
+        return;
+      }
       const saveBtn = e.target.closest('[data-save]');
       if (saveBtn) {
         const id = saveBtn.dataset.save;
