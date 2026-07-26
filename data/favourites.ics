@@ -3,13 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZ8KZ1k8kPzGs@gig-tracker
-DTSTART;VALUE=DATE:20260725
-SUMMARY:Qstock  2-Day ticket
-LOCATION:Kuusisaari\, Oulu\, FI
-DESCRIPTION:Qstock Festivaali · Jenni Vartiainen · Averagekidluke · Ege Zulu · Jaakko Kulta · emma & matilda · Auri · Stam1na · Isac Elliot · Mirella · helmi marleena · Minttu · Kaija Koo · Lordi · Samuli Putro · Ursus Factory · Vesta · HOKKA · Ismo Alanko · JVG · Rita Ora · Behm · Marshmello · Ahti · Melo · Nenerchy · Costi · Charon · Portion Boys · Radiopuhelimet · Alina Burnet · Ellinoora · HAVUKRUUNU · Lauri Haav · OLGA · Olavi Uusivirta · Viikate · ibe · Louna0nline · 1991 · Ares - FI · Ava Joe · Etta · Gettomasa · Linda Lampenius · Pete Parkkonen · Nyrkkitappelu · The Scratch · Yaeger · nonne\nhttps://www.ticketmaster.fi/event/qstock-2-day-ticket-tickets/406978331?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:jb-jambase16655167@gig-tracker
 DTSTART;VALUE=DATE:20260727
 SUMMARY:Unearth at Elfer Music Club
@@ -164,6 +157,13 @@ LOCATION:Jaahallissa\, Helsinki\, FI
 DESCRIPTION:Unleashed · Carcass · Bloodbath · Black Label Society · Accept · Horizon Ignited · Omnium Gatherum · Ikinä · Blackbraid · Cryptopsy · Wormwood · Brymir · Vreid · Sanguisugabogg · Mawiza · Carpenter Brut · Numento · Misþyrming · Paradise Lost · Opeth · Assemble The Chariots · Iotunn · Kalmah · Cyan Kicks · Eluveitie · Sepulchral Curse · Orly · Horna · Tungsten · Nergal · The Kovenant · Triptykon\nhttps://www.ticketmaster.fi/artist/hellsinki-metal-festival-lippuja/1149003
 END:VEVENT
 BEGIN:VEVENT
+UID:jb-jambase16676532@gig-tracker
+DTSTART;VALUE=DATE:20260809
+SUMMARY:Anna von Hausswolff at Teatro Amintore Galli
+LOCATION:Teatro Amintore Galli\, Rimini\, IT
+DESCRIPTION:Anna von Hausswolff\nhttps://stubhub.prf.hn/click/camref:1011l9QnS/destination:https://www.stubhub.com/anna-von-hausswolff-rimini-tickets-8-9-2026/event/161112089/?utm_source=jambase
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z59rmIYnyZAk1@gig-tracker
 DTSTART;VALUE=DATE:20260811
 SUMMARY:Gogol Bordello
@@ -301,7 +301,7 @@ UID:sk-41783439@gig-tracker
 DTSTART;VALUE=DATE:20260821
 SUMMARY:Beautiful Days Festival
 LOCATION:Escot Park\, Ottery Saint Mary\, GB
-DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · The Royston Club · NOVA TWINS · Gogol Bordello · Gurriers · Big Special · Billy Bragg · The Beta Band · Chameleons · Super Furry Animals · The Divine Comedy · Levellers · Richard Thompson · Shades Of Rhythm · The Wonder Stuff · Skerryvore · Turin Brakes · Skinny Lister · Lisa O'Neill · Damien Dempsey · Katherine Priddy · Steeleye Span · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
+DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · The Royston Club · Big Special · Billy Bragg · Super Furry Animals · The Beta Band · The Divine Comedy · Chameleons · Levellers · Richard Thompson · Shades Of Rhythm · Skerryvore · The Wonder Stuff · Turin Brakes · Skinny Lister · Lisa O'Neill · Damien Dempsey · Steeleye Span · Katherine Priddy · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QQncMXHvzYZiCXk4@gig-tracker
@@ -343,7 +343,7 @@ UID:sk-41652634@gig-tracker
 DTSTART;VALUE=DATE:20260826
 SUMMARY:Rock en Seine
 LOCATION:Domaine De Saint Cloud\, Paris\, GB
-DESCRIPTION:Sombr · Lorde · Tyler\, the Creator · Deftones · Djo · The Cure · Turnstile · Ravyn Lenae · Wolf Alice · Lykke Li · The Black Keys · Wet Leg · Franz Ferdinand · Tash Sultana · Kingfishr · Florence Road · Interpol · CMAT · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wilco · Biffy Clyro · Mogwai · Lambrini Girls · Kurt Vile · Black Country\, New Road · Anna von Hausswolff · Mannequin Pussy · Ecca Vandal · LANDMVRKS · Peaches · Wednesday · Dry Cleaning · Sparks · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
+DESCRIPTION:Sombr · Lorde · Tyler\, the Creator · Deftones · Djo · The Cure · Ravyn Lenae · Turnstile · Lykke Li · The Black Keys · Wolf Alice · Franz Ferdinand · Tash Sultana · Wet Leg · Kingfishr · Interpol · CMAT · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wilco · Florence Road · Biffy Clyro · Lambrini Girls · Kurt Vile · Mogwai · Black Country\, New Road · Anna von Hausswolff · Mannequin Pussy · Ecca Vandal · LANDMVRKS · Peaches · Wednesday · Sparks · Dry Cleaning · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QqqwFbRyiOvqt4Xx@gig-tracker
@@ -364,14 +364,14 @@ UID:sk-42308134@gig-tracker
 DTSTART;VALUE=DATE:20260903
 SUMMARY:End of the Road Festival
 LOCATION:Larmer Tree Gardens\, Salisbury\, GB
-DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · CMAT · Pulp · Anna von Hausswolff · Ty Segall · Lucinda Williams · Adult DVD · Kelly Lee Owens · White Denim · Super Furry Animals · Fat Dog · Ghostwoman · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Ela Minus · Just Mustard · Madra Salach · Gans · Mark William Lewis · William Tyler · BCUC · Junior Brother · marisa anderson · Caroline · Maddie Ashman · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · Oldboy · Kitchen Lover · RÓIS · BRÌGHDE CHAIMBEUL · Deary · David Thomas Broughton · TTSSFU · Kiran Leonard · Kurt Vile & The Violators · Lichen · Modern Woman · Milkweed · Factory Floor · Susannah Stark · M(h)aol · Colossal Squid · Gnod\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
+DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · CMAT · Pulp · Anna von Hausswolff · Ty Segall · Lucinda Williams · White Denim · Super Furry Animals · Kelly Lee Owens · Adult DVD · Ghostwoman · Fat Dog · The Felice Brothers · Model/Actriz · Ratboys · Ela Minus · Working Men&#39\;s Club · Just Mustard · Mark William Lewis · William Tyler · Gans · Madra Salach · marisa anderson · Caroline · Junior Brother · BCUC · Maddie Ashman · Gnod · keiyaA · Oldboy · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · David Thomas Broughton · Kitchen Lover · RÓIS · BRÌGHDE CHAIMBEUL · Deary · PVA · TTSSFU · Colossal Squid · Kiran Leonard · Kurt Vile & The Violators · Lichen · Modern Woman · Femur · Milkweed\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42603193@gig-tracker
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Brighton Psych Fest
 LOCATION:Brighton And Hove   Multiple Venues\, Brighton\, GB
-DESCRIPTION:Stereolab · ALLAH-LAS · Anna von Hausswolff · Night Tapes · Bleech 9:3 · White Denim · The Mystery Lights · The KVB · Mandy\, Indiana · Holy Wave · Gwenno · HIGHDRIVE · thistle. · Lemonsuckr · Silverwingkiller · Floral Image · Martial Arts · Ellis-D · Mary In The Junkyard · Knives\nhttps://www.skiddle.com/festivals/brighton-psych-fest/
+DESCRIPTION:Stereolab · ALLAH-LAS · Anna von Hausswolff · Night Tapes · White Denim · Bleech 9:3 · The Mystery Lights · The KVB · Mandy\, Indiana · Holy Wave · Gwenno · HIGHDRIVE · thistle. · Lemonsuckr · Silverwingkiller · Floral Image · Martial Arts · Ellis-D · Mary In The Junkyard · Knives\nhttps://www.skiddle.com/festivals/brighton-psych-fest/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42415439@gig-tracker
@@ -504,7 +504,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16642105@gig-tracker
@@ -812,7 +812,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -910,7 +910,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -1169,7 +1169,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
