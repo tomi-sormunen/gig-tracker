@@ -119,7 +119,7 @@ UID:sk-41305196@gig-tracker
 DTSTART;VALUE=DATE:20260806
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Lamb of God · Judas Priest · Sepultura · Slaughter To Prevail · Of Mice & Men · Saxon · Northlane · Municipal Waste · Orbit Culture · Carpenter Brut · Bleed From Within · Death Angel · Cryptopsy · Nevermore · Leprous · Castle Rat · Biohazard · SKYND · Life of Agony · The Scratch · Wednesday 13 · Heavysaurus · Imperial Age · DREAM STATE · Party Cannon · Graphic Nature · Untamed Silence · Vampyra · Concrete Age · WREX · Stampin Ground · Hammer (Metal) · Negative Frame · Black Spiders · Aethoria · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · URNE · Chug · The Hell · Seething Akira · Sellsword\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Lamb of God · Judas Priest · Sepultura · Slaughter To Prevail · Of Mice & Men · Testament · Saxon · Northlane · Municipal Waste · Orbit Culture · Carpenter Brut · Bleed From Within · Cryptopsy · Death Angel · Nevermore · Leprous · Castle Rat · Biohazard · SKYND · Life of Agony · The Scratch · Wednesday 13 · Heavysaurus · Imperial Age · DREAM STATE · Party Cannon · Graphic Nature · Neckbreakker · Concrete Age · Vampyra · WREX · Stampin Ground · Hammer (Metal) · Aethoria · Sellsword · Untamed Silence · Negative Frame · Black Spiders · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · URNE · Seething Akira · Chug\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16500751@gig-tracker
@@ -294,7 +294,7 @@ UID:sk-41783439@gig-tracker
 DTSTART;VALUE=DATE:20260821
 SUMMARY:Beautiful Days Festival
 LOCATION:Escot Park\, Ottery Saint Mary\, GB
-DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · The Royston Club · Big Special · Billy Bragg · Super Furry Animals · The Beta Band · The Divine Comedy · Chameleons · Levellers · Richard Thompson · Shades Of Rhythm · Skerryvore · The Wonder Stuff · Turin Brakes · Skinny Lister · Lisa O'Neill · Damien Dempsey · Steeleye Span · Katherine Priddy · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
+DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · The Royston Club · Big Special · Billy Bragg · Super Furry Animals · The Beta Band · The Divine Comedy · Chameleons · Levellers · Richard Thompson · Shades Of Rhythm · Skerryvore · The Wonder Stuff · Turin Brakes · Skinny Lister · Damien Dempsey · Lisa O'Neill · Steeleye Span · Katherine Priddy · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QQncMXHvzYZiCXk4@gig-tracker
@@ -497,7 +497,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjUwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16642105@gig-tracker
@@ -731,6 +731,13 @@ LOCATION:O2 universum\, Praha 9\, CZ
 DESCRIPTION:Fast Track - O2 universum · Amon Amarth\nhttps://www.ticketmaster.cz/event/amon-amarth-%7C-fast-track-tickets/36378546?language=en-us
 END:VEVENT
 BEGIN:VEVENT
+UID:jb-jambase15269261@gig-tracker
+DTSTART;VALUE=DATE:20261106
+SUMMARY:Amon Amarth at O2 Universum
+LOCATION:O2 Universum\, Prague\, CZ
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.cz/event/amon-amarth-vstupenky/169130998
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-ZG9rmIYnyZed6A@gig-tracker
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Placebo - 30th Anniversary Tour
@@ -805,7 +812,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjUwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -903,7 +910,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjUwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -1162,7 +1169,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjUwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
