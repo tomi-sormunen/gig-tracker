@@ -3,20 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:jb-jambase15945388@gig-tracker
-DTSTART;VALUE=DATE:20260729
-SUMMARY:Unearth at Kulttempel
-LOCATION:Kulttempel\, Oberhausen\, DE
-DESCRIPTION:Unearth\nhttps://www.eventim.de/noapp/event/21460865/?affiliate=JAB&utm_medium=dp&utm_campaign=jambase&utm_source=jambase
-END:VEVENT
-BEGIN:VEVENT
-UID:jb-jambase16094172@gig-tracker
-DTSTART;VALUE=DATE:20260729
-SUMMARY:Wacken Open Air
-LOCATION:Wacken Open Air\, Wacken\, DE
-DESCRIPTION:Lovebites · The Butcher Sisters · Electric Bassboy · Hämatom · Broken By The Scream · Visions of Atlantis · Thundermother · The Hardkiss · The Gathering · Lacuna Coil · Born Broken · Expellow · Sinamort · Deflag · SÓT · Kadavar · Mambo Kurt · Speak In Whispers · Goodnight Greatness · The Crescent’s Call · Ashed Winter · Blanket Hill · ElChivo · Velvet Rush · Rose Tattoo · alien rockin’ explosion · 5th Avenue · Ricky Warwick · Vanir · Dirty Shirt · Unzucht · Diabolisches Werk · Battlecreek · Poison The Preacher · Phantom · Crypt Sermon · The Troops of Doom · Sacred Steel · Gannondorf · Human Nebula · Dead Memories · Noiduin · Invasion · Seers of Light · I See Red · Witchlords · Morphide · Wacken Firefighters · Megalive – A Tribute to Megadeth · Ragetrack – A Tribute to Rage against the Machine · Mother – A Tribute to Danzig · Ozzyfied – A Tribute to Ozzy Osbourne · Thomas Nicholas Band · Acoustic Steel · Vika Goes Wild · Mac Cabe & Kanaka · Whizbow · Sintram · The Trouble Notes · Lutz Drenkwitz · Tales of Nebelheym · Skyline · Yngwie Malmsteen · Savatage · Uli Jon Roth · Europe · Def Leppard · Alien Ant Farm · H-Blockx · Therapy? · Life of Agony · P.O.D. · Turbonegro · Novelization · Gagor · Force · Midhaven · Gidora · Firespawn · Blood Red Throne · Anaal Nathrakh · Cowgirls From Hell · E.N.D. · Haine · Given By The Flames · Craft · Spectral Wound · Misery Index · Misþyrming · Nergal · Wüstenberg · Katerfahrt · Vogelfrey · Sagenbringer · Storm Seeker · Kupfergold · Manntra · Saviourself · Black Tish · Brunhilde · 9mm Headshot · Wytch Hazel · Temple of the Absurd · Year of the Goat · Evil Jared · Krogi · Days of Ruin · Death Row · Sentient Void · Rise of Shadows · Heaven Shall Burn · Mambo Kurt · alien rockin’ explosion · Anett & Livi Acoustic · Radó Éden · Gutalax · Paradise Lost · Black Label Society · In Flames · Running Wild · Vreid · Danko Jones · Saxon · Judas Priest · Sepultura · Future Palace · Mantar · Paleface Swiss · Hatebreed · Blood Fire Death · Emperor · Subway to Sally · ten56. · Grand Magus · Any Given Day · Pig Destroyer · Bear McCreary · The Haunted · Alcest · Employed to Serve · Dead by April · Deafheaven · Animals as Leaders · Crematory · SKYND · tuXedoo · Blaas of Glory · Metaklapa · Trold · Cruachan · Eläkeläiset · Dubioza Kolektiv · Faun · Heartless Human Harvest · Cursed Abyss · Chaosbay · Luna Kills · Insanity Alert · Arroganz · Divlje Jagode · Alfahanne · Mr. Hurley & Die Pulveraffen · The Hebridean Sheep · THE LIMIT · DØVYDAS · Mambo Kurt · alien rockin’ explosion · Kim Dracula · Nevermore · Airbourne · Powerwolf · Alestorm · Heavysaurus · Orbit Culture · Lamb of God · Arch Enemy · Sabaton · Kittie · Thrown · Bleed From Within · Kärbholz · Thy Art Is Murder · Triptykon · Focus. · Crimson Glory · Angelus Apatrida · Municipal Waste · Dritte Wahl · Vended · THE LIMIT · Blood Command · OUR PROMISE · Hardline · Lagwagon · Corrosion of Conformity · Fit For An Autopsy · Wacken Firefighters · Minotaurus · Dieter “Maschine” Birr · Zeltinger Band · Ad Infinitum · Finsterforst · Einherjer · Stonem · Asrock · Allt · The Other · Castle Rat · Guilt Trip · Hackneyed · Jazz Sabbath · Mambo Kurt · alien rockin’ explosion\nhttps://www.metaltix.com/wacken-open-air-2026-tickets-37756.html
-END:VEVENT
-BEGIN:VEVENT
 UID:jb-jambase15746120@gig-tracker
 DTSTART;VALUE=DATE:20260730
 SUMMARY:All Together Now
@@ -497,7 +483,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16642105@gig-tracker
@@ -568,6 +554,13 @@ DTSTART;VALUE=DATE:20261022
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Oslo Spektrum\, Oslo\, NO
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.no/event/placebo-30th-anniversary-tour-tickets/924339465?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:jb-jambase15269272@gig-tracker
+DTSTART;VALUE=DATE:20261023
+SUMMARY:Amon Amarth at Scandinavium
+LOCATION:Scandinavium\, Gothenburg\, SE
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.se/event/amon-amarth-the-allfather-awakens-tour-2026-biljetter/1695943759
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase15269308@gig-tracker
@@ -812,7 +805,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -910,7 +903,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -1169,7 +1162,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
