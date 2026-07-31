@@ -3,13 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:jb-jambase15746120@gig-tracker
-DTSTART;VALUE=DATE:20260730
-SUMMARY:All Together Now
-LOCATION:Curraghmore House\, Portlaw\, IE
-DESCRIPTION:Last Apollo · Mantle · Zaska · Mercorn · Bulbs · Odhran · Hutchy · David Keenan · All Things Eve · Bull Horris · Tessio · Madonna Kebab · Annie Mac · Arcadia Residents · Niamh Bury · Lúnasa · Justyna · Ailbhe Reddy · Corcra · For Nina · Kapayja · Mount Pyrus · PVA · Hank · Calum Agnew · MOIO · Trinity Orchestra · Jacob Alon · My First Time · Denver Cuss · Óir · Jr Spesh · Rose Betts · Little Grandad · SexyTadhg · Cardinals · Prymary Colours · Dy Cleaning · The New Eves · Gurriers · Friendly Fires · Kelly-Anne Byrne · For Those I Love · Brògeal · Black Nylon · Pulp · Surka · Floating Points · O’Flynn · Sam Alfred · Swimming Paul · Kerri Chandler · Dj Chartini · Local Groove · Jacqui Kelleher · Donal Dineen · Donal Scannell · Black Turf · Ahmed\, With Love · Mercorn · Aoife Nic Canna · Peach · Cáit · MIKE · Floorplan · God Knows · Governess · Rory Sweeney · Fio Fa · Celaviedmai · Jonezy · Sally Cinnamon · Anish Kumar · Job Jobse · lullahush · Jamz Supernova · Sunil Sharpe · Kev Freeney · Surusinghe · Rithim · Vaticanjail · pôt-pot · Hannah Hession · Rob Rua · Mahogany Gaspipe · Caoimhín · Martello · DOG SWIM · Echo Northstar · Ndidi O · Cable Boy · Lonesome George · DJ Beks · BABYRAT · Raynor · Shark School · The Wran · Kate Brennan Harding · Jodie Lyne · George Houston · Politik · A Man To Pet · TBL8 Brass Band · The Awning · Huartan · Harry Fennell · Mega Trad · Winnie Ama · Collie · Rahann · Dry Cleaning · David Kitt · The Itch · Æ MAK · Christy Moore · KhakiKid · Sassy 009 · Softdrink Millionaire · Maykay · The Orchestra (For Now) · Hot 8 Brass Band · Sophia Stel · Sprints · Greentea Peng · Ezra Collective · Lambrini Girls · Kae Tempest · Byrne’s Night · Nialler9 · The Mary Wallopers · Maribou State · Takuya Nakamura · David Jackson · KNEECAP · Say She She · Derv · The Avalanches · Jyoty · Mall Grab · Ali Daly · Sahana · Dora Gola · Ciara May · Negro Impacto · KEZ · DJ Shaz · Cushla · Away From Dave · Paidi Cronin · Seamus Fogarty · One Leg One Eye · Sophie McAlister · Maruja · Paahto & The Bull · Hewan Mulugeta · Dan Shake · mynameisjOhn · Pebbledash · Trá Pháidín · Dj Repoman · Spray · Dufi · BoolaBoom · B+ · Cromby · EMA · Or:la · Vanishing Arcs · DJ NOBU · Yankari Afrobeat Collective · Muireann Bradley · W.I.T.C.H. · David Keenan · Gilla Band · Niwar Ismat Issa · felispeaks · Joy Orbison · Colin Devine · Barnburner · Becca Colley · Elishka Lane · Dermot Henry · Paddy Steer · Acid Granny · Jinx Lennon · Magz · Lemoncello · Ria Rua · Annika Kilkenny · DJ Sexyt · Bicurious · TBL8 Brass Band · KK Lewis · Thumper · Graham Smyth · T.A. Narrative · Franz Scala · Onai · Gaff E · SexyTadhg · Pippa Molony · Gently Tender · Avenue 68 · Joshua Idehen · Alabaster DePlume · Flynn Johnson · Soda Blonde · Barrington Levy · Getdown Services · Ledbyher · Grooveline · Delivery Service · Kate Nash · Monjola · Damien Dempsey · Moonchild Sanelly · RIP Magic · BIIRD · Kean Kavanagh · Róis · Soak · Freak Slug · Self Esteem · Marcus O’Laoire · Chet Faker · Anna von Hausswolff · Sell Everything · Ms. Dynamite · Underworld · Mango · Mogwai · Weval · Disclosure · Hot Chip · Anz · Jio · King Kong Company · The Dare · Frawl · Johnny Carroll · Afrophoria DJs · Cormac Leahy · LARAbEL · Matcha · Abbielee · Rua Rí · Molly Donnery · BAYVIIN · Diebyveg · Big Cheeks · The Calvinists · Roisín Gowen · Soichi Terada · Róisin El Cherif · d_abdu · Gabrielle Kwarteng · County Rocket · Qbanaa · Alba · k8olo · India Blue · Efa O’Neill · Sloucho · Toshín · Heron Red · Selky · Altern 8 · Benwal · Elikya · Ben Bix · Little O · Trá Pháidín · Eats Everything · Donal Dineen · Mooncup · Roo Honeychild · Odhran · Sei Green · The Reds · DJ Transit · Dj Smallboy · Claire Beck · Shrem · Daddee · Anna’s Number · I Draw Slow · Patrick De Vallette · Major Feen · TBL8 Brass Band · Blue Tack · Cian Austin Jesus · Stevie G · Acid Granny · Bazza Ranks · Tonie Walsh · Ciarzy · Shauna Dee · Daniel Wang · Winemoms\nhttp://ticketmaster-ie.tm7512.net/c/252938/427753/7512?u=https://www.ticketmaster.ie/all-together-now-tickets/artist/1649419
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-17kZvxG62B8HsM0@gig-tracker
 DTSTART;VALUE=DATE:20260731
 SUMMARY:All Together Now - Weekend Camping
@@ -87,6 +80,13 @@ LOCATION:Polideportivo de Villena\, Villena\, ES
 DESCRIPTION:Slaughter to Prevail · Savatage · Sepultura · Black Label Society · Orbit Culture · Thundermother · Jordkwild · Tailgunner · Signs of the Swarm · Killus · Salduie · Chained Saint · Hadadanza · Prom Kinks · Heleven · Arch Enemy · Godsmack · Of Mice & Men · Dark Tranquillity · Northlane · dArtagnan · Mushroomhead · Lépoka · Evo · Bolu2 Death · Landevir · Celtibeerian · Injector · Ekyrian · Aneuma · In Flames · Stratovarius · Saurom · Future Palace · Saratoga · The Baboon Show · Dark Moor · Blaze Out · Chez Kane · Employed to Serve · Mind Driller · Wings of Steel · Against Myself · Daeria · Xeria · Helloween · WarCry · Heaven Shall Burn · Deicide · Eihwar · Guiltrip · Ankhara · Hardline · Hammerhead · Latzen · ten56. · Cabal · Death and Legacy · Fallen At Dawn\nhttps://www.ticketmaster.es/artist/leyendas-del-rock-entradas/209483
 END:VEVENT
 BEGIN:VEVENT
+UID:jb-jambase16500622@gig-tracker
+DTSTART;VALUE=DATE:20260805
+SUMMARY:Open Flair
+LOCATION:Open Flair Festival\, Eschwege\, DE
+DESCRIPTION:Dritte Wahl · Das Lumpenpack · Amistat · Anda Morts · Salò · Karla Blum · Oliver Schories · Philipp Stützer · FTPA · Blade & Smith · Dropkick Murphys · Gogol Bordello · PA69 · From Fall to Spring · South Arcade · Tristan Brusch · Bluthund · Teenage Mutants · Pauli Pocket · Foolik · Pippa · Fullax · Jannik Fischbach · Rumo · Demiro · Kaina · SDP · Zartmann · KAFFKIEZ · Deine Cousine · Kadavar · Emil Bulls · Marlo Grosshardt · Lostboi Lino · NAND · Our Mirage · 100 Kilo Herz · Slope · Elfmorgen · Shoreline · FRAUPAUL · ANNĒ · ÜBERKIKZ · Yunus · Finna · Youkalí · FENIM0RE · DJ Bafög · Samalik · Lennart Grove · Richie Miller House Band · Emilio Albert · Fellows · Feine Sahne Fischfilet · Donots · Frank Turner · The Sleeping Souls · Babyshambles · Jan Blomqvist · Bibiza · Ritter Lean · Alien Ant Farm · Alli Neumann · Mia Morgan · Monsters Of Liedermaching · Bad Cop/Bad Cop · April Art · CARSICK · Kupfergold · VITA · Karen Dió · Elvana · Hyphen · The Red Flags · Ende · ZOKA · DJ Marky · Illegale Rave Messe · Kai Bosch · Die Lieferanten · Julius Fischer · Christian Meyer · Copperhead · Drittes OG · Biffy Clyro · Bosse · Giant Rooks · Hot Water Music · Less Than Jake · Cari Cari · The Lottery Winners · Buster Shuffle · Still Talk · Contrabrass · Kimkoi\nhttps://shop.open-flair.de/produkte/407-tickets-open-flair-festival-2026-open-flair-festival-eschwege-am-05-08-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:jb-jambase15121611@gig-tracker
 DTSTART;VALUE=DATE:20260805
 SUMMARY:Vagos Metal Fest
@@ -105,7 +105,7 @@ UID:sk-41305196@gig-tracker
 DTSTART;VALUE=DATE:20260806
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Lamb of God · Judas Priest · Sepultura · Slaughter To Prevail · Of Mice & Men · Testament · Saxon · Northlane · Municipal Waste · Orbit Culture · Carpenter Brut · Bleed From Within · Cryptopsy · Death Angel · Nevermore · Leprous · Castle Rat · Biohazard · SKYND · Life of Agony · The Scratch · Wednesday 13 · Heavysaurus · Imperial Age · DREAM STATE · Party Cannon · Graphic Nature · Neckbreakker · Concrete Age · Vampyra · WREX · Stampin Ground · Hammer (Metal) · Aethoria · Sellsword · Untamed Silence · Negative Frame · Black Spiders · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · URNE · Seething Akira · Chug\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Judas Priest · Lamb of God · Sepultura · Slaughter To Prevail · Testament · Of Mice & Men · Saxon · Northlane · Municipal Waste · Orbit Culture · Carpenter Brut · Bleed From Within · Cryptopsy · Death Angel · Leprous · Castle Rat · Nevermore · Biohazard · SKYND · Life of Agony · The Scratch · Wednesday 13 · Heavysaurus · Imperial Age · DREAM STATE · Party Cannon · Graphic Nature · Neckbreakker · Concrete Age · Vampyra · WREX · Stampin Ground · Hammer (Metal) · Aethoria · Sellsword · Untamed Silence · Negative Frame · Black Spiders · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · URNE · Seething Akira · Chug\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16500751@gig-tracker
@@ -273,7 +273,7 @@ UID:sk-41408986@gig-tracker
 DTSTART;VALUE=DATE:20260819
 SUMMARY:ArcTanGent
 LOCATION:Fernhill Farm\, Bristol\, GB
-DESCRIPTION:Alcest · Igorrr · Perturbator · Mass of the Fermenting Dregs · Napalm Death · Chelsea Wolfe · Maruja · Nothing · High on Fire · TTNG · Master Boot Record · Matador · Sikth · Oathbreaker · Arcane Roots · You Win Again Gravity · Conjurer · Sans Froid · A.A.Williams · BELIEVE IN NOTHING · Skloss · God Alone. · Sleemo · HAAL · Chalk Hands · Giant Walker · Barrens · The Grey · Battlesnake · Night Swimming · Swamp Coffin · Overhead\, The Albatross · Meatdripper · Jamie Lenman · Witchsorrow · Amplifier · Humanfly · Alpha Male Tea Party · Nordic Giants · Jo Quail · Town Portal · Lost in Kiev · Scaler · Erotic Secrets of Pompeii · Witch Fever · Svalbard · Itoldyouiwouldeatyou · No Violet · Kathryn Joseph · Moksha\nhttps://www.skiddle.com/festivals/arctangent/
+DESCRIPTION:Alcest · Igorrr · Mass of the Fermenting Dregs · Perturbator · Napalm Death · Chelsea Wolfe · Maruja · Nothing · High on Fire · TTNG · Master Boot Record · Matador · Sikth · Oathbreaker · Arcane Roots · You Win Again Gravity · Conjurer · Sans Froid · A.A.Williams · BELIEVE IN NOTHING · Skloss · God Alone. · Sleemo · HAAL · Chalk Hands · Giant Walker · Barrens · The Grey · Battlesnake · Night Swimming · Swamp Coffin · Overhead\, The Albatross · Meatdripper · Jamie Lenman · Witchsorrow · Amplifier · Humanfly · Alpha Male Tea Party · Nordic Giants · Jo Quail · Town Portal · Lost in Kiev · Scaler · Erotic Secrets of Pompeii · Witch Fever · Svalbard · Itoldyouiwouldeatyou · No Violet · Kathryn Joseph · Moksha\nhttps://www.skiddle.com/festivals/arctangent/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-41783439@gig-tracker
@@ -483,7 +483,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjUzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16642105@gig-tracker
@@ -805,7 +805,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjUzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -903,7 +903,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjUzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -1162,7 +1162,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjUzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
