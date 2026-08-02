@@ -77,7 +77,14 @@ UID:sk-41305196@gig-tracker
 DTSTART;VALUE=DATE:20260806
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Judas Priest · Lamb of God · Sepultura · Slaughter To Prevail · Of Mice & Men · Testament · Saxon · Northlane · Carpenter Brut · Municipal Waste · Orbit Culture · Bleed From Within · Death Angel · Cryptopsy · Leprous · Biohazard · Nevermore · Castle Rat · Wednesday 13 · SKYND · Life of Agony · The Scratch · Imperial Age · Heavysaurus · DREAM STATE · Party Cannon · Graphic Nature · Negative Frame · Stampin Ground · Untamed Silence · Sellsword · Aethoria · WREX · Concrete Age · Neckbreakker · Vampyra · Hammer (Metal) · Black Spiders · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · Seething Akira · URNE · Chug\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Judas Priest · Lamb of God · Sepultura · Slaughter To Prevail · Of Mice & Men · Testament · Saxon · Northlane · Carpenter Brut · Municipal Waste · Orbit Culture · Bleed From Within · Death Angel · Cryptopsy · Leprous · Biohazard · Nevermore · Castle Rat · Wednesday 13 · SKYND · Life of Agony · The Scratch · Imperial Age · Heavysaurus · DREAM STATE · Party Cannon · Black Spiders · Stampin Ground · Untamed Silence · Sellsword · Negative Frame · Aethoria · WREX · Concrete Age · Neckbreakker · Vampyra · Hammer (Metal) · Battlesnake · Arkdown · OVERPOWER · Imperium · Celestial Sanctuary · Graphic Nature · Thrasherwolf · Bootyard Bandits · Inhuman Nature · Evil Scarecrow · Seething Akira · URNE · Chug\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+END:VEVENT
+BEGIN:VEVENT
+UID:jb-jambase15132679@gig-tracker
+DTSTART;VALUE=DATE:20260806
+SUMMARY:Bloodstock Open Air
+LOCATION:Catton Hall & Park\, Walton-on-Trent\, GB
+DESCRIPTION:Saxon · Evil Scarecrow · Heavysaurus · Cryptopsy · Black Spiders · The Hell · Mantis Defeats Jaguar · Lamb of God · Sepultura · Municipal Waste · Biohazard · Fit For An Autopsy · Life of Agony · SKYND · Party Cannon · Battlesnake · Wednesday 13 · Shining · Neckbreaker · Seething Akira · Excrementory Grindfuckers · Hidden Intent · Sellsword · Hammer · Blood Countess · GURT · Slaughter to Prevail · Bleed From Within · Of Mice & Men · Northlane · Vended · Death Angel · The Scratch · Imperial Age · Inhuman Nature · Leprous · Nevermore · Stampin’ Ground · Urne · Viking Skull · Bound In Fear · Imperium · Outer Gods · Froglord · Judas Priest · Body Count · Black Label Society · Testament · Orbit Culture · Kittie · Castle Rat · Graphic Nature · Bootyard Bandits · Carpenter Brut · 200 Stab Wounds · Mushroomhead · Dream State · Thrown Into Exile · Noisepicker · Trivax · Alunah · Flayed Disciple · Acid Throne\nhttps://bloodstock.seetickets.com/event/bloodstock/catton-park/3462733
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16500751@gig-tracker
@@ -87,11 +94,25 @@ LOCATION:Velodrom\, Brno\, CZ
 DESCRIPTION:Einstürzende Neubauten · Anna von Hausswolff · Kangding Ray · Weval · Akira · Ben UFO · Boko Yout · Demonika · GUFRAU · Victor Kal · HRTL · Ida The Young · Michajlov · Nill Garçon · Nina Kohout · P/\\ST · Raphael Kosmos · Oklou · Obongjayar · Nation of Language · SHERELLE · KiNK · Ban Jarnet · Bratři · Dukla · FVLCRVM · Island Mint · Jadu Heart · Mina Galán · Mudaki · Ohm Square · Psj · NCOL · The Prostitutes · Overmono · Richard Müller · Ahadadream · Fat Dog · Current Joys · 58G · Cesar Chunk · Good Times Only · Hey Yendo · Rainer · Kletis · Logic1000 · Mutanti Hledaj Vychodisko · okgiorgio · PVNCH · Rozkvět · Harshmellow · Samurai Breaks\nhttps://tickets.nfctron.com/event/pop-messe-services-sro/pop-messe-2026
 END:VEVENT
 BEGIN:VEVENT
+UID:jb-jambase16555813@gig-tracker
+DTSTART;VALUE=DATE:20260807
+SUMMARY:Amplifire
+LOCATION:MS Artville\, Hamburg\, DE
+DESCRIPTION:Biffy Clyro · Frank Turner · The Sleeping Souls · Fjørt · The Get Up Kids · The Intersphere · ARXX · Pabst · HotWax · Missio · Karen Dió · Artio · Rauchen · Skirt · Bad Religion · Turbostaat · High Vis · John Coffey · South Arcade · Blood Command · Jools · Van Holzen · Tribute To Nothing · Overgrown (UK) · Seven Blood · Still Talk · Nikra · Arson · The Hebridean Sheep · Malheur · 6Two07\nhttps://tickets.infield.live/checkout/68fb7455842a9d0fdf4c2862?channel=69243c1bb4c0e8629590d44a
+END:VEVENT
+BEGIN:VEVENT
 UID:jb-jambase16403564@gig-tracker
 DTSTART;VALUE=DATE:20260807
 SUMMARY:Brakrock
 LOCATION:Park Ter Elst\, Waregem\, BE
 DESCRIPTION:Gogol Bordello · Less Than Jake · Hot Water Music · A Wilhelm Scream · Bad Cop/Bad Cop · Call It Off · Deez Nuts · Evergreen Terrace · Fatal Move · For I Am · H20 · Horace Pinker · No Turning Back · PLAIINS · Pulley · Terror · The Dickies · The Suicide Machines · Tim Vantol · Agnostic Front · Ballyhoo! · Good Riddance · Jaya The Cat · Melonball · No Fun at All · The Roughneck Riot · Scream · Spare Kid · Talco · Adolescents · The Casualties · The Dollheads · The Dreadnoughts · The Exploited · The Get Up Kids · Tijs Vanneste & Tangled Horns · Total Chaos · Toxic Shock\nhttps://tickets.brakrock.com/selection
+END:VEVENT
+BEGIN:VEVENT
+UID:jb-jambase15866397@gig-tracker
+DTSTART;VALUE=DATE:20260807
+SUMMARY:Electric Callboy at Parkbühne Wuhlheide
+LOCATION:Parkbühne Wuhlheide\, Berlin\, DE
+DESCRIPTION:Electric Callboy\nhttps://www.eventim.de/noapp/event/21008138/?affiliate=JAB&utm_medium=dp&utm_campaign=jambase&utm_source=jambase
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase15747070@gig-tracker
@@ -106,6 +127,13 @@ DTSTART;VALUE=DATE:20260807
 SUMMARY:Hellsinki Metal Fest
 LOCATION:Jaahallissa\, Helsinki\, FI
 DESCRIPTION:Unleashed · Carcass · Bloodbath · Black Label Society · Accept · Horizon Ignited · Omnium Gatherum · Ikinä · Blackbraid · Cryptopsy · Wormwood · Brymir · Vreid · Sanguisugabogg · Mawiza · Carpenter Brut · Numento · Misþyrming · Paradise Lost · Opeth · Assemble The Chariots · Iotunn · Kalmah · Cyan Kicks · Eluveitie · Sepulchral Curse · Orly · Horna · Tungsten · Nergal · The Kovenant · Triptykon\nhttps://www.ticketmaster.fi/artist/hellsinki-metal-festival-lippuja/1149003
+END:VEVENT
+BEGIN:VEVENT
+UID:jb-jambase16410293@gig-tracker
+DTSTART;VALUE=DATE:20260808
+SUMMARY:M’era Luna Festival
+LOCATION:Flugplatz Hildesheim\, Hildesheim\, DE
+DESCRIPTION:Within Temptation · In Extremo · White Lies · The Birthday Massacre · Front Line Assembly · Combichrist · Megaherz · Hocico · Nachtmahr · Agonoize · Veljanov · Unzucht · Diorama · Tyske Ludder · M. Walking on the Water · Tabernis · Auger · Xandria · Principe Valiente · Beyond Obsession · Mortes · Saltatio Mortis · OMD · Lacrimosa · Floor Jansen · IAMX · L’Âme Immortelle · The 69 Eyes · KMFDM · Aesthetic Perfection · SKYND · Neuroticfish · Stahlmann · Clan of Xymox · Then Comes Silence · Jesus on Extasy · Sotiria · Eisenfunk · SynthAttack · Final Selection\nhttps://www.ticket-onlineshop.com/ols/meraluna/en/tickets/channel/shop/index
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16676532@gig-tracker
@@ -245,14 +273,14 @@ UID:sk-41408986@gig-tracker
 DTSTART;VALUE=DATE:20260819
 SUMMARY:ArcTanGent
 LOCATION:Fernhill Farm\, Bristol\, GB
-DESCRIPTION:Alcest · Igorrr · Mass of the Fermenting Dregs · Perturbator · Napalm Death · Chelsea Wolfe · Maruja · Nothing · High on Fire · TTNG · Master Boot Record · Matador · Sikth · Oathbreaker · Arcane Roots · You Win Again Gravity · Conjurer · Sans Froid · A.A.Williams · BELIEVE IN NOTHING · Skloss · God Alone. · Sleemo · HAAL · Chalk Hands · Giant Walker · Barrens · The Grey · Battlesnake · Night Swimming · Swamp Coffin · Overhead\, The Albatross · Meatdripper · Jamie Lenman · Witchsorrow · Amplifier · Humanfly · Alpha Male Tea Party · Nordic Giants · Jo Quail · Town Portal · Lost in Kiev · Scaler · Erotic Secrets of Pompeii · Witch Fever · Svalbard · Itoldyouiwouldeatyou · No Violet · Kathryn Joseph · Moksha\nhttps://www.skiddle.com/festivals/arctangent/
+DESCRIPTION:Alcest · Igorrr · Mass of the Fermenting Dregs · Perturbator · Napalm Death · Chelsea Wolfe · Nothing · High on Fire · Maruja · TTNG · Master Boot Record · Matador · Oathbreaker · Arcane Roots · Sikth · Conjurer · Sans Froid · A.A.Williams · BELIEVE IN NOTHING · God Alone. · Sleemo · HAAL · Chalk Hands · Giant Walker · You Win Again Gravity · Barrens · The Grey · Battlesnake · Night Swimming · Swamp Coffin · Skloss · Overhead\, The Albatross · Meatdripper · Jamie Lenman · Witchsorrow · Amplifier · Humanfly · Alpha Male Tea Party · Nordic Giants · Jo Quail · Town Portal · Lost in Kiev · Scaler · Erotic Secrets of Pompeii · Witch Fever · Svalbard · Itoldyouiwouldeatyou · No Violet · Kathryn Joseph · Moksha\nhttps://www.skiddle.com/festivals/arctangent/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-41783439@gig-tracker
 DTSTART;VALUE=DATE:20260821
 SUMMARY:Beautiful Days Festival
 LOCATION:Escot Park\, Ottery Saint Mary\, GB
-DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · The Royston Club · Big Special · Billy Bragg · Super Furry Animals · The Beta Band · The Divine Comedy · Chameleons · Levellers · Richard Thompson · Shades Of Rhythm · The Wonder Stuff · Skerryvore · Turin Brakes · Skinny Lister · Damien Dempsey · Lisa O'Neill · Steeleye Span · Katherine Priddy · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
+DESCRIPTION:Madness · The Proclaimers · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · The Royston Club · Billy Bragg · Big Special · Super Furry Animals · The Beta Band · The Divine Comedy · Chameleons · Levellers · Shades Of Rhythm · Richard Thompson · The Wonder Stuff · Skerryvore · Turin Brakes · Lisa O'Neill · Steeleye Span · Damien Dempsey · Katherine Priddy · Skinny Lister · Gwenno · Junior Brother · DJ Yoda · Snayx · crystal tides · Big Fish Little Fish · Chris Hawkins · Erotic Secrets of Pompeii · Toby Lee · Sammy Dean · Bez · Meryl Streek · Split Dogs · Kings Of The Rave · Gina Larner · Sambroso All Stars · Samantics · Bar Stool Preachers · Luke Haines · Revelation Roots · 3 Daft Monkeys · Ben Brown · Trampolene · Phil Hartnoll · Sound of the Sirens\nhttps://www.skiddle.com/festivals/beautiful-days/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QQncMXHvzYZiCXk4@gig-tracker
@@ -294,7 +322,7 @@ UID:sk-41652634@gig-tracker
 DTSTART;VALUE=DATE:20260826
 SUMMARY:Rock en Seine
 LOCATION:Domaine De Saint Cloud\, Paris\, GB
-DESCRIPTION:Sombr · Lorde · Tyler\, the Creator · Deftones · Djo · The Cure · Ravyn Lenae · Turnstile · Wolf Alice · Lykke Li · The Black Keys · Franz Ferdinand · Tash Sultana · Wet Leg · Kingfishr · Interpol · CMAT · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wilco · Florence Road · Biffy Clyro · Mogwai · Lambrini Girls · Kurt Vile · Black Country\, New Road · Anna von Hausswolff · Mannequin Pussy · Ecca Vandal · LANDMVRKS · Peaches · Wednesday · Sparks · Dry Cleaning · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
+DESCRIPTION:Tyler\, the Creator · Sombr · Lorde · Deftones · Djo · The Cure · Ravyn Lenae · Lykke Li · The Black Keys · Turnstile · Wolf Alice · Tash Sultana · Franz Ferdinand · Interpol · Wet Leg · Kingfishr · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wilco · CMAT · Biffy Clyro · Florence Road · Kurt Vile · Mogwai · Lambrini Girls · Black Country\, New Road · Mannequin Pussy · Anna von Hausswolff · LANDMVRKS · Peaches · Wednesday · Sparks · Ecca Vandal · Dry Cleaning · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QqqwFbRyiOvqt4Xx@gig-tracker
@@ -315,14 +343,14 @@ UID:sk-42308134@gig-tracker
 DTSTART;VALUE=DATE:20260903
 SUMMARY:End of the Road Festival
 LOCATION:Larmer Tree Gardens\, Salisbury\, GB
-DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · CMAT · Pulp · Anna von Hausswolff · Ty Segall · Lucinda Williams · White Denim · Super Furry Animals · Kelly Lee Owens · Adult DVD · Ghostwoman · Fat Dog · The Felice Brothers · Model/Actriz · Ratboys · Ela Minus · Working Men&#39\;s Club · Just Mustard · Mark William Lewis · William Tyler · Gans · Madra Salach · marisa anderson · Caroline · Junior Brother · BCUC · Maddie Ashman · Gnod · keiyaA · Oldboy · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · David Thomas Broughton · Kitchen Lover · RÓIS · BRÌGHDE CHAIMBEUL · Deary · PVA · TTSSFU · Colossal Squid · Kiran Leonard · Kurt Vile & The Violators · Lichen · Modern Woman · Femur · Milkweed\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
+DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · CMAT · Pulp · Ty Segall · Anna von Hausswolff · Lucinda Williams · White Denim · Super Furry Animals · Adult DVD · Kelly Lee Owens · Ghostwoman · Fat Dog · The Felice Brothers · Model/Actriz · Ratboys · Ela Minus · Working Men&#39\;s Club · Just Mustard · Mark William Lewis · William Tyler · Madra Salach · marisa anderson · Caroline · Junior Brother · Gans · BCUC · Maddie Ashman · David Thomas Broughton · Oldboy · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · Kitchen Lover · RÓIS · BRÌGHDE CHAIMBEUL · Deary · TTSSFU · PVA · Colossal Squid · Kurt Vile & The Violators · Lichen · Modern Woman · Kiran Leonard · Milkweed · Factory Floor · Susannah Stark · M(h)aol\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42603193@gig-tracker
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Brighton Psych Fest
 LOCATION:Brighton And Hove   Multiple Venues\, Brighton\, GB
-DESCRIPTION:Stereolab · ALLAH-LAS · Anna von Hausswolff · Night Tapes · White Denim · Bleech 9:3 · The Mystery Lights · The KVB · Mandy\, Indiana · Holy Wave · Gwenno · HIGHDRIVE · thistle. · Lemonsuckr · Silverwingkiller · Floral Image · Martial Arts · Ellis-D · Mary In The Junkyard · Knives\nhttps://www.skiddle.com/festivals/brighton-psych-fest/
+DESCRIPTION:Stereolab · ALLAH-LAS · Anna von Hausswolff · Night Tapes · White Denim · The Mystery Lights · The KVB · Bleech 9:3 · Mandy\, Indiana · Holy Wave · Gwenno · HIGHDRIVE · thistle. · Lemonsuckr · Silverwingkiller · Floral Image · Martial Arts · Ellis-D · Mary In The Junkyard · Knives\nhttps://www.skiddle.com/festivals/brighton-psych-fest/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42415439@gig-tracker
@@ -455,7 +483,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjU0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16642105@gig-tracker
@@ -533,6 +561,13 @@ DTSTART;VALUE=DATE:20261023
 SUMMARY:Amon Amarth at Scandinavium
 LOCATION:Scandinavium\, Gothenburg\, SE
 DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.se/event/amon-amarth-the-allfather-awakens-tour-2026-biljetter/1695943759
+END:VEVENT
+BEGIN:VEVENT
+UID:jb-jambase15269428@gig-tracker
+DTSTART;VALUE=DATE:20261024
+SUMMARY:Amon Amarth at Hovet
+LOCATION:Hovet\, Johanneshov\, SE
+DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.axs.com/events/1237690/amon-amarth-tickets?cid=usaffjambase&utm_source=jambase&utm_campaign=jambase
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase15269308@gig-tracker
@@ -777,7 +812,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjU0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -875,7 +910,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjU0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -1134,7 +1169,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjU0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
