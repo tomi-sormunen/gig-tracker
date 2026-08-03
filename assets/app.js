@@ -27,6 +27,12 @@
   let favRawNames = [];
   let songkickFavNames = new Set(); // normalised names sourced from Songkick
   let newBadgeDays = 7;
+  // A genuinely newly-announced gig worth surfacing is always some weeks out.
+  // Requiring lead time filters out data-refresh artifacts — chiefly JamBase,
+  // whose per-country fetch isn't genre-filtered server-side, so near-term
+  // rock/metal events flicker in and out of the capped result slice day to
+  // day and each reappearance would otherwise look "new".
+  const NEW_MIN_LEAD_DAYS = 21;
 
   // Saved ("★") and hidden events live in localStorage, per browser.
   const store = {
@@ -77,7 +83,11 @@
     for (const g of allGigs) g._fav = g.bands.some((b) => active.includes(norm(b)));
     gigs = allGigs.filter((g) => g._fav || g._cat);
   }
-  const isNew = (gig) => Date.now() - new Date(gig.firstSeen).getTime() < newBadgeDays * 86400_000;
+  const isNew = (gig) => {
+    const seenAgoMs = Date.now() - new Date(gig.firstSeen).getTime();
+    const leadMs = new Date(`${gig.date}T12:00:00`).getTime() - Date.now();
+    return seenAgoMs < newBadgeDays * 86400_000 && leadMs >= NEW_MIN_LEAD_DAYS * 86400_000;
+  };
 
   // Broad category from the source classifications. Precedence matters:
   // anything metal is Metal, then Hard Rock claims its events before plain Rock.
