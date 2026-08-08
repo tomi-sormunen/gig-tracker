@@ -3,41 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:jb-jambase16555813@gig-tracker
-DTSTART;VALUE=DATE:20260807
-SUMMARY:Amplifire
-LOCATION:MS Artville\, Hamburg\, DE
-DESCRIPTION:Biffy Clyro · Frank Turner · The Sleeping Souls · Fjørt · The Get Up Kids · The Intersphere · ARXX · Pabst · HotWax · Missio · Karen Dió · Artio · Rauchen · Skirt · Bad Religion · Turbostaat · High Vis · John Coffey · South Arcade · Blood Command · Jools · Van Holzen · Tribute To Nothing · Overgrown (UK) · Seven Blood · Still Talk · Nikra · Arson · The Hebridean Sheep · Malheur · 6Two07\nhttps://tickets.infield.live/checkout/68fb7455842a9d0fdf4c2862?channel=69243c1bb4c0e8629590d44a
-END:VEVENT
-BEGIN:VEVENT
-UID:jb-jambase16403564@gig-tracker
-DTSTART;VALUE=DATE:20260807
-SUMMARY:Brakrock
-LOCATION:Park Ter Elst\, Waregem\, BE
-DESCRIPTION:Gogol Bordello · Less Than Jake · Hot Water Music · A Wilhelm Scream · Bad Cop/Bad Cop · Call It Off · Deez Nuts · Evergreen Terrace · Fatal Move · For I Am · H20 · Horace Pinker · No Turning Back · PLAIINS · Pulley · Terror · The Dickies · The Suicide Machines · Tim Vantol · Agnostic Front · Ballyhoo! · Good Riddance · Jaya The Cat · Melonball · No Fun at All · The Roughneck Riot · Scream · Spare Kid · Talco · Adolescents · The Casualties · The Dollheads · The Dreadnoughts · The Exploited · The Get Up Kids · Tijs Vanneste & Tangled Horns · Total Chaos · Toxic Shock\nhttps://tickets.brakrock.com/selection
-END:VEVENT
-BEGIN:VEVENT
-UID:jb-jambase15866397@gig-tracker
-DTSTART;VALUE=DATE:20260807
-SUMMARY:Electric Callboy at Parkbühne Wuhlheide
-LOCATION:Parkbühne Wuhlheide\, Berlin\, DE
-DESCRIPTION:Electric Callboy\nhttps://www.eventim.de/noapp/event/21008138/?affiliate=JAB&utm_medium=dp&utm_campaign=jambase&utm_source=jambase
-END:VEVENT
-BEGIN:VEVENT
-UID:jb-jambase15747070@gig-tracker
-DTSTART;VALUE=DATE:20260807
-SUMMARY:Fête du Bruit – Landernau
-LOCATION:Jardins de la Palud\, Landerneau\, FR
-DESCRIPTION:DJ Snake · L2B · Julien Doré · Kungs · Dropkick Murphys · Gogol Bordello\nhttps://landerneau.festival-fetedubruit.com/billetterie/
-END:VEVENT
-BEGIN:VEVENT
-UID:jb-jambase15746978@gig-tracker
-DTSTART;VALUE=DATE:20260807
-SUMMARY:Hellsinki Metal Fest
-LOCATION:Jaahallissa\, Helsinki\, FI
-DESCRIPTION:Unleashed · Carcass · Bloodbath · Black Label Society · Accept · Horizon Ignited · Omnium Gatherum · Ikinä · Blackbraid · Cryptopsy · Wormwood · Brymir · Vreid · Sanguisugabogg · Mawiza · Carpenter Brut · Numento · Misþyrming · Paradise Lost · Opeth · Assemble The Chariots · Iotunn · Kalmah · Cyan Kicks · Eluveitie · Sepulchral Curse · Orly · Horna · Tungsten · Nergal · The Kovenant · Triptykon\nhttps://www.ticketmaster.fi/artist/hellsinki-metal-festival-lippuja/1149003
-END:VEVENT
-BEGIN:VEVENT
 UID:jb-jambase16410293@gig-tracker
 DTSTART;VALUE=DATE:20260808
 SUMMARY:M’era Luna Festival
@@ -266,7 +231,7 @@ UID:sk-42308134@gig-tracker
 DTSTART;VALUE=DATE:20260903
 SUMMARY:End of the Road Festival
 LOCATION:Larmer Tree Gardens\, Salisbury\, GB
-DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · Angine De Poitrine · CMAT · Pulp · Bassvictim · Ty Segall · Anna von Hausswolff · White Denim · Super Furry Animals · Adult DVD · Kelly Lee Owens · Ghostwoman · Fat Dog · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Folk Bitch Trio · Just Mustard · Gans · Mark William Lewis · William Tyler · Madra Salach · marisa anderson · Junior Brother · Caroline · BCUC · Maddie Ashman · Factory Floor · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · Kurt Vile & The Violators · Kitchen Lover · RÓIS · Oldboy · BRÌGHDE CHAIMBEUL · Deary · TTSSFU · Gnod · Lichen · Modern Woman · Milkweed · Femur · Susannah Stark · M(h)aol · Kiran Leonard\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
+DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · Angine De Poitrine · CMAT · Pulp · Bassvictim · Ty Segall · Anna von Hausswolff · Adult DVD · White Denim · Super Furry Animals · Kelly Lee Owens · Ghostwoman · Fat Dog · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Folk Bitch Trio · Just Mustard · Gans · Mark William Lewis · William Tyler · Madra Salach · marisa anderson · Junior Brother · Caroline · BCUC · Maddie Ashman · Factory Floor · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · Kurt Vile & The Violators · Kitchen Lover · RÓIS · Oldboy · BRÌGHDE CHAIMBEUL · Deary · TTSSFU · Gnod · Lichen · Modern Woman · Milkweed · Femur · Susannah Stark · M(h)aol · Kiran Leonard\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42603193@gig-tracker
@@ -406,7 +371,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjYwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjYxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:jb-jambase16642105@gig-tracker
@@ -735,7 +700,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjYwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjYxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -819,7 +784,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjYwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjYxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -1078,7 +1043,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjYwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjYxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
