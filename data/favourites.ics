@@ -3,13 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZb_Z16vkvvzjP@gig-tracker
-DTSTART;VALUE=DATE:20260812
-SUMMARY:Midgardsblot - Wednesday Pass
-LOCATION:Midgard Vikingsenter\, Horten\, NO
-DESCRIPTION:Midgardsblot · Solstafir · Songleikr · Nemuer · MAWIZA\nhttps://www.ticketmaster.no/event/midgardsblot-wednesday-pass-tickets/1181078725?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZQpZ1k1o3djV@gig-tracker
 DTSTART;VALUE=DATE:20260815
 SUMMARY:Gogol Bordello
@@ -105,7 +98,7 @@ UID:sk-41652634@gig-tracker
 DTSTART;VALUE=DATE:20260826
 SUMMARY:Rock en Seine
 LOCATION:Domaine De Saint Cloud\, Paris\, GB
-DESCRIPTION:Tyler\, the Creator · Sombr · Lorde · Deftones · Djo · The Cure · Ravyn Lenae · Lykke Li · The Black Keys · Turnstile · Franz Ferdinand · Wolf Alice · Interpol · Tash Sultana · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wet Leg · Kingfishr · Wilco · CMAT · Kurt Vile · Biffy Clyro · Florence Road · Mogwai · Black Country\, New Road · Lambrini Girls · Mannequin Pussy · LANDMVRKS · Anna von Hausswolff · Peaches · Wednesday · Sparks · Ecca Vandal · Dry Cleaning · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
+DESCRIPTION:Tyler\, the Creator · Sombr · Lorde · Deftones · Djo · The Cure · Ravyn Lenae · Lykke Li · The Black Keys · Turnstile · Franz Ferdinand · Wolf Alice · Interpol · Tash Sultana · Amyl And The Sniffers · AFI · Nick Cave and the Bad Seeds · Wet Leg · Kingfishr · Wilco · CMAT · Kurt Vile · Biffy Clyro · Florence Road · Mogwai · Black Country\, New Road · Lambrini Girls · Mannequin Pussy · Anna von Hausswolff · LANDMVRKS · Wednesday · Peaches · Sparks · Ecca Vandal · Dry Cleaning · High Vis · Fcuckers · TTSSFU · Novelists\nhttps://www.skiddle.com/festivals/rock-en-seine/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QqqwFbRyiOvqt4Xx@gig-tracker
@@ -119,7 +112,7 @@ UID:sk-42308134@gig-tracker
 DTSTART;VALUE=DATE:20260903
 SUMMARY:End of the Road Festival
 LOCATION:Larmer Tree Gardens\, Salisbury\, GB
-DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · Angine De Poitrine · Pulp · CMAT · Bassvictim · Ty Segall · Anna von Hausswolff · Adult DVD · White Denim · Super Furry Animals · Ghostwoman · Kelly Lee Owens · Fat Dog · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Folk Bitch Trio · Just Mustard · Gans · Mark William Lewis · William Tyler · Madra Salach · marisa anderson · Junior Brother · Caroline · BCUC · Maddie Ashman · Factory Floor · Cowboy Hunters · Silverwingkiller · RIP Magic · Tommy Barlow · Kurt Vile & The Violators · Kitchen Lover · RÓIS · Oldboy · BRÌGHDE CHAIMBEUL · Deary · TTSSFU · Gnod · Lichen · Modern Woman · Milkweed · Femur · Susannah Stark · M(h)aol · Kiran Leonard\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
+DESCRIPTION:Mac Demarco · Geese · Earl Sweatshirt · Angine De Poitrine · Pulp · CMAT · Bassvictim · Anna von Hausswolff · Ty Segall · Adult DVD · White Denim · Super Furry Animals · Fat Dog · Ghostwoman · Kelly Lee Owens · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Folk Bitch Trio · Gans · Just Mustard · Mark William Lewis · Madra Salach · William Tyler · marisa anderson · Junior Brother · Caroline · BCUC · Maddie Ashman · Cowboy Hunters · Factory Floor · Silverwingkiller · RIP Magic · Tommy Barlow · Kurt Vile & The Violators · Kitchen Lover · RÓIS · Oldboy · BRÌGHDE CHAIMBEUL · Deary · TTSSFU · Gnod · Lichen · Modern Woman · Milkweed · Femur · Susannah Stark · M(h)aol · Kiran Leonard\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42603193@gig-tracker
@@ -238,7 +231,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjY1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjY2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
@@ -287,7 +280,7 @@ UID:sgk-a4sn1u@gig-tracker
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Amon Amarth
 LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
-DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMjY1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMjY2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5vHZ_kE_p4L2@gig-tracker
@@ -476,7 +469,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjY1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjY2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -567,7 +560,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjY1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjY2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -589,6 +582,13 @@ DTSTART;VALUE=DATE:20261121
 SUMMARY:Placebo - 30th Anniversary Tour
 LOCATION:Stuttgart\, DE
 DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/1245973941?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZb_Z16vQ6O870@gig-tracker
+DTSTART;VALUE=DATE:20261127
+SUMMARY:Chelsea Wolfe: THE DARK World Tour
+LOCATION:Chateau Neuf\, Betong\, Oslo\, NO
+DESCRIPTION:Chelsea Wolfe · Chateau Neuf\nhttps://www.ticketmaster.no/event/chelsea-wolfe-the-dark-world-tour-tickets/1687810124?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZb_Z1k-yOo34@gig-tracker
@@ -815,6 +815,13 @@ LOCATION:Vorst Nationaal/Forest National\, Forest (Brussels)\, BE
 DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.be/event/electric-callboy-%7C-vip-upgrades-tickets/791740960
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZC4Z1kO83A7f@gig-tracker
+DTSTART;VALUE=DATE:20270217
+SUMMARY:Five Finger Death Punch: 20th Anniversary World Tour
+LOCATION:København S\, DK
+DESCRIPTION:Five Finger Death Punch · Bleed From Within · Lamb of God\nhttps://www.ticketmaster.dk/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/810485114?language=en-us
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZb_Z16eZEG-Gk@gig-tracker
 DTSTART;VALUE=DATE:20270219
 SUMMARY:Five Finger Death Punch: 20th Anniversary World Tour
@@ -826,7 +833,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjY1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjY2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
