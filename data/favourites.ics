@@ -3,13 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZQpZ1ApGOA_@gig-tracker
-DTSTART;VALUE=DATE:20260817
-SUMMARY:Gogol Bordello
-LOCATION:Klub B90\, Stocznia Gdańska\, Gdansk\, PL
-DESCRIPTION:Gogol Bordello · Leniwiec\nhttps://www.ticketmaster.pl/event/gogol-bordello-tickets/16320159?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v-tOpuO@gig-tracker
 DTSTART;VALUE=DATE:20260818
 SUMMARY:Gogol Bordello
@@ -28,7 +21,7 @@ UID:sk-41783439@gig-tracker
 DTSTART;VALUE=DATE:20260821
 SUMMARY:Beautiful Days Festival
 LOCATION:Escot Park\, Ottery Saint Mary\, GB
-DESCRIPTION:The Proclaimers · Madness · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · Billy Bragg · The Royston Club · Big Special · Chameleons · Super Furry Animals · The Beta Band · The Divine Comedy · Levellers · Shades Of Rhythm · Richard Thompson · The Wonder Stuff · Turin Brakes · Skerryvore · Lisa O'Neill · Steeleye Span · Damien Dempsey · Skinny Lister · Gwenno · Junior Brother · Katherine Priddy · Trampolene · Split Dogs · DUB CATALYST · Meryl Streek · Bez · Sammy Dean · Toby Lee · DJ Yoda · Chris Hawkins · Big Fish Little Fish · crystal tides · Snayx · Kings Of The Rave · Gina Larner · Barry Ashworth · Sound of the Sirens · The Bar-Steward Sons of Val Doonican · Erotic Secrets of Pompeii · Sambroso All Stars · Phil Hartnoll · Samantics · Bar Stool Preachers · Luke Haines\nhttps://www.skiddle.com/festivals/beautiful-days/
+DESCRIPTION:The Proclaimers · Madness · Skindred · The Undertones · Gogol Bordello · NOVA TWINS · Gurriers · Billy Bragg · The Royston Club · Big Special · Chameleons · Super Furry Animals · The Beta Band · The Divine Comedy · Shades Of Rhythm · Levellers · Richard Thompson · The Wonder Stuff · Turin Brakes · Skerryvore · Lisa O'Neill · Steeleye Span · Damien Dempsey · Skinny Lister · Gwenno · Katherine Priddy · Gina Larner · Kings Of The Rave · Barry Ashworth · Split Dogs · DUB CATALYST · Meryl Streek · Bez · Sammy Dean · Toby Lee · DJ Yoda · Chris Hawkins · Big Fish Little Fish · crystal tides · Snayx · Junior Brother · Sound of the Sirens · The Bar-Steward Sons of Val Doonican · Phil Hartnoll · Erotic Secrets of Pompeii · Sambroso All Stars · 3 Daft Monkeys · Samantics · Bar Stool Preachers · Luke Haines\nhttps://www.skiddle.com/festivals/beautiful-days/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QQncMXHvzYZiCXk4@gig-tracker
@@ -84,7 +77,7 @@ UID:sk-42308134@gig-tracker
 DTSTART;VALUE=DATE:20260903
 SUMMARY:End of the Road Festival
 LOCATION:Larmer Tree Gardens\, Salisbury\, GB
-DESCRIPTION:Mac Demarco · Earl Sweatshirt · Geese · Angine De Poitrine · Pulp · CMAT · Bassvictim · Ty Segall · Anna von Hausswolff · Adult DVD · White Denim · Super Furry Animals · Fat Dog · Ghostwoman · Kelly Lee Owens · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Folk Bitch Trio · Gans · Just Mustard · Mark William Lewis · Madra Salach · William Tyler · marisa anderson · Junior Brother · Caroline · BCUC · Maddie Ashman · Cowboy Hunters · Factory Floor · Silverwingkiller · RIP Magic · Tommy Barlow · Kurt Vile & The Violators · Kitchen Lover · RÓIS · Oldboy · BRÌGHDE CHAIMBEUL · Deary · TTSSFU · Gnod · Lichen · Modern Woman · Milkweed · Femur · Susannah Stark · M(h)aol · Kiran Leonard\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
+DESCRIPTION:Mac Demarco · Earl Sweatshirt · Geese · Angine De Poitrine · Pulp · CMAT · Bassvictim · Ty Segall · Anna von Hausswolff · Adult DVD · White Denim · Super Furry Animals · Fat Dog · Ghostwoman · Kelly Lee Owens · The Felice Brothers · Model/Actriz · Ratboys · Working Men&#39\;s Club · Folk Bitch Trio · Gans · Just Mustard · Mark William Lewis · Madra Salach · William Tyler · marisa anderson · Caroline · Cowboy Hunters · Silverwingkiller · Factory Floor · RIP Magic · Maddie Ashman · Tommy Barlow · Kurt Vile & The Violators · BCUC · Kitchen Lover · RÓIS · BRÌGHDE CHAIMBEUL · Oldboy · Deary · TTSSFU · Gnod · Lichen · Modern Woman · Milkweed · Femur · Susannah Stark · M(h)aol · Junior Brother · Kiran Leonard\nhttps://www.skiddle.com/festivals/end-of-the-road-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-42603193@gig-tracker
@@ -203,7 +196,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjcwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjcxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
@@ -252,7 +245,7 @@ UID:sgk-a4sn1u@gig-tracker
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Amon Amarth
 LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
-DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMjcwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMjcxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5vHZ_kE_p4L2@gig-tracker
@@ -441,7 +434,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjcwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjcxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -532,7 +525,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjcwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjcxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -805,7 +798,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjcwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjcxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -840,6 +833,6 @@ UID:sk-42640846@gig-tracker
 DTSTART;VALUE=DATE:20270805
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Motionless in white · Electric Callboy · Children of Bodom · Hammerfall · Imminence · Corrosion of Conformity · Madball · Sylosis · Decapitated · Hypocrisy · The Halo Effect · GAEREA · Humanity's Last Breath · Pig Destroyer · Green Lung · Conan · Witch Club Satan · Tortured Demon · Dool · Mercyful Fate\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Motionless in white · Electric Callboy · Children of Bodom · Hammerfall · Imminence · Corrosion of Conformity · Madball · Sylosis · Decapitated · Hypocrisy · GAEREA · The Halo Effect · Humanity's Last Breath · Pig Destroyer · Green Lung · Conan · Witch Club Satan · Tortured Demon · Dool · Mercyful Fate\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 END:VCALENDAR
