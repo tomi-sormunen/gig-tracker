@@ -105,7 +105,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMjk5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMzAwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
@@ -154,7 +154,7 @@ UID:sgk-a4sn1u@gig-tracker
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Amon Amarth
 LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
-DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMjk5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzAwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5vHZ_kE_p4L2@gig-tracker
@@ -343,7 +343,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMjk5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzAwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -434,7 +434,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMjk5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzAwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -640,11 +640,25 @@ LOCATION:Utilita Arena Cardiff\, Cardiff\, GB
 DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.co.uk/electric-callboy-cardiff-27-01-2027/event/360064CA9EF11044
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-LvZ18Qn5quGTQFMbDTovH@gig-tracker
+DTSTART;VALUE=DATE:20270201
+SUMMARY:FROZEN SOUL
+LOCATION:Electric Bristol\, Bristol\, GB
+DESCRIPTION:Frozen Soul · Darkest Hour · Denial of Life · Dethroned\nhttps://www.universe.com/events/frozen-soul-tickets-BZ1KDP?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-G5dzZ_1hjafvE@gig-tracker
 DTSTART;VALUE=DATE:20270202
 SUMMARY:Amorphis Borderland Tour 2027
 LOCATION:O2 Ritz Manchester\, Manchester\, GB
 DESCRIPTION:Amorphis · Insomnium · Unto Others\nhttps://www.ticketmaster.co.uk/amorphis-borderland-tour-2027-manchester-02-02-2027/event/3E0064A6DC254067
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-1FuOvP13AVZ7CvA1@gig-tracker
+DTSTART;VALUE=DATE:20270202
+SUMMARY:Frozen Soul
+LOCATION:Slay Glasgow\, Glasgow\, GB
+DESCRIPTION:Frozen Soul · Darkest Hour · Denial of Life · Dethroned\nhttps://www.ticketmaster.co.uk/frozen-soul-glasgow-02-02-2027/event/360065292174D049
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5dzZ_1hiy0x2@gig-tracker
@@ -654,11 +668,25 @@ LOCATION:O2 Forum Kentish Town\, London\, GB
 DESCRIPTION:Amorphis · Insomnium · Unto Others\nhttps://www.ticketmaster.co.uk/amorphis-borderland-tour-2027-london-03-02-2027/event/3E0064A6ECE6488F
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-LvZ18QnNMQABfdjUGdSfJ@gig-tracker
+DTSTART;VALUE=DATE:20270205
+SUMMARY:Frozen Soul
+LOCATION:Birmingham Flapper\, Birmingham\, GB
+DESCRIPTION:Frozen Soul · Darkest Hour · Dethroned · Denial of Life\nhttps://www.universe.com/events/frozen-soul-tickets-2ZY8S5?ref=ticketmaster
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZbpZ16vrF07PO@gig-tracker
 DTSTART;VALUE=DATE:20270207
 SUMMARY:Five Finger Death Punch: 20th Anniversary World Tour
 LOCATION:Amsterdam\, NL
 DESCRIPTION:Five Finger Death Punch · Lamb of God · Bleed From Within\nhttps://www.ticketmaster.nl/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/1788904960?language=en-us
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-G5vHZ_3RVTMso@gig-tracker
+DTSTART;VALUE=DATE:20270207
+SUMMARY:Frozen Soul
+LOCATION:Scala\, London\, GB
+DESCRIPTION:Frozen Soul · Darkest Hour · Denial of Life · Dethroned\nhttps://www.ticketmaster.co.uk/frozen-soul-london-07-02-2027/event/1F00652BF4FF7C51
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZbpZ1kAJabZa@gig-tracker
@@ -714,7 +742,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMjk5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzAwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -756,6 +784,6 @@ UID:sk-42640846@gig-tracker
 DTSTART;VALUE=DATE:20270805
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Motionless in white · Electric Callboy · Children of Bodom · Dethklok · Hammerfall · Make Them Suffer · Imminence · Kanonenfieber · Corrosion of Conformity · Mercyful Fate · Carnifex · Madball · Sylosis · The Acacia Strain · Hypocrisy · Decapitated · GAEREA · The Halo Effect · Humanity's Last Breath · Pig Destroyer · Calva Louise · GAMA BOMB · Green Lung · Conan · Witch Club Satan · Dool · Tortured Demon · DVNE · False Reality · Dog Tired · Divine Chaos · Spitting Glass · Cryptic Shift\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Motionless in white · Electric Callboy · Children of Bodom · Imminence · Dethklok · Hammerfall · Make Them Suffer · Kanonenfieber · Corrosion of Conformity · Mercyful Fate · Carnifex · Madball · Sylosis · The Acacia Strain · Hypocrisy · Decapitated · GAEREA · The Halo Effect · Humanity's Last Breath · Pig Destroyer · Calva Louise · Green Lung · GAMA BOMB · Conan · Witch Club Satan · Tortured Demon · Dool · DVNE · False Reality · Dog Tired · Divine Chaos · Spitting Glass · Cryptic Shift\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 END:VCALENDAR
