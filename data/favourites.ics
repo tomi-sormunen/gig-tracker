@@ -3,20 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZ2qZ16vv9QArd@gig-tracker
-DTSTART;VALUE=DATE:20261001
-SUMMARY:Placebo - 30th Anniversary Tour 
-LOCATION:Movistar Arena\, Madrid\, ES
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.es/event/placebo-30th-anniversary-tour-tickets/1057685783?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZ2qZ16evg0t-E@gig-tracker
-DTSTART;VALUE=DATE:20261001
-SUMMARY:Placebo - 30th Anniversary Tour | VIP Packages
-LOCATION:Movistar Arena\, Madrid\, ES
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.es/event/placebo-30th-anniversary-tour%7C-vip-packages-tickets/2075929867?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZ2qZ16vozaNoa@gig-tracker
 DTSTART;VALUE=DATE:20261003
 SUMMARY:Placebo - 30th Anniversary Tour 
@@ -98,7 +84,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMzE1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMzE2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
@@ -147,7 +133,7 @@ UID:sgk-a4sn1u@gig-tracker
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Amon Amarth
 LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
-DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzE1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzE2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5vHZ_kE_p4L2@gig-tracker
@@ -248,6 +234,13 @@ LOCATION:3Arena\, Dublin\, IE
 DESCRIPTION:Korn\nhttps://www.ticketmaster.ie/korn-architects-youth-code-dublin-02-11-2026/event/1800646AE0D3185F
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z7r9jZ1AAef4I@gig-tracker
+DTSTART;VALUE=DATE:20261102
+SUMMARY:Korn w/ Architects
+LOCATION:The O2\, Greenwich\, GB
+DESCRIPTION:Korn · Architects\nhttps://www.ticketmaster.com/event/Z7r9jZ1AAef4I
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kPKG_bA@gig-tracker
 DTSTART;VALUE=DATE:20261102
 SUMMARY:Placebo - 30th Anniversary Tour
@@ -297,11 +290,11 @@ LOCATION:Ziggo Dome\, Amsterdam\, NL
 DESCRIPTION:Korn · Architects · Pixel Grip\nhttps://www.ticketmaster.nl/event/korn-tickets/1202331948?language=en-us
 END:VEVENT
 BEGIN:VEVENT
-UID:tm-Z698xZbpZ16vab4kJb@gig-tracker
+UID:tm-Z698xZbpZ16vAyQKAs@gig-tracker
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Korn | Venue Premium Packages
 LOCATION:Ziggo Dome Club\, Amsterdam\, NL
-DESCRIPTION:Korn · Ziggo Dome Premium\nhttps://www.ticketmaster.nl/event/korn-%7C-venue-premium-packages-tickets/1258546998?language=en-us
+DESCRIPTION:Korn · Ziggo Dome Premium\nhttps://www.ticketmaster.nl/event/korn-%7C-venue-premium-packages-tickets/1179693171?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18QOkLbaO_1ZZMQIcx@gig-tracker
@@ -336,7 +329,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzE1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzE2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -427,7 +420,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzE1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzE2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -742,7 +735,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzE1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzE2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -798,7 +791,7 @@ UID:sk-42664965@gig-tracker
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Slam Dunk Festival - South
 LOCATION:Hatfield Park\, Hatfield\, GB
-DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · The Used · Beartooth · Bowling for Soup · We The Kings · Wage War · The Amity Affliction · The Front Bottoms · Reel Big Fish · The Interrupters · The Maine · Less Than Jake · ERRA · Hot Milk · Knuckle Puck · The Academy Is... · Four Year Strong · As December Falls · Melrose Avenue · Trophy Eyes · Grade 2 · Mouth Culture · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
+DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Beartooth · The Used · Bowling for Soup · We The Kings · Wage War · The Amity Affliction · The Front Bottoms · The Interrupters · Reel Big Fish · The Maine · Less Than Jake · ERRA · Hot Milk · Knuckle Puck · The Academy Is... · Four Year Strong · As December Falls · Melrose Avenue · Trophy Eyes · Grade 2 · Mouth Culture · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18Qnnqzf7n-17sVfBe@gig-tracker
