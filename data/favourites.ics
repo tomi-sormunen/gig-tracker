@@ -3,20 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZ2qZ16vozaNoa@gig-tracker
-DTSTART;VALUE=DATE:20261003
-SUMMARY:Placebo - 30th Anniversary Tour 
-LOCATION:Sant Jordi Club\, Barcelona\, ES
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.es/event/placebo-30th-anniversary-tour-tickets/1478263449?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZ2qZ1kpk4K-3@gig-tracker
-DTSTART;VALUE=DATE:20261003
-SUMMARY:Placebo - 30th Anniversary Tour | VIP Packages
-LOCATION:Sant Jordi Club\, Barcelona\, ES
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.es/event/placebo-30th-anniversary-tour%7C-vip-packages-tickets/586553852?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-LvZ18QPd6ZdC3VgEbZJRp@gig-tracker
 DTSTART;VALUE=DATE:20261005
 SUMMARY:Cinder Well
@@ -84,7 +70,7 @@ UID:sgk-19vs3qx@gig-tracker
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Raised Fist
 LOCATION:Werk\, Munich\, DE
-DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMzE3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Raised Fist\nhttps://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMzE4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZaqgVMyxrjZrZ1wJzynMPiMZ1AeAv8E@gig-tracker
@@ -133,7 +119,7 @@ UID:sgk-a4sn1u@gig-tracker
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Amon Amarth
 LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
-DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzE3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzE4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5vHZ_kE_p4L2@gig-tracker
@@ -329,7 +315,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzE3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzE4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -420,7 +406,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzE3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzE4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -735,7 +721,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzE3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzE4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -812,6 +798,6 @@ UID:sk-42640846@gig-tracker
 DTSTART;VALUE=DATE:20270805
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Motionless in white · Electric Callboy · Children of Bodom · Imminence · Hammerfall · Dethklok · Make Them Suffer · Kanonenfieber · Corrosion of Conformity · Mercyful Fate · Carnifex · Sylosis · Madball · The Acacia Strain · Hypocrisy · GAEREA · Decapitated · The Halo Effect · Humanity's Last Breath · Pig Destroyer · Green Lung · Calva Louise · GAMA BOMB · Conan · Witch Club Satan · Dog Tired · DVNE · Tortured Demon · Dool · False Reality · Divine Chaos · Spitting Glass · Cryptic Shift\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Motionless in white · Electric Callboy · Children of Bodom · Imminence · Hammerfall · Make Them Suffer · Dethklok · Kanonenfieber · Mercyful Fate · Carnifex · Corrosion of Conformity · Sylosis · Madball · Hypocrisy · GAEREA · Decapitated · The Acacia Strain · The Halo Effect · Humanity's Last Breath · Pig Destroyer · Green Lung · Calva Louise · GAMA BOMB · Conan · Witch Club Satan · Tortured Demon · DVNE · Dog Tired · False Reality · Dool · Divine Chaos · Spitting Glass · Cryptic Shift\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 END:VCALENDAR
