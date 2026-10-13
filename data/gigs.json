@@ -1,1024 +1,7 @@
 {
-  "updatedAt": "2026-10-12T12:32:19.184Z",
+  "updatedAt": "2026-10-13T12:16:20.070Z",
   "source": "live",
   "gigs": [
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.204302,
-      "lon": 0.119362,
-      "id": "tm-G5vHZ_k90FkES",
-      "title": "Alice Cooper Devil on My Shoulder Book Tour",
-      "bands": [
-        "Alice Cooper"
-      ],
-      "date": "2026-10-12",
-      "time": "18:30",
-      "venue": "Cambridge Corn Exchange",
-      "city": "Cambridge",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/alice-cooper-devil-on-my-shoulder-cambridge-12-10-2026/event/1F006465E42069F3",
-      "image": "https://s1.ticketm.net/dam/a/43a/5ce12af7-d2a4-416c-84dd-8c6e7bae943a_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-13T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.53582,
-      "lon": 0.697435,
-      "id": "tm-G5vHZ_k8D3_NU",
-      "title": "Alison Moyet",
-      "bands": [
-        "Alison Moyet"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Southend Cliffs Pavilion",
-      "city": "Southend-On-Sea",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/alison-moyet-southendonsea-12-10-2026/event/1F0064643B4998F6",
-      "image": "https://s1.ticketm.net/dam/a/068/8468fcca-7110-4934-b6af-23cea9a45068_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-13T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.270087,
-      "lon": -9.058145,
-      "id": "tm-1AvOZ_6GkBrFhjs",
-      "title": "An Evening With Kristin Hersh",
-      "bands": [
-        "Kristin Hersh"
-      ],
-      "date": "2026-10-12",
-      "time": "20:30",
-      "venue": "Roisin Dubh",
-      "city": "Galway",
-      "country": "IE",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.ie/an-evening-with-kristin-hersh-galway-12-10-2026/event/1800647E9E21B731",
-      "image": "https://s1.ticketm.net/uk/dbimages/29600a.gif",
-      "isFestival": false,
-      "onSaleDate": "2026-04-16T15:48:35Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 48.20236,
-      "lon": 16.33288,
-      "id": "tm-Z698xZ5rZ16v4K7_jP",
-      "title": "Anastacia - #NTK26 Tour",
-      "bands": [
-        "Anastacia"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "Wiener Stadthalle - Halle F",
-      "city": "Vienna",
-      "country": "AT",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.at/event/anastacia-ntk26-tour-tickets/1553119725?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/98e/09c095d4-714f-4d02-9243-83365d5ac98e_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-23T08:00:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.336575,
-      "lon": -6.265634,
-      "id": "tm-17kZv0G61wAWyfY",
-      "title": "Arab Strap",
-      "bands": [
-        "Arab Strap"
-      ],
-      "date": "2026-10-12",
-      "time": "20:00",
-      "venue": "Whelans",
-      "city": "Dublin",
-      "country": "IE",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.ie/arab-strap-dublin-12-10-2026/event/180064AC85F79530",
-      "image": "https://s1.ticketm.net/dam/a/82e/d5c53bea-51a8-4b7e-bc82-72a023b4982e_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-22T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 55.855063,
-      "lon": -4.236938,
-      "id": "tm-1AdbZ_dGkDP-6Vg",
-      "title": "Band of Horses - Celebrating 20 Years of Everything All The Time",
-      "bands": [
-        "Band of Horses"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Barrowland Ballroom",
-      "city": "Glasgow",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/band-of-horses-celebrating-20-years-glasgow-12-10-2026/event/3600643EE5847D35",
-      "image": "https://s1.ticketm.net/dam/a/3f7/3829e491-4a6c-4442-ac7b-59c5488cd3f7_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-02-13T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.464386,
-      "lon": -2.232225,
-      "id": "tm-G5vHZ_ahP0z3k",
-      "title": "Ben Ellis",
-      "bands": [
-        "Ben Ellis",
-        "Millichamp"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "Manchester Academy 3",
-      "city": "Manchester",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/ben-ellis-manchester-12-10-2026/event/1F006496E5938486",
-      "image": "https://s1.ticketm.net/dam/a/2b8/c3c3ef11-a9a1-4f07-8b9b-062d8bf6b2b8_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-01T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 55.87738,
-      "lon": -4.289157,
-      "id": "tm-17GOv0G65U9U8cJ",
-      "title": "Boris",
-      "bands": [
-        "Boris"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Oran Mor",
-      "city": "Glasgow",
-      "country": "GB",
-      "genre": "Metal",
-      "subGenre": "Nu-Metal",
-      "url": "https://www.ticketweb.uk/event/boris-oran-mor-tickets/14958863?REFERRAL_ID=tmfeed",
-      "image": "https://s1.ticketm.net/dam/a/f59/79abc705-f1ca-4d3d-8e08-3cb17d8a2f59_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-29T09:40:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 49.46424,
-      "lon": 8.51797,
-      "id": "tm-Z698xZC2Z16vOyPJvp",
-      "title": "Bryan Adams - Roll With The Punches Tour",
-      "bands": [
-        "Bryan Adams"
-      ],
-      "date": "2026-10-12",
-      "time": "20:00",
-      "venue": "SAP Arena",
-      "city": "Mannheim",
-      "country": "DE",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tour-tickets/1839966056?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/414/eec4659a-b582-47b3-b4d6-a9dfa6324414_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-05T09:00:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.638032,
-      "lon": 1.296628,
-      "id": "tm-LvZ18Qbufh0SvLOZl1cSw",
-      "title": "Crash Test Dummies",
-      "bands": [
-        "Crash Test Dummies"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "Epic Studios",
-      "city": "Norwich ",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.universe.com/events/crash-test-dummies-tickets-XNC7G9?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/c11/710d2d65-485c-4acb-ac32-2e29d0012c11_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-02-06T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-21T10:16:28.269Z"
-    },
-    {
-      "id": "sk-42811980",
-      "title": "DC presents: Hitmen / Roo Stafford + The Innits / Snakeman",
-      "bands": [
-        "DC presents: Hitmen / Roo Stafford + The Innits / Snakeman"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "Delicious Clam",
-      "city": "Sheffield",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative",
-      "url": "https://www.skiddle.com/whats-on/Sheffield/Delicious-Clam/DC-presents-Hitmen--Roo-Stafford--The-Innits--Snakeman/42811980/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/4/1/6/2353290_b7f7b865_dc-presents-hitmen-roo-stafford-the-innits-snakeman.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.384183,
-      "lon": -1.463283,
-      "firstSeen": "2026-09-29T10:57:48.961Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.515741,
-      "lon": -0.129159,
-      "id": "tm-17uYv0G6CKhXMW7",
-      "title": "Don Broco",
-      "bands": [
-        "Don Broco",
-        "Unpeople",
-        "Ando San"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Outernet Live",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/don-broco-london-12-10-2026/event/370064E4DBFB7F44",
-      "image": "https://s1.ticketm.net/dam/a/8b0/ab31d27e-3bf4-4a4b-8a1b-eec1d14d88b0_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-07-10T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 50.82829,
-      "lon": -0.13936,
-      "id": "tm-LvZ18QJxFrZ0S7sUD--T4",
-      "title": "Dylan Flynn & the Dead Poets + Support",
-      "bands": [
-        "Dylan Flynn and the Dead Poets"
-      ],
-      "date": "2026-10-12",
-      "time": "20:00",
-      "venue": "The Prince Albert",
-      "city": "Brighton",
-      "country": "GB",
-      "genre": "Alternative",
-      "subGenre": "Indie Rock",
-      "url": "https://www.universe.com/events/dylan-flynn-the-dead-poets-support-tickets-QG13YD?ref=ticketmaster",
-      "image": "https://images.universe.com/0a298a80-1d7a-4fbc-96b9-2f1970c07b42/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
-      "isFestival": false,
-      "onSaleDate": "2026-07-28T10:46:16Z",
-      "availability": null,
-      "firstSeen": "2026-09-21T10:16:28.269Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 50.82829,
-      "lon": -0.139434,
-      "id": "tm-G5vHZ_CTikFGe",
-      "title": "Dylan Flynn and the Dead Poets",
-      "bands": [
-        "Dylan Flynn and the Dead Poets",
-        "BABYRAT"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Brighton Prince Albert",
-      "city": "Brighton",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/dylan-flynn-and-the-dead-poets-brighton-12-10-2026/event/1F0064EFEC188302",
-      "image": "https://s1.ticketm.net/dam/a/3bb/365ef85b-db42-4bda-a7e5-0c6d8bb4c3bb_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-07-31T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.55538,
-      "lon": 9.98061,
-      "id": "tm-Z698xZC2Z16vG6bok_",
-      "title": "Ed O'Brien - An Evening With… Blue Morpho Tour",
-      "bands": [
-        "Ed O'brien"
-      ],
-      "date": "2026-10-12",
-      "time": "20:00",
-      "venue": null,
-      "city": "Hamburg",
-      "country": "DE",
-      "genre": "Alternative",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.de/event/ed-obrien-an-evening-with-blue-morpho-tour-tickets/1307611199?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/023/77ae0873-c821-4ead-b29e-136911776023_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-04-01T08:00:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.409228,
-      "lon": -2.161313,
-      "id": "tm-17u8v0G629-HEx_",
-      "title": "Francis Rossi",
-      "bands": [
-        "Francis Rossi"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Stockport Plaza",
-      "city": "Stockport",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/francis-rossi-stockport-12-10-2026/event/350064F5E1F27899",
-      "image": "https://s1.ticketm.net/dam/a/658/ed51251c-ed59-457e-8506-f7ccd605d658_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": "soldout",
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.36483,
-      "lon": 4.88127,
-      "id": "tm-Z698xZbpZ16vC8GZAw",
-      "title": "Froukje - albumrelease show",
-      "bands": [
-        "Froukje"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Melkweg",
-      "city": "Amsterdam",
-      "country": "NL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.nl/event/froukje-albumrelease-show-tickets/1390300172?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/9fa/1b4dd117-e766-470e-9c2a-bf41355349fa_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-09-10T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-08T09:13:09.629Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.515497,
-      "lon": -0.129112,
-      "id": "tm-17u8v0G65Hkq530",
-      "title": "Gallus",
-      "bands": [
-        "Gallus",
-        "Sodakill"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "The Lower Third",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/gallus-london-12-10-2026/event/350064BF0674B4A4",
-      "image": "https://s1.ticketm.net/dam/a/eec/d8b963b4-ee15-4c38-8878-25f25514beec_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-05T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.25929,
-      "lon": 21.03687,
-      "id": "tm-Z698xZQpZ16v8yQ7PN",
-      "title": "girli: the opinionated tour",
-      "bands": [
-        "Girli",
-        "Vanès",
-        "Dirt Flirt"
-      ],
-      "date": "2026-10-12",
-      "time": "18:00",
-      "venue": "Klub Hydrozagadka",
-      "city": "Warsaw",
-      "country": "PL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/girli-the-opinionated-tour-tickets/1439684963?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/5bd/e8fdc792-d28a-4305-b5c4-660805e885bd_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-05-07T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "sk-42428003",
-      "title": "Goth City Festival 2026",
-      "bands": [
-        "Goth City Festival 2026"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "Leeds City Centre",
-      "city": "Leeds City Centre",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative",
-      "url": "https://www.skiddle.com/whats-on/Leeds/Leeds-City-Centre/Goth-City-Festival-2026/42428003/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/3/f/2265218_bf4e2c54_goth-city-festival-2026.jpg",
-      "isFestival": true,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.7933791,
-      "lon": -1.5494337,
-      "firstSeen": "2026-07-23T20:42:05.393Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.21159,
-      "lon": 21.01023,
-      "id": "tm-Z698xZQpZ1k_NZK_P",
-      "title": "I Prevail: The Violent Nature Tour UK & EUROPE 2026 - WARSAW",
-      "bands": [
-        "I Prevail",
-        "Polaris",
-        "GORE."
-      ],
-      "date": "2026-10-12",
-      "time": "18:00",
-      "venue": "Klub Stodoła",
-      "city": "Warsaw",
-      "country": "PL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/i-prevail-the-violent-nature-tour-uk--europe-2026-warsaw-tickets/663013665?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/de7/17d77828-bc1b-4ad3-9465-660687e4dde7_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-10-10T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "sk-42674977",
-      "title": "Indecision & Pinkpool with supports from Vienna, and Hazel",
-      "bands": [
-        "Indecision & Pinkpool with supports from Vienna, and Hazel"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Aatma",
-      "city": "Manchester",
-      "country": "GB",
-      "genre": "Nu Metal",
-      "subGenre": "Emo",
-      "url": "https://www.skiddle.com/whats-on/Manchester/Aatma/Indecision--Pinkpool-with-supports-from-Vienna-and-Hazel/42674977/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/6/d/d/2326072_d250ac13_indecision-with-supports-from-vienna-pinkpool-and-hazel.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.48261,
-      "lon": -2.232938,
-      "firstSeen": "2026-08-26T05:22:29.526Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 48.12444,
-      "lon": 11.60731,
-      "id": "tm-Z698xZC2Z1ka47oas",
-      "title": "Ivo Martin - MIT DIR WIRD MIR WARM TOUR 2026",
-      "bands": [
-        "Ivo Martin"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": null,
-      "city": "Munich",
-      "country": "DE",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.de/event/ivo-martin-mit-dir-wird-mir-warm-tour-2026-tickets/255111271?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e24/ea1e0fbc-b640-486a-afbd-ae8966ac5e24_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-08-19T15:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 50.8989811,
-      "lon": -1.4004633,
-      "id": "tm-LvZ18QbFEtRvefYZllIEC",
-      "title": "John 5",
-      "bands": [
-        "JOHN 5",
-        "Dan Byrne",
-        "Divergent Promotions",
-        "Divergent Promotions - Southampton"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Southampton 1865",
-      "city": "Southampton",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.universe.com/events/john-5-tickets-JNYQPL?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/550/aa0b4618-fb1b-4e79-adee-269f4b1bf550_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-02-13T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.493673,
-      "lon": -0.157586,
-      "id": "tm-G5vHZ_kMOW6wP",
-      "title": "JUSTIN HAYWARD: THE STORY IN YOUR EYES TOUR",
-      "bands": [
-        "Justin Hayward"
-      ],
-      "date": "2026-10-12",
-      "time": "18:00",
-      "venue": "Cadogan Hall",
-      "city": "London",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/justin-hayward-the-story-in-your-london-12-10-2026/event/1F00646DE0F47CA5",
-      "image": "https://s1.ticketm.net/dam/a/06e/023bd1f2-114c-4617-b078-431b8df9706e_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-20T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.31236,
-      "lon": 4.94415,
-      "id": "tm-Z698xZbpZ16vGKP743",
-      "title": "Khalid: It's Always Summer Somewhere Tour",
-      "bands": [
-        "Khalid",
-        "Jae Stephens"
-      ],
-      "date": "2026-10-12",
-      "time": "20:00",
-      "venue": null,
-      "city": "Amsterdam",
-      "country": "NL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.nl/event/khalid-its-always-summer-somewhere-tour-tickets/1313944552?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/8f7/a28fe21a-a083-456a-948e-287746be18f7_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-27T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.474423,
-      "lon": -2.243098,
-      "id": "tm-G5dzZ_5loaKp3",
-      "title": "KIN+ Fushigi Anime, Film and Video Game Orchestra ",
-      "bands": [
-        "KIN+ Fushigi Anime, Film and Video Game Orchestra "
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "O2 Ritz Manchester",
-      "city": "Manchester",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/kin-fushigi-anime-film-and-video-manchester-12-10-2026/event/3E0064BAD1253592",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-01T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 45.494744,
-      "lon": 9.182377,
-      "id": "tm-Z59rmIYnyZdkA",
-      "title": "Lake Street Dive | JAZZMI 2026",
-      "bands": [
-        "JAZZMI",
-        "Lake Street Dive",
-        "JAZZMI"
-      ],
-      "date": "2026-10-12",
-      "time": "21:00",
-      "venue": "Alcatraz",
-      "city": "Milano",
-      "country": "IT",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.it/biglietti/lake-street-dive-milano-12-10-2026/event/6wzqplj8kosn",
-      "image": "https://s1.ticketm.net/dam/a/181/b816a3ee-0140-4c58-ac45-31c914ddd181_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-11-21T09:00:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.448839,
-      "lon": -2.595066,
-      "id": "tm-LvZ18Q_YOwiVzgZZlVQwI",
-      "title": "LSD AND THE SEARCH FOR GOD",
-      "bands": [
-        "LSD and the Search for God"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Thekla",
-      "city": "Bristol",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Rock",
-      "url": "https://www.universe.com/events/lsd-and-the-search-for-god-tickets-HRJS94?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/eff/6abc1798-c2fc-48db-9e8b-ee6ac3446eff_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-06T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 47.3881,
-      "lon": 8.49989,
-      "id": "tm-Z698xZu3Z16vvfF9Jd",
-      "title": "Mayhem",
-      "bands": [
-        "Mayhem"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": null,
-      "city": "Zürich",
-      "country": "CH",
-      "genre": "Rock",
-      "subGenre": "Hard Rock",
-      "url": "https://www.ticketmaster.ch/event/mayhem-tickets/1054217983?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/f7a/00b6f44f-a148-4039-83b0-5d36909d8f7a_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-07-18T14:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-17T07:08:46.113Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.3423,
-      "lon": 12.35443,
-      "id": "tm-Z698xZC2Z1kb-0aAf",
-      "title": "Placebo - 30th Anniversary Tour",
-      "bands": [
-        "Placebo"
-      ],
-      "date": "2026-10-12",
-      "time": "20:00",
-      "venue": null,
-      "city": "Leipzig",
-      "country": "DE",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/621909154?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/659/0d293f1b-6f2f-4d03-aadc-c8cd6fa92659_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-27T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "sgk-19vs3qx",
-      "title": "Raised Fist",
-      "bands": [
-        "Raised Fist"
-      ],
-      "date": "2026-10-12",
-      "time": null,
-      "venue": "Werk",
-      "city": "Munich",
-      "country": "DE",
-      "genre": "Rock",
-      "subGenre": null,
-      "url": "https://www.songkick.com/concerts/43254844-raised-fist-at-werk-backstage?utm_campaign=attendance&utm_content=ZD0yNDYxMzI2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
-      "image": null,
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": null,
-      "lon": null,
-      "firstSeen": "2026-07-24T19:47:51.984Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 53.76964,
-      "lon": -0.3671649,
-      "id": "tm-G5vHZ_6Kv1AMh",
-      "title": "Red Rum Club",
-      "bands": [
-        "Red Rum Club"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Asylum Hull University Union",
-      "city": "Hull",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/red-rum-club-hull-12-10-2026/event/1F006474C1285DDB",
-      "image": "https://s1.ticketm.net/dam/a/863/0539125e-1086-4dcb-b6f8-ac4f8cb21863_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-03-27T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.40246,
-      "lon": 16.92235,
-      "id": "tm-Z698xZQpZ1kjvuyuO",
-      "title": "Richard Bona Quintet",
-      "bands": [
-        "Richard Bona"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Tama",
-      "city": "Poznan",
-      "country": "PL",
-      "genre": "Metal",
-      "subGenre": "Heavy Metal",
-      "url": "https://www.ticketmaster.pl/event/richard-bona-quintet-tickets/701379360?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/00c/5b88cba2-3304-47bd-b966-2228f23b300c_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-09-17T07:52:00Z",
-      "availability": "soldout",
-      "firstSeen": "2026-09-18T09:16:21.926Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.4467999,
-      "lon": -2.59643092,
-      "id": "tm-G5vHZ_2wnXNIz",
-      "title": "Saint Clair",
-      "bands": [
-        "Saint Clair",
-        "jo from school"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "The Louisiana",
-      "city": "Bristol",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.co.uk/saint-clair-bristol-12-10-2026/event/1F0064FCAAFA3A38",
-      "image": "https://s1.ticketm.net/dam/a/c33/e0163490-2b0e-4e0c-901c-9b2e52489c33_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-07-31T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 55.69773,
-      "lon": 12.62219,
-      "id": "tm-Z698xZC4Z1kOeu6A-",
-      "title": "Simple Plan - Bigger Than You Think! Europe Tour 2026",
-      "bands": [
-        "Simple Plan",
-        "Neck Deep"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": null,
-      "city": "København K",
-      "country": "DK",
-      "genre": "Alternative",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.ticketmaster.dk/event/simple-plan-bigger-than-you-think-europe-tour-2026-tickets/802347161?language=en-us",
-      "image": "https://s1.ticketm.net/dam/e/b1d/8e7a9c83-e9b1-4fa7-b7f0-9dd67b750b1d_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2025-12-05T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "id": "sk-42426863",
-      "title": "Sparta",
-      "bands": [
-        "Sparta"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "The Castle And Falcon",
-      "city": "Birmingham",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Metal",
-      "url": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Sparta/42426863/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/1/8/e/2264661_597b3195_sparta.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 52.4599842,
-      "lon": -1.884336,
-      "firstSeen": "2026-09-15T09:40:31.784Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.956117,
-      "lon": -1.155314,
-      "id": "tm-LvZ18Q9c1a-6arYZwBATx",
-      "title": "The Amity Affliction",
-      "bands": [
-        "House of Cards"
-      ],
-      "date": "2026-10-12",
-      "time": "17:30",
-      "venue": "Rock City",
-      "city": "Nottingham",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative Rock",
-      "url": "https://www.universe.com/events/the-amity-affliction-tickets-XJMYFQ?ref=ticketmaster",
-      "image": "https://images.universe.com/4b34a649-2fbe-43e7-aacb-daec4307ec76/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
-      "isFestival": false,
-      "onSaleDate": "2026-02-09T10:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.45454646,
-      "lon": -2.5982703,
-      "id": "tm-17uYv0G62TjLx4D",
-      "title": "Van Morrison In Concert",
-      "bands": [
-        "Van Morrison"
-      ],
-      "date": "2026-10-12",
-      "time": "19:00",
-      "venue": "Bristol Beacon",
-      "city": "Bristol",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/van-morrison-in-concert-bristol-12-10-2026/event/370064FFDC7E257B",
-      "image": "https://s1.ticketm.net/dam/a/d2b/be3bb805-fe10-44e5-b633-b0558f83dd2b_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-08-07T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 55.862637,
-      "lon": -4.265037,
-      "id": "tm-LvZ18Q-D86ShycZZz5bI-",
-      "title": "Winyah",
-      "bands": [
-        "Winyah"
-      ],
-      "date": "2026-10-12",
-      "time": "19:30",
-      "venue": "King Tuts Wah Wah Hut",
-      "city": "Glasgow",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Indie Rock",
-      "url": "https://www.universe.com/events/winyah-tickets-7RBDN5?ref=ticketmaster",
-      "image": "https://s1.ticketm.net/dam/a/307/d3c8b73c-a990-4655-ab7b-7ef9977dc307_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-06-05T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-09-20T09:30:10.047Z"
-    },
     {
       "priceMin": null,
       "priceMax": null,
@@ -1700,7 +683,7 @@
       "image": "https://s1.ticketm.net/dam/a/d52/9a01fabe-95cb-4f26-a4ba-0bb779425d52_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-06-26T09:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -1880,7 +863,7 @@
       "image": "https://s1.ticketm.net/dam/a/ec4/b84faeac-440a-4ce2-8af2-1ad5c76aeec4_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-03-26T09:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -1906,7 +889,7 @@
       "image": "https://s1.ticketm.net/dam/a/5bb/da26c21d-b562-463a-bcd8-14187f97a5bb_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-01T08:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -1932,7 +915,7 @@
       "image": "https://s1.ticketm.net/dam/a/5bb/da26c21d-b562-463a-bcd8-14187f97a5bb_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-15T10:10:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -2008,7 +991,7 @@
       "image": "https://s1.ticketm.net/dam/a/00c/5b88cba2-3304-47bd-b966-2228f23b300c_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-09-17T09:42:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-09-18T09:16:21.926Z"
     },
     {
@@ -2242,7 +1225,7 @@
       "image": "https://s1.ticketm.net/dam/a/b43/fb88f322-a593-45df-b6c5-3af23d5a8b43_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-16T08:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -3951,7 +2934,7 @@
       "image": "https://s1.ticketm.net/dam/a/fb7/34b2fa73-15a5-4f52-aab1-bdfe5cd98fb7_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-05-10T08:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -4146,7 +3129,7 @@
         "Brandon Flowers"
       ],
       "date": "2026-10-15",
-      "time": "18:30",
+      "time": "19:30",
       "venue": "Royal Albert Hall",
       "city": "London",
       "country": "GB",
@@ -4708,7 +3691,7 @@
       "image": "https://s1.ticketm.net/dam/a/877/643af63d-c5d9-4389-b23d-221a0e1a8877_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-03-18T13:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -5933,6 +4916,31 @@
       "onSaleDate": "2026-02-02T15:25:30Z",
       "availability": null,
       "firstSeen": "2026-09-25T09:53:49.098Z"
+    },
+    {
+      "id": "sk-43017785",
+      "title": "The Widows | Album Release Show",
+      "bands": [
+        "The Widows | Album Release Show"
+      ],
+      "date": "2026-10-15",
+      "time": "19:30",
+      "venue": "The Dublin Castle, UK",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": null,
+      "url": "https://www.skiddle.com/whats-on/London/The-Dublin-Castle%2C-UK/The-Widows--Album-Release-Show/43017785/",
+      "image": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": 8,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 51.5374883,
+      "lon": -0.1456012,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -9813,7 +8821,7 @@
         "Brandon Flowers"
       ],
       "date": "2026-10-17",
-      "time": "19:00",
+      "time": "19:30",
       "venue": "Bristol Beacon",
       "city": "Bristol",
       "country": "GB",
@@ -10369,7 +9377,7 @@
         "Fontaines CD - Fontaines Tribute Band"
       ],
       "date": "2026-10-17",
-      "time": "19:00",
+      "time": "18:30",
       "venue": "The Limelight 2",
       "city": "Belfast",
       "country": "GB",
@@ -10396,7 +9404,7 @@
         "Niall McCabe"
       ],
       "date": "2026-10-17",
-      "time": "19:00",
+      "time": "18:30",
       "venue": "The Queen's Hall",
       "city": "Edinburgh",
       "country": "GB",
@@ -11104,7 +10112,8 @@
       "title": "Milburn",
       "bands": [
         "Milburn",
-        "The Rosadocs"
+        "The Rosadocs",
+        "Leazes"
       ],
       "date": "2026-10-17",
       "time": "19:00",
@@ -12030,31 +11039,6 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
-      "lat": 53.270087,
-      "lon": -9.058145,
-      "id": "tm-16bZkf4OdZA8u7F6",
-      "title": "The Love Buzz",
-      "bands": [
-        "The Love Buzz"
-      ],
-      "date": "2026-10-17",
-      "time": "20:30",
-      "venue": "Roisin Dubh",
-      "city": "Galway",
-      "country": "IE",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.ie/the-love-buzz-galway-17-10-2026/event/18006515803FC376",
-      "image": "https://s1.ticketm.net/dam/a/e60/8cebec27-176a-4afc-ab98-a71c03ca3e60_1430021_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-08-26T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-08-25T05:21:46.075Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
       "lat": 50.82153,
       "lon": -0.146331,
       "id": "tm-G5dzZ_GK6KUYn",
@@ -12353,7 +11337,7 @@
       "image": "https://s1.ticketm.net/dam/a/c81/86542b9c-3ca3-486a-9870-1d4cc1ce8c81_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-17T08:00:00Z",
-      "availability": null,
+      "availability": "soldout",
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
@@ -12905,7 +11889,7 @@
         "Winiary Bookings"
       ],
       "date": "2026-10-18",
-      "time": "20:00",
+      "time": "19:00",
       "venue": "VooDoo Club - Stage 2",
       "city": "Warsaw",
       "country": "PL",
@@ -12960,7 +11944,7 @@
       "genre": "Metal",
       "subGenre": null,
       "url": "https://www.skiddle.com/whats-on/London/The-Underworld/Belphegor--Krisiun--Asagraum--A-Call-For-Revenge/42488707/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/e/9/2281287_1147fc82_belphegor-krisiun-asagraum-a-call-for-revenge.jpg",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/e/9/2281287_6d0232cf_belphegor-krisiun-asagraum-a-call-for-revenge.jpg",
       "isFestival": false,
       "onSaleDate": null,
       "availability": null,
@@ -13059,7 +12043,7 @@
         "Brandon Flowers"
       ],
       "date": "2026-10-18",
-      "time": "19:00",
+      "time": "19:30",
       "venue": "Rock City",
       "city": "Nottingham",
       "country": "GB",
@@ -13268,7 +12252,7 @@
         "Winiary Bookings"
       ],
       "date": "2026-10-18",
-      "time": "19:00",
+      "time": "18:40",
       "venue": "Klub MECHanik",
       "city": "Warsaw",
       "country": "PL",
@@ -13519,7 +12503,7 @@
     },
     {
       "id": "sk-42352769",
-      "title": "Iguana Death Cult",
+      "title": "Iguana Death Cult + Las Vedas",
       "bands": [
         "Iguana Death Cult"
       ],
@@ -13530,7 +12514,7 @@
       "country": "GB",
       "genre": "Rock",
       "subGenre": "Alternative",
-      "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Iguana-Death-Cult/42352769/",
+      "url": "https://www.skiddle.com/whats-on/Birmingham/Hare-And-Hounds-Kings-Heath/Iguana-Death-Cult--Las-Vedas/42352769/",
       "image": "https://d31fr2pwly4c4s.cloudfront.net/7/8/8/2249621_92fc7c0b_iguana-death-cult.jpg",
       "isFestival": false,
       "onSaleDate": null,
@@ -14222,6 +13206,31 @@
       "onSaleDate": "2026-06-30T14:07:11Z",
       "availability": null,
       "firstSeen": "2026-10-01T11:14:12.771Z"
+    },
+    {
+      "id": "sk-43008469",
+      "title": "The Derellas, Coyote Men + Phobics - Live @ Billy's",
+      "bands": [
+        "The Derellas, Coyote Men + Phobics - Live @ Billy's"
+      ],
+      "date": "2026-10-18",
+      "time": "13:00",
+      "venue": "Billy Bootleggers",
+      "city": "Newcastle Upon Tyne",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Punk",
+      "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Billy-Bootleggers/The-Derellas-Coyote-Men--Phobics---Live--Billys/43008469/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/9/a/c/2445939_59665d88_the-derellas-coyote-men-phobics-live-billy-s.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 54.9753875,
+      "lon": -1.5933844,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42674387",
@@ -15446,7 +14455,7 @@
         "Brandon Flowers"
       ],
       "date": "2026-10-20",
-      "time": "19:00",
+      "time": "19:30",
       "venue": "O2 Apollo Manchester",
       "city": "Manchester",
       "country": "GB",
@@ -16673,7 +15682,7 @@
         "Brandon Flowers"
       ],
       "date": "2026-10-21",
-      "time": "19:00",
+      "time": "19:30",
       "venue": "York Barbican",
       "city": "York",
       "country": "GB",
@@ -17454,7 +16463,8 @@
       "id": "tm-1AdFZ_aGkS45ONi",
       "title": "Makeshift Art Bar",
       "bands": [
-        "Makeshift Art Bar"
+        "Makeshift Art Bar",
+        "Nerves"
       ],
       "date": "2026-10-21",
       "time": "19:30",
@@ -25328,7 +24338,7 @@
         "Seven Dark Lords - Live @ Billy's"
       ],
       "date": "2026-10-24",
-      "time": "17:00",
+      "time": "20:00",
       "venue": "Billy Bootleggers Bar",
       "city": "Nottingham",
       "country": "GB",
@@ -25919,7 +24929,7 @@
         "Belle and Chain"
       ],
       "date": "2026-10-24",
-      "time": "18:00",
+      "time": "19:00",
       "venue": "O2 Academy Leeds",
       "city": "Leeds",
       "country": "GB",
@@ -26053,7 +25063,7 @@
       "url": "https://www.universe.com/events/transvision-vamp-tickets-5HPYJW?ref=ticketmaster",
       "image": "https://images.universe.com/4785db90-b5c3-4b7b-984c-7146d6838e68/-/resize/1200x/-/crop/1200x1200/0,0/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
       "isFestival": false,
-      "onSaleDate": "2026-02-27T10:00:00Z",
+      "onSaleDate": "2026-02-23T15:04:37Z",
       "availability": null,
       "firstSeen": "2026-10-07T11:24:24.113Z"
     },
@@ -27498,7 +26508,7 @@
         "The Bates Motel"
       ],
       "date": "2026-10-25",
-      "time": "11:30",
+      "time": "12:30",
       "venue": "The Cluny",
       "city": "Newcastle Upon Tyne",
       "country": "GB",
@@ -28063,7 +27073,7 @@
       "country": "FI",
       "genre": "Rock",
       "subGenre": null,
-      "url": "https://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzI2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
+      "url": "https://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzI3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
       "image": null,
       "isFestival": false,
       "onSaleDate": null,
@@ -28571,7 +27581,8 @@
       "id": "tm-LvZ18QNPdXFO-cOvOHEZ_",
       "title": "MY FIRST TIME",
       "bands": [
-        "My First Time"
+        "My First Time",
+        "Die Twice"
       ],
       "date": "2026-10-26",
       "time": "19:30",
@@ -29115,6 +28126,32 @@
       "onSaleDate": "2026-03-13T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-10-09T11:33:31.232Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 55.85515215,
+      "lon": -4.23494336,
+      "id": "tm-LvZ18QiqR7wj2NQEzEfpx",
+      "title": "An Evening with Paul McStay w/ Mark Guidi + The Bluebells",
+      "bands": [
+        "The Bluebells",
+        "An Evening with Paul McStay"
+      ],
+      "date": "2026-10-27",
+      "time": "19:30",
+      "venue": "Saint Luke's",
+      "city": "Glasgow",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/an-evening-with-paul-mcstay-w-mark-guidi-the-bluebells-tickets-XHZ0DN?ref=ticketmaster",
+      "image": "https://images.universe.com/ac43e8b6-19a6-4315-934d-4deb12c82fe5/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-10-08T10:23:15Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -30513,6 +29550,31 @@
       "onSaleDate": "2025-10-23T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-10-09T11:33:31.232Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.34804959,
+      "lon": -6.26185298,
+      "id": "tm-1AvOZ_fGkwKIVSf",
+      "title": "A New Local Hero Finale",
+      "bands": [
+        "A New Local Hero"
+      ],
+      "date": "2026-10-28",
+      "time": "20:00",
+      "venue": "The Academy",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/a-new-local-hero-finale-dublin-28-10-2026/event/1800654C93A34CD4",
+      "image": "https://s1.ticketm.net/dam/a/a06/65020a2f-6acc-4820-9a8d-0cb9b8a53a06_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-12T13:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -32215,6 +31277,31 @@
       "firstSeen": "2026-10-09T11:33:31.232Z"
     },
     {
+      "id": "sk-42734925",
+      "title": "#154 Spooky Special - Body Crisis / NIHILITH / STERNUMS",
+      "bands": [
+        "#154 Spooky Special - Body Crisis / NIHILITH / STERNUMS"
+      ],
+      "date": "2026-10-29",
+      "time": "20:00",
+      "venue": "The Deco",
+      "city": "Southsea",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Hardcore/Hardstyle",
+      "url": "https://www.skiddle.com/whats-on/Portsmouth/The-Deco/154-Spooky-Special---Body-Crisis--NIHILITH--STERNUMS/42734925/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/6/b/2/2342079_f4b3917a_-154-spooky-special-body-crisis-nihilith-sternums.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 50.7892957,
+      "lon": -1.0841923,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -32523,7 +31610,8 @@
       "id": "tm-LvZ18QNNMKW0Bx8Z0pYnP",
       "title": "DF Concerts Presents: NOAHFINNCE",
       "bands": [
-        "NOAHFINNCE"
+        "NOAHFINNCE",
+        "senses"
       ],
       "date": "2026-10-29",
       "time": "19:00",
@@ -35776,32 +34864,6 @@
       "firstSeen": "2026-10-12T12:32:19.184Z"
     },
     {
-      "id": "sk-42526784",
-      "title": "Liam Cromby + The Morning Star",
-      "bands": [
-        "We Are The Ocean",
-        "Liam Cromby"
-      ],
-      "date": "2026-10-30",
-      "time": "19:30",
-      "venue": "Oporto",
-      "city": "Leeds",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Alternative",
-      "url": "https://www.skiddle.com/whats-on/Leeds/Oporto/Liam-Cromby--The-Morning-Star/42804503/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/3/a/e/2290607_daff8cfd_liam-cromby-the-morning-star.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.795599,
-      "lon": -1.540912,
-      "firstSeen": "2026-09-19T09:02:42.657Z"
-    },
-    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -36462,31 +35524,6 @@
       "onSaleDate": "2026-03-31T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 54.9696,
-      "lon": -1.6215,
-      "id": "tm-G5vHZ_6mkOwW7",
-      "title": "Runaway Club",
-      "bands": [
-        "Runaway Club"
-      ],
-      "date": "2026-10-30",
-      "time": "19:30",
-      "venue": "Think Tank At Digital",
-      "city": "Newcastle Upon Tyne",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.co.uk/runaway-club-newcastle-upon-tyne-30-10-2026/event/1F00647B86832F44",
-      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-04-02T09:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-10-12T12:32:19.184Z"
     },
     {
       "id": "sk-42487385",
@@ -37510,6 +36547,31 @@
       "firstSeen": "2026-10-12T12:32:19.184Z"
     },
     {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 54.49026,
+      "lon": -0.6189,
+      "id": "tm-1AdfZbgGkMOIjfP",
+      "title": "Tomorrows Ghosts Festival: 2026 Halloween Gathering - Weekend Ticket",
+      "bands": [
+        "Tomorrow's Ghosts Festival"
+      ],
+      "date": "2026-10-30",
+      "time": null,
+      "venue": "Whitby Pavilion Northern Lights Suite",
+      "city": "Whitby",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Punk",
+      "url": "https://www.ticketmaster.co.uk/tomorrows-ghosts-festival-2026-halloween-gathering-whitby-30-10-2026/event/3500635DE0A1C525",
+      "image": "https://s1.ticketm.net/dam/a/4ba/27592851-8937-4a0f-b6a5-6edf4f5a94ba_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": true,
+      "onSaleDate": "2025-11-03T12:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42698735",
       "title": "Tool Shed - A Tribute to Tool | Arts Club | Liverpool",
       "bands": [
@@ -38117,6 +37179,31 @@
       "firstSeen": "2026-07-23T20:42:05.393Z"
     },
     {
+      "id": "sk-43017513",
+      "title": "Borderline - live @ Billy's",
+      "bands": [
+        "Borderline - live @ Billy's"
+      ],
+      "date": "2026-10-31",
+      "time": "17:00",
+      "venue": "Billy Bootleggers Bar",
+      "city": "Nottingham",
+      "country": "GB",
+      "genre": "Blues",
+      "subGenre": "Rock & Roll / 1950s",
+      "url": "https://www.skiddle.com/whats-on/Nottingham/Billy-Bootleggers-Bar/Borderline---live--Billys/43017513/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/f/5/2447781_70657558_Borderline---live---Billy-s.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 52.951417,
+      "lon": -1.145566,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-41110923",
       "title": "Bruce Springsteen Tribute | Bruce Juice",
       "bands": [
@@ -38142,6 +37229,31 @@
       "firstSeen": "2026-07-30T07:25:47.709Z"
     },
     {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 51.459846,
+      "lon": -0.117044,
+      "id": "tm-LvZ18Q-gEV_FVJYvGpL6M",
+      "title": "Cancer Bats",
+      "bands": [
+        "Cancer Bats"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "Electric Brixton",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.universe.com/events/cancer-bats-tickets-CTVBKF?ref=ticketmaster",
+      "image": "https://images.universe.com/0d798629-2beb-4b5c-9031-f2e161dc945a/-/resize/1200x/-/crop/801x800/270,0/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-06-05T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42732754",
       "title": "Courtroom Illustrator. Gorse. Red Carpet Dollhouse. The Arcane",
       "bands": [
@@ -38165,6 +37277,37 @@
       "lat": 53.810251,
       "lon": -1.569999,
       "firstSeen": "2026-09-14T10:10:49.672Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.80091,
+      "lon": -1.5410149,
+      "id": "tm-LvZ18QJNZGyMmD5fkLgCX",
+      "title": "Dark Arts: Heartworms, Walt Disco, and More",
+      "bands": [
+        "Heartworms",
+        "Walt Disco",
+        "deary",
+        "Genn",
+        "Gossip Queens",
+        "Lonnie Gunn",
+        "Cam Davey"
+      ],
+      "date": "2026-10-31",
+      "time": "12:00",
+      "venue": "Belgrave Music Hall",
+      "city": "Leeds",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Garage Punk",
+      "url": "https://www.universe.com/events/dark-arts-heartworms-walt-disco-and-more-tickets-0DZHQK?ref=ticketmaster",
+      "image": "https://images.universe.com/48d9dff1-6fe0-4c34-a5cd-bd171fb33569/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-07-28T17:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42693554",
@@ -38266,6 +37409,31 @@
       "lat": 55.8622333,
       "lon": -4.2572436,
       "firstSeen": "2026-09-03T09:16:38.188Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 51.501581,
+      "lon": 0.005519,
+      "id": "tm-17u8v0G65UauVbE",
+      "title": "Duran Duran",
+      "bands": [
+        "Duran Duran"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "The O2",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.co.uk/duran-duran-london-31-10-2026/event/350064BD89374627",
+      "image": "https://s1.ticketm.net/dam/a/c20/d80eae4f-8d81-4560-a16e-e629c2b78c20_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-07-10T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -38430,6 +37598,31 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 54.593513,
+      "lon": -5.928771,
+      "id": "tm-1AzZk3oGkeMlwvF",
+      "title": "Huey Morgan - Fun Lovin Criminal",
+      "bands": [
+        "Huey Morgan"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "The Limelight 2",
+      "city": "Belfast",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.ie/huey-morgan-fun-lovin-criminal-belfast-31-10-2026/event/38006491B7AF2048",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_3_2.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-04-20T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 50.10341,
       "lon": 14.49352,
       "id": "tm-Z698xZu0Z16veA4wbE",
@@ -38478,6 +37671,31 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 51.53445948,
+      "lon": -0.10661535,
+      "id": "tm-G5dzZ_KNeuNIe",
+      "title": "InPop",
+      "bands": [
+        "InPop presents"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "O2 Academy2 Islington",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/inpop-london-31-10-2026/event/3E006538C2363A02",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-09-28T11:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42804927",
       "title": "Jacaranda Presents : Halloween Special with Bite",
       "bands": [
@@ -38501,6 +37719,31 @@
       "lat": 53.402442,
       "lon": -2.979626,
       "firstSeen": "2026-09-29T10:57:48.961Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 55.86087,
+      "lon": -4.288154,
+      "id": "tm-1AUZk8SGkdN_9Vu",
+      "title": "Jack Savoretti",
+      "bands": [
+        "Jack Savoretti"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "SEC Armadillo",
+      "city": "Glasgow",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.co.uk/jack-savoretti-glasgow-31-10-2026/event/36006433E3657D0D",
+      "image": "https://s1.ticketm.net/dam/a/9db/deaf13db-121f-48cc-bc42-93a92883d9db_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-01-30T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -38785,6 +38028,84 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 53.376963,
+      "lon": -1.476918,
+      "id": "tm-LvZ18QIe1yFp2XfIxlg24",
+      "title": "LENE LOVICH UK 2026 TOUR",
+      "bands": [
+        "Lene Lovich",
+        "Stigmata Presents"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "Corporation",
+      "city": "Sheffield",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.universe.com/events/lene-lovich-uk-2026-tour-tickets-J6FR4L?ref=ticketmaster",
+      "image": "https://s1.ticketm.net/dam/a/b4a/1ca8eee3-027f-466d-add4-fb6362006b4a_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-08-15T15:51:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 54.490859,
+      "lon": -0.620487,
+      "id": "tm-1AdfZbgGkMzJqpn",
+      "title": "LOL TOLHURST in CONVERSATION",
+      "bands": [
+        "Lol Tolhurst"
+      ],
+      "date": "2026-10-31",
+      "time": "16:00",
+      "venue": "Whitby Pavilion Theatre",
+      "city": "Whitby",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/lol-tolhurst-in-conversation-whitby-31-10-2026/event/3500635DF899D5AA",
+      "image": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-11-03T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.48661136,
+      "lon": -2.1995797,
+      "id": "tm-1AMZk3pGkdnFUw-",
+      "title": "Manic Street Preachers & Suede",
+      "bands": [
+        "Manic Street Preachers",
+        "Suede",
+        "Co-op Live - Premium Experiences"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "Co-op Live",
+      "city": "Manchester",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.co.uk/manic-street-preachers-suede-manchester-31-10-2026/event/37006496EA236CA1",
+      "image": "https://s1.ticketm.net/dam/a/32e/cb858243-fddd-43e1-b292-83469119c32e_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-05-01T08:30:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 48.17388,
       "lon": 11.54549,
       "id": "tm-Z698xZC2Z1kaaofap",
@@ -38833,29 +38154,30 @@
       "firstSeen": "2026-10-01T11:14:12.771Z"
     },
     {
-      "id": "sk-42734509",
-      "title": "One Night of Rock 'n' Roll",
-      "bands": [
-        "One Night of Rock 'n' Roll"
-      ],
-      "date": "2026-10-31",
-      "time": "19:00",
-      "venue": "Ballyhackamore Working Mens Institute And Club",
-      "city": "Belfast",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "1970s",
-      "url": "https://www.skiddle.com/whats-on/Belfast/Ballyhackamore-Working-Mens-Institute-And-Club/One-Night-of-Rock-n-Roll/42734509/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/3/9/3/2341900_78fbec0b_one-night-of-rock-n-roll.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
       "priceMin": null,
       "priceMax": null,
-      "currency": "GBP",
-      "lat": 54.5941116,
-      "lon": -5.8681302,
-      "firstSeen": "2026-09-19T09:02:42.657Z"
+      "currency": null,
+      "lat": 53.474423,
+      "lon": -2.243098,
+      "id": "tm-G5dzZ_eUJgeT1",
+      "title": "Overpass",
+      "bands": [
+        "Overpass",
+        "Cherryholt"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "O2 Ritz Manchester",
+      "city": "Manchester",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.co.uk/overpass-manchester-31-10-2026/event/3E00642DA6D42FCA",
+      "image": "https://s1.ticketm.net/dam/a/245/8784b195-b81d-4751-9c05-af6888790245_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-01-30T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -38881,6 +38203,58 @@
       "onSaleDate": "2025-11-21T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.804616,
+      "lon": -1.544073,
+      "id": "tm-G5vHZ_5i4S5bt",
+      "title": "Paul Heaton",
+      "bands": [
+        "Paul Heaton",
+        "The Lightning Seeds"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "Leeds First Direct Bank Arena",
+      "city": "Leeds",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/paul-heaton-leeds-31-10-2026/event/1F0064BB15CCB629",
+      "image": "https://s1.ticketm.net/dam/a/5eb/90ad1165-8b7a-4a7b-850f-ca3bc3b1a5eb_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-06-05T08:30:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.804616,
+      "lon": -1.544073,
+      "id": "tm-G5vHZ_5T2N985",
+      "title": "Paul Heaton - Venue Premium Tickets",
+      "bands": [
+        "Paul Heaton",
+        "First Direct Arena - Premium Packages"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "Leeds First Direct Bank Arena",
+      "city": "Leeds",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/paul-heaton-venue-premium-tickets-leeds-31-10-2026/event/1F0064BFCF8D740B",
+      "image": "https://s1.ticketm.net/dam/a/5eb/90ad1165-8b7a-4a7b-850f-ca3bc3b1a5eb_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-06-05T08:30:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42261842",
@@ -38938,6 +38312,58 @@
       "onSaleDate": "2026-01-23T13:18:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.921971,
+      "lon": -1.480463,
+      "id": "tm-LvZ18QjaSX-ub0OZ0zbZv",
+      "title": "Sex Pistols Exposé/Lizzie & The Banshees/Clashed/We’ll be Damned",
+      "bands": [
+        "Sex Pistols Expose",
+        "Lizzie and the Banshees"
+      ],
+      "date": "2026-10-31",
+      "time": "17:00",
+      "venue": "The Hairy Dog",
+      "city": "Derby",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Punk",
+      "url": "https://www.universe.com/events/sex-pistols-expose-lizzie-the-banshees-clashed-we-ll-be-damned-tickets-86BV5C?ref=ticketmaster",
+      "image": "https://images.universe.com/69708f7f-9865-41ce-a63c-3cbb628c848e/-/format/jpeg/-/scale_crop/1024x576/center/-/progressive/yes/-/inline/yes/",
+      "isFestival": false,
+      "onSaleDate": "2026-03-24T11:22:34Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 54.60391677,
+      "lon": -5.91356277,
+      "id": "tm-1AdOZbVGkT_h385",
+      "title": "Share a Suite - Westlife",
+      "bands": [
+        "Share a Suite",
+        "Westlife"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "The O2 Belfast",
+      "city": "Belfast",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/share-a-suite-westlife-belfast-31-10-2026/event/3800634FD96D240B",
+      "image": "https://s1.ticketm.net/dam/a/329/be286a8a-e405-47ef-b3fb-b60f04dd7329_1014051_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-10-23T08:23:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -39120,6 +38546,31 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 55.86087,
+      "lon": -4.288154,
+      "id": "tm-1AUZkCvGkdk_l44",
+      "title": "The Australian Pink Floyd",
+      "bands": [
+        "The Australian Pink Floyd Show"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "OVO Hydro",
+      "city": "Glasgow",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/the-australian-pink-floyd-glasgow-31-10-2026/event/36006381C666B555",
+      "image": "https://s1.ticketm.net/dam/a/9bb/bbe8c32c-405b-4d53-b88c-8526e18949bb_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-12-05T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 51.90032277,
       "lon": -8.47281933,
       "id": "tm-1AvOZ_kGkcDENlL",
@@ -39241,6 +38692,32 @@
       "lat": 53.462961,
       "lon": -2.230456,
       "firstSeen": "2026-08-05T07:30:53.083Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.621919,
+      "lon": -1.12381,
+      "id": "tm-G5dzZ_76G-45l",
+      "title": "The Wedding Present - Sea Monsters Tour",
+      "bands": [
+        "The Wedding Present",
+        "Belle and Chain"
+      ],
+      "date": "2026-10-31",
+      "time": "18:00",
+      "venue": "O2 Academy2 Leicester",
+      "city": "Leicester",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/the-wedding-present-sea-monsters-tour-leicester-31-10-2026/event/3E006441CC8552EB",
+      "image": "https://s1.ticketm.net/dam/a/85e/0000c0a0-b981-464b-a9da-23d00f9c585e_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-02-07T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -39519,6 +38996,81 @@
       "lat": 53.395134,
       "lon": -2.981165,
       "firstSeen": "2026-07-23T20:42:05.393Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 54.60391677,
+      "lon": -5.91356277,
+      "id": "tm-1AdOZbVGkTU0wxy",
+      "title": "Westlife 25 - The Anniversary World Tour",
+      "bands": [
+        "Westlife"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "The O2 Belfast",
+      "city": "Belfast",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/westlife-25-the-anniversary-world-tour-belfast-31-10-2026/event/3800634FF69328B9",
+      "image": "https://s1.ticketm.net/dam/a/78c/07626348-f909-4270-af8d-3c8ecbfd378c_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-10-23T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 54.60391677,
+      "lon": -5.91356277,
+      "id": "tm-1AzZkuoGkeEKoWA",
+      "title": "Westlife 25 - The Anniversary World Tour - Premium Priced Seats",
+      "bands": [
+        "Westlife"
+      ],
+      "date": "2026-10-31",
+      "time": "18:30",
+      "venue": "The O2 Belfast",
+      "city": "Belfast",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/westlife-25-the-anniversary-world-tour-belfast-31-10-2026/event/38006351A74D1F45",
+      "image": "https://s1.ticketm.net/dam/a/78c/07626348-f909-4270-af8d-3c8ecbfd378c_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2025-10-23T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "id": "sk-43018161",
+      "title": "White Beat - Live @ Billy's",
+      "bands": [
+        "White Beat - Live @ Billy's"
+      ],
+      "date": "2026-10-31",
+      "time": "14:00",
+      "venue": "Billy Bootleggers Nottingham",
+      "city": "Nottingham",
+      "country": "GB",
+      "genre": "Blues",
+      "subGenre": "Rock & Roll / 1950s",
+      "url": "https://www.skiddle.com/whats-on/Nottingham/Billy-Bootleggers-Nottingham/White-Beat---Live--Billys/43018161/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/c/9/4/2448118_2ebfe8e8_white-beat-live-billy-s.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 52.95154021,
+      "lon": -1.14576328,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -43487,7 +43039,7 @@
         "Swervedriver"
       ],
       "date": "2026-11-05",
-      "time": "20:00",
+      "time": "19:30",
       "venue": "Whelans",
       "city": "Dublin",
       "country": "IE",
@@ -43660,7 +43212,8 @@
       "id": "tm-Z698xZQpZ16v7UAbbd",
       "title": "Zimmer90 - ARTHOUSE TOUR 2026",
       "bands": [
-        "Zimmer90"
+        "Zimmer90",
+        "Klaudia Daliva"
       ],
       "date": "2026-11-05",
       "time": "18:00",
@@ -46210,12 +45763,13 @@
         "MØL",
         "Shining",
         "Slow Crush",
-        "Rwake",
+        "Triptykon",
         "Lagrimas",
         "Gorerotted",
         "Intercourse",
         "Medulla Nocte",
         "The Moth Gatherer",
+        "Rwake",
         "Weekend Nachos",
         "The Berzerker",
         "Coltaine",
@@ -46229,7 +45783,6 @@
         "Cabal",
         "Fange",
         "Dodsrit",
-        "Triptykon",
         "EYES",
         "Sugar Horse",
         "Mastiff",
@@ -46793,7 +46346,7 @@
       "genre": "Alternative",
       "subGenre": "Alternative Rock",
       "url": "https://www.ticketmaster.de/event/ikan-hyu-swim-with-sharks-tour-2026-tickets/259480213?language=en-us",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_EVENT_DETAIL_PAGE_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-10T10:19:00Z",
       "availability": null,
@@ -48158,7 +47711,7 @@
       "genre": "Alternative",
       "subGenre": "Alternative Rock",
       "url": "https://www.ticketmaster.de/event/ikan-hyu-swim-with-sharks-tour-2026-tickets/305234779?language=en-us",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_EVENT_DETAIL_PAGE_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-10T11:04:00Z",
       "availability": null,
@@ -49412,7 +48965,7 @@
       "genre": "Alternative",
       "subGenre": "Alternative Rock",
       "url": "https://www.ticketmaster.de/event/ikan-hyu-swim-with-sharks-tour-2026-tickets/745733320?language=en-us",
-      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+      "image": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_EVENT_DETAIL_PAGE_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-04-10T11:42:00Z",
       "availability": null,
@@ -50091,7 +49644,7 @@
       "country": "NO",
       "genre": "Rock",
       "subGenre": null,
-      "url": "https://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzI2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
+      "url": "https://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzI3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
       "image": null,
       "isFestival": false,
       "onSaleDate": null,
@@ -52196,6 +51749,33 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "sk-42839935",
+      "title": "FUSE - SKUM, Ten Eighty Trees, Fatal Reflection, and Polarnova",
+      "bands": [
+        "Ten Eighty Trees",
+        "Fatal Reflection",
+        "Polarnova"
+      ],
+      "date": "2026-11-13",
+      "time": "18:30",
+      "venue": "The Victoria Inn ",
+      "city": "Derby",
+      "country": "GB",
+      "genre": "Indie",
+      "subGenre": "Metal",
+      "url": "https://www.skiddle.com/whats-on/Derby/The-Victoria-Inn-/FUSE---SKUM-Ten-Eighty-Trees-Fatal-Reflection-and-Polarnova/42839935/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/5/d/b/2361597_c736a8ab_fuse-skum-ten-eighty-trees-fatal-reflection-and-polarnova.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 52.916819,
+      "lon": -1.4648,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42641234",
       "title": "Genevieve Miles",
       "bands": [
@@ -52727,6 +52307,31 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "sk-43017790",
+      "title": "MYSPACE OR YOURS? @ The Crooked Crow Bar",
+      "bands": [
+        "MYSPACE OR YOURS?"
+      ],
+      "date": "2026-11-13",
+      "time": "20:30",
+      "venue": "The Crooked Crow Bar",
+      "city": "Leighton Buzzard",
+      "country": "GB",
+      "genre": "Metal",
+      "subGenre": "Nu Metal",
+      "url": "https://www.skiddle.com/whats-on/Luton/The-Crooked-Crow-Bar/MYSPACE-OR-YOURS--The-Crooked-Crow-Bar/43017790/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/7/2/8/2447968_84220dd8_myspace-or-yours-the-crooked-crow-bar.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 51.9167544,
+      "lon": -0.6635444,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -52979,6 +52584,31 @@
       "lat": 52.4493298,
       "lon": -2.0488714,
       "firstSeen": "2026-07-23T20:42:05.393Z"
+    },
+    {
+      "id": "sk-43017620",
+      "title": "Sl!ce + History of Concrete + Burning the Filth + Byonichord",
+      "bands": [
+        "Sl!ce + History of Concrete + Burning the Filth + Byonichord"
+      ],
+      "date": "2026-11-13",
+      "time": "19:00",
+      "venue": "Krakatoa",
+      "city": "ABERDEEN",
+      "country": "GB",
+      "genre": "Metal",
+      "subGenre": "Punk",
+      "url": "https://www.skiddle.com/whats-on/Aberdeen/Krakatoa/Slce--History-of-Concrete--Burning-the-Filth--Byonichord/43017620/",
+      "image": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 57.145851,
+      "lon": -2.094875,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42832258",
@@ -57943,31 +57573,6 @@
       "firstSeen": "2026-10-06T11:34:46.496Z"
     },
     {
-      "id": "sk-42630548",
-      "title": "TURNTABLE PRESENTS: Poor Things",
-      "bands": [
-        "TURNTABLE PRESENTS: Poor Things"
-      ],
-      "date": "2026-11-17",
-      "time": "19:00",
-      "venue": "The Jacaranda Club",
-      "city": "Liverpool",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Indie",
-      "url": "https://www.skiddle.com/whats-on/Liverpool/The-Jacaranda-Club/TURNTABLE-PRESENTS-Poor-Things/42630548/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/0/e/2/2315636_7cd04455_turntable-presents-poor-things.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.402442,
-      "lon": -2.979626,
-      "firstSeen": "2026-08-07T06:03:24.937Z"
-    },
-    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -58209,7 +57814,7 @@
       "country": "DE",
       "genre": "Rock",
       "subGenre": null,
-      "url": "https://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzI2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
+      "url": "https://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzI3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
       "image": null,
       "isFestival": false,
       "onSaleDate": null,
@@ -64253,6 +63858,32 @@
       "firstSeen": "2026-07-23T20:42:05.393Z"
     },
     {
+      "id": "sk-43016756",
+      "title": "Melanie Baker, Morton Betts, Bright Light Rooney + more",
+      "bands": [
+        "Melanie Baker",
+        "Bright Light Rooney"
+      ],
+      "date": "2026-11-21",
+      "time": "19:00",
+      "venue": "The Grand Clitheroe",
+      "city": "Clitheroe",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Indie",
+      "url": "https://www.skiddle.com/whats-on/Blackburn/The-Grand-Clitheroe/Melanie-Baker-Morton-Betts-Bright-Light-Rooney--more/43016756/",
+      "image": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 53.873542,
+      "lon": -2.388975,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -64999,7 +64630,7 @@
       "genre": "Rock",
       "subGenre": "Metal",
       "url": "https://www.skiddle.com/whats-on/Carlisle/The-Brickyard/Thunder-Hammer-at-The-Brickyard-Carlisle/42832826/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/d/b/7/2358942_20390418_Thunder-Hammer-at-The-Brickyard--Carlisle.jpg",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/d/b/7/2358942_3859f870_thunder-hammer-at-the-brickyard-carlisle.jpg",
       "isFestival": false,
       "onSaleDate": null,
       "availability": null,
@@ -66610,7 +66241,8 @@
       "id": "tm-Z698xZbpZ16vCZ-fje",
       "title": "The Pretty Reckless: Dear God Tour",
       "bands": [
-        "The Pretty Reckless"
+        "The Pretty Reckless",
+        "doug."
       ],
       "date": "2026-11-23",
       "time": "20:00",
@@ -66618,7 +66250,7 @@
       "city": "Amsterdam",
       "country": "NL",
       "genre": "Rock",
-      "subGenre": "Pop",
+      "subGenre": "Alternative Rock",
       "url": "https://www.ticketmaster.nl/event/the-pretty-reckless-dear-god-tour-tickets/1380854702?language=en-us",
       "image": "https://s1.ticketm.net/dam/a/5c8/f85031af-ca1e-41cb-b76b-73e86ba5b5c8_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
@@ -67580,7 +67212,7 @@
         "James Morrison"
       ],
       "date": "2026-11-24",
-      "time": "20:00",
+      "time": "19:30",
       "venue": "Mitsubishi Electric HALLE",
       "city": "Düsseldorf",
       "country": "DE",
@@ -72665,6 +72297,31 @@
       "firstSeen": "2026-07-23T20:42:05.393Z"
     },
     {
+      "id": "sk-42437726",
+      "title": "Monsters of Rock - Hartington Hall (Hartington 28/11/2026)",
+      "bands": [
+        "Thunder Hammer"
+      ],
+      "date": "2026-11-28",
+      "time": "19:00",
+      "venue": "Hartington Village Hall",
+      "city": "Hartington",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Metal",
+      "url": "https://www.skiddle.com/whats-on/Stockport/Hartington-Village-Hall/Monsters-of-Rock---Hartington-Hall-Hartington-28112026/42437726/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/5/0/d/2268512_69087842_Monsters-of-Rock---Hartington-Hall--Hartington-28-11-2026-.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 53.1414066,
+      "lon": -1.8097394,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-41917438",
       "title": "Moretallica | Southampton",
       "bands": [
@@ -72832,14 +72489,14 @@
         "WNSDY AT 7"
       ],
       "date": "2026-11-28",
-      "time": "13:00",
+      "time": "12:00",
       "venue": "Corporation Sheffield",
       "city": "Sheffield",
       "country": "GB",
       "genre": "Rock",
       "subGenre": "Metal",
       "url": "https://www.skiddle.com/festivals/novacaine-festival/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/b/8/2232858_3a213f8a_novacaine-festival-2026.jpg",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/b/8/2232858_af7bf22c_novacaine-festival-2026.jpg",
       "isFestival": true,
       "onSaleDate": null,
       "availability": null,
@@ -73192,6 +72849,31 @@
       "lat": 54.9645593,
       "lon": -1.625011,
       "firstSeen": "2026-08-01T07:22:25.994Z"
+    },
+    {
+      "id": "sk-43018101",
+      "title": "Skibidi Chicken, Band Of Mystery - Live @ Billy's",
+      "bands": [
+        "Skibidi Chicken, Band Of Mystery - Live @ Billy's"
+      ],
+      "date": "2026-11-28",
+      "time": "14:00",
+      "venue": "Billy Bootleggers Bar",
+      "city": "Nottingham",
+      "country": "GB",
+      "genre": "Blues",
+      "subGenre": "Rock & Roll / 1950s",
+      "url": "https://www.skiddle.com/whats-on/Nottingham/Billy-Bootleggers-Bar/Skibidi-Chicken-Band-Of-Mystery---Live--Billys/43018101/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/7/d/2448095_b0a70b0f_skibidi-chicken-band-of-mystery-live-billy-s.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 52.951417,
+      "lon": -1.145566,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -83084,6 +82766,31 @@
       "firstSeen": "2026-09-11T09:13:56.775Z"
     },
     {
+      "id": "sk-42630548",
+      "title": "TURNTABLE PRESENTS: Poor Things",
+      "bands": [
+        "TURNTABLE PRESENTS: Poor Things"
+      ],
+      "date": "2026-12-08",
+      "time": "19:00",
+      "venue": "The Jacaranda Club",
+      "city": "Liverpool",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Indie",
+      "url": "https://www.skiddle.com/whats-on/Liverpool/The-Jacaranda-Club/TURNTABLE-PRESENTS-Poor-Things/42630548/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/0/e/2/2315636_5c7841e3_turntable-presents-poor-things.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 53.402442,
+      "lon": -2.979626,
+      "firstSeen": "2026-08-07T06:03:24.937Z"
+    },
+    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -87716,7 +87423,7 @@
     },
     {
       "id": "sk-43015913",
-      "title": "Cillirion - A Tribute to Fish-Era Marillion: A Farewell to 26",
+      "title": "Cillirion 5th Anniversary Tour @ The Artisan Tap",
       "bands": [
         "Cillirion - A Tribute to Fish-Era Marillion"
       ],
@@ -87727,7 +87434,7 @@
       "country": "GB",
       "genre": "Rock",
       "subGenre": "Progressive Rock",
-      "url": "https://www.skiddle.com/whats-on/Stoke-On-Trent/Artisan-Tap/Cillirion---A-Tribute-to-Fish-Era-Marillion-A-Farewell-to-26/43015913/",
+      "url": "https://www.skiddle.com/whats-on/Stoke-On-Trent/Artisan-Tap/Cillirion-5th-Anniversary-Tour--The-Artisan-Tap/43015913/",
       "image": "https://d31fr2pwly4c4s.cloudfront.net/f/c/c/2447266_29824986_Cillirion--a-Tribute-to-Fish-Era-Marillion--A-Farewell-to-26.jpg",
       "isFestival": false,
       "onSaleDate": null,
@@ -88020,6 +87727,31 @@
       "onSaleDate": "2026-01-26T13:48:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "sk-43015895",
+      "title": "Scarper  - 81 Renshaw",
+      "bands": [
+        "Scarper  - 81 Renshaw"
+      ],
+      "date": "2026-12-13",
+      "time": "19:00",
+      "venue": "81 Renshaw",
+      "city": "Liverpool",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Alternative",
+      "url": "https://www.skiddle.com/whats-on/Liverpool/81-Renshaw/Scarper----81-Renshaw/43015895/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/6/2/1/2447248_b95b32f8_scarper-81-renshaw.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 53.4031415,
+      "lon": -2.9759307,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -90968,7 +90700,8 @@
       "id": "tm-ZG9rmIYnyZFA66",
       "title": "Giovanni Lindo Ferretti \"Percuotendo in cadenza\"",
       "bands": [
-        "Giovanni Lindo Ferretti"
+        "Giovanni Lindo Ferretti",
+        "Musica dei cieli"
       ],
       "date": "2026-12-19",
       "time": "14:30",
@@ -92755,7 +92488,7 @@
       "genre": "Rock",
       "subGenre": "Dancehall",
       "url": "https://www.skiddle.com/whats-on/London/Signature-Brew-Haggerston/Tuggawar--The-Warr-Boxing-Day-Special/42832866/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/5/e/9/2358982_2c61472f_tuggawar-the-warr-boxing-day-special.jpg",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/5/e/9/2358982_13137704_Tuggawar---The-Warr-Boxing-Day-Special.jpg",
       "isFestival": false,
       "onSaleDate": null,
       "availability": null,
@@ -92999,6 +92732,31 @@
       "firstSeen": "2026-09-21T10:16:28.269Z"
     },
     {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "id": "tm-Z698xZG2Z16v_SbPoo",
+      "title": "Tribute to QUEEN by REGINA (Italy)",
+      "bands": [
+        "Regina"
+      ],
+      "date": "2026-12-27",
+      "time": "20:00",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "country": "BE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.be/event/tribute-to-queen-by-regina-italy--tickets/1673625451",
+      "image": "https://s1.ticketm.net/dam/a/dcf/fe0e4f3a-dbad-42c7-916a-66208d99fdcf_1249311_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-12T14:15:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42144872",
       "title": "Christmas Rocks",
       "bands": [
@@ -93098,6 +92856,31 @@
       "onSaleDate": "2026-05-19T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "id": "tm-Z698xZG2Z1krFZEZg",
+      "title": "Tribute to QUEEN by REGINA (Italy)",
+      "bands": [
+        "Regina"
+      ],
+      "date": "2026-12-28",
+      "time": "20:00",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "country": "BE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.be/event/tribute-to-queen-by-regina-italy--tickets/788027035",
+      "image": "https://s1.ticketm.net/dam/a/dcf/fe0e4f3a-dbad-42c7-916a-66208d99fdcf_1249311_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-12T14:24:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -93376,6 +93159,31 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "id": "tm-Z698xZG2Z1kuwO-P6",
+      "title": "Tribute to AC/DC by HIGH VOLTAGE (B)",
+      "bands": [
+        "High Voltage"
+      ],
+      "date": "2026-12-29",
+      "time": "20:00",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "country": "BE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.be/event/tribute-to-ac-dc-by-high-voltage-b--tickets/372821947",
+      "image": "https://s1.ticketm.net/dam/a/9f1/0037d50e-8e09-4d93-bcb7-0728b42039f1_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-12T14:34:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42144883",
       "title": "Christmas Rocks",
       "bands": [
@@ -93524,6 +93332,31 @@
       "onSaleDate": "2026-04-28T10:43:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 50.59353,
+      "lon": 5.86109,
+      "id": "tm-Z698xZG2Z1koNqzZM",
+      "title": "Tribute to AC/DC by HIGH VOLTAGE (B)",
+      "bands": [
+        "High Voltage"
+      ],
+      "date": "2026-12-30",
+      "time": "20:00",
+      "venue": "Spirit of 66",
+      "city": "Verviers",
+      "country": "BE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.be/event/tribute-to-ac-dc-by-high-voltage-b--tickets/463778037",
+      "image": "https://s1.ticketm.net/dam/a/9f1/0037d50e-8e09-4d93-bcb7-0728b42039f1_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-12T14:40:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -94017,6 +93850,31 @@
       "onSaleDate": "2026-04-22T08:31:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "id": "sk-43017728",
+      "title": "Thunderstruck: The Ultimate ACDC Experience",
+      "bands": [
+        "Thunderstruck: The Ultimate ACDC Experience"
+      ],
+      "date": "2027-01-08",
+      "time": "19:30",
+      "venue": "The Boom Boom Club",
+      "city": "Sutton",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Covers Band/Tribute Act",
+      "url": "https://www.skiddle.com/whats-on/Sutton/The-Boom-Boom-Club/Thunderstruck-The-Ultimate-ACDC-Experience/43017728/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/0/6/9/2447910_c58b42f2_thunderstruck-the-ultimate-acdc-experience.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": 15,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 51.3664666,
+      "lon": -0.2053648,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -96438,6 +96296,31 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 53.330697,
+      "lon": -6.265199,
+      "id": "tm-1AbZk4AGkeEllen",
+      "title": "Ovven",
+      "bands": [
+        "Ovven"
+      ],
+      "date": "2027-01-20",
+      "time": "20:00",
+      "venue": "BELLOBAR",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Alternative",
+      "subGenre": "Indie Rock",
+      "url": "https://www.ticketmaster.ie/ovven-dublin-20-01-2027/event/18006545A7AEB0AA",
+      "image": "https://s1.ticketm.net/dam/a/a6b/cef23729-ac57-400b-b104-5df072d5fa6b_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-15T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 55.863711,
       "lon": -4.298214,
       "id": "tm-17GOv0G655Igo7f",
@@ -97564,6 +97447,31 @@
       "onSaleDate": "2026-07-03T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-08T21:35:06.551Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.330697,
+      "lon": -6.265199,
+      "id": "tm-1AvOZ_fGkw3u0ti",
+      "title": "Dummy",
+      "bands": [
+        "Dummy"
+      ],
+      "date": "2027-01-23",
+      "time": "20:00",
+      "venue": "BELLOBAR",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/dummy-dublin-23-01-2027/event/1800654C92364A6C",
+      "image": "https://s1.ticketm.net/dam/a/27d/ce9ae830-2d4d-43a2-aa96-ce2e9b3de27d_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -98928,6 +98836,32 @@
       "currency": null,
       "lat": 53.344318,
       "lon": -6.266114,
+      "id": "tm-1AvOZ_fGkU-PF7G",
+      "title": "Whitechapel & Sylosis",
+      "bands": [
+        "Whitechapel",
+        "Sylosis"
+      ],
+      "date": "2027-01-26",
+      "time": "18:00",
+      "venue": "3Olympia Theatre",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Metal",
+      "subGenre": "Nu-Metal",
+      "url": "https://www.ticketmaster.ie/whitechapel-sylosis-dublin-26-01-2027/event/1800654DA194810C",
+      "image": "https://s1.ticketm.net/dam/a/2ee/1ff73f00-a3b2-4c76-a72d-b5d23290c2ee_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.344318,
+      "lon": -6.266114,
       "id": "tm-17kZv0G623TEWOv",
       "title": "Alestorm + Battle Beast + Wizardthrone",
       "bands": [
@@ -99437,6 +99371,31 @@
       "onSaleDate": "2026-07-27T09:00:00Z",
       "availability": null,
       "firstSeen": "2026-07-24T09:15:55.177Z"
+    },
+    {
+      "id": "sk-43017875",
+      "title": "Courtney Hadwin [IVW]",
+      "bands": [
+        "Courtney Hadwin"
+      ],
+      "date": "2027-01-29",
+      "time": "19:30",
+      "venue": "The Black Prince",
+      "city": "Northampton",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": null,
+      "url": "https://www.skiddle.com/whats-on/Northampton/The-Black-Prince/Courtney-Hadwin-IVW/43017875/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/3/b/3/2448010_0c52e850_courtney-hadwin-ivw-.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 52.240192,
+      "lon": -0.888455,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -100532,7 +100491,7 @@
       "lat": 50.80999,
       "lon": 4.32601,
       "id": "tm-Z698xZG2Z1kFsG7FV",
-      "title": "Ayra Starr – Starr Girl Tour",
+      "title": "Ayra Starr: Starrgirl World Tour",
       "bands": [
         "Ayra Starr"
       ],
@@ -100543,8 +100502,8 @@
       "country": "BE",
       "genre": "Rock",
       "subGenre": "Pop",
-      "url": "https://www.ticketmaster.be/event/ayra-starr--starr-girl-tour-tickets/231304234",
-      "image": "https://s1.ticketm.net/dam/a/cda/1888e4d4-5832-43f0-adec-2187e0fbacda_RETINA_PORTRAIT_16_9.jpg",
+      "url": "https://www.ticketmaster.be/event/ayra-starr-starrgirl-world-tour-tickets/231304234",
+      "image": "https://s1.ticketm.net/dam/a/e27/3e29f5c5-2225-4407-a2ff-5ed0487a0e27_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
       "onSaleDate": "2026-10-16T08:00:00Z",
       "availability": null,
@@ -102542,6 +102501,31 @@
       "onSaleDate": "2026-09-18T07:54:47Z",
       "availability": null,
       "firstSeen": "2026-09-18T09:16:21.926Z"
+    },
+    {
+      "id": "sk-43018455",
+      "title": "Cowgirl Country - Manchester - Country Music Dayparty!",
+      "bands": [
+        "Cowgirl Country - Manchester - Country Music Dayparty!"
+      ],
+      "date": "2027-02-06",
+      "time": "16:00",
+      "venue": "Freight Island",
+      "city": "Manchester",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Folk",
+      "url": "https://www.skiddle.com/whats-on/Manchester/Freight-Island/Cowgirl-Country---Manchester---Country-Music-Dayparty/43018455/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/e/4/2448160_73836179_Cowgirl-Country---Manchester---Country-Music-Dayparty-.jpg",
+      "isFestival": true,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 53.4751511,
+      "lon": -2.2276473,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42467417",
@@ -109670,7 +109654,7 @@
       "country": "FI",
       "genre": "Rock",
       "subGenre": null,
-      "url": "https://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzI2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
+      "url": "https://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzI3JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical",
       "image": null,
       "isFestival": false,
       "onSaleDate": null,
@@ -110474,31 +110458,6 @@
       "onSaleDate": "2026-09-03T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-02T09:09:45.793Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 51.11042,
-      "lon": 17.00319,
-      "id": "tm-Z698xZQpZ1koyOA-K",
-      "title": "Kovacs",
-      "bands": [
-        "Kovacs"
-      ],
-      "date": "2027-02-25",
-      "time": "19:00",
-      "venue": "Centrum Koncertowe A2",
-      "city": "Wroclaw",
-      "country": "PL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/kovacs-tickets/479805853?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e13/891e9933-d0f5-431a-a839-218ae0c5ee13_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-08-21T12:27:00Z",
-      "availability": null,
-      "firstSeen": "2026-08-22T05:16:15.792Z"
     },
     {
       "priceMin": null,
@@ -111950,26 +111909,26 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
-      "lat": 50.06804,
-      "lon": 19.90833,
-      "id": "tm-Z698xZQpZ1k0g0Ska",
-      "title": "Kovacs",
+      "lat": 53.345406,
+      "lon": -6.266501,
+      "id": "tm-1AvOZ_fGkwsmn4o",
+      "title": "Master Peace",
       "bands": [
-        "Kovacs"
+        "Master Peace"
       ],
       "date": "2027-03-02",
-      "time": "19:00",
-      "venue": "Klub Studio",
-      "city": "Krakow",
-      "country": "PL",
+      "time": "19:30",
+      "venue": "The Workmans Club",
+      "city": "Dublin",
+      "country": "IE",
       "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/kovacs-tickets/935933189?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e13/891e9933-d0f5-431a-a839-218ae0c5ee13_RETINA_PORTRAIT_16_9.jpg",
+      "subGenre": "Alternative Rock",
+      "url": "https://www.ticketmaster.ie/master-peace-dublin-02-03-2027/event/1800654CB1BAA551",
+      "image": "https://s1.ticketm.net/dam/a/643/fdafa432-234a-4857-a4d3-544a030cb643_RETINA_PORTRAIT_16_9.jpg",
       "isFestival": false,
-      "onSaleDate": "2026-08-21T12:31:00Z",
+      "onSaleDate": "2026-10-16T09:00:00Z",
       "availability": null,
-      "firstSeen": "2026-08-22T05:16:15.792Z"
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -112175,6 +112134,31 @@
       "onSaleDate": "2026-09-17T14:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-18T09:16:21.926Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 47.38341,
+      "lon": 8.53939,
+      "id": "tm-Z698xZu3Z16vbKZpjA",
+      "title": "cleopatrick",
+      "bands": [
+        "Cleopatrick"
+      ],
+      "date": "2027-03-03",
+      "time": "20:00",
+      "venue": "Dynamo Saal",
+      "city": "Zürich",
+      "country": "CH",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ch/event/cleopatrick-tickets/1613016705?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/494/9c7e7115-317c-42f3-8b97-0d23340e0494_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -112481,31 +112465,6 @@
       "onSaleDate": "2026-09-09T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-07T09:48:48.471Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 54.38075,
-      "lon": 18.58865,
-      "id": "tm-Z698xZQpZ16vAZaFoF",
-      "title": "Kovacs",
-      "bands": [
-        "Kovacs"
-      ],
-      "date": "2027-03-04",
-      "time": "19:00",
-      "venue": "Stary Maneż",
-      "city": "Gdansk",
-      "country": "PL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/kovacs-tickets/1140248448?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e13/891e9933-d0f5-431a-a839-218ae0c5ee13_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-08-21T12:32:00Z",
-      "availability": null,
-      "firstSeen": "2026-08-22T05:16:15.792Z"
     },
     {
       "priceMin": null,
@@ -112939,31 +112898,6 @@
       "onSaleDate": "2026-10-06T09:02:00Z",
       "availability": null,
       "firstSeen": "2026-10-07T11:24:24.113Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 52.21159,
-      "lon": 21.01023,
-      "id": "tm-Z698xZQpZ1krKoejM",
-      "title": "Kovacs",
-      "bands": [
-        "Kovacs"
-      ],
-      "date": "2027-03-05",
-      "time": "19:00",
-      "venue": "Klub Stodoła",
-      "city": "Warsaw",
-      "country": "PL",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.pl/event/kovacs-tickets/793442737?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/e13/891e9933-d0f5-431a-a839-218ae0c5ee13_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-08-21T12:32:00Z",
-      "availability": null,
-      "firstSeen": "2026-08-22T05:16:15.792Z"
     },
     {
       "priceMin": null,
@@ -114688,6 +114622,31 @@
       "onSaleDate": "2026-10-09T07:55:00Z",
       "availability": null,
       "firstSeen": "2026-10-09T11:33:31.232Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.51098,
+      "lon": 13.44159,
+      "id": "tm-Z698xZC2Z1k4EZOfy",
+      "title": "LA Priest",
+      "bands": [
+        "LA Priest"
+      ],
+      "date": "2027-03-10",
+      "time": "20:00",
+      "venue": "Kantine am Berghain",
+      "city": "Berlin",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/la-priest-tickets/567020539?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/51e/999e26f0-a650-4869-9647-2273e050d51e_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -118283,6 +118242,31 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
+      "id": "sk-43016632",
+      "title": "Storm Seeker",
+      "bands": [
+        "Storm Seeker"
+      ],
+      "date": "2027-03-18",
+      "time": "18:30",
+      "venue": "New Cross Inn",
+      "city": "London",
+      "country": "GB",
+      "genre": "Metal",
+      "subGenre": "Folk",
+      "url": "https://www.skiddle.com/whats-on/London/New-Cross-Inn/Storm-Seeker/43016632/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/6/7/0/2447711_589e320e_storm-seeker.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 51.47579,
+      "lon": -0.037173,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -118894,6 +118878,31 @@
       "onSaleDate": "2026-08-24T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-08-25T05:21:46.075Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 44.803248,
+      "lon": 10.342893,
+      "id": "tm-ZG9rmIYnyZFkAe",
+      "title": "THE WATCH plays GENESIS \"The best from 1970-1976\"",
+      "bands": [
+        "The Watch"
+      ],
+      "date": "2027-03-19",
+      "time": "21:00",
+      "venue": "Auditorium Paganini",
+      "city": "Parma",
+      "country": "IT",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.it/biglietti/the-watch-plays-genesis-the-best-from-1970-1976-parma-19-03-2027/event/hilcqm9me8qq",
+      "image": "https://s1.ticketm.net/dam/a/784/33a1e427-6671-4f42-9774-c95528552784_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-13T10:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42799050",
@@ -120717,7 +120726,6 @@
       "title": "Tash Sultana | Venue Premium Packages",
       "bands": [
         "Tash Sultana",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-03-26",
@@ -121660,7 +121668,6 @@
       "title": "KALEO | Venue Premium Packages",
       "bands": [
         "KALEO",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-03-30",
@@ -128443,6 +128450,31 @@
       "firstSeen": "2026-09-28T11:18:30.912Z"
     },
     {
+      "id": "sk-42821940",
+      "title": "Ruts DC Presents The Ruts",
+      "bands": [
+        "Ruts DC"
+      ],
+      "date": "2027-04-23",
+      "time": "19:00",
+      "venue": "Roadmender",
+      "city": "Northampton",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Reggae",
+      "url": "https://www.skiddle.com/whats-on/Northampton/Roadmender/Ruts-DC-Presents-The-Ruts/42821940/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/c/8/d/2355384_8ffa7f6f_ruts-dc-presents-the-ruts.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 52.240167,
+      "lon": -0.899425,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
       "id": "sk-42806436",
       "title": "The Coven Club",
       "bands": [
@@ -128868,6 +128900,31 @@
       "onSaleDate": "2026-08-13T12:00:00Z",
       "availability": null,
       "firstSeen": "2026-08-14T06:07:14.604Z"
+    },
+    {
+      "id": "sk-43016559",
+      "title": "Nu-castle - Nu Metal Tribute Show (Glasgow - Drygate)",
+      "bands": [
+        "Nu-castle - Nu Metal Tribute Show (Glasgow - Drygate)"
+      ],
+      "date": "2027-04-24",
+      "time": "19:00",
+      "venue": "Drygate",
+      "city": "Glasgow",
+      "country": "GB",
+      "genre": "Nu Metal",
+      "subGenre": null,
+      "url": "https://www.skiddle.com/whats-on/Glasgow/Drygate/Nu-castle---Nu-Metal-Tribute-Show-Glasgow---Drygate/43016559/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/d/c/7/2447680_99113706_Nu-castle---Nu-Metal-Tribute-Show--Glasgow---Drygate-.jpg",
+      "isFestival": false,
+      "onSaleDate": null,
+      "availability": null,
+      "priceMin": null,
+      "priceMax": null,
+      "currency": "GBP",
+      "lat": 55.860225,
+      "lon": -4.233346,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -130357,7 +130414,6 @@
       "title": "Simple Minds | Venue Premium Packages",
       "bands": [
         "Simple Minds",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-04-30",
@@ -130660,7 +130716,6 @@
       "title": "Simple Minds | Venue Premium Packages",
       "bands": [
         "Simple Minds",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-05-01",
@@ -131083,6 +131138,32 @@
       "onSaleDate": "2026-10-02T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-28T11:18:30.912Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 55.67713,
+      "lon": 12.56526,
+      "id": "tm-Z698xZC4Z1kjse8P-",
+      "title": "Memphis May Fire x Dead By April - EU/UK Co-Headline Tour 2027",
+      "bands": [
+        "Memphis May Fire",
+        "Dead By April"
+      ],
+      "date": "2027-05-03",
+      "time": "19:00",
+      "venue": "Pumpehuset",
+      "city": "København V",
+      "country": "DK",
+      "genre": "Rock",
+      "subGenre": "Hard Rock",
+      "url": "https://www.ticketmaster.dk/event/memphis-may-fire-x-dead-by-april-eu-uk-co-headline-tour-2027-tickets/731090961?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/d34/01d081ab-6158-44dd-9226-8f9614505d34_1677251_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42488907",
@@ -132069,6 +132150,33 @@
       "onSaleDate": "2026-10-02T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-22T09:31:58.300Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.21244,
+      "lon": 20.98748,
+      "id": "tm-Z698xZQpZ16v14ZZ4z",
+      "title": "MEMPHIS MAY FIRE x DEAD BY APRIL",
+      "bands": [
+        "Memphis May Fire",
+        "Dead By April",
+        "Winiary Bookings"
+      ],
+      "date": "2027-05-08",
+      "time": "19:00",
+      "venue": "Proxima",
+      "city": "Warsaw",
+      "country": "PL",
+      "genre": "Metal",
+      "subGenre": "Death Metal/Black Metal",
+      "url": "https://www.ticketmaster.pl/event/memphis-may-fire-x-dead-by-april-tickets/1295000578?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/ba5/00fe43eb-4d97-474b-b364-0edf78f31ba5_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-18T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "id": "sk-42608919",
@@ -133792,6 +133900,33 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 47.3987,
+      "lon": 8.0639,
+      "id": "tm-Z698xZu3Z16vGeboAA",
+      "title": "Dead By April & Memphis May Fire",
+      "bands": [
+        "Dead By April & Memphis May Fire",
+        "Dead By April",
+        "Memphis May Fire"
+      ],
+      "date": "2027-05-16",
+      "time": "19:00",
+      "venue": "Kiff",
+      "city": "Aarau",
+      "country": "CH",
+      "genre": "Rock",
+      "subGenre": "Hard Rock",
+      "url": "https://www.ticketmaster.ch/event/dead-by-april--memphis-may-fire-tickets/1302611145?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/ceb/bae00a68-4fdf-4bb4-9c2b-638c8b257ceb_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 45.402496,
       "lon": 9.139273,
       "id": "tm-ZG9rmIYnyZ7k7A",
@@ -134822,29 +134957,29 @@
       "firstSeen": "2026-10-10T10:51:30.083Z"
     },
     {
-      "id": "sk-42807708",
-      "title": "Bruce Springsteen Tribute | Bruce Juice",
+      "id": "sk-43016709",
+      "title": "Nu-castle - Nu Metal Tribute Show (Huddersfield - Parish)",
       "bands": [
-        "Bruce Springsteen Tribute | Bruce Juice"
+        "Nu-castle - Nu Metal Tribute Show (Huddersfield - Parish)"
       ],
-      "date": "2027-05-22",
-      "time": "19:00",
-      "venue": "Cottingham Civic Hall",
-      "city": "Cottingham",
+      "date": "2027-05-21",
+      "time": "19:30",
+      "venue": "Parish Huddersfield",
+      "city": "Huddersfield",
       "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Covers Band/Tribute Act",
-      "url": "https://www.skiddle.com/whats-on/Hull/Cottingham-Civic-Hall/Bruce-Springsteen-Tribute--Bruce-Juice/42806965/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/e/f/b/2352339_f1b920f0_bruce-springsteen-tribute-bruce-juice.jpg",
+      "genre": "Nu Metal",
+      "subGenre": null,
+      "url": "https://www.skiddle.com/whats-on/Huddersfield/Parish-Huddersfield/Nu-castle---Nu-Metal-Tribute-Show-Huddersfield---Parish/43016709/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/3/3/d/2447725_32793387_Nu-castle---Nu-Metal-Tribute-Show--Huddersfield---Parish-.jpg",
       "isFestival": false,
       "onSaleDate": null,
       "availability": null,
       "priceMin": null,
       "priceMax": null,
       "currency": "GBP",
-      "lat": 53.7818074,
-      "lon": -0.4136688,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
+      "lat": 53.6446971,
+      "lon": -1.7800805,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -134949,56 +135084,6 @@
       "onSaleDate": "2026-08-31T10:00:00Z",
       "availability": null,
       "firstSeen": "2026-08-31T11:12:34.062Z"
-    },
-    {
-      "id": "sk-42569863",
-      "title": "Mosh Spice (Spice Girls Metal Tribute) - Saltbox Bar, Nottingham",
-      "bands": [
-        "Mosh Spice (Spice Girls Metal Tribute) - Saltbox Bar, Nottingham"
-      ],
-      "date": "2027-05-22",
-      "time": "19:00",
-      "venue": "Saltbox Bar",
-      "city": "Nottingham",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Metal",
-      "url": "https://www.skiddle.com/whats-on/Nottingham/Saltbox-Bar/Mosh-Spice-Spice-Girls-Metal-Tribute---Saltbox-Bar-Nottingham/42569863/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/e/4/0/2298685_23342137_Mosh-Spice--Spice-Girls-Metal-Tribute----Saltbox-Bar--Nottingham.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 52.9526786,
-      "lon": -1.1405239,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
-    },
-    {
-      "id": "sk-42459225",
-      "title": "Seabound II : Meet by the Shore",
-      "bands": [
-        "Seabound II : Meet by the Shore"
-      ],
-      "date": "2027-05-22",
-      "time": "18:00",
-      "venue": "Johnshaven Village Hall Montrose",
-      "city": "Montrose",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Folk",
-      "url": "https://www.skiddle.com/whats-on/Dundee/Johnshaven-Village-Hall-Montrose/Seabound-II--Meet-by-the-Shore/42459225/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/1/e/2/2272133_41508107_Seabound-II---Meet-by-the-Shore.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 56.7949289,
-      "lon": -2.3351294,
-      "firstSeen": "2026-10-10T10:51:30.083Z"
     },
     {
       "priceMin": null,
@@ -135190,7 +135275,6 @@
       "title": "Greta Van Fleet | Venue Premium Packages",
       "bands": [
         "Greta Van Fleet",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-05-24",
@@ -135318,32 +135402,6 @@
       "currency": null,
       "lat": 60.20479,
       "lon": 24.92991,
-      "id": "tm-Z698xZ8KZ1kPVjtvo",
-      "title": "Roger Waters Presents LEGACY - A Pink Floyd | Premium Suite Ticket",
-      "bands": [
-        "Roger Waters Presents LEGACY - A Pink Floyd Show",
-        "Veikkaus Arena Premium tuotteet"
-      ],
-      "date": "2027-05-25",
-      "time": null,
-      "venue": "Veikkaus Arena",
-      "city": "Helsinki",
-      "country": "FI",
-      "genre": "Rock",
-      "subGenre": "Pop",
-      "url": "https://www.ticketmaster.fi/event/roger-waters-presents-legacy-a-pink-floyd-%7C-premium-suite-ticket-tickets/974729051?language=en-us",
-      "image": "https://s1.ticketm.net/dam/a/502/73c7f27f-a9bf-4798-8718-35d75aa26502_RETINA_PORTRAIT_16_9.jpg",
-      "isFestival": false,
-      "onSaleDate": "2026-10-09T08:00:00Z",
-      "availability": null,
-      "firstSeen": "2026-10-08T11:40:06.999Z"
-    },
-    {
-      "priceMin": null,
-      "priceMax": null,
-      "currency": null,
-      "lat": 60.20479,
-      "lon": 24.92991,
       "id": "tm-Z698xZ8KZ1ApF9-e",
       "title": "Roger Waters Presents LEGACY - A Pink Floyd Show",
       "bands": [
@@ -135388,6 +135446,32 @@
       "onSaleDate": "2026-10-09T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-10-09T11:33:31.232Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 60.20479,
+      "lon": 24.92991,
+      "id": "tm-Z698xZ8KZ1kPVjtvo",
+      "title": "Roger Waters Presents LEGACY - A Pink Floyd Show|Premium Suite Ticket",
+      "bands": [
+        "Roger Waters Presents LEGACY - A Pink Floyd Show",
+        "Veikkaus Arena Premium tuotteet"
+      ],
+      "date": "2027-05-25",
+      "time": null,
+      "venue": "Veikkaus Arena",
+      "city": "Helsinki",
+      "country": "FI",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.fi/event/roger-waters-presents-legacy-a-pink-floyd-show%7Cpremium-suite-ticket-tickets/974729051?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/502/73c7f27f-a9bf-4798-8718-35d75aa26502_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-09T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-08T11:40:06.999Z"
     },
     {
       "priceMin": null,
@@ -135747,6 +135831,32 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 53.474423,
+      "lon": -2.243098,
+      "id": "tm-G5dzZ_fwQowsX",
+      "title": "Memphis May Fire + Dead By April - EU/UK Co-headline Tour 2027",
+      "bands": [
+        "Memphis May Fire",
+        "Dead By April"
+      ],
+      "date": "2027-05-27",
+      "time": "18:00",
+      "venue": "O2 Ritz Manchester",
+      "city": "Manchester",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/memphis-may-fire-dead-by-april-manchester-27-05-2027/event/3E00654C9A472C7E",
+      "image": "https://s1.ticketm.net/dam/a/d34/01d081ab-6158-44dd-9226-8f9614505d34_1677251_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 47.41161,
       "lon": 8.55166,
       "id": "tm-Z698xZu3Z16vqgjK0e",
@@ -135769,31 +135879,6 @@
       "onSaleDate": "2026-09-04T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-01T09:38:37.598Z"
-    },
-    {
-      "id": "sk-42801600",
-      "title": "The Heavy North Live at Night & Day Manchester",
-      "bands": [
-        "The Heavy North"
-      ],
-      "date": "2027-05-27",
-      "time": "19:00",
-      "venue": "Night And Day Cafe",
-      "city": "Manchester",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Indie",
-      "url": "https://www.skiddle.com/whats-on/Manchester/Night-And-Day-Cafe/The-Heavy-North-Live-at-Night--Day-Manchester/42801600/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/8/2/2/2350314_78e7703e_the-heavy-north-live-at-night-day-manchester.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.482742,
-      "lon": -2.235254,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
     },
     {
       "priceMin": null,
@@ -135879,6 +135964,32 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 51.534469,
+      "lon": -0.106613,
+      "id": "tm-G5dzZ_fwnjSql",
+      "title": "Memphis May Fire & Dead by April",
+      "bands": [
+        "Memphis May Fire",
+        "Dead By April"
+      ],
+      "date": "2027-05-28",
+      "time": "18:00",
+      "venue": "O2 Academy Islington",
+      "city": "London",
+      "country": "GB",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.co.uk/memphis-may-fire-dead-by-april-london-28-05-2027/event/3E00654CAA73376B",
+      "image": "https://s1.ticketm.net/dam/a/d34/01d081ab-6158-44dd-9226-8f9614505d34_1677251_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 52.31395,
       "lon": 4.93837,
       "id": "tm-Z698xZbpZ1kbF3oo4",
@@ -135910,7 +136021,6 @@
       "title": "Rod Stewart | Venue Premium Packages",
       "bands": [
         "Rod Stewart",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-05-28",
@@ -136053,31 +136163,6 @@
       "onSaleDate": "2026-10-02T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-10-10T10:51:30.083Z"
-    },
-    {
-      "id": "sk-42472048",
-      "title": "Definitely Oasis Live At The Bungalow in May 2027",
-      "bands": [
-        "Definitely Oasis"
-      ],
-      "date": "2027-05-29",
-      "time": "19:00",
-      "venue": "The Bungalow Bar",
-      "city": "Paisley",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Indie",
-      "url": "https://www.skiddle.com/whats-on/Paisley/The-Bungalow-Bar/Definitely-Oasis-Live-At-The-Bungalow-in-May-2027/42472048/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/4/f/1/2275881_78168889_Definitely-Oasis-Live-At-The-Bungalow-in-May-2027.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 55.843102,
-      "lon": -4.425363,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
     },
     {
       "priceMin": null,
@@ -136480,7 +136565,6 @@
       "title": "SOMBR | Venue Premium Packages",
       "bands": [
         "Sombr",
-        "Vinyl Room Access",
         "Ziggo Dome Premium"
       ],
       "date": "2027-05-31",
@@ -136496,6 +136580,32 @@
       "onSaleDate": "2026-09-04T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-04T09:10:21.213Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.31395,
+      "lon": 4.93837,
+      "id": "tm-Z698xZbpZ1kfO3AGa",
+      "title": "SOMBR | Vinyl Room Upgrade (TICKET NOT INCLUDED)",
+      "bands": [
+        "Sombr",
+        "Ziggo Dome Premium"
+      ],
+      "date": "2027-05-31",
+      "time": "20:01",
+      "venue": "Vinyl Room - Ziggo Dome",
+      "city": "Amsterdam",
+      "country": "NL",
+      "genre": "Alternative",
+      "subGenre": "Indie Rock",
+      "url": "https://www.ticketmaster.nl/event/sombr-%7C-vinyl-room-upgrade-ticket-not-included--tickets/520485309?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/385/df02aa0f-e870-4b9a-9729-9c5901fd2385_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-09-04T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -136784,31 +136894,6 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "sk-42644239",
-      "title": "Mosh Spice (Spice Girls Metal Tribute) - Sub89, Reading",
-      "bands": [
-        "Mosh Spice (Spice Girls Metal Tribute) - Sub89, Reading"
-      ],
-      "date": "2027-06-04",
-      "time": "19:00",
-      "venue": "SUB89",
-      "city": "Reading",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Metal",
-      "url": "https://www.skiddle.com/whats-on/Reading/SUB89/Mosh-Spice-Spice-Girls-Metal-Tribute---Sub89-Reading/42644239/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/9/e/6/2318359_59714082_Mosh-Spice--Spice-Girls-Metal-Tribute----Sub89--Reading.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 51.456568,
-      "lon": -0.974363,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
-    },
-    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -136960,31 +137045,6 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "sk-42565386",
-      "title": "Just Radiohead (Performing OK Computer & In Rainbows)",
-      "bands": [
-        "Just Radiohead (Performing OK Computer & In Rainbows)"
-      ],
-      "date": "2027-06-05",
-      "time": "19:30",
-      "venue": "The Brickyard",
-      "city": "Carlisle",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Indie",
-      "url": "https://www.skiddle.com/whats-on/Carlisle/The-Brickyard/Just-Radiohead-Performing-OK-Computer--In-Rainbows/42565386/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/9/2/8/2297251_61669463_Just-Radiohead--Performing-OK-Computer---In-Rainbows-.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 54.896321,
-      "lon": -2.938858,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
-    },
-    {
       "priceMin": null,
       "priceMax": null,
       "currency": null,
@@ -137008,31 +137068,6 @@
       "onSaleDate": "2026-09-16T14:00:00Z",
       "availability": null,
       "firstSeen": "2026-09-10T09:15:18.083Z"
-    },
-    {
-      "id": "sk-42666691",
-      "title": "Mosh Spice (Spice Girls Metal Tribute)- The Joiners, Southampton",
-      "bands": [
-        "Mosh Spice (Spice Girls Metal Tribute)- The Joiners, Southampton"
-      ],
-      "date": "2027-06-05",
-      "time": "19:00",
-      "venue": "The Joiners",
-      "city": "Southampton",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Metal",
-      "url": "https://www.skiddle.com/whats-on/Southampton/The-Joiners/Mosh-Spice-Spice-Girls-Metal-Tribute--The-Joiners-Southampton/42666691/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/a/5/4/2323255_42802362_Mosh-Spice--Spice-Girls-Metal-Tribute---The-Joiners--Southampton.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 50.904558,
-      "lon": -1.396498,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
     },
     {
       "priceMin": null,
@@ -138300,6 +138335,32 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 50.93855,
+      "lon": 6.97988,
+      "id": "tm-Z698xZC2Z1kqgu804",
+      "title": "Nickelback: Everything Under The Sun Tour | Premium Packages",
+      "bands": [
+        "Nickelback",
+        "Don Broco"
+      ],
+      "date": "2027-06-09",
+      "time": "18:30",
+      "venue": null,
+      "city": "Cologne",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-%7C-premium-packages-tickets/775350915?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/42d/9f11dd24-d1ea-493f-a286-f57136aaa42d_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-15T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 60.20479,
       "lon": 24.92991,
       "id": "tm-Z698xZ8KZ16v7Ia-bv",
@@ -138628,31 +138689,6 @@
       "firstSeen": "2026-09-14T10:10:49.672Z"
     },
     {
-      "id": "sk-42700587",
-      "title": "Buena Vista Social Club & Santana performed LIVE in Liverpool!",
-      "bands": [
-        "Buena Vista Social Club & Santana performed LIVE in Liverpool!"
-      ],
-      "date": "2027-06-12",
-      "time": "19:00",
-      "venue": "Camp And Furnace",
-      "city": "Liverpool ",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Jazz",
-      "url": "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/Buena-Vista-Social-Club--Santana-performed-LIVE-in-Liverpool/42700587/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/e/1/0/2330776_7d731dd1_buena-vista-social-club-santana-performed-live-in-liverpool-.jpg",
-      "isFestival": false,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 53.39449,
-      "lon": -2.980491,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
-    },
-    {
       "id": "sk-42506627",
       "title": "Makemake Brewing Co. Presents: Far Out Festival",
       "bands": [
@@ -138730,29 +138766,33 @@
       "firstSeen": "2026-07-08T21:35:06.551Z"
     },
     {
-      "id": "sk-42489663",
-      "title": "Britallica (Britney Spears Metal Tribute) - Oh Yeah, Belfast",
+      "id": "sk-43017797",
+      "title": "Rock in The Park",
       "bands": [
-        "Britallica"
+        "Guns 2 Roses",
+        "Stiff Bizkit",
+        "Foo Fighters GB",
+        "Moretallica",
+        "The Darkniss"
       ],
       "date": "2027-06-13",
-      "time": "15:00",
-      "venue": "Oh Yeah Music Centre",
-      "city": "Belfast",
+      "time": "12:00",
+      "venue": "Earlham Park  Norwich",
+      "city": "Norwich",
       "country": "GB",
       "genre": "Rock",
       "subGenre": "Metal",
-      "url": "https://www.skiddle.com/whats-on/Belfast/Oh-Yeah-Music-Centre/Britallica-Britney-Spears-Metal-Tribute---Oh-Yeah-Belfast/42489663/",
-      "image": "https://d31fr2pwly4c4s.cloudfront.net/3/e/8/2281799_70139983_Britallica--Britney-Spears-Metal-Tribute----Oh-Yeah--Belfast.jpg",
-      "isFestival": false,
+      "url": "https://www.skiddle.com/whats-on/Norwich/Earlham-Park--Norwich/Rock-in-The-Park/43017797/",
+      "image": "https://d31fr2pwly4c4s.cloudfront.net/e/7/7/2447975_f25ea86f_rock-in-the-park.jpg",
+      "isFestival": true,
       "onSaleDate": null,
       "availability": null,
       "priceMin": null,
       "priceMax": null,
       "currency": "GBP",
-      "lat": 54.6026041,
-      "lon": -5.9272875,
-      "firstSeen": "2026-10-11T11:04:16.192Z"
+      "lat": 52.6254524,
+      "lon": 1.234034,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -139110,6 +139150,31 @@
       "lat": 56.206884,
       "lon": -2.979583,
       "firstSeen": "2026-07-23T20:42:05.393Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.36312,
+      "lon": -6.23567,
+      "id": "tm-1AvOZ_KGkMARqu8",
+      "title": "The Coronas",
+      "bands": [
+        "The Coronas"
+      ],
+      "date": "2027-06-18",
+      "time": "19:00",
+      "venue": "Fairview Park",
+      "city": "Dublin",
+      "country": "IE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.ie/the-coronas-dublin-18-06-2027/event/1800653DC5BDD350",
+      "image": "https://s1.ticketm.net/dam/a/2d5/460d1d09-29d1-4ec9-b6c5-acbd4a99a2d5_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T09:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     },
     {
       "priceMin": null,
@@ -140854,6 +140919,31 @@
       "priceMin": null,
       "priceMax": null,
       "currency": null,
+      "lat": 53.20282,
+      "lon": 6.54633,
+      "id": "tm-Z698xZbpZ16vuMkoFe",
+      "title": "Toto – 50th Anniversary Tour",
+      "bands": [
+        "Toto"
+      ],
+      "date": "2027-07-03",
+      "time": "18:00",
+      "venue": "Stadspark Groningen",
+      "city": "Groningen",
+      "country": "NL",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.nl/event/toto--50th-anniversary-tour-tickets/1377191202?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/6f6/d7e511cb-d03a-4754-a31f-d633f589e6f6_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-16T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
       "lat": 51.38297,
       "lon": 7.77429,
       "id": "tm-Z698xZC2Z1k_buYvN",
@@ -141296,31 +141386,6 @@
       "lat": 54.397677,
       "lon": -3.249126,
       "firstSeen": "2026-07-23T20:42:05.393Z"
-    },
-    {
-      "id": "sk-42799760",
-      "title": "In the Park Newcastle presents Courteeners",
-      "bands": [
-        "Courteeners"
-      ],
-      "date": "2027-07-08",
-      "time": "17:00",
-      "venue": "Exhibition Park",
-      "city": "Newcastle Upon Tyne ",
-      "country": "GB",
-      "genre": "Rock",
-      "subGenre": "Indie",
-      "url": "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/Exhibition-Park/In-the-Park-Newcastle-presents-Courteeners/42799760/",
-      "image": "https://d1plawd8huk6hh.cloudfront.net/assets/default400.png",
-      "isFestival": true,
-      "onSaleDate": null,
-      "availability": null,
-      "priceMin": null,
-      "priceMax": null,
-      "currency": "GBP",
-      "lat": 54.985,
-      "lon": -1.616,
-      "firstSeen": "2026-10-12T12:32:19.184Z"
     },
     {
       "priceMin": null,
@@ -144531,6 +144596,81 @@
       "onSaleDate": "2026-10-02T08:00:00Z",
       "availability": null,
       "firstSeen": "2026-10-10T10:51:30.083Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.40289,
+      "lon": 16.90969,
+      "id": "tm-Z698xZQpZ16v4x-_r4",
+      "title": "ARCHIVE - GLASS MINDS & NOT IN MY NAME TOUR",
+      "bands": [
+        "Archive"
+      ],
+      "date": "2027-10-12",
+      "time": "18:00",
+      "venue": "Sala Ziemi MTP",
+      "city": "Poznan",
+      "country": "PL",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.pl/event/archive-glass-minds--not-in-my-name-tour-tickets/1562859795?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/abf/685a4c4a-338d-4138-a695-e04dac2aaabf_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-02T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 52.31236,
+      "lon": 4.94415,
+      "id": "tm-Z698xZbpZ1kFaeor9",
+      "title": "BRIT FLOYD - ANIMALS 50 World Tour 2027",
+      "bands": [
+        "Brit Floyd"
+      ],
+      "date": "2027-10-12",
+      "time": "19:30",
+      "venue": null,
+      "city": "Amsterdam",
+      "country": "NL",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.nl/event/brit-floyd-animals-50-world-tour-2027-tickets/209091797?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/85b/b118ab22-03f6-4094-bd47-e0380a73c85b_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-02T08:00:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
+    },
+    {
+      "priceMin": null,
+      "priceMax": null,
+      "currency": null,
+      "lat": 53.58894,
+      "lon": 9.899,
+      "id": "tm-Z698xZC2Z16vJ3ba7d",
+      "title": "Louis Philippson - Masquerade - Live-Tournee 2027 | Box seat",
+      "bands": [
+        "Ticketmaster Suite Hamburg"
+      ],
+      "date": "2027-10-12",
+      "time": "19:30",
+      "venue": "Barclays Arena",
+      "city": "Hamburg",
+      "country": "DE",
+      "genre": "Rock",
+      "subGenre": "Pop",
+      "url": "https://www.ticketmaster.de/event/louis-philippson-masquerade-live-tournee-2027-%7C-box-seat-tickets/1992609103?language=en-us",
+      "image": "https://s1.ticketm.net/dam/a/61d/0bd8743a-8288-4c8c-8a20-7e22f563561d_RETINA_PORTRAIT_16_9.jpg",
+      "isFestival": false,
+      "onSaleDate": "2026-10-01T13:11:00Z",
+      "availability": null,
+      "firstSeen": "2026-10-13T12:16:20.070Z"
     }
   ]
 }
