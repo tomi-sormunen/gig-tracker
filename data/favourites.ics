@@ -3,41 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:sgk-a4sn1u@gig-tracker
-DTSTART;VALUE=DATE:20261026
-SUMMARY:Amon Amarth
-LOCATION:Helsinki Ice Hall / Helsingin Jäähalli\, Helsinki\, FI
-DESCRIPTION:Amon Amarth\nhttps://www.songkick.com/concerts/42905638-amon-amarth-at-helsinki-ice-hall-helsingin-jaahalli?utm_campaign=attendance&utm_content=ZD0yNDYxMzQwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-G5vHZ_kE_p4L2@gig-tracker
-DTSTART;VALUE=DATE:20261026
-SUMMARY:Korn
-LOCATION:Leeds First Direct Bank Arena\, Leeds\, GB
-DESCRIPTION:Korn · Architects (UK) · Youth Code\nhttps://www.ticketmaster.co.uk/korn-leeds-26-10-2026/event/1F006469D95957CF
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-G5vHZ_knvxs12@gig-tracker
-DTSTART;VALUE=DATE:20261026
-SUMMARY:Korn - Venue Premium Tickets
-LOCATION:Leeds First Direct Bank Arena\, Leeds\, GB
-DESCRIPTION:Korn · First Direct Arena - Premium Packages\nhttps://www.ticketmaster.co.uk/korn-venue-premium-tickets-leeds-26-10-2026/event/1F00646A818B128F
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZC2Z1kO7bzuf@gig-tracker
-DTSTART;VALUE=DATE:20261026
-SUMMARY:Placebo - 30th Anniversary Tour
-LOCATION:Barclays Arena\, Hamburg\, DE
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/804638354?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZC2Z1kuZ_Ea9@gig-tracker
-DTSTART;VALUE=DATE:20261026
-SUMMARY:Placebo - 30th Anniversary Tour | Logen-Seat
-LOCATION:Barclays Arena\, Hamburg\, DE
-DESCRIPTION:Placebo · Ticketmaster Suite Hamburg\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-%7C-logen-seat-tickets/340667257?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZbpZ16vZs4OoF@gig-tracker
 DTSTART;VALUE=DATE:20261027
 SUMMARY:Placebo
@@ -210,7 +175,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -294,7 +259,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -616,7 +581,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
