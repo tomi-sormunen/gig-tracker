@@ -3,20 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZbpZ16vZs4OoF@gig-tracker
-DTSTART;VALUE=DATE:20261027
-SUMMARY:Placebo
-LOCATION:Ziggo Dome\, Amsterdam\, NL
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.nl/event/placebo-tickets/1031560448?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZbpZ1kF4feow@gig-tracker
-DTSTART;VALUE=DATE:20261027
-SUMMARY:Placebo | Venue Premium Packages
-LOCATION:Ziggo Dome Club\, Amsterdam\, NL
-DESCRIPTION:Placebo · Ziggo Dome Premium\nhttps://www.ticketmaster.nl/event/placebo-%7C-venue-premium-packages-tickets/215502472?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-1AeGZ_kGkl-Vx6X@gig-tracker
 DTSTART;VALUE=DATE:20261028
 SUMMARY:Korn
@@ -175,7 +161,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -259,7 +245,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -581,7 +567,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -658,7 +644,7 @@ UID:sk-42664965@gig-tracker
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Slam Dunk Festival - South
 LOCATION:Hatfield Park\, Hatfield\, GB
-DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · Bowling for Soup · The Used · The Amity Affliction · We The Kings · Superheaven · Wage War · The Interrupters · The Front Bottoms · Cobra Starship · Reel Big Fish · The Maine · Hot Milk · Less Than Jake · Joyce Manor · ERRA · The Pretty Wild · As December Falls · Knuckle Puck · The Academy Is... · Four Year Strong · Melrose Avenue · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Black Gold · Novelists · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
+DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · Bowling for Soup · The Amity Affliction · The Used · We The Kings · Superheaven · Wage War · The Interrupters · The Front Bottoms · Cobra Starship · Reel Big Fish · The Maine · Hot Milk · Less Than Jake · Joyce Manor · ERRA · The Pretty Wild · As December Falls · Knuckle Puck · The Academy Is... · Four Year Strong · Melrose Avenue · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Black Gold · Novelists · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18Qnnqzf7n-17sVfBe@gig-tracker
