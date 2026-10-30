@@ -3,13 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZC2Z1kuvP9ub@gig-tracker
-DTSTART;VALUE=DATE:20261029
-SUMMARY:Placebo - 30th Anniversary Tour
-LOCATION:Frankfurt am Main\, DE
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/341957358?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-G5vHZ_klvvdx-@gig-tracker
 DTSTART;VALUE=DATE:20261030
 SUMMARY:Korn
@@ -154,7 +147,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -238,7 +231,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -560,7 +553,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQzJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ0JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
