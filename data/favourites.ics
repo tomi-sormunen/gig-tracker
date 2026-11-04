@@ -31,13 +31,6 @@ LOCATION:O2 universum\, Praha 9\, CZ
 DESCRIPTION:Fast Track - O2 universum · Amon Amarth\nhttps://www.ticketmaster.cz/event/amon-amarth-%7C-fast-track-tickets/36378546?language=en-us
 END:VEVENT
 BEGIN:VEVENT
-UID:tm-Z698xZu0Z16vjV4wPO@gig-tracker
-DTSTART;VALUE=DATE:20261106
-SUMMARY:Amon Amarth | Parking ticket
-LOCATION:Parking Garage - O2 arena\, Praha 9\, CZ
-DESCRIPTION:O2 arena Praha - parking · Amon Amarth\nhttps://www.ticketmaster.cz/event/amon-amarth-%7C-parking-ticket-tickets/1734572960?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-ZG9rmIYnyZed6A@gig-tracker
 DTSTART;VALUE=DATE:20261106
 SUMMARY:Placebo - 30th Anniversary Tour
@@ -98,7 +91,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -157,13 +150,6 @@ LOCATION:O2 Arena\, Praha 9\, CZ
 DESCRIPTION:Fast Track - O2 arena · Korn\nhttps://www.ticketmaster.cz/event/korn-%7C-fast-track-tickets/1499738842?language=en-us
 END:VEVENT
 BEGIN:VEVENT
-UID:tm-Z698xZu0Z1kqPx3Z7@gig-tracker
-DTSTART;VALUE=DATE:20261116
-SUMMARY:KoRn | Parking ticket
-LOCATION:Parking Garage - O2 arena\, Praha 9\, CZ
-DESCRIPTION:O2 arena Praha - parking · Korn\nhttps://www.ticketmaster.cz/event/korn-%7C-parking-ticket-tickets/765892004?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZC2Z1kxKAx0z@gig-tracker
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Placebo - 30th Anniversary Tour
@@ -189,7 +175,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -511,7 +497,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzQ5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -533,13 +519,6 @@ DTSTART;VALUE=DATE:20270224
 SUMMARY:ELECTRIC CALLBOY: TANZNEID WORLD TOUR | Guided Tour Experience
 LOCATION:O2 Arena\, Praha 9\, CZ
 DESCRIPTION:Electric Callboy\nhttps://www.ticketmaster.cz/event/electric-callboy-tanzneid-world-tour-%7C-guided-tour-experience-tickets/506666153?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZu0Z1kOOfwAS@gig-tracker
-DTSTART;VALUE=DATE:20270224
-SUMMARY:ELECTRIC CALLBOY: TANZNEID WORLD TOUR | Parking ticket
-LOCATION:Parking Garage - O2 arena\, Praha 9\, CZ
-DESCRIPTION:O2 arena Praha - parking · Electric Callboy\nhttps://www.ticketmaster.cz/event/electric-callboy-tanzneid-world-tour-%7C-parking-ticket-tickets/820532173?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16vb7F8k3@gig-tracker
@@ -595,7 +574,7 @@ UID:sk-42664965@gig-tracker
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Slam Dunk Festival - South
 LOCATION:Hatfield Park\, Hatfield\, GB
-DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · Bowling for Soup · The Amity Affliction · The Used · Superheaven · Wage War · We The Kings · The Front Bottoms · The Interrupters · Cobra Starship · Reel Big Fish · The Maine · Hot Milk · Less Than Jake · Joyce Manor · ERRA · The Pretty Wild · As December Falls · Knuckle Puck · The Academy Is... · Four Year Strong · Melrose Avenue · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Black Gold · Novelists · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
+DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · Bowling for Soup · The Amity Affliction · The Used · Superheaven · Wage War · We The Kings · The Front Bottoms · The Interrupters · Cobra Starship · Reel Big Fish · The Maine · Hot Milk · Less Than Jake · Joyce Manor · ERRA · As December Falls · The Pretty Wild · Knuckle Puck · The Academy Is... · Four Year Strong · Melrose Avenue · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Novelists · Black Gold · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18Qnnqzf7n-17sVfBe@gig-tracker
