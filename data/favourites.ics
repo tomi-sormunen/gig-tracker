@@ -3,27 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZu0Z1kAt7YJb@gig-tracker
-DTSTART;VALUE=DATE:20261106
-SUMMARY:Amon Amarth
-LOCATION:O2 universum\, Praha 9\, CZ
-DESCRIPTION:Amon Amarth · Orbit Culture · Soilwork\nhttps://www.ticketmaster.cz/event/amon-amarth-tickets/169130998?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZu0Z1AUuz4k@gig-tracker
-DTSTART;VALUE=DATE:20261106
-SUMMARY:Amon Amarth | Fast Track
-LOCATION:O2 universum\, Praha 9\, CZ
-DESCRIPTION:Fast Track - O2 universum · Amon Amarth\nhttps://www.ticketmaster.cz/event/amon-amarth-%7C-fast-track-tickets/36378546?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-ZG9rmIYnyZed6A@gig-tracker
-DTSTART;VALUE=DATE:20261106
-SUMMARY:Placebo - 30th Anniversary Tour
-LOCATION:Unipol Forum\, Assago\, IT
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.it/biglietti/placebo-assago-06-11-2026/event/8ne6ogrbggt9
-END:VEVENT
-BEGIN:VEVENT
 UID:sk-42433548@gig-tracker
 DTSTART;VALUE=DATE:20261108
 SUMMARY:Anna Von Hausswolff
@@ -77,7 +56,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -161,7 +140,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -483,7 +462,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzUxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzUyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
