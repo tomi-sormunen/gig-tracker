@@ -7,7 +7,7 @@ UID:sgk-14kdmho@gig-tracker
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Blood Command
 LOCATION:Parkteatret Scene\, Oslo\, NO
-DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Blood Command\nhttps://www.songkick.com/concerts/43291352-blood-command-at-parkteatret-scene?utm_campaign=attendance&utm_content=ZD0yNDYxMzU2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZC2Z1k_MFJ-g@gig-tracker
@@ -91,7 +91,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzU2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -413,7 +413,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzU1JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzU2JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -500,6 +500,34 @@ LOCATION:Hatfield Park\, Hertfordshire\, GB
 DESCRIPTION:Simple Plan · Bowling for Soup · Reel Big Fish · Less Than Jake · The Interrupters · GRADE 2 · Killswitch Engage · Beartooth · Wage War · The Amity Affliction · Erra · Melrose Avenue · From Ashes To New · Sleeping With Sirens · The Used · The Maine · We the Kings · The Academy Is · Cute Is What We Aim for · The Front Bottoms · Four Year Strong · Trophy Eyes · Knuckle Puck · Overgrown · Love Rarely · Hot Milk · Mouth Culture · RedHook · As December Falls · Slam Dunk Festival\nhttps://www.universe.com/events/slam-dunk-festival-2027-south-tickets-9VP1L8?ref=ticketmaster
 END:VEVENT
 BEGIN:VEVENT
+UID:tm-Z698xZG2Z1kCF0aot@gig-tracker
+DTSTART;VALUE=DATE:20270620
+SUMMARY:Graspop Metal Meeting 2027 | COMBI 17 > 20 JUNE
+LOCATION:Festivalpark Stenehei\, Dessel\, BE
+DESCRIPTION:Graspop Metal Meeting · Parkway Drive · Helloween · The Sisters of Mercy · Bad Religion · Floor Jansen · Evanescence · Faith No More · Brutus · Suicidal Tendencies · Clutch · blink-182 · Marilyn Manson · Dimmu Borgir · Paradise Lost · Mötley Crüe · Slash Feat. Myles Kennedy And The Conspirators · Children of Bodom · Comeback Kid\nhttps://www.ticketmaster.be/event/graspop-metal-meeting-2027-%7C-combi-17--20-june-tickets/388909469
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z1k-kfx-7@gig-tracker
+DTSTART;VALUE=DATE:20270620
+SUMMARY:Graspop Metal Meeting 2027 | Sunday
+LOCATION:Festivalpark Stenehei\, Dessel\, BE
+DESCRIPTION:Graspop Metal Meeting · Mötley Crüe · Slash Feat. Myles Kennedy And The Conspirators · Children of Bodom · Comeback Kid\nhttps://www.ticketmaster.be/event/graspop-metal-meeting-2027-%7C-sunday-tickets/846522844
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z16v0oOwCo@gig-tracker
+DTSTART;VALUE=DATE:20270620
+SUMMARY:Graspop Metal Meeting 2027 | VIP COMBI 17 > 20 JUNE
+LOCATION:Festivalpark Stenehei\, Dessel\, BE
+DESCRIPTION:Graspop Metal Meeting · Parkway Drive · Helloween · The Sisters of Mercy · Bad Religion · Floor Jansen · Evanescence · Faith No More · Brutus · Suicidal Tendencies · Clutch · blink-182 · Marilyn Manson · Dimmu Borgir · Paradise Lost · Mötley Crüe · Slash Feat. Myles Kennedy And The Conspirators · Children of Bodom · Comeback Kid\nhttps://www.ticketmaster.be/event/graspop-metal-meeting-2027-%7C-vip-combi-17--20-june-tickets/1911832391
+END:VEVENT
+BEGIN:VEVENT
+UID:tm-Z698xZG2Z1k8dv8FM@gig-tracker
+DTSTART;VALUE=DATE:20270620
+SUMMARY:Graspop Metal Meeting 2027 | VIP Sunday
+LOCATION:Festivalpark Stenehei\, Dessel\, BE
+DESCRIPTION:Graspop Metal Meeting · Mötley Crüe · Slash Feat. Myles Kennedy And The Conspirators · Children of Bodom · Comeback Kid\nhttps://www.ticketmaster.be/event/graspop-metal-meeting-2027-%7C-vip-sunday-tickets/403050237
+END:VEVENT
+BEGIN:VEVENT
 UID:tm-1ANZkfgGkdhUZzD@gig-tracker
 DTSTART;VALUE=DATE:20270703
 SUMMARY:Slipknot - (sic)est Stadium Tour
@@ -511,7 +539,7 @@ UID:sk-42640846@gig-tracker
 DTSTART;VALUE=DATE:20270805
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Motionless in white · Children of Bodom · Electric Callboy · Imminence · Hammerfall · Make Them Suffer · Dethklok · Corrosion of Conformity · Kanonenfieber · Sylosis · Carnifex · Mercyful Fate · Madball · GAEREA · The Acacia Strain · Green Lung · Hypocrisy · Decapitated · The Halo Effect · Calva Louise · Pig Destroyer · Humanity&#39\;s Last Breath · Conan · GAMA BOMB · Witch Club Satan · Dog Tired · DVNE · Tortured Demon · Cryptic Shift · Dool · False Reality · Divine Chaos · Spitting Glass\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Motionless in white · Children of Bodom · Electric Callboy · Imminence · Hammerfall · Make Them Suffer · Dethklok · Corrosion of Conformity · Kanonenfieber · Sylosis · Carnifex · Mercyful Fate · Madball · GAEREA · The Acacia Strain · Green Lung · Decapitated · Hypocrisy · The Halo Effect · Calva Louise · Pig Destroyer · Humanity&#39\;s Last Breath · Conan · GAMA BOMB · Witch Club Satan · Dog Tired · DVNE · Tortured Demon · Cryptic Shift · Dool · False Reality · Divine Chaos · Spitting Glass\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ1kGPab4t@gig-tracker
@@ -553,6 +581,6 @@ UID:sk-42831932@gig-tracker
 DTSTART;VALUE=DATE:20271106
 SUMMARY:Damnation 2027
 LOCATION:BEC Arena\, Manchester\, GB
-DESCRIPTION:Zeal & Ardor · Bell Witch · Rome (Jerome Reuter) · Cult Leader · Lamp Of Murmuur\nhttps://www.skiddle.com/festivals/damnation/
+DESCRIPTION:Zeal & Ardor · Bell Witch · Cult Leader · Lamp Of Murmuur · Rome (Jerome Reuter)\nhttps://www.skiddle.com/festivals/damnation/
 END:VEVENT
 END:VCALENDAR
