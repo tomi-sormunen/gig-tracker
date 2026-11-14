@@ -3,13 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:sk-42438962@gig-tracker
-DTSTART;VALUE=DATE:20261113
-SUMMARY:Anna von Hausswolff
-LOCATION:Arts Club\, Liverpool\, GB
-DESCRIPTION:Anna von Hausswolff\nhttps://www.skiddle.com/whats-on/Liverpool/Arts-Club/Anna-von-Hausswolff/42438962/
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZC2Z16v33kZJa@gig-tracker
 DTSTART;VALUE=DATE:20261114
 SUMMARY:KoRn - EURO TOUR 2026 | Logen-Seat
@@ -22,13 +15,6 @@ DTSTART;VALUE=DATE:20261114
 SUMMARY:KoRn - EURO TOUR 2026 | Premium Packages
 LOCATION:Uber Arena\, Berlin\, DE
 DESCRIPTION:Korn\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-premium-packages-tickets/517598973?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZu0Z16vCdfAue@gig-tracker
-DTSTART;VALUE=DATE:20261115
-SUMMARY:Placebo – 30th Anniversary Tour
-LOCATION:Sportovní hala FORTUNA\, Praha 7\, CZ
-DESCRIPTION:Placebo · Maria Iskariot\nhttps://www.ticketmaster.cz/event/placebo--30th-anniversary-tour-tickets/1383505342?language=en-us
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-G5dzZ_F63cgXL@gig-tracker
@@ -77,7 +63,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzU4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzU5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -399,7 +385,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzU4JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzU5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -476,7 +462,7 @@ UID:sk-42664965@gig-tracker
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Slam Dunk Festival - South
 LOCATION:Hatfield Park\, Hatfield\, GB
-DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · The Amity Affliction · Bowling for Soup · The Used · Superheaven · Wage War · We The Kings · The Interrupters · The Front Bottoms · Cobra Starship · Reel Big Fish · Hot Milk · The Maine · Less Than Jake · Joyce Manor · ERRA · As December Falls · The Pretty Wild · Knuckle Puck · The Academy Is... · Four Year Strong · Melrose Avenue · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Novelists · Black Gold · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
+DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · The Amity Affliction · Wage War · Bowling for Soup · Superheaven · The Used · We The Kings · The Interrupters · The Front Bottoms · Cobra Starship · Hot Milk · ERRA · Reel Big Fish · The Maine · Less Than Jake · Joyce Manor · As December Falls · The Pretty Wild · Knuckle Puck · Melrose Avenue · The Academy Is... · Four Year Strong · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Novelists · Black Gold · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18Qnnqzf7n-17sVfBe@gig-tracker
