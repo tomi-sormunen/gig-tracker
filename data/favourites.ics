@@ -3,20 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZC2Z16v33kZJa@gig-tracker
-DTSTART;VALUE=DATE:20261114
-SUMMARY:KoRn - EURO TOUR 2026 | Logen-Seat
-LOCATION:Uber Arena\, Berlin\, DE
-DESCRIPTION:Korn · Ticketmaster Suite Berlin\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-logen-seat-tickets/1492180989?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZC2Z1kf9pbPS@gig-tracker
-DTSTART;VALUE=DATE:20261114
-SUMMARY:KoRn - EURO TOUR 2026 | Premium Packages
-LOCATION:Uber Arena\, Berlin\, DE
-DESCRIPTION:Korn\nhttps://www.ticketmaster.de/event/korn-euro-tour-2026-%7C-premium-packages-tickets/517598973?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-G5dzZ_F63cgXL@gig-tracker
 DTSTART;VALUE=DATE:20261116
 SUMMARY:Anna Von Hausswolff
@@ -63,7 +49,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzU5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzYwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -385,7 +371,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzU5JnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzYwJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -462,7 +448,7 @@ UID:sk-42664965@gig-tracker
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Slam Dunk Festival - South
 LOCATION:Hatfield Park\, Hatfield\, GB
-DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · The Amity Affliction · Wage War · Bowling for Soup · Superheaven · The Used · We The Kings · The Interrupters · The Front Bottoms · Cobra Starship · Hot Milk · ERRA · Reel Big Fish · The Maine · Less Than Jake · Joyce Manor · As December Falls · The Pretty Wild · Knuckle Puck · Melrose Avenue · The Academy Is... · Four Year Strong · Trophy Eyes · Ben Quad · Mouth Culture · Grade 2 · Novelists · Black Gold · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
+DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · The Amity Affliction · Wage War · Superheaven · Bowling for Soup · We The Kings · The Used · The Interrupters · The Front Bottoms · Cobra Starship · Hot Milk · ERRA · The Maine · Reel Big Fish · Less Than Jake · As December Falls · The Pretty Wild · Joyce Manor · Knuckle Puck · Melrose Avenue · Four Year Strong · The Academy Is... · Trophy Eyes · Ben Quad · Grade 2 · Mouth Culture · Novelists · Black Gold · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-LvZ18Qnnqzf7n-17sVfBe@gig-tracker
@@ -525,7 +511,7 @@ UID:sk-42640846@gig-tracker
 DTSTART;VALUE=DATE:20270805
 SUMMARY:Bloodstock Open Air
 LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Motionless in white · Children of Bodom · Electric Callboy · Imminence · Hammerfall · Make Them Suffer · Dethklok · Corrosion of Conformity · Kanonenfieber · Sylosis · Carnifex · Mercyful Fate · Madball · GAEREA · The Acacia Strain · Green Lung · Decapitated · Hypocrisy · The Halo Effect · Calva Louise · Pig Destroyer · Humanity&#39\;s Last Breath · Conan · GAMA BOMB · Witch Club Satan · Dog Tired · DVNE · Tortured Demon · Cryptic Shift · Dool · False Reality · Divine Chaos · Spitting Glass\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
+DESCRIPTION:Motionless in white · Children of Bodom · Electric Callboy · Imminence · Hammerfall · Make Them Suffer · Dethklok · Corrosion of Conformity · Kanonenfieber · Sylosis · Carnifex · Mercyful Fate · GAEREA · The Acacia Strain · Madball · Green Lung · Decapitated · Hypocrisy · The Halo Effect · Calva Louise · Humanity&#39\;s Last Breath · Pig Destroyer · Conan · GAMA BOMB · Witch Club Satan · Dog Tired · DVNE · Tortured Demon · Cryptic Shift · Dool · False Reality · Divine Chaos · Spitting Glass\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ1kGPab4t@gig-tracker
