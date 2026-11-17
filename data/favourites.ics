@@ -3,41 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-G5dzZ_F63cgXL@gig-tracker
-DTSTART;VALUE=DATE:20261116
-SUMMARY:Anna Von Hausswolff
-LOCATION:O2 Shepherds Bush Empire\, London\, GB
-DESCRIPTION:Anna Von Hausswolff · Penelope Trappes\nhttps://www.ticketmaster.co.uk/anna-von-hausswolff-london-16-11-2026/event/3E006481D2B75F9F
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZu0Z16vow_8_9@gig-tracker
-DTSTART;VALUE=DATE:20261116
-SUMMARY:KoRn
-LOCATION:O2 Arena\, Praha 9\, CZ
-DESCRIPTION:Korn · Architects · Pixel Grip\nhttps://www.ticketmaster.cz/event/korn-tickets/1472650657?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZu0Z16v3_jz-e@gig-tracker
-DTSTART;VALUE=DATE:20261116
-SUMMARY:KoRn | Fast Track
-LOCATION:O2 Arena\, Praha 9\, CZ
-DESCRIPTION:Fast Track - O2 arena · Korn\nhttps://www.ticketmaster.cz/event/korn-%7C-fast-track-tickets/1499738842?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZC2Z1kxKAx0z@gig-tracker
-DTSTART;VALUE=DATE:20261116
-SUMMARY:Placebo - 30th Anniversary Tour
-LOCATION:Uber Arena\, Berlin\, DE
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-tickets/893162938?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZC2Z1kFSFIJK@gig-tracker
-DTSTART;VALUE=DATE:20261116
-SUMMARY:Placebo - 30th Anniversary Tour | Premium Packages
-LOCATION:Uber Arena\, Berlin\, DE
-DESCRIPTION:Placebo\nhttps://www.ticketmaster.de/event/placebo-30th-anniversary-tour-%7C-premium-packages-tickets/233228993?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZQpZ1k3p4dZ9@gig-tracker
 DTSTART;VALUE=DATE:20261117
 SUMMARY:KoRn
@@ -49,7 +14,7 @@ UID:sgk-13ypx8@gig-tracker
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Anna von Hausswolff
 LOCATION:Stadthalle Köln-Mülheim\, Cologne\, DE
-DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzYxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Anna von Hausswolff\nhttps://www.songkick.com/concerts/43213385-anna-von-hausswolff-at-stadthalle-kolnmulheim?utm_campaign=attendance&utm_content=ZD0yNDYxMzYyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZQpZ16v4MPNFk@gig-tracker
@@ -61,7 +26,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:tm-ZG9rmIYnyZedvv@gig-tracker
 DTSTART;VALUE=DATE:20261121
-SUMMARY:Korn
+SUMMARY:KORN + Architects + Pixel Grip
 LOCATION:Unipol Forum\, Assago\, IT
 DESCRIPTION:Korn\nhttps://www.ticketmaster.it/biglietti/korn-assago-21-11-2026/event/qfd2zy7m15y4
 END:VEVENT
@@ -371,7 +336,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzYxJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzYyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -444,13 +409,6 @@ LOCATION:Temple Newsam\, Leeds\, GB
 DESCRIPTION:Bowling for Soup · Simple Plan · Reel Big Fish · Less Than Jake · The Interrupters · GRADE 2 · Killswitch Engage · Beartooth · Wage War · The Amity Affliction · Erra · Melrose Avenue · From Ashes To New · Sleeping With Sirens · The Used · The Maine · We the Kings · The Academy Is · Cute Is What We Aim for · The Front Bottoms · Four Year Strong · Trophy Eyes · Knuckle Puck · Overgrown · Love Rarely · Hot Milk · Mouth Culture · RedHook · As December Falls · Slam Dunk Festival\nhttps://www.universe.com/events/slam-dunk-festival-2027-north-tickets-HNQ8D3?ref=ticketmaster
 END:VEVENT
 BEGIN:VEVENT
-UID:sk-42664965@gig-tracker
-DTSTART;VALUE=DATE:20270530
-SUMMARY:Slam Dunk Festival - South
-LOCATION:Hatfield Park\, Hatfield\, GB
-DESCRIPTION:Simple Plan · Sleeping with Sirens · Killswitch Engage · Billy Talent · Beartooth · The Amity Affliction · Wage War · Superheaven · Bowling for Soup · We The Kings · The Used · The Interrupters · The Front Bottoms · Cobra Starship · Hot Milk · ERRA · The Maine · Reel Big Fish · Less Than Jake · As December Falls · The Pretty Wild · Joyce Manor · Knuckle Puck · Melrose Avenue · Four Year Strong · The Academy Is... · Trophy Eyes · Ben Quad · Grade 2 · Mouth Culture · Novelists · Black Gold · Love Rarely\nhttps://www.skiddle.com/festivals/slam-dunk-festival-south/
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-LvZ18Qnnqzf7n-17sVfBe@gig-tracker
 DTSTART;VALUE=DATE:20270530
 SUMMARY:Slam Dunk Festival 2027 - South
@@ -514,13 +472,6 @@ LOCATION:Wembley Stadium\, London\, GB
 DESCRIPTION:Slipknot · Marilyn Manson · Lorna Shore · Hatebreed\nhttps://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B
 END:VEVENT
 BEGIN:VEVENT
-UID:sk-42640846@gig-tracker
-DTSTART;VALUE=DATE:20270805
-SUMMARY:Bloodstock Open Air
-LOCATION:Catton Park\, Walton Upon Trent\, GB
-DESCRIPTION:Motionless in white · Children of Bodom · Electric Callboy · Imminence · Hammerfall · Make Them Suffer · Dethklok · Corrosion of Conformity · Kanonenfieber · Sylosis · Carnifex · Mercyful Fate · GAEREA · The Acacia Strain · Madball · Green Lung · Decapitated · Hypocrisy · The Halo Effect · Calva Louise · Humanity&#39\;s Last Breath · Pig Destroyer · Conan · GAMA BOMB · Witch Club Satan · Dog Tired · DVNE · Tortured Demon · Cryptic Shift · Dool · False Reality · Divine Chaos · Spitting Glass\nhttps://www.skiddle.com/festivals/bloodstock-open-air/
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-Z698xZQpZ1kGPab4t@gig-tracker
 DTSTART;VALUE=DATE:20271010
 SUMMARY:MESHUGGAH: THE FORTY-YEAR ANOMALY w/ Periphery & Vildhjarta
@@ -554,13 +505,6 @@ DTSTART;VALUE=DATE:20271030
 SUMMARY:Meshuggah - Venue Premium Tickets
 LOCATION:OVO Arena Wembley\, London\, GB
 DESCRIPTION:Meshuggah · OVO Arena Wembley - Premium Packages\nhttps://www.ticketmaster.co.uk/meshuggah-venue-premium-tickets-london-30-10-2027/event/37006561D48A469D
-END:VEVENT
-BEGIN:VEVENT
-UID:sk-42831932@gig-tracker
-DTSTART;VALUE=DATE:20271106
-SUMMARY:Damnation 2027
-LOCATION:BEC Arena\, Manchester\, GB
-DESCRIPTION:Zeal & Ardor · Bell Witch · Cult Leader · Lamp Of Murmuur · Rome (Jerome Reuter)\nhttps://www.skiddle.com/festivals/damnation/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16vCdfAue@gig-tracker
