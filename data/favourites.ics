@@ -3,20 +3,6 @@ VERSION:2.0
 PRODID:-//gig-tracker//EN
 X-WR-CALNAME:Gig Tracker — Favourites
 BEGIN:VEVENT
-UID:tm-Z698xZb_Z16vQ6O870@gig-tracker
-DTSTART;VALUE=DATE:20261127
-SUMMARY:Chelsea Wolfe: THE DARK World Tour
-LOCATION:Chateau Neuf\, Betong\, Oslo\, NO
-DESCRIPTION:Chelsea Wolfe · Chateau Neuf\nhttps://www.ticketmaster.no/event/chelsea-wolfe-the-dark-world-tour-tickets/1687810124?language=en-us
-END:VEVENT
-BEGIN:VEVENT
-UID:tm-Z698xZb_Z1k-yOo34@gig-tracker
-DTSTART;VALUE=DATE:20261127
-SUMMARY:Chelsea Wolfe: THE DARK World Tour
-LOCATION:Chateau Neuf\, Betong\, Oslo\, NO
-DESCRIPTION:Chelsea Wolfe · Chateau Neuf\nhttps://www.ticketmaster.no/event/chelsea-wolfe-the-dark-world-tour-tickets/879811495?language=en-us
-END:VEVENT
-BEGIN:VEVENT
 UID:tm-1AdfZ_kGkSdfAFt@gig-tracker
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Placebo - 30th Anniversary Tour
@@ -294,7 +280,7 @@ UID:sgk-vf3r96@gig-tracker
 DTSTART;VALUE=DATE:20270222
 SUMMARY:Lamb of God
 LOCATION:Veikkaus Arena\, Helsinki\, FI
-DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzcyJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
+DESCRIPTION:Lamb of God\nhttps://www.songkick.com/concerts/43191256-lamb-of-god-at-veikkaus-arena?utm_campaign=attendance&utm_content=ZD0yNDYxMzczJnU9MTg3NTMwMDI3&utm_medium=feed&utm_source=ical
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-Z698xZu0Z16v8A_kpe@gig-tracker
@@ -392,7 +378,7 @@ UID:sk-42504138@gig-tracker
 DTSTART;VALUE=DATE:20270609
 SUMMARY:Download Festival
 LOCATION:Raceway Fields And Forest Donington Park\, Leicestershire \, GB
-DESCRIPTION:Evanescence · blink-182 · 5 Seconds of Summer · Pierce The Veil · The Prodigy · I Prevail · Faith No More · Bring Me the Horizon · Ghostemane · Turnstile · Parkway Drive · The Devil Wears Prada · Static-X · Clutch · Kreator · Dayseeker · Fit For A King · Hot Mulligan · Jinjer · Primus · Orbit Culture · Highly Suspect · Hawthorne Heights · Violent Vira · Bilmuri · The Hives · Holding Absence · Carpenter Brut · Basement · SPEED · Malevolence · PVRIS · PRESIDENT · Down · Converge · Waterparks · GWAR · Napalm Death · Carcass · Health · Guilt Trip · SOiL · Point North · Body Count · Soft Play · Static Dress · DeathbyRomy · Terror · Castle Rat · Comeback Kid\nhttps://www.skiddle.com/festivals/download-festival/
+DESCRIPTION:blink-182 · Evanescence · 5 Seconds of Summer · Pierce The Veil · The Prodigy · Faith No More · I Prevail · Bring Me the Horizon · Ghostemane · Turnstile · Parkway Drive · The Devil Wears Prada · Static-X · Clutch · Dayseeker · Fit For A King · Primus · Hot Mulligan · Kreator · Jinjer · Orbit Culture · Highly Suspect · Hawthorne Heights · Violent Vira · Bilmuri · The Hives · Holding Absence · Carpenter Brut · Basement · SPEED · Malevolence · PVRIS · PRESIDENT · Down · Converge · Waterparks · GWAR · Napalm Death · Carcass · Health · Guilt Trip · SOiL · Point North · Body Count · Soft Play · Static Dress · DeathbyRomy · Terror · Castle Rat · Comeback Kid\nhttps://www.skiddle.com/festivals/download-festival/
 END:VEVENT
 BEGIN:VEVENT
 UID:tm-17uOv0G65wx9J-9@gig-tracker
